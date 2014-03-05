@@ -1,0 +1,1863 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="1e9d2433-faf3-47f1-93b4-f681eb294de6" revision="4" gameSystemId="c32ab30b-7a2f-4e2a-a46f-e5c249e706cd" gameSystemRevision="1" battleScribeVersion="1.13b" name="Marauders" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entries>
+    <entry id="c09d1984-169e-40be-94c8-57b3c47a36fb" name="Battlebot" points="110.0" categoryId="4865726f6573202f204d6f6e737465727323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="7b2e1c20-41f3-48fb-9910-b6efd753e9bd" name="Heavy Weapons" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="c61775bf-4742-46f4-8df5-9337d7e7f4b6" name="Flamethrower" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="7c9f712c-7d63-691a-5e54-87e0643c5581" targetId="9c02974c-f52b-850d-fd02-286a8afd8cdd" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="6425c97d-fa2f-4a78-b255-6cc864b2957b" name="Anti-tank gun" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="56fce289-821c-0d00-b110-300fbc65bc76" targetId="108aefc7-4eb9-12e6-8716-9d4db0aa093c" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="60e93073-9009-4713-800f-802837bbf61a" name="Machine gun" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="87c0375a-6a6e-b0d2-19db-c709c74bf774" targetId="f408eca2-fc30-a6c4-8210-8ed0de381eab" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="d03711ca-9a69-5e72-8d6d-bd04f279f3c4" profileTypeId="4d6f6e7374657223232344415441232323" name="Battlebot" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="5"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="9+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="9/11"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="decrement" field="41747423232344415441232323" value="1" repeat="true" numRepeats="1" incrementParentId="c09d1984-169e-40be-94c8-57b3c47a36fb" incrementChildId="7b2e1c20-41f3-48fb-9910-b6efd753e9bd" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links>
+        <link id="878d1a54-11d2-5488-cb22-3b44a3640646" targetId="ec59ba78-e124-8e4e-7bc0-548d3e49773d" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="2485ebbb-f12c-e9a9-4568-e24d76e7e2e5" name="Bull" points="120.0" categoryId="41726d6f757223232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="43baddf5-c429-09f6-b430-913d2aaf052d" name="Weapon" defaultEntryId="35bb1018-6b89-c2a3-a0f5-8851c9e1cdef" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="35bb1018-6b89-c2a3-a0f5-8851c9e1cdef" name="Anti-tank gun [A]" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="201e7bf9-e1eb-5231-d39c-9d58663deec6" targetId="108aefc7-4eb9-12e6-8716-9d4db0aa093c" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="cf856366-3511-3748-3e67-d7d3f7a9437b" name="Flamethrower [A]" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="424452c8-ace5-e0f9-4ed4-b3bd1480c2fe" targetId="9c02974c-f52b-850d-fd02-286a8afd8cdd" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="32faaf62-40bd-715e-50b1-b2a60d2b55c6" name="Machine gun [A]" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="41dee147-69d7-cec7-2a25-362d98b5a59a" targetId="f408eca2-fc30-a6c4-8210-8ed0de381eab" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="7e2a8b21-9aac-253a-bc09-48e1c6b188a9" name="Options" defaultEntryId="0e89edf4-995e-de04-fc53-61a155c3b83f" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="e79dcba9-9206-7c03-2037-f76bcdd14316" name="Quad" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="c79f3749-ccec-62b1-0121-4c90a09c4355" targetId="01db1121-eaea-a5c0-2fd9-d2e26961e6a9" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="0e89edf4-995e-de04-fc53-61a155c3b83f" name="Trike" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="a807069a-fb23-e381-8b8b-0989bdc37f74" targetId="d1b91ac0-c350-8610-cf04-5823fbf0dbcc" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="4b68e183-f6b8-3766-d440-546b61110898" name="Transport (10)" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="dbeec05f-fbcb-44ed-c0e6-87202b9ff3a8" profileTypeId="41726d6f757223232344415441232323" name="Bull" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="4"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="-"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="8+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="80ce4726-9169-1a53-3291-357447c2c129" targetId="f6883b8d-94f2-acec-a1d0-9456603d27c1" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f5872df1-0f66-40c9-97c1-d2d92d9ba93a" name="Cannon" points="95.0" categoryId="4f72646e616e636523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="28019437-54ba-5c98-a3cd-86eb4f6e6a5e" name="Weapon" defaultEntryId="f8a2d2d4-97fc-ab20-db7b-f9df7e1096e1" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="1449a333-77cd-8199-3df3-341181d12e77" name="Tank killer cannon" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="e3a8eac8-c01e-0170-55b3-744ccb11c156" targetId="0a913d75-19d3-87b6-60b8-e6921de3a1cd" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="f8a2d2d4-97fc-ab20-db7b-f9df7e1096e1" name="Big shells cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="5baef366-55d2-9e39-09f0-144c35d2afac" targetId="9c96bae7-8774-bf02-7da5-2e7eeaf49449" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="9f88fd48-0fcc-3f94-c7bd-7d26af217014" profileTypeId="4f72646e616e636523232344415441232323" name="Cannon" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="-"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="5+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="8/10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="beee73d3-ac3e-4ee3-8f8c-68ef6cd099d6" name="Fraggers Section" points="100.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="09471a76-87b4-9506-250c-36f382a6545b" name="Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="232d2770-fb70-26a3-09ba-edff927a0af5" targetId="456e40c0-1c9f-e1ab-094c-eccf0c4c1c01" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="b46eb4c6-e18c-2523-cd7b-5bc568eedfec" name="Melee Weapons" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="44716c8d-6876-79ef-7798-4e109d9af7d2" name="Ripper talon" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="0d3906eb-edef-878e-cce7-9a754fc2bf10" targetId="a8b2bab5-4242-35dd-fda0-0930313610db" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="25edc5c7-801c-fddf-4030-2680adf1c2d0" name="Heavy Weapons" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="89565402-e6ef-6f42-f744-38274a22c2a5" name="Flamethrower" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="a5308ed6-b893-0141-46f2-d84051974e93" targetId="9c02974c-f52b-850d-fd02-286a8afd8cdd" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="6cb2f4f4-19c4-9c67-a06c-d6ddd95bdfd7" name="Anti-tank gun" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="3c9f4c32-409d-8687-1008-ac8fa899d5bb" targetId="108aefc7-4eb9-12e6-8716-9d4db0aa093c" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="fe90fee4-4281-fbb8-bfd0-690519cb73d2" name="Machine gun" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="b93e2e34-1f07-cc4d-8706-f6a5d8e08534" targetId="f408eca2-fc30-a6c4-8210-8ed0de381eab" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="f26eccce-7f28-d0aa-9363-43f90b11d820" profileTypeId="496e66616e74727923232344415441232323" name="Fraggers Section" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="8/10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="7db5eac5-5c51-4df5-b896-94526bc7a556" name="Fraggers Team" points="50.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="f0e9f5c4-5b06-9810-eb2b-4c05d874ad4a" name="Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="c3c440dd-b0f0-fb89-4613-093c4a08817a" targetId="456e40c0-1c9f-e1ab-094c-eccf0c4c1c01" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="d7af4a46-a2eb-9f30-a702-a71f5862d117" name="Melee Weapons" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="4c347feb-d1dc-141d-8528-a19ba0173225" name="Ripper talon" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="710fa205-d95f-c87b-8cb9-59e4f09abaae" targetId="a8b2bab5-4242-35dd-fda0-0930313610db" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="9f9318b2-c75a-f332-f8b7-47c6ac91cf68" name="Heavy Weapons" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="a2460ac0-6886-e842-4b7e-f18179e82ce9" name="Flamethrower" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="24c49215-d979-9e0c-746e-389f6bc70a24" targetId="9c02974c-f52b-850d-fd02-286a8afd8cdd" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="ff871805-0340-0933-0cc4-fed68c014700" name="Anti-tank gun" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="c83f4c29-e3a5-69f6-46ea-6ee38a43ef21" targetId="108aefc7-4eb9-12e6-8716-9d4db0aa093c" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="269fcf3b-2496-8aaa-528a-689f16c30dab" name="Machine gun" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="562652f1-b08e-c332-8d93-021ed9e7e5f7" targetId="f408eca2-fc30-a6c4-8210-8ed0de381eab" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="0a87a8a6-3a60-cf12-3756-2f4b0be2b7da" profileTypeId="496e66616e74727923232344415441232323" name="Fraggers Team" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="8/10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="f6508f0c-74c4-4282-a8f3-52c2fac823b8" name="Grunts Platoon" points="200.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="825dff10-4e73-e26a-fa20-6b7fd86bc278" name="Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="5615552b-1270-53b5-03c0-92587610052b" targetId="6f7a42c6-66a5-f055-165d-4ae0aa1788b4" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="0d8c2fcd-89c7-4aa2-9f85-bf1cc246c2ac" name="Heavy Weapons" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="1db1d956-ce18-4363-9981-7f781958e05f" name="Flamethrower" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="b88b8fad-fcc1-0cca-e0ee-0c21ad303ddc" targetId="9c02974c-f52b-850d-fd02-286a8afd8cdd" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="4f292f0f-d058-4c2a-be8e-4c0d45dc65aa" name="Anti-tank gun" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="3cff572e-4df4-d35f-d186-39a156d435d5" targetId="108aefc7-4eb9-12e6-8716-9d4db0aa093c" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="8df097a9-b8be-48a9-81ee-c11541f36846" name="Machine gun" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="f9343d94-2212-061e-78f0-c0f685ecc0ac" targetId="f408eca2-fc30-a6c4-8210-8ed0de381eab" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="511ced81-86c2-9bc8-0260-9049df3a777b" name="Melee Weapons" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="54f1523d-16e5-fd49-8814-03cb07f6e696" name="Ripper talon" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="b7338573-06e5-5369-68a3-2beca006bad3" targetId="a8b2bab5-4242-35dd-fda0-0930313610db" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="12dcfc45-dede-0e3e-a844-b6497f39e25a" profileTypeId="496e66616e74727923232344415441232323" name="Grunts Platoon" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="8/10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="4269c391-89db-4b24-a841-9ab25f85c841" name="Grunts Section" points="100.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="0c242bc6-0985-964b-b6ae-4486533c6e8d" name="Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="f18122a4-28a6-e613-4a46-f171dc4cdc1d" targetId="6f7a42c6-66a5-f055-165d-4ae0aa1788b4" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="ed53d158-89dd-48e9-9a47-ce0862ca132e" name="Melee Weapons" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="a74fa8ce-5250-40fb-8cf0-a4f0aed35363" name="Ripper talon" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="1063e3b2-82e3-f4d7-28b9-5dc66954cc56" targetId="a8b2bab5-4242-35dd-fda0-0930313610db" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="ced6b732-4c8b-2d2e-3c57-955a286bbc20" name="Heavy Weapons" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="8d40b930-fd44-58d5-d282-bb15d5caa7e6" name="Flamethrower" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="6f81171f-6103-caa7-77da-a328c3116cb0" targetId="9c02974c-f52b-850d-fd02-286a8afd8cdd" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="08e26dc2-5c38-d800-20e8-3205ee68139d" name="Anti-tank gun" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="e682a8f2-9089-2983-4dc7-a9b1f615e0fe" targetId="108aefc7-4eb9-12e6-8716-9d4db0aa093c" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="8b1e2d75-0b43-6899-f527-74df6a21770d" name="Machine gun" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="17dcf7da-70bb-31e8-bc62-87073b04dda8" targetId="f408eca2-fc30-a6c4-8210-8ed0de381eab" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="af3322b4-b8ce-ffaa-4da6-8f894a8207aa" profileTypeId="496e66616e74727923232344415441232323" name="Grunts Section" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="8/10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="4807f2d0-df68-463f-8a2e-2d958fce9b18" name="Grunts Team" points="50.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="76a4d9c3-7a7d-eae6-6dc6-2fdaf5c835b9" name="Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="9d682ce5-66d1-d081-b0cb-66f6d9489229" targetId="6f7a42c6-66a5-f055-165d-4ae0aa1788b4" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="679ebb74-6ddf-4389-b5ad-0ea064e16a04" name="Melee Weapons" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="665d6f78-84d9-4e5b-ba2e-ad042ed0415c" name="Ripper talon" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="f433f40a-f84f-fbe6-88e9-507822c13536" targetId="a8b2bab5-4242-35dd-fda0-0930313610db" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="b679b045-f4a1-1cc6-30be-5bcc6984d79c" profileTypeId="496e66616e74727923232344415441232323" name="Grunts Team" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="8/10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="030a8103-c5e7-4902-b4dc-825048a3d0d5" name="Juggernaut" points="160.0" categoryId="41726d6f757223232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="8c109f07-2007-4a0b-a663-2e0b5da7e611" name="Weapons [A]" minSelections="0" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="3aaa4cac-4d5e-ddaa-72d4-1e0f60d48f32" name="Ordnance Weapons" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+              <entries>
+                <entry id="32befea9-2959-b48c-32d1-1164f1c736d0" name="Tank killer cannon" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="82a021f8-5027-17e9-5820-5f1afe77752f" targetId="0a913d75-19d3-87b6-60b8-e6921de3a1cd" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="6bd5aee3-2d7f-e00c-fbaf-2af207d05ba4" name="Big shells cannon" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="dc5859f8-145b-8e81-638c-afb30d73fe20" targetId="9c96bae7-8774-bf02-7da5-2e7eeaf49449" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+            <entryGroup id="9cf2dcb0-7619-1394-f9bf-c8734aaa182f" name="Heavy Weapons" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+              <entries>
+                <entry id="61c5b7b3-f06c-fd09-0773-b21ef458f327" name="Anti-tank gun [A]" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="b134349d-9b90-1754-5c6f-3c2acb6653dc" targetId="108aefc7-4eb9-12e6-8716-9d4db0aa093c" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="57d8ff30-e07d-b6e8-8a30-43563e133c25" name="Flame-thrower [A]" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="f1be179f-173e-9883-5a0a-be3883c7fa39" targetId="9c02974c-f52b-850d-fd02-286a8afd8cdd" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="e6189ec9-ac72-200f-0343-3e4419ee67f8" name="Machine gun [A]" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="4fd32afa-9f8d-5001-b5bd-b2b61ed143dc" targetId="f408eca2-fc30-a6c4-8210-8ed0de381eab" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="597712f4-b7db-659b-6e54-263d4c9ba7bb" name="Weapon [F]" defaultEntryId="b150d698-ad0a-18f1-d136-0937376c0cdf" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="32f965fc-584c-ae13-c5c1-55d00de38420" name="Anti-tank gun [F]" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="6cb21fd3-9870-5f61-31d5-6dfcc97ab699" targetId="108aefc7-4eb9-12e6-8716-9d4db0aa093c" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="76281a99-a9b0-b390-daee-68b6d415b3d1" name="Flamethrower [F]" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="13b5bdb0-c78e-6b04-f1b8-336fed207272" targetId="9c02974c-f52b-850d-fd02-286a8afd8cdd" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="b150d698-ad0a-18f1-d136-0937376c0cdf" name="Machine gun [F]" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="e258e6c7-0713-34d9-edd0-e1d2ced7c7ec" targetId="f408eca2-fc30-a6c4-8210-8ed0de381eab" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="c97a740d-0ebf-cd11-8261-feb1de8f9911" name="Transport (20)" hidden="false" page="0">
+          <modifiers>
+            <modifier type="set" field="name" value=" Transport (15)" repeat="true" numRepeats="1" incrementParentId="030a8103-c5e7-4902-b4dc-825048a3d0d5" incrementChildId="9cf2dcb0-7619-1394-f9bf-c8734aaa182f" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="name" value="Transport (10)" repeat="true" numRepeats="1" incrementParentId="030a8103-c5e7-4902-b4dc-825048a3d0d5" incrementChildId="9cf2dcb0-7619-1394-f9bf-c8734aaa182f" incrementField="selections" incrementValue="2.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="name" value="(-10 for cannon)" repeat="true" numRepeats="1" incrementParentId="030a8103-c5e7-4902-b4dc-825048a3d0d5" incrementChildId="3aaa4cac-4d5e-ddaa-72d4-1e0f60d48f32" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="230e8466-157b-e3d4-adbc-36673282a25f" profileTypeId="41726d6f757223232344415441232323" name="Juggernaut" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="12"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="-"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="9+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="8/10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="4f2254ff-9171-c436-1bf1-22b3bde65b83" targetId="85a4302a-8f82-b9ba-5d09-24aef1283aa0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9cfe5045-fbab-b5bb-de17-360b8610854e" targetId="10a1326c-cd07-53e8-f2ca-cf3ed509c5f1" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2c6ad01f-fb4d-b845-f7af-7ea57a6599fe" targetId="cea0caaf-1f47-dab2-c1e7-9f31681f252e" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="3818a3af-5c39-413b-90ac-3d6f27d8b62a" name="Jumpers Platoon" points="300.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="451366b2-8a20-17e1-66aa-b8fdc9ad2684" name="Flamethrower" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="e4d2c180-573b-e8e7-d2da-5f951c61864d" targetId="9c02974c-f52b-850d-fd02-286a8afd8cdd" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="c1166749-8979-efc0-540e-601401a02882" name="Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="a8f9db84-0572-450a-3d52-f86bfef69591" targetId="6f7a42c6-66a5-f055-165d-4ae0aa1788b4" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="0231d7c3-ac67-184c-bab8-44ceac6384bf" name="Melee Weapons" minSelections="0" maxSelections="6" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="4144e17f-eb2c-dc3e-b098-e24253a63e5c" name="Ripper talon" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="6" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="b940de7b-7f42-2720-0bf3-ec2257b452e3" targetId="a8b2bab5-4242-35dd-fda0-0930313610db" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="3999eab8-bd36-e286-f32c-5e7715c76fa2" profileTypeId="496e66616e74727923232344415441232323" name="Jumpers Platoon" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="8/10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="64ec31d4-56a2-b099-b99e-84f1aabbcf0e" targetId="1d79d807-9c4a-f205-1708-d37e297de7ef" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="52138212-b8ee-4c80-bf53-e6c1a1c55a96" name="Jumpers Section" points="150.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="83148cdb-be46-2a8f-da8e-387e1dcebee2" name="Flamethrower" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="e1603c85-6f7e-9029-4935-4238be756211" targetId="9c02974c-f52b-850d-fd02-286a8afd8cdd" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="b4c28d7b-136b-beae-2bc5-12e20ff6b766" name="Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="0fe9b273-f6b3-271a-08cd-e7ac058f0001" targetId="6f7a42c6-66a5-f055-165d-4ae0aa1788b4" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="2e249c12-5394-8f61-2e2a-b57ea6c26484" name="Melee Weapons" minSelections="0" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="bf695f56-f722-ad0c-e195-5762d2b2f516" name="Ripper talon" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="e03f3763-1ea4-d537-4434-6a92108ab21d" targetId="a8b2bab5-4242-35dd-fda0-0930313610db" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="a00c7fa8-8b19-0379-9e24-3fdd35a806e0" profileTypeId="496e66616e74727923232344415441232323" name="Jumpers Section" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="8/10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="8868d49c-b444-dd85-21f2-d4f475cacab6" targetId="1d79d807-9c4a-f205-1708-d37e297de7ef" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c0d5c3c7-36e8-4297-a734-c9adba30b2a6" name="Jumpers Team" points="75.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="9402b16d-3fed-39ee-1dd8-129fd10db226" name="Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="1d760440-00e3-a7a8-450c-577892e13ace" targetId="6f7a42c6-66a5-f055-165d-4ae0aa1788b4" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="e07fad0c-37f9-55a8-0bf5-cd05e34fc2e1" name="Melee Weapons" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="4db5c50d-1485-8c63-4734-c92abf32246c" name="Ripper talon" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="4e4eba7f-1519-86d1-da21-089ae61fb06c" targetId="a8b2bab5-4242-35dd-fda0-0930313610db" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="cb29dcd1-46a0-f842-8a55-e947dcbee7ab" profileTypeId="496e66616e74727923232344415441232323" name="Jumpers Team" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="8/10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="fdd48af3-e4fe-54e5-a167-eb53b0a82c19" targetId="1d79d807-9c4a-f205-1708-d37e297de7ef" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="9ef42531-2b6c-42e1-95cd-9c48664ee90b" name="Raptor" points="105.0" categoryId="41726d6f757223232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="34647cf4-de43-42cc-87d3-cfb224a2bf96" name="Weapon" defaultEntryId="530f5915-c689-4fe4-b15a-9be757d715b4" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="530f5915-c689-4fe4-b15a-9be757d715b4" name="Anti-tank gun [F]" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="f1169550-22c3-c132-f258-1eddad5b646b" targetId="108aefc7-4eb9-12e6-8716-9d4db0aa093c" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="41354243-e77b-4cd9-8506-8bd6312b677d" name="Flamethrower [F]" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="0d8c6227-345d-c07c-5ad9-f4a767e234c3" targetId="9c02974c-f52b-850d-fd02-286a8afd8cdd" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="5e0c3d54-dd64-4021-9bf9-187eeebaa9c0" name="Machine gun [F]" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="e69885e7-9cd0-17f5-effc-ce9f5764d9f8" targetId="f408eca2-fc30-a6c4-8210-8ed0de381eab" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="20398880-49b0-65b5-7923-adfc8b7c6dc7" name="Options" defaultEntryId="ffcd8e85-90db-5cec-2999-6a33de530bd7" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="c9323626-765b-091f-c573-886ed4d5b46c" name="Quad" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="6d91225f-b33a-7854-14b7-5af5546fb191" targetId="01db1121-eaea-a5c0-2fd9-d2e26961e6a9" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="ffcd8e85-90db-5cec-2999-6a33de530bd7" name="Trike" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="d15b0d54-81b7-dd1c-de62-c5190793b3a3" targetId="d1b91ac0-c350-8610-cf04-5823fbf0dbcc" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="c17b6ce5-1d5a-6b21-2094-6ec76522b41d" name="Transport (10)" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="474330c7-29fc-0275-1d07-932ecf2d41cd" profileTypeId="41726d6f757223232344415441232323" name="Raptor" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="16"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="-"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="7+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="8/10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="623d9aec-6635-d1c6-51a6-274f30c6f19e" targetId="f6883b8d-94f2-acec-a1d0-9456603d27c1" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="23801af6-06f4-9633-63e1-6854240a06fd" targetId="10a1326c-cd07-53e8-f2ca-cf3ed509c5f1" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="a85270c3-e793-468c-bb41-1983fab641a7" name="Ripper Section" points="200.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="3e456c2e-c70f-daab-76b2-dcfb06efff51" name="Ripper pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="dd5d8a51-c2cc-1cbd-dde3-fc02f218c94c" targetId="0ca0120b-cb7a-c6c3-d35d-31d127e71df3" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="cdee168a-1f06-d07a-305d-ef0e2d3300a3" profileTypeId="496e66616e74727923232344415441232323" name="Ripper Section" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="4"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="6+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="8/10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="34f7b60b-ca4b-aa6e-4647-8f780ff96cd4" targetId="a8b2bab5-4242-35dd-fda0-0930313610db" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="b7011be3-6b21-4035-be48-973f50c725b1" name="Ripper Team" points="100.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="5f6ade2b-d539-52a8-9efc-722f3d06d4c9" name="Ripper pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="3473dd5a-8eac-b58b-55ae-f046aeee0b47" targetId="0ca0120b-cb7a-c6c3-d35d-31d127e71df3" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="7bc4edbe-459b-8f13-d003-2cb4b66b027c" profileTypeId="496e66616e74727923232344415441232323" name="Ripper Team" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="4"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="6+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="8/10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="96ba15c5-11e9-62cb-db54-c2455c862075" targetId="a8b2bab5-4242-35dd-fda0-0930313610db" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="91a055d7-d69a-bf3e-5242-a516a203577a" name="Ripper Warlord" points="85.0" categoryId="4865726f6573202f204d6f6e737465727323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="0f2e15b4-092b-c50c-efe6-25638f35234e" name="Ripper talon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="0f2969bb-672d-c427-2fd4-016dec241079" targetId="a8b2bab5-4242-35dd-fda0-0930313610db" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="e5bf1417-6c29-3dd1-8b89-a7b8b3af2178" name="Weapon" defaultEntryId="c5ed3c89-e23f-ec82-59aa-384285ca1074" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="2466d480-5827-12c7-c5d0-762fee161ddf" name="Anti-tank gun" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="967a20f0-3e23-1b29-49c1-34e54529ae23" targetId="108aefc7-4eb9-12e6-8716-9d4db0aa093c" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="68685201-df14-e1f4-d7b3-e03c7849c26a" name="Machine gun" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="be765230-5549-a35f-b7cc-dd3e2552f03b" targetId="f408eca2-fc30-a6c4-8210-8ed0de381eab" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="c5ed3c89-e23f-ec82-59aa-384285ca1074" name="Ripper pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="d65e25ac-723d-6c47-ae16-914fb39d0e26" targetId="0ca0120b-cb7a-c6c3-d35d-31d127e71df3" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="57939d46-2657-6eaf-7842-8fba6452bcb3" profileTypeId="4865726f23232344415441232323" name="Ripper Warlord" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="4"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="3+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="3"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="6+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="10/12"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="9e72aefb-cfe2-cfa2-1d61-c788bd6c7b9f" targetId="851d0c21-5baf-dad7-bd7f-187d0c6f4d60" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="fe15b801-802b-5a77-c6c2-4b0188584dfa" targetId="c3c7df8d-3fb9-4d74-d38c-f6d31728e5e3" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9e3807c4-2bf4-8585-2a09-8f8b0af3fb4d" targetId="ea3af62e-3a8f-2135-b69c-16323de22646" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="a917de27-134c-4e61-acee-bdeb2ec26077" name="Stunt-Bot Team" points="150.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="9b9b6228-7ef3-4a80-88ec-34ce8c225877" name="Heavy Weapons" defaultEntryId="d8a762fd-b191-4a12-93ff-1a0146c872d9" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="c2a0edbd-6c8c-4be8-ae7e-3483969c1737" name="Flamethrower" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="a1649d7e-c48b-4630-a04d-cbfee860bbf0" name="Anti-tank gun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="d8a762fd-b191-4a12-93ff-1a0146c872d9" name="Machine Gun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="faf01c59-3d33-0e86-8be2-c97069895486" profileTypeId="496e66616e74727923232344415441232323" name="Stunt-Bot Team" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="5+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="7+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="8/10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="6d4af0c5-299d-4dec-1046-cb6e365abf67" targetId="ea6b14c3-70c8-41fb-44a9-110ae76b9fa7" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1996902f-5683-5a81-dd98-866666c243bd" targetId="75563c6e-5694-272c-dcd4-bffb9bfdf2d6" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="469d0358-ec45-4143-a7ab-fda721177592" name="Stunts Platoon" points="70.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="a22cffb1-0e67-99aa-9c41-337fd1a59203" name="Stunt gun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="e464476f-7bf1-ec2f-d06b-5fe80f7604d9" targetId="b8010b6f-eb42-87f7-627b-51c474bc26f7" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="f6d7d7b7-3829-8269-e13f-56adb0ad41a9" profileTypeId="496e66616e74727923232344415441232323" name="Stunts Platoon" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="5+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="3+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="7/9"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="31f1265b-beb9-dcda-ab13-4d19e5b855f1" targetId="e68568f5-a67e-965c-ef44-0c8c925cfe7a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="18363afb-8ea9-650b-4263-66ef8aed4d4e" targetId="2069802f-aab9-9d60-84ba-b07e545d4097" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="5874904d-c8b9-4425-aaa0-6d668e824592" name="Stunts Section" points="35.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="50ef336f-ee51-9808-26aa-df051a28e616" name="Stunt gun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="b9adde9a-1bdb-d925-5329-0b6998da2ff8" targetId="b8010b6f-eb42-87f7-627b-51c474bc26f7" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="fd668b42-54f9-e23d-382f-fe8704974dab" profileTypeId="496e66616e74727923232344415441232323" name="Stunts Section" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="5+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="3+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="7/9"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="1a8e31b0-8e48-5df0-189e-fa33a6afc06f" targetId="2069802f-aab9-9d60-84ba-b07e545d4097" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4af3938f-e8c1-c6a8-663c-8b84819e7e25" targetId="e68568f5-a67e-965c-ef44-0c8c925cfe7a" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="3548c4c0-ca8d-4248-a3f8-6b0021c59c73" name="Warlord" points="50.0" categoryId="4865726f6573202f204d6f6e737465727323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="7712c5a2-aaab-6e46-0f4f-5e40d0ecb8ee" name="Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="c95f29ac-db8a-d806-5fa5-74947cf5f11f" targetId="6f7a42c6-66a5-f055-165d-4ae0aa1788b4" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="b7a2dbea-3159-63e3-8a9b-6a84402fde0e" name="Ripper talon" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="192a8e36-c104-bcbb-0574-87874ef18940" targetId="a8b2bab5-4242-35dd-fda0-0930313610db" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="559edd1e-c285-ff49-f834-693e96b666a4" name="Jump Harness" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="1b5bee13-f66a-baca-a7a0-ff10a680a9f0" targetId="1d79d807-9c4a-f205-1708-d37e297de7ef" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="96f4b299-7b61-4c77-84ef-5650a4fe56df" name="Weapon" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="189864a7-d885-47fc-8136-0e6569701f94" name="Anti-tank gun" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="90b12666-3f3c-1094-c1fb-20557c03a746" targetId="108aefc7-4eb9-12e6-8716-9d4db0aa093c" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="0749dbc5-92fb-4365-b40d-56cdbb4b5b46" name="Machine gun" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="9c60a5fc-678b-b646-07e9-5f3731fdcd69" targetId="f408eca2-fc30-a6c4-8210-8ed0de381eab" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="83afe04d-a87e-ad81-d3cd-eac49761e2c1" profileTypeId="4865726f23232344415441232323" name="Warlord" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="3+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="3"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="5+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="10/12"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="34cc68f9-8807-6fdd-4dc5-7e675de4bc06" targetId="851d0c21-5baf-dad7-bd7f-187d0c6f4d60" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="839bd312-a1c7-dc3d-c04d-ebc2d3098d7f" targetId="c3c7df8d-3fb9-4d74-d38c-f6d31728e5e3" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1c8eca14-abb7-be3f-36ed-8980b5239dbc" targetId="ea3af62e-3a8f-2135-b69c-16323de22646" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+  </entries>
+  <rules>
+    <rule id="f0020968-7752-b372-7785-42758803fa04" name="Melee Specialists" hidden="false" page="0">
+      <description>All units in this list have the Crushing Strength (1) special rule, unless otherwise stated in their entry.</description>
+      <modifiers/>
+    </rule>
+    <rule id="03645113-6d5d-41f6-57f3-a445f59aec02" name="Allies" hidden="false" page="0">
+      <description>Corporation, Forge Fathers, Veer-myn, Asterians, Rebs.</description>
+      <modifiers/>
+    </rule>
+  </rules>
+  <links/>
+  <sharedEntries/>
+  <sharedEntryGroups/>
+  <sharedRules>
+    <rule id="350116d8-8f7f-4c46-cead-2a4a8ddae5de" name="Blast (2D3)" hidden="false" page="0">
+      <description>Roll to hit normally. Any hit caused is multiplied by 2D3 before rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="1a81ee81-a85b-378f-2cd0-42dae96ac5a1" name="Blast (2D6)" hidden="false" page="0">
+      <description>Roll to hit normally. Any hit caused is multiplied by 2D6 before rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="4a975a5b-d005-86e4-f45d-e314342b2679" name="Blast (3D6)" hidden="false" page="0">
+      <description>Roll to hit normally. Any hit caused is multiplied by 3D6 before rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="a4746e77-b610-537b-e660-0141b04e5470" name="Blast (4D6)" hidden="false" page="0">
+      <description>Roll to hit normally. Any hit caused is multiplied by 4D6 before rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="17803c8d-92e1-3925-568c-99a685ac3f4c" name="Blast (5D6)" hidden="false" page="0">
+      <description>Roll to hit normally. Any hit caused is multiplied by 5D6 before rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="1b5be50c-7b9d-5e35-28c7-666e8b826b70" name="Blast (D3)" hidden="false" page="0">
+      <description>Roll to hit normally. Any hit caused is multiplied by D3 before rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="b3fc067b-5180-49e9-7a52-5b600a5ad7c9" name="Blast (D6)" hidden="false" page="0">
+      <description>Roll to hit normally. Any hit caused is multiplied by D6 before rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="ea6b14c3-70c8-41fb-44a9-110ae76b9fa7" name="Bulky" hidden="false" page="0">
+      <description>The unit cannot be transported.</description>
+      <modifiers/>
+    </rule>
+    <rule id="e68568f5-a67e-965c-ef44-0c8c925cfe7a" name="Craven" hidden="false" page="0">
+      <description>If the unit wants to Charge, roll a die. If a 1 is rolled, the unit Halts instead.</description>
+      <modifiers/>
+    </rule>
+    <rule id="48b89105-6632-2cf8-2155-475233049392" name="Crushing Strength (1)" hidden="false" page="0">
+      <description>All Melee hits inflicted by the unit have a +1 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c3c7df8d-3fb9-4d74-d38c-f6d31728e5e3" name="Crushing Strength (2)" hidden="false" page="0">
+      <description>All Melee hits inflicted by the unit have a +2 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="f6883b8d-94f2-acec-a1d0-9456603d27c1" name="Crushing Strength (3)" hidden="false" page="0">
+      <description>All Melee hits inflicted by the unit have a +3 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="85a4302a-8f82-b9ba-5d09-24aef1283aa0" name="Crushing Strength (4)" hidden="false" page="0">
+      <description>All Melee hits inflicted by the unit have a +4 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="75563c6e-5694-272c-dcd4-bffb9bfdf2d6" name="Crushing Strength (5)" hidden="false" page="0">
+      <description>All Melee hits inflicted by the unit have a +5 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c32f6308-849d-b94c-114d-596c8fbc9b5c" name="Crushing Strength (6)" hidden="false" page="0">
+      <description>All Melee hits inflicted by the unit have a +6 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="ec59ba78-e124-8e4e-7bc0-548d3e49773d" name="Crushing Strength (7)" hidden="false" page="0">
+      <description>All Melee hits inflicted by the unit have a +7 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="3fd1fa0d-dd16-509e-54cc-c6fb061ab98a" name="Elite" hidden="false" page="0">
+      <description>Whenever the unit rolls to hit, it can reroll one of the dice that failed to hit.</description>
+      <modifiers/>
+    </rule>
+    <rule id="01db1121-eaea-a5c0-2fd9-d2e26961e6a9" name="Fast" hidden="false" page="0">
+      <description>Unit trebles its Speed when moving At The Double or at Full Speed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="2faaac15-d81f-9cb3-eefc-50f29adb85f1" name="Headstrong" hidden="false" page="0">
+      <description>When you are trying to activate this unit when it is Suppressed, you can re-roll the die for shaking off the effects of Suppression and successfully activating.</description>
+      <modifiers/>
+    </rule>
+    <rule id="d08d4cba-8af8-e2a0-6fcf-3210f3940311" name="Hoverer" hidden="false" page="0">
+      <description>The unit moves over anything without penalties, but cannot land on top of them. In addition the unit cannot Overrun enemy units, and it can only initiate a Collision against enemy units that also have this rule. The unit can be charged only if it’s already Immobilised.
+The unit also has the Nimble special rule.</description>
+      <modifiers/>
+    </rule>
+    <rule id="56c7d65e-fa54-56a7-aa10-ee7ad0e83f88" name="Howitzer" hidden="false" page="0">
+      <description>The weapon may either be fired normally or by using the Indirect Fire special rule. Declare before you fire.</description>
+      <modifiers/>
+    </rule>
+    <rule id="622f9e37-c89a-7ae3-2a38-4fbbed652db7" name="Immobile" hidden="false" page="0">
+      <description>This unit must always ‘Halt’ when activated and cannot move. If forced to move by any reason, it is destroyed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="59effb1c-b977-4027-233e-386ace89549f" name="Indirect Fire" hidden="false" page="0">
+      <description>Never suffers any to hit modifiers for range or cover. Cannot target units within 12”. 
+The weapon may be fired at targets that the operator cannot see, with an additional -1 To Hit modifier.</description>
+      <modifiers/>
+    </rule>
+    <rule id="4642154d-679f-11c0-c051-abeb727f93a2" name="Infiltration" hidden="false" page="0">
+      <description>During your Deployment, you can place this unit up anywhere on the table outside of the enemy’s Deployment area and more than 12” from any enemy unit that has already deployed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="ea3af62e-3a8f-2135-b69c-16323de22646" name="Inspiring" hidden="false" page="0">
+      <description>If the unit itself, or any friendly unit within 6” of it, fails an Activation Test, you can choose to immediately re-roll
+the die. The second result stands. This ability can only be used once per Turn. Re-roll cannot be used on the additional roll that Suppressed units have to make.</description>
+      <modifiers/>
+    </rule>
+    <rule id="1d79d807-9c4a-f205-1708-d37e297de7ef" name="Jump Troops" hidden="false" page="0">
+      <description>The unit can move as normal, or can activate its jump jets. If it does so, its Speed changes to 9, and it can move
+over anything without penalties, but still cannot land on top of Blocking Terrain or within 1” of another unit. If it Charges using its jump jets, in the ensuing Melee it does not suffer the -1 to hit penalty for charging a defensive position or for a disrupted charge. Unit cannot mount or dismount from a transport using jump jets.</description>
+      <modifiers/>
+    </rule>
+    <rule id="65f5b5c6-6f19-2568-5ff6-f81b300ad7a3" name="Lumbering" hidden="false" page="0">
+      <description>The unit cannot move At The Double or at Full Speed. When Charging, it does so at normal speed and not at double speed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="d1b91ac0-c350-8610-cf04-5823fbf0dbcc" name="Nimble" hidden="false" page="0">
+      <description>If moving at normal speed, the unit can make a single extra ‘Hard Turn’ move at any point during its movement.</description>
+      <modifiers/>
+    </rule>
+    <rule id="10a1326c-cd07-53e8-f2ca-cf3ed509c5f1" name="Open Top" hidden="false" page="0">
+      <description>Not Steadfast. Transported units can be activated without Dismounting. Up to 3 transported models can fire. Passengers cannot shoot if the transport has already activated and moved at Full Speed.
+Transported units can move At The Double and Charge after Dismounting from an Open Top unit  However, they charge at their normal Speed, rather than doubling it.</description>
+      <modifiers/>
+    </rule>
+    <rule id="d00d3f9f-3256-ede3-43b2-616e6e0969bd" name="Piercing (1)" hidden="false" page="0">
+      <description>All hits inflicted by this weapon have a +1 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c0a4302f-ffb9-16fd-6c77-1822052fd8fb" name="Piercing (2)" hidden="false" page="0">
+      <description>All hits inflicted by this weapon have a +2 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="65de6533-ab75-9317-ca0b-367176cdd389" name="Piercing (3)" hidden="false" page="0">
+      <description>All hits inflicted by this weapon have a +3 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="fc7e3e7a-d2fe-2772-3e5e-7e8673f5ee6c" name="Piercing (4)" hidden="false" page="0">
+      <description>All hits inflicted by this weapon have a +4modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c6ccdbf6-aed8-54bb-7c8c-717b9d5d2b16" name="Piercing (5)" hidden="false" page="0">
+      <description>All hits inflicted by this weapon have a +5 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="735e5a4c-b5ce-359b-abd8-4ec26d00d1fa" name="Piercing (6)" hidden="false" page="0">
+      <description>All hits inflicted by this weapon have a +6 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c9646132-83d2-58af-9338-53b75049d1ca" name="Piercing (7)" hidden="false" page="0">
+      <description>All hits inflicted by this weapon have a +7 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="41eee6c9-7df0-1f82-51e0-d0411f3843a8" name="Piercing (8)" hidden="false" page="0">
+      <description>All hits inflicted by this weapon have a +8 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="ce1e182a-19df-cfd5-7c9d-c860ce5d967e" name="Pistol" hidden="false" page="0">
+      <description>A model armed with a pistol has one extra Attack in Melee.
+In addition, if the pistol has a Piercing value, it confers an equivalent Crushing Strength to all of the model’s Melee attacks. If the model already has a higher Crushing Strength value, use that instead.</description>
+      <modifiers/>
+    </rule>
+    <rule id="2069802f-aab9-9d60-84ba-b07e545d4097" name="Puny" hidden="false" page="0">
+      <description>No Crushing Strength.</description>
+      <modifiers/>
+    </rule>
+    <rule id="4af466fb-06bd-0775-524b-058b33e0007d" name="Recon" hidden="false" page="0">
+      <description>The unit can make a single At The Double or Full Speed move after all Deployment is finished, but before the players roll for the Initiative on Turn 1.
+If both armies have units with this rule, roll a die. The highest scorer decides who begins to move one of his Recon units first, then the players alternate until all Recon units have been moved.</description>
+      <modifiers/>
+    </rule>
+    <rule id="59df705e-a74f-6573-40a2-9da3a73dcb1a" name="Reload!" hidden="false" page="0">
+      <description>The weapon can only be fired if the unit has Halted during this activation.</description>
+      <modifiers/>
+    </rule>
+    <rule id="a8b2bab5-4242-35dd-fda0-0930313610db" name="Ripper Talon" hidden="false" page="0">
+      <description>This weapon confers Crushing Strength (5) to all of the model’s Attacks, as well as the Vicious special rule. It cannot be used in conjunction with a pistol though, so a model equipped with both must choose which one to use before he attacks in melee.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7625f633-47df-978f-49ba-1b79fbae24ae" name="Saturation" hidden="false" page="0">
+      <description>This weapon always hits on 4+, regardless of any modifiers.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c0f3829c-d83d-58e8-79cb-a33504c14396" name="Sniper" hidden="false" page="0">
+      <description>If the unit remains stationary and fires, this weapon’s shots ignore any cover modifiers and the Stealthy special rule.</description>
+      <modifiers/>
+    </rule>
+    <rule id="ae2725b9-097f-9404-c7c6-441d2655a813" name="Stabilised" hidden="false" page="0">
+      <description>If this unit moves at Full Speed, it can still fire one of its weapons (except for weapons with the Reload! special rule).</description>
+      <modifiers/>
+    </rule>
+    <rule id="82aff1e0-8ac2-124e-c020-19f4333124a6" name="Steadfast" hidden="false" page="0">
+      <description>The unit treats Suppressed results on Nerve tests as Steady instead, including in Melee.</description>
+      <modifiers/>
+    </rule>
+    <rule id="95409f9d-8492-6770-f86a-e43e4f282fea" name="Stealthy" hidden="false" page="0">
+      <description>Enemies shooting against the unit suffer an additional -1 to hit modifier.</description>
+      <modifiers/>
+    </rule>
+    <rule id="851d0c21-5baf-dad7-bd7f-187d0c6f4d60" name="Tough (3)" hidden="false" page="0">
+      <description>Models with this rule are only removed when they have taken 3 points of damage. 
+If the unit is damaged but not destroyed, it must take a Nerve test.</description>
+      <modifiers/>
+    </rule>
+    <rule id="cea0caaf-1f47-dab2-c1e7-9f31681f252e" name="Tough (4)" hidden="false" page="0">
+      <description>Models with this rule are only removed when they have taken 4 points of damage. 
+If the unit is damaged but not destroyed, it must take a Nerve test.</description>
+      <modifiers/>
+    </rule>
+    <rule id="1f24035c-160c-ea85-11cf-bd2900f103ce" name="Tough (5)" hidden="false" page="0">
+      <description>Models with this rule are only removed when they have taken 5 points of damage. 
+If the unit is damaged but not destroyed, it must take a Nerve test.</description>
+      <modifiers/>
+    </rule>
+    <rule id="cacf15f3-4696-e801-350a-1bbb88b3295c" name="Tough (6)" hidden="false" page="0">
+      <description>Models with this rule are only removed when they have taken 6 points of damage. 
+If the unit is damaged but not destroyed, it must take a Nerve test.</description>
+      <modifiers/>
+    </rule>
+    <rule id="040f60c7-79a2-b9a7-6786-309353db5f8f" name="Vicious" hidden="false" page="0">
+      <description>Whenever the unit rolls to damage, it can re-roll one of the dice that failed to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="0718a195-4426-709f-9c72-9d72f855115f" name="Zap! (1)" hidden="false" page="0">
+      <description>The model has a ranged attack. This attack has a Firepower of 1, a range of 24”, always hits on 4+ (regardless of modifiers) and is Piercing (1).</description>
+      <modifiers/>
+    </rule>
+    <rule id="1a12c5b2-f863-4d41-c9d4-5a89ac679c90" name="Zap! (2)" hidden="false" page="0">
+      <description>The model has a ranged attack. This attack has a Firepower of 2, a range of 24”, always hits on 4+ (regardless of modifiers) and is Piercing (1).</description>
+      <modifiers/>
+    </rule>
+    <rule id="f530cd6f-83d0-016a-16fc-fece373eebed" name="Zap! (3)" hidden="false" page="0">
+      <description>The model has a ranged attack. This attack has a Firepower of 3, a range of 24”, always hits on 4+ (regardless of modifiers) and is Piercing (1).</description>
+      <modifiers/>
+    </rule>
+    <rule id="5add8f78-363c-0e71-fc90-9a663e34df64" name="Zap! (4)" hidden="false" page="0">
+      <description>The model has a ranged attack. This attack has a Firepower of 4, a range of 24”, always hits on 4+ (regardless of modifiers) and is Piercing (1).</description>
+      <modifiers/>
+    </rule>
+    <rule id="e0a8b9ec-7802-8a8c-56ed-7220e016c148" name="Zap! (5)" hidden="false" page="0">
+      <description>The model has a ranged attack. This attack has a Firepower of 5, a range of 24”, always hits on 4+ (regardless of modifiers) and is Piercing (1).</description>
+      <modifiers/>
+    </rule>
+    <rule id="9a9e55bc-2f92-4331-b123-0933a9df4b17" name="Zap! (6)" hidden="false" page="0">
+      <description>The model has a ranged attack. This attack has a Firepower of 6, a range of 24”, always hits on 4+ (regardless of modifiers) and is Piercing (1).</description>
+      <modifiers/>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="108aefc7-4eb9-12e6-8716-9d4db0aa093c" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Anti-tank gun" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="1"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="36"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="5"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="9c96bae7-8774-bf02-7da5-2e7eeaf49449" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Big shells cannon" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="1"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="72"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="2"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="Howitzer, Blast (D6)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="9c02974c-f52b-850d-fd02-286a8afd8cdd" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Flamethrower" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="10"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="12"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="-"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="Saturation"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="f408eca2-fc30-a6c4-8210-8ed0de381eab" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Machine gun" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="5"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="36"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="1"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="6f7a42c6-66a5-f055-165d-4ae0aa1788b4" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Pistol" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="1"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="12"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="-"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="Pistol"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="456e40c0-1c9f-e1ab-094c-eccf0c4c1c01" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Rifle" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="1"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="24"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="-"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="0ca0120b-cb7a-c6c3-d35d-31d127e71df3" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Ripper pistol" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="1"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="12"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="1"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="Pistol"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="b8010b6f-eb42-87f7-627b-51c474bc26f7" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Stunt gun" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="1"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="12"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="-"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="0a913d75-19d3-87b6-60b8-e6921de3a1cd" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Tank killer cannon" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="1"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="72"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="6"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+  </sharedProfiles>
+</catalogue>

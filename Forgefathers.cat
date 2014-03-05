@@ -1,0 +1,2081 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="8bc1dbd5-abd4-47f8-a5e1-80e559a02144" revision="6" gameSystemId="c32ab30b-7a2f-4e2a-a46f-e5c249e706cd" gameSystemRevision="1" battleScribeVersion="1.13b" name="Forgefathers" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entries>
+    <entry id="feadafca-0e2b-40aa-8f3c-82726893c5dd" name="Brokkr Platoon" points="300.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="47cf4a9e-9856-1c3b-7db0-d8a46edf2391" name="Hailstorm pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="985e4429-bf70-616e-dbc7-2e96c48b56c7" targetId="3ae1ed59-d494-d72c-fd2e-d2aa135ec3bc" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="0e166be2-4e74-1a18-3e08-8b1bef978bc8" name="Heat hammer" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="e82dc9cf-af91-3b87-4c5b-26a5d1bba536" targetId="f1a07817-ac01-af84-9de6-f4af910315cc" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="72fe935a-f2c1-ff65-2028-5af7a26e34bb" profileTypeId="496e66616e74727923232344415441232323" name="Brokkr Platoon" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/12"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="0fd4b2f2-2f91-0bce-6424-c69b3b5dec7e" targetId="9cf4f439-8799-d8a1-4ec2-e8e828c0d9c9" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="93ba97c6-5716-4d4f-ba4e-f094620fa188" name="Brokkr Section" points="150.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="a574c475-f727-adfd-1c2f-7926d4989918" name="Hailstorm pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="9cc82aeb-e505-0562-a42c-948879e7cc4d" targetId="3ae1ed59-d494-d72c-fd2e-d2aa135ec3bc" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="97d52d1a-3996-aedc-8641-90146789ae55" name="Heat hammer" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="4d8393e4-690b-7040-c2d3-a3da4adbf443" targetId="f1a07817-ac01-af84-9de6-f4af910315cc" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="d796af70-19f4-b0f1-eecf-4c3bef07d695" profileTypeId="496e66616e74727923232344415441232323" name="Brokkr Section" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/12"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="abc1eb25-f945-0c85-65d8-a34fa067c98d" targetId="9cf4f439-8799-d8a1-4ec2-e8e828c0d9c9" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="78aa0f90-e097-458f-9614-62f217543a50" name="Brokkr Team" points="75.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="64ebf97d-e3ef-bae8-f3b0-f285c80ca6aa" name="Hailstorm pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="8ba91a90-d8d8-b83f-e023-b60dbd31a364" targetId="3ae1ed59-d494-d72c-fd2e-d2aa135ec3bc" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="cb19442f-307e-6ff7-c348-f628c929bf97" name="Heat hammer" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="e2a552f0-70b1-c403-a64a-ffcbb140c033" targetId="f1a07817-ac01-af84-9de6-f4af910315cc" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="10449b78-44f4-cdcc-22be-c85a04cb60c3" profileTypeId="496e66616e74727923232344415441232323" name="Brokkr Team" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/12"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="402878c7-c8d8-b5e0-ae2f-813940338b4f" targetId="9cf4f439-8799-d8a1-4ec2-e8e828c0d9c9" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="320a971e-d4ab-47cc-b80f-0a6a4c36566a" name="Chief Brokkr" points="60.0" categoryId="4865726f6573202f204d6f6e737465727323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="458682f9-0dc2-48da-9b53-96bad732edec" name="Valkyr bike" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="d48cbcea-1692-0a5b-1079-04dfe589d649" targetId="95c6a66f-ce4f-8ca6-5809-61b6340d260a" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="a9e5de4d-7dac-b567-7495-58596b7df3ed" targetId="c5f219d3-80b3-7a08-9219-477154bc93d8" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="59c0563e-9e31-765c-8b11-ef0f98fa9532" name="Hailstorm pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="ec8d1a62-042f-fecb-8df4-2e82829df01c" targetId="3ae1ed59-d494-d72c-fd2e-d2aa135ec3bc" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="03994954-6fd7-7933-cb3f-f56fd0364c05" name="Heat hammer" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="8ff53833-ad8a-5936-59dd-756f6f209ba7" targetId="f1a07817-ac01-af84-9de6-f4af910315cc" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="896c887e-238f-942b-001d-b3bba896b2fc" name="Inspiring affects Brokkrs only" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="0204f1c3-7eba-38e6-ee96-21a07b636617" profileTypeId="4865726f23232344415441232323" name="Chief Brokkr" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="3+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="3"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/12"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" field="53706423232344415441232323" value="10" repeat="true" numRepeats="1" incrementParentId="320a971e-d4ab-47cc-b80f-0a6a4c36566a" incrementChildId="458682f9-0dc2-48da-9b53-96bad732edec" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links>
+        <link id="590ec355-87fd-b09b-61eb-f51096d023a5" targetId="9cf4f439-8799-d8a1-4ec2-e8e828c0d9c9" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="629505be-c51d-4289-89a5-4e1b71b0a70d" name="Drakkarim Section" points="250.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="76fbf174-8b5e-397b-2e38-e476036b2649" name="Hailstorm pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="1974847b-3815-0449-0023-40389ee4e4f3" targetId="3ae1ed59-d494-d72c-fd2e-d2aa135ec3bc" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="ceabcef0-be21-ccde-ceeb-978591d38af2" name="Heat hammer" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="d45791fe-b349-1585-e352-acab3bbe5102" targetId="f1a07817-ac01-af84-9de6-f4af910315cc" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="08d951a0-21ae-4020-a271-df28293f2b4e" name="Dragon breath" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="4" maxSelections="4" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="a92859cd-7b27-49d6-fe1c-8abffe595274" targetId="71868ff6-2fa7-f0a1-4ce1-206d7b8d39f0" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="310d94e5-c390-1d36-78ef-a8a5addfaf43" name="Hailstorm rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="6a85ad5a-eb5e-83a9-d454-100b18b2f879" targetId="c606c843-bc51-894b-4758-4f49a975988d" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="b8e714ee-8261-70c3-1d17-840629cf6550" name="Dragon breath" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="5" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="5046ca94-1cd4-8e61-9f83-edba33f12587" targetId="71868ff6-2fa7-f0a1-4ce1-206d7b8d39f0" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="1cddcec3-36ea-9f0c-23de-12a94215d347" profileTypeId="496e66616e74727923232344415441232323" name="Drakkarim Section" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="4"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="5+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="9/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="448be069-dcb4-441f-9dfc-bd166df3d2e1" name="Drakkarim Team" points="125.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="2f990b45-3c8f-7883-3188-5c9b45837682" name="Dragon breath" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="2b3030db-a2b5-a517-6892-66facaf10158" targetId="71868ff6-2fa7-f0a1-4ce1-206d7b8d39f0" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="904d212a-062e-421f-5df8-7baf0f9eeb30" name="Heat hammer" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="e3b5e570-dac9-26d8-273f-9547353affff" targetId="f1a07817-ac01-af84-9de6-f4af910315cc" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="02e0aa29-05fb-7a9e-97a5-91706955bc01" name="Hailstorm pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="bb584052-7780-9a66-381e-de64ee55a701" targetId="3ae1ed59-d494-d72c-fd2e-d2aa135ec3bc" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="349ccef5-e53a-1267-2386-0011498e3316" name="Hailstorm rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="5ad163e4-27f4-d86c-81dd-bfb1f9e4508e" targetId="c606c843-bc51-894b-4758-4f49a975988d" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="b95e7815-d0d8-bf52-f346-9b6761ae7ee9" name="Dragon breath" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="89c39dc4-bc8a-aded-7dcf-c1ea605bfd65" targetId="71868ff6-2fa7-f0a1-4ce1-206d7b8d39f0" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="4ae6e14d-2386-efab-4a01-14b8dd95992f" profileTypeId="496e66616e74727923232344415441232323" name="Drakkarim Team" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="4"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="5+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="9/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="86a39913-63c2-4668-af07-c4a1cc4c3f13" name="Forge Guard Team" points="220.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="4316a124-c8ac-f525-1e75-dda1963a0310" name="Hailstorm rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="48ae0ce0-9fce-4aae-9408-6ac0d76e8566" targetId="c606c843-bc51-894b-4758-4f49a975988d" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="7da25279-c1db-ab25-98ae-f63e8ffc66f0" name="Heat hammer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="555993b7-fb42-b0fa-5a1c-9f10aa39f2b1" targetId="f1a07817-ac01-af84-9de6-f4af910315cc" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="92fe56bb-74d3-17a2-df56-cf9babdd115f" name="Heavy Weapon" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="cb78040a-3646-f187-8226-056e8ba593db" name="Hailstorm autocannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="cf20a7cc-119f-eccb-552a-cc1b5d350363" targetId="d9e05706-8035-f5ae-7ec1-952559d00f6e" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="5dc95141-20b9-64c6-1d44-993d0b39dc7b" name="Heat cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="0b171701-1b55-80fc-ed2b-20b13281815b" targetId="55e69ee1-e21c-fe91-396d-596cd77ec175" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="33c23b02-b6a9-e8b7-b926-558ad51936e5" profileTypeId="496e66616e74727923232344415441232323" name="Forge Guard Team" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="4"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="3+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="6+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="9/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="39480958-ece0-4741-9274-2da6ec77e8d3" name="Fyrewyrm" points="125.0" categoryId="41726d6f757223232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="bc07a0e5-958d-483e-9832-ae099bff2dc2" name="Heavy Weapon [A]" defaultEntryId="cb2a1cae-1718-4a63-9d86-b6c9f0acb671" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="cb2a1cae-1718-4a63-9d86-b6c9f0acb671" name="Heat cannon [A]" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="0171a845-d0eb-541d-5f0b-d9fc8de62354" targetId="55e69ee1-e21c-fe91-396d-596cd77ec175" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="bbd3407d-455e-2061-01f3-4de4bfd02dce" name="Double hailstorm autocannon [A]" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="18986cae-bcba-ba25-bb00-d18c5cd6bcf6" targetId="8a52baf4-b2e2-e5e2-8cbb-5195740f4695" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="e9bc4892-7b54-43e4-b61d-84a391fdcc05" name="Heavy Weapons [R] &amp; [L]" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="f5478e97-454d-41de-83ac-e07f2e28f15a" name="Dragon breaths [R] &amp; [L]" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="d4057b73-29af-f9f8-2e5d-1f13a9b4166b" targetId="71868ff6-2fa7-f0a1-4ce1-206d7b8d39f0" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="87272760-a311-4926-a1b6-697ed461f8a7" name="Heat cannons [R] &amp; [L]" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="ac74c2c2-03f3-99e0-e635-64f6fe70baea" targetId="55e69ee1-e21c-fe91-396d-596cd77ec175" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="6ed41e4d-fa50-47e7-b255-8800e5348987" name="Hailstorm autocannons [R] &amp; [L]" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="5739f569-85c0-7ecb-551d-bc1d958ff14c" targetId="d9e05706-8035-f5ae-7ec1-952559d00f6e" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="f7ca4a33-796c-b2f0-0b19-d7636e239c12" profileTypeId="41726d6f757223232344415441232323" name="Fyrewyrm" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="10"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="-"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="10+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="ec02a913-f93e-45a7-cdca-5f43dc1dec02" targetId="11c86d83-7e61-726f-542d-34160cc5c30f" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="561c7155-51d4-f5da-3bb3-b99296af6ce9" targetId="bd8b25ee-0322-d073-be08-5e595a33164d" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="604034b2-e90e-a993-ede5-5b62cb9ea238" name="Godhammer Veterans Team" points="185.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="226e94fb-7e8d-aaf8-9c70-016b47448384" name="Mjolnir missile launcher" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="7928d1a3-3ac2-cebe-f383-8a0a5804bc51" targetId="a1d5c8a3-063c-4572-990c-261d940a83ff" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="381587d9-44f9-746c-b2bb-d6db5b5765f4" name="Hailstorm pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="8002e015-2b72-0bad-23e5-c71108d6629d" targetId="3ae1ed59-d494-d72c-fd2e-d2aa135ec3bc" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="c12fbbf2-ed21-fd90-56ef-7a0fef6414af" name="Heat hammer" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="b0972258-b02f-a8dc-ce1c-4cc12e1e6053" targetId="f1a07817-ac01-af84-9de6-f4af910315cc" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="db403f69-1839-a769-d115-0b1c49e6b35b" profileTypeId="496e66616e74727923232344415441232323" name="Godhammer Veterans Team" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="4"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="3+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="5+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="9/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="b2015328-02df-494b-9db1-919d3859d5b2" name="Heavy Drakkar" points="220.0" categoryId="41726d6f757223232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="b8ccf812-f9d6-4ddf-aebc-0b9b6e1a5f3c" name="Hailstorm autocannon [F]" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="dcde4d72-d44d-4172-5baf-7d520b481081" targetId="d9e05706-8035-f5ae-7ec1-952559d00f6e" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="89132157-2e19-4df8-82e6-b7fc715085ed" name="Heavy Weapons [R] &amp; [L]" defaultEntryId="5497b633-2cd9-44e3-aa0b-e067b7595877" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="09ac0e11-4405-43c7-a069-d2e71baf8f25" name="Dragon breaths [R] &amp; [L]" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="fc28c353-e503-4f97-805e-3e60e87c9016" targetId="71868ff6-2fa7-f0a1-4ce1-206d7b8d39f0" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="285ed96d-8985-4f86-acbd-fa786920d50c" name="Heat cannons [R] &amp; [L]" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="1bbd66c0-07f8-6bd1-7e72-ef2c69cd72db" targetId="55e69ee1-e21c-fe91-396d-596cd77ec175" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="5497b633-2cd9-44e3-aa0b-e067b7595877" name="Hailstorm autocannons [R] &amp; [L]" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="f31f2f05-94e0-d457-e463-a230ce9d20c1" targetId="d9e05706-8035-f5ae-7ec1-952559d00f6e" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="1c33a755-4fb3-4707-8f53-2bdb7fe0c6d6" name="Heavy Weapon [A]" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="862f5a3c-f0ea-4aef-9e4a-2724f5797280" name="Heat cannon [A]" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="653c32ab-c4fe-0b03-511e-e3d297904011" targetId="55e69ee1-e21c-fe91-396d-596cd77ec175" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="8abb7871-e428-4688-8aea-ba5887afa536" name="Hailstorm autocannon [A]" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="67c3ec6f-b63b-bf9d-226e-f385d36d3a85" targetId="d9e05706-8035-f5ae-7ec1-952559d00f6e" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="fb9cd23b-9741-9840-5ec0-e5a04425ea92" name="Transport (10)" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="29e2506e-efc6-a682-9799-882ca26fa2f4" profileTypeId="41726d6f757223232344415441232323" name="Heavy Drakkar" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="10"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="-"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="11+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="65260112-011b-bdd5-ffa9-e1d549babacb" targetId="031458ed-cbca-333e-9508-91acd3c79849" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="09db2c8d-afe5-fc2b-87f5-a39bda66a9ca" targetId="2f7fb211-5adf-3974-1a61-bb460a2fb065" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7401f672-cb07-108e-d5a5-c2ad6c9357ec" targetId="bd8b25ee-0322-d073-be08-5e595a33164d" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="37437fae-778a-44d5-aa3e-0427a11f10ae" name="Huscarl" points="60.0" categoryId="4865726f6573202f204d6f6e737465727323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="4f6ee40f-b74d-40e6-b711-5214c24f3292" name="Brace of hailstorm pistols" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="6fbcb5c2-e9d3-7f16-1858-22728a6d4a4b" targetId="e090e34d-e754-f551-80a0-4b77fb8e4d81" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="e9679f48-c1a5-4624-82da-433c6212c5aa" name="Forgeguard Battlesuit" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries>
+            <entry id="d1b06e0d-39ef-899f-5f4c-b16196ae3525" name="Hailstorm rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="6f8c352d-bf91-7db8-6ec7-c41bf06e13e1" targetId="c606c843-bc51-894b-4758-4f49a975988d" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="411ad1e4-1ed1-39ba-aeb6-95c56eb995a0" name="Heat hammer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="98544db8-8b1f-dde1-7296-bbcde816523a" targetId="f1a07817-ac01-af84-9de6-f4af910315cc" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="68a68dcb-f7dd-4fd3-82ed-708b988b257a" name="Force Dome" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="14d2f201-64d4-dfe8-0143-9b24d1064d55" targetId="36175cb8-5b9d-05bc-b30c-5573459d6bb1" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="f6a26365-9d02-2c2f-d9a2-379409458ba9" name="Heat hammer" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="a2bfa97a-0ddd-3b6c-89d4-d5b9613fe183" targetId="f1a07817-ac01-af84-9de6-f4af910315cc" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="892086a5-4438-d6a3-0431-437df22541de" name="Hailstorm pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="82c22a56-1869-9a09-fe1e-f0af4ebd5263" targetId="3ae1ed59-d494-d72c-fd2e-d2aa135ec3bc" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="693a47b8-e476-05ec-0dda-3c1fc43f59fe" profileTypeId="4865726f23232344415441232323" name="Huscarl" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="4"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="3+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="2"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="5+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="10/12"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" field="44656623232344415441232323" value="6+" repeat="true" numRepeats="1" incrementParentId="37437fae-778a-44d5-aa3e-0427a11f10ae" incrementChildId="e9679f48-c1a5-4624-82da-433c6212c5aa" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="cb96189d-159b-48fb-a0b1-76346b468425" name="Iron Ancestor" points="160.0" categoryId="4865726f6573202f204d6f6e737465727323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="731e148b-af95-4122-b840-aa8a7809e239" name="Force Dome" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="ac4a5ce4-df30-4b74-dd1e-1b9e940c5e43" targetId="36175cb8-5b9d-05bc-b30c-5573459d6bb1" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="e2181606-351a-48db-9f15-7b18184cc525" name="Weapon (left arm)" defaultEntryId="b96efc6a-efdf-487f-806a-dd8a2aaa838e" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="6571d45f-b345-4ddd-bae2-09b87b976ea2" name="Double dragon breath" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="82e0a1a0-587d-2077-61d1-968fe9571307" targetId="771104dd-66cd-eaf4-7b42-2bd1fbddb300" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="21830398-3784-4b28-8df9-5a8b65975465" name="Double heat cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="cc7cb9c7-49e5-a936-057f-bf85001eb4e2" targetId="3659beca-f141-11e1-d05f-6ad555ad4785" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="b96efc6a-efdf-487f-806a-dd8a2aaa838e" name="Double hailstorm autocannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="9ae8c64a-30d7-5987-7ce8-eb390e4faf1b" targetId="8a52baf4-b2e2-e5e2-8cbb-5195740f4695" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="ee341837-ef61-42b2-a3eb-e68da0e9eba5" name="Double mjolnir missile launcher" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="d1e23315-bdbd-0b27-e68a-48482d873c64" targetId="8ee3a95e-a176-174a-9ae0-8193db25f0c3" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="534874e7-2e27-1c05-643e-31352b2120b4" name="Thor Pattern (melee arm)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="54f243b2-b162-ea77-287d-63e9a502c6fd" name="Weapon (right arm)" defaultEntryId="6d6d1c02-6366-ce10-5276-7993a039c67b" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="150ecf31-7f8c-4ce2-2b79-a4c8825a0e8f" name="Doomstorm pattern (second double hailstorm autocannon)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="9ccb21af-9727-b4ad-4ca8-361087ac4ed0" targetId="8a52baf4-b2e2-e5e2-8cbb-5195740f4695" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="6d6d1c02-6366-ce10-5276-7993a039c67b" name="Melee arm" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="30a2f36f-dedc-e234-24d5-bbb2f19b132c" name="Crushing Strength (7)" hidden="false" page="0">
+          <description>All Melee hits inflicted by the unit have a +7 modifier when rolling to damage.</description>
+          <modifiers>
+            <modifier type="set" field="name" value="Crushing Strength (1)" repeat="true" numRepeats="1" incrementParentId="cb96189d-159b-48fb-a0b1-76346b468425" incrementChildId="150ecf31-7f8c-4ce2-2b79-a4c8825a0e8f" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="description" value="All Melee hits inflicted by the unit have a +1 modifier when rolling to damage." repeat="true" numRepeats="1" incrementParentId="cb96189d-159b-48fb-a0b1-76346b468425" incrementChildId="150ecf31-7f8c-4ce2-2b79-a4c8825a0e8f" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="5a59e808-1623-2398-64b0-f18d2f987779" profileTypeId="4d6f6e7374657223232344415441232323" name="Iron Ancestor" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="4"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="2"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="10+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="10/12"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" field="41747423232344415441232323" value="4" repeat="true" numRepeats="1" incrementParentId="cb96189d-159b-48fb-a0b1-76346b468425" incrementChildId="534874e7-2e27-1c05-643e-31352b2120b4" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="dd499fab-4ab0-45f6-b909-ea3b8accfa6c" name="Jotunn Heavy Hailstorm Cannon" points="110.0" categoryId="4f72646e616e636523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="d30ecda6-4540-01a5-a545-5bc6a47d4194" name="Jotun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="1464b249-ea1f-12d7-eb27-1f51df0e0487" targetId="9ec1ab71-f183-7b09-a829-7f72cd5f18be" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="9109400a-60b6-5167-4653-6f68eaf3292b" name="Options" defaultEntryId="21e0a8ae-1679-7d0f-03e2-bd87279389a4" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="5edb372b-d393-18a0-373c-e14e8be33efd" name="Tracked" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="21e0a8ae-1679-7d0f-03e2-bd87279389a4" name="Platform" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="efd45876-812e-dbed-b12f-08180a05dea9" targetId="7b6959ac-235b-aac4-153a-62145d9b5c1b" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="a5fd8237-c495-3d63-3856-abfa72c86953" profileTypeId="4f72646e616e636523232344415441232323" name="Jotunn Heavy Hailstorm Cannon" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="-"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="-"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="6+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="9/11"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" field="53706423232344415441232323" value="4" repeat="true" numRepeats="1" incrementParentId="dd499fab-4ab0-45f6-b909-ea3b8accfa6c" incrementChildId="5edb372b-d393-18a0-373c-e14e8be33efd" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="6313086a-27dc-4ff0-a8dc-a9707f04e5b5" name="Light Drakkar" points="70.0" categoryId="41726d6f757223232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="8652c92b-e94c-4017-866f-4d4502802281" name="Heavy Weapon [F]" defaultEntryId="0f177f2b-0ede-4f3a-8aed-60db86ee596f" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="ed88a8a1-736f-4960-a9cc-0a92bc65c207" name="Heat cannon [F]" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="6094dec7-670a-4477-6736-8bd1362771cd" targetId="55e69ee1-e21c-fe91-396d-596cd77ec175" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="0f177f2b-0ede-4f3a-8aed-60db86ee596f" name="Hailstorm autocannon [F]" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="1290b206-f749-3e8e-472a-4ad994be80e5" targetId="d9e05706-8035-f5ae-7ec1-952559d00f6e" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="52caf1fe-7f60-4a29-84b9-f3f75ad99793" name="Mjolnir missile launcher [F]" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="6f255a91-7dde-72d4-3ae0-bf8564695eb8" targetId="a1d5c8a3-063c-4572-990c-261d940a83ff" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="ba4caad5-677c-da4a-5665-1637dcde78ac" profileTypeId="41726d6f757223232344415441232323" name="Light Drakkar" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="12"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="-"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="7+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="9/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="ddb37074-0b23-ffb8-2cae-029801e3485a" targetId="674b3c39-5b88-f24d-c51c-14f7fe49db00" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="86d66b4b-d5b4-83f1-c628-61a3e7f1ba91" targetId="c5f219d3-80b3-7a08-9219-477154bc93d8" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="216a4bd3-af98-806c-d6dd-825ec9ce6d21" targetId="bd8b25ee-0322-d073-be08-5e595a33164d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="69e67f32-58d2-97c5-a9be-73c0bbe4412a" targetId="9cd12bf5-fd49-4969-46f1-59f33aedd0a0" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="aa098127-b9ea-4b80-8c4a-b3d73116393d" name="Steel Warriors Platoon" points="300.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="a5b7700f-7008-9dde-d498-ddf9421190f3" name="Heat hammer" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="8ce64ad3-f4da-44e5-8264-50f0a3ce1ee1" targetId="f1a07817-ac01-af84-9de6-f4af910315cc" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="e7f333a0-5b09-227f-9d6d-4de32ecfb915" name="Dragon breath" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="79cc28a7-a1a9-a1aa-8b32-3de24d22dd03" targetId="71868ff6-2fa7-f0a1-4ce1-206d7b8d39f0" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="b1083d13-0468-001d-2f68-29a207cc3ba3" name="Mjolnir missile launcher" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="7cee5271-cc02-201c-3307-9deff371eb58" targetId="a1d5c8a3-063c-4572-990c-261d940a83ff" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="cbfff2a5-900e-c4c4-e6e6-ffaf8961cc60" name="Hailstorm rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="71fdbe52-4acd-afd8-67f3-bbca089654f8" targetId="c606c843-bc51-894b-4758-4f49a975988d" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="b048efa4-e3db-13d4-902f-dd35b067463a" name="Hailstorm pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="f4079731-1917-37b2-c450-09b6d2af9624" targetId="3ae1ed59-d494-d72c-fd2e-d2aa135ec3bc" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="8a80209e-c3c0-d8fb-29f1-55af7f3a8136" profileTypeId="496e66616e74727923232344415441232323" name="Steel Warriors Platoon" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="4"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="5+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="9/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="0f7c2d92-0070-443c-a999-4fae8dbbe4d1" name="Steel Warriors Section" points="150.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="3613156c-9279-1a76-e919-d3d35befc093" name="Dragon breath" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="b7a0f180-3b12-d8d3-32be-61e819ae2cb9" targetId="71868ff6-2fa7-f0a1-4ce1-206d7b8d39f0" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="f9383edf-4aeb-33ab-8970-7c55de297b01" name="Heat hammer" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="a2762ed7-e48e-9e47-3a1b-754826cdfbd8" targetId="f1a07817-ac01-af84-9de6-f4af910315cc" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="e5f5f3e6-f880-2d38-5eff-b3dfeb20dccb" name="Mjolnir missile launcher" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="81d64b6d-2495-2b2a-06d6-f970adad8249" targetId="a1d5c8a3-063c-4572-990c-261d940a83ff" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="509ec52d-8b18-e344-c7ac-30e22db27b6c" name="Hailstorm rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="632cb870-cfeb-7ffb-25bf-d87b33aa6973" targetId="c606c843-bc51-894b-4758-4f49a975988d" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="b3ed627c-b7f7-c18b-a9f7-7c9ac8e29bc5" name="Hailstorm pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="559ce6d8-c7fa-8ccc-82b1-56b5d6da0c5d" targetId="3ae1ed59-d494-d72c-fd2e-d2aa135ec3bc" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="26b026fb-14ed-e580-af50-a72380e1754b" profileTypeId="496e66616e74727923232344415441232323" name="Steel Warriors Section" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="4"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="5+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="9/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="6ffde1c5-8a4f-4517-b3ec-294af1e75315" name="Steel Warriors Team" points="75.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="8b4b6c67-c12f-cbe6-6bcc-d2dab5db9c5c" name="Heat hammer" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="20bd6bb0-bbc4-7ea5-879a-439e294293bd" targetId="f1a07817-ac01-af84-9de6-f4af910315cc" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="5471af38-9c31-aa47-3bf1-9dfaeba46034" name="Dragon breath" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="1c58a5de-08c4-801d-ff08-408f0189f282" targetId="71868ff6-2fa7-f0a1-4ce1-206d7b8d39f0" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="4c1eb641-0dc0-0592-2ac6-60a928c843ae" name="Hailstorm pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="57f9f663-6dcf-1499-0d8a-f5b674e65993" targetId="3ae1ed59-d494-d72c-fd2e-d2aa135ec3bc" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="4b812c7a-01e4-4879-a6e9-28485d54814c" name="Hailstorm rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="48d0f158-ebcd-5cdb-7712-e438adfaa7b9" targetId="c606c843-bc51-894b-4758-4f49a975988d" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="3901e76e-584c-9540-c307-82e258d7fc38" profileTypeId="496e66616e74727923232344415441232323" name="Steel Warriors Team" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="4"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="5+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="9/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="a6212f0e-5b0e-4169-8f12-ecaa6613a0a9" name="Stormrage Veterans Section" points="395.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="ec1ba806-411b-db25-e70d-a805c4e8d49f" name="Mjolnir missile launcher" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="6c175bd2-39b3-bd27-fdb3-1a3e9478a8f1" targetId="a1d5c8a3-063c-4572-990c-261d940a83ff" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="9f881d9c-966c-716f-e2dd-b62f042c626c" name="Hailstorm pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="720380d0-3ad4-61d7-e772-78ac3c38de0c" targetId="3ae1ed59-d494-d72c-fd2e-d2aa135ec3bc" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="ae2df4e8-6490-b004-cd78-33aaf1df6670" name="Heat hammer" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="0acabac6-bcc5-b34f-a0a3-35de6f750bae" targetId="f1a07817-ac01-af84-9de6-f4af910315cc" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="a925e933-85b0-0f49-ad66-569707e8a908" name="Heavy Weapons" defaultEntryId="24342769-7926-6618-a5be-02d6339a7012" minSelections="8" maxSelections="8" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="24342769-7926-6618-a5be-02d6339a7012" name="Hailstorm autocannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="8" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="4cbf91eb-4f64-03f9-9f4e-bb8de88684c6" targetId="d9e05706-8035-f5ae-7ec1-952559d00f6e" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="1ebc5992-6bec-1113-d0c9-0ba0d49239a6" name="Heat cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="8" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="b9a2be3d-f94f-492a-c0eb-3acac761a10d" targetId="55e69ee1-e21c-fe91-396d-596cd77ec175" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="d7065b0c-0849-af38-6a11-b28e7f3b303f" profileTypeId="496e66616e74727923232344415441232323" name="Stormrage Veterans Section" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="4"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="3+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="5+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="9/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="785dfe4d-3fdc-4c22-ae93-aad5282594f4" name="Stormrage Veterans Team" points="185.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="0402df3a-c065-5cbc-9ac7-d6eb971a972a" name="Hailstorm pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="947425e6-2397-0531-5021-3d8f3a627e85" targetId="3ae1ed59-d494-d72c-fd2e-d2aa135ec3bc" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="cec888ae-e0d4-b7d1-1feb-ed098d8241d0" name="Heat hammer" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="c52bef51-e42a-8515-904c-1a6612ecc7f7" targetId="f1a07817-ac01-af84-9de6-f4af910315cc" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="c95c071c-14c4-c846-5d9b-d8d0839cdc27" name="Heavy Weapons" defaultEntryId="ee7dcfd1-d560-37c4-9865-0db34366e991" minSelections="4" maxSelections="4" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="ee7dcfd1-d560-37c4-9865-0db34366e991" name="Hailstorm autocannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="4" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="72c81dd6-0db1-fd8b-6335-fd44a832e897" targetId="d9e05706-8035-f5ae-7ec1-952559d00f6e" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="17f28afa-35e2-6850-50bb-321b310ceb9a" name="Heat cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="4" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="5f30908d-479f-09f1-c557-3d0e2d6bc3f5" targetId="55e69ee1-e21c-fe91-396d-596cd77ec175" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="79de7ac4-64c3-70d7-a09d-3b2f34477ea4" profileTypeId="496e66616e74727923232344415441232323" name="Stormrage Veterans Team" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="4"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="3+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="5+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="9/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="26656295-d345-450d-a13a-0503e3ea7a70" name="Surtr Heavy Heat-Cannon" points="110.0" categoryId="4f72646e616e636523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="02f71c5c-3783-e23b-5782-c51f29e6dc13" name="Surtr" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="6873b374-5323-4ea7-6546-0f0ce6b2a893" targetId="42a83186-529c-58ee-036b-15bcd6cde84b" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="2ae70602-5a7a-e4ab-7657-eb3f72265a9a" name="Options" defaultEntryId="70b7e5f3-7f21-df70-66bb-f7ec97e6aab0" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="5ea9235d-dcfb-1981-c3c7-160fd0834ada" name="Tracked" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="70b7e5f3-7f21-df70-66bb-f7ec97e6aab0" name="Platform" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="86a9e664-e928-d871-bec2-6be4d4b6b3e3" targetId="7b6959ac-235b-aac4-153a-62145d9b5c1b" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="885e2f25-70eb-7ccb-9106-cbb6b22a1558" profileTypeId="496e66616e74727923232344415441232323" name="Surtr Heavy Heat-Cannon" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="-"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="-"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="6+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="9/11"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" field="53706423232344415441232323" value="4" repeat="true" numRepeats="1" incrementParentId="26656295-d345-450d-a13a-0503e3ea7a70" incrementChildId="5ea9235d-dcfb-1981-c3c7-160fd0834ada" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="606d5bdb-8404-eaa7-217c-2007065209e1" name="Thorgarim Section" points="330.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="0b3f27f7-57cc-6b48-2b23-ad1d0f5819b9" name="Heat hammer" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="d2a11e66-1927-fdc8-c19b-9d95c449628a" targetId="f1a07817-ac01-af84-9de6-f4af910315cc" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="beb090fa-ffa9-708b-4861-63ec8cad3561" name="Heat hammer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="9" maxSelections="9" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="9947275c-ac63-2ac6-018c-a21b2783bc3d" targetId="f1a07817-ac01-af84-9de6-f4af910315cc" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="381c0ff1-079d-6cfe-c779-f3ca8fc77769" name="Hailstorm pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="cfefef79-9dfb-394c-b68c-6a1461c4474f" targetId="3ae1ed59-d494-d72c-fd2e-d2aa135ec3bc" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="517dc2e6-69d8-5878-1a01-81b612070a6a" profileTypeId="496e66616e74727923232344415441232323" name="Thorgarim Section" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="4"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="3+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="5+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="9/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="6e5a2eda-f850-81fb-a223-7c6edc91a0d3" name="Thorgarim Team" points="155.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="aa5d8d2c-ee9c-bfa8-daea-b17e9502c063" name="Heat hammer" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="0358bfe7-3d16-de53-0b0f-0698b41cf83a" targetId="f1a07817-ac01-af84-9de6-f4af910315cc" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="76cdb5d6-a96a-8bb8-3387-fb087da1af16" name="Heat hammer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="4" maxSelections="4" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="3c38ae03-dbf9-e24c-e11b-a67778cfb9a6" targetId="f1a07817-ac01-af84-9de6-f4af910315cc" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="d2a900c3-a4c9-6162-f070-49db2182b6f3" name="Hailstorm pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="3e361763-aefe-abcd-cff0-29167e9cf6e3" targetId="3ae1ed59-d494-d72c-fd2e-d2aa135ec3bc" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="f64c7bf4-32ec-8f8d-9f87-c6e3a42105c0" profileTypeId="496e66616e74727923232344415441232323" name="Thorgarim Team" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="4"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="3+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="5+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="9/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="b632c019-b894-4496-b519-03a8f0c81bcd" name="Valkyr Section" points="220.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="cf69282d-6bf6-21c8-141f-5cdf59cddf5a" name="Heat hammer" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="af59a0d3-8c8b-9dd0-ff08-f70d29b8bd69" targetId="f1a07817-ac01-af84-9de6-f4af910315cc" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="dc1b0697-fd66-ee68-a0bf-c92a446d06d2" profileTypeId="496e66616e74727923232344415441232323" name="Valkyr Section" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="10"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/12"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="7f4c91e9-76b0-6fde-9112-aadd25d0dff9" targetId="9cf4f439-8799-d8a1-4ec2-e8e828c0d9c9" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b48e69ed-3235-4609-28ee-4133655d4606" targetId="95c6a66f-ce4f-8ca6-5809-61b6340d260a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="becbd1b4-fff4-05b9-5286-71822bbb6439" targetId="c5f219d3-80b3-7a08-9219-477154bc93d8" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="78d5742f-9b98-47bb-ba9b-fc5df4ce13d6" name="Valkyr Team" points="110.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="8fb94f83-88e3-0633-38da-b94f3fd84709" name="Heat hammer" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="188a1021-349a-4653-4519-192e00002b13" targetId="f1a07817-ac01-af84-9de6-f4af910315cc" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="7fa22881-b569-267b-1761-2586edb375d1" profileTypeId="496e66616e74727923232344415441232323" name="Valkyr Team" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="10"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/12"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="1ea10118-1d54-ad7a-e3d9-7ef6057c0c31" targetId="c5f219d3-80b3-7a08-9219-477154bc93d8" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="308ad747-056b-7601-6f90-e49f0cf989e5" targetId="95c6a66f-ce4f-8ca6-5809-61b6340d260a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7daec21f-d100-dc43-23c0-a79533acf234" targetId="9cf4f439-8799-d8a1-4ec2-e8e828c0d9c9" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+  </entries>
+  <rules>
+    <rule id="cbf78378-e58e-61aa-5064-b7e155c1d70f" name="Legendary Stubborness" hidden="false" page="0">
+      <description>All units are Headstrong.</description>
+      <modifiers/>
+    </rule>
+    <rule id="3ecd4e59-7cca-422e-7c68-89ea59af2197" name="Allies" hidden="false" page="0">
+      <description>Corporation, Rebs, Marauders, Asterians.</description>
+      <modifiers/>
+    </rule>
+  </rules>
+  <links/>
+  <sharedEntries/>
+  <sharedEntryGroups/>
+  <sharedRules>
+    <rule id="ed1cfe3a-1ea1-f27f-2198-1e9d36e830f7" name="Blast (D6)" hidden="false" page="0">
+      <description>Roll to hit normally. Any hit caused is multiplied by D6 before rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="0b804e56-69e9-2aca-f0d0-31e27fb4c960" name="Bulky" hidden="false" page="0">
+      <description>The unit cannot be transported.</description>
+      <modifiers/>
+    </rule>
+    <rule id="4e54ec8d-adb2-ca8d-3ef1-ec0e738ce311" name="Craven" hidden="false" page="0">
+      <description>If the unit wants to Charge, roll a die. If a 1 is rolled, the unit Halts instead.</description>
+      <modifiers/>
+    </rule>
+    <rule id="e0be009a-634f-0990-48e4-31fcce2671e1" name="Crushing Strength (1)" hidden="false" page="0">
+      <description>All Melee hits inflicted by the unit have a +1 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="9cd12bf5-fd49-4969-46f1-59f33aedd0a0" name="Crushing Strength (2)" hidden="false" page="0">
+      <description>All Melee hits inflicted by the unit have a +2 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="f1aae4dc-5955-61c3-13ce-aa768222fbbf" name="Crushing Strength (3)" hidden="false" page="0">
+      <description>All Melee hits inflicted by the unit have a +3 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="eed8a676-8ea0-bb3a-d6cd-c94bf3ff0678" name="Crushing Strength (4)" hidden="false" page="0">
+      <description>All Melee hits inflicted by the unit have a +4 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="11c86d83-7e61-726f-542d-34160cc5c30f" name="Crushing Strength (5)" hidden="false" page="0">
+      <description>All Melee hits inflicted by the unit have a +5 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="2f7fb211-5adf-3974-1a61-bb460a2fb065" name="Crushing Strength (6)" hidden="false" page="0">
+      <description>All Melee hits inflicted by the unit have a +6 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="fdd0d45f-639c-54b3-3ca2-73a99d4b721f" name="Crushing Strength (7)" hidden="false" page="0">
+      <description>All Melee hits inflicted by the unit have a +7 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="11f0ba72-b01e-1539-9d10-5a5b31a14ae8" name="Elite" hidden="false" page="0">
+      <description>Whenever the unit rolls to hit, it can reroll one of the dice that failed to hit.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c5f219d3-80b3-7a08-9219-477154bc93d8" name="Fast" hidden="false" page="0">
+      <description>Unit trebles its Speed when moving At The Double or at Full Speed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="36175cb8-5b9d-05bc-b30c-5573459d6bb1" name="Force Dome" hidden="false" page="0">
+      <description>The enemy must reroll all successful rolls to damage for ranged attacks that hit this unit.</description>
+      <modifiers/>
+    </rule>
+    <rule id="1f442430-9ca6-3a0f-9690-d652403f8259" name="Headstrong" hidden="false" page="0">
+      <description>When you are trying to activate this unit when it is Suppressed, you can re-roll the die for shaking off the effects of Suppression and successfully activating.</description>
+      <modifiers/>
+    </rule>
+    <rule id="f1a07817-ac01-af84-9de6-f4af910315cc" name="Heat hammer" hidden="false" page="0">
+      <description>This weapon confers Crushing Strength (6) to all of the model’s Attacks. It cannot be used in conjunction with a pistol, so a model equipped with both must choose which one to use before he attacks in melee.</description>
+      <modifiers/>
+    </rule>
+    <rule id="48090475-720e-e07a-7cef-6cad17ed2f94" name="Hoverer" hidden="false" page="0">
+      <description>The unit moves over anything without penalties, but cannot land on top of them. In addition the unit cannot Overrun enemy units, and it can only initiate a Collision against enemy units that also have this rule. The unit can be charged only if it’s already Immobilised.
+The unit also has the Nimble special rule.</description>
+      <modifiers/>
+    </rule>
+    <rule id="063ce475-b558-d8a4-b33d-7de6212e70cf" name="Howitzer" hidden="false" page="0">
+      <description>The weapon may either be fired normally or by using the Indirect Fire special rule. Declare before you fire.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7b6959ac-235b-aac4-153a-62145d9b5c1b" name="Immobile" hidden="false" page="0">
+      <description>This unit must always ‘Halt’ when activated and cannot move. If forced to move by any reason, it is destroyed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="643ed971-86ce-6838-f22c-5fa1f275b3a9" name="Indirect Fire" hidden="false" page="0">
+      <description>Never suffers any to hit modifiers for range or cover. Cannot target units within 12”. 
+The weapon may be fired at targets that the operator cannot see, with an additional -1 To Hit modifier.</description>
+      <modifiers/>
+    </rule>
+    <rule id="dccafea8-26af-3488-7a6c-3e5cbf7ddcc4" name="Infiltration" hidden="false" page="0">
+      <description>During your Deployment, you can place this unit up anywhere on the table outside of the enemy’s Deployment area and more than 12” from any enemy unit that has already deployed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="3d2b9efa-efc1-d0d2-5508-9fc087627fb1" name="Inspiring" hidden="false" page="0">
+      <description>If the unit itself, or any friendly unit within 6” of it, fails an Activation Test, you can choose to immediately re-roll
+the die. The second result stands. This ability can only be used once per Turn. Re-roll cannot be used on the additional roll that Suppressed units have to make.</description>
+      <modifiers/>
+    </rule>
+    <rule id="ac4f7b8d-734a-9889-ca86-07af067b5c75" name="Jump Troops" hidden="false" page="0">
+      <description>The unit can move as normal, or can activate its jump jets. If it does so, its Speed changes to 9, and it can move
+over anything without penalties, but still cannot land on top of Blocking Terrain or within 1” of another unit. If it Charges using its jump jets, in the ensuing Melee it does not suffer the -1 to hit penalty for charging a defensive position or for a disrupted charge. Unit cannot mount or dismount from a transport using jump jets.</description>
+      <modifiers/>
+    </rule>
+    <rule id="f2b131cc-25d5-be36-2fa3-2535498d5f8e" name="Lumbering" hidden="false" page="0">
+      <description>The unit cannot move At The Double or at Full Speed. When Charging, it does so at normal speed and not at double speed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="8d1c6c20-dded-c835-9015-5b484487f6bc" name="Magnetic charges" hidden="false" page="0">
+      <description>If in melee against an Armoured unit, instead of attacking normally, the model can make a single special attack. If this attack hits, the hit is resolved at Crushing Strength (3), or Crushing Strength (5) if the target is stationary.</description>
+      <modifiers/>
+    </rule>
+    <rule id="ff6c52b6-92e2-4d7a-9947-8986a944a5ba" name="Nimble" hidden="false" page="0">
+      <description>If moving at normal speed, the unit can make a single extra ‘Hard Turn’ move at any point during its movement.</description>
+      <modifiers/>
+    </rule>
+    <rule id="674b3c39-5b88-f24d-c51c-14f7fe49db00" name="Open Top" hidden="false" page="0">
+      <description>Not Steadfast. Transported units can be activated without Dismounting. Up to 3 transported models can fire. Passengers cannot shoot if the transport has already activated and moved at Full Speed.
+Transported units can move At The Double and Charge after Dismounting from an Open Top unit  However, they charge at their normal Speed, rather than doubling it.</description>
+      <modifiers/>
+    </rule>
+    <rule id="4ef19e99-acf5-a50a-c4af-30ccf5880483" name="Piercing (1)" hidden="false" page="0">
+      <description>All hits inflicted by this weapon have a +1 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="bfe83fc6-d943-1ae6-2b10-6720031ce476" name="Pistol" hidden="false" page="0">
+      <description>A model armed with a pistol has one extra Attack in Melee.
+In addition, if the pistol has a Piercing value, it confers an equivalent Crushing Strength to all of the model’s Melee attacks. If the model already has a higher Crushing Strength value, use that instead.</description>
+      <modifiers/>
+    </rule>
+    <rule id="95c6a66f-ce4f-8ca6-5809-61b6340d260a" name="Recon" hidden="false" page="0">
+      <description>The unit can make a single At The Double or Full Speed move after all Deployment is finished, but before the players roll for the Initiative on Turn 1.
+If both armies have units with this rule, roll a die. The highest scorer decides who begins to move one of his Recon units first, then the players alternate until all Recon units have been moved.</description>
+      <modifiers/>
+    </rule>
+    <rule id="10f4cac7-1478-b369-a2db-f2ba450f322c" name="Reload!" hidden="false" page="0">
+      <description>The weapon can only be fired if the unit has Halted during this activation.</description>
+      <modifiers/>
+    </rule>
+    <rule id="a9670740-0d63-0561-c4fb-5d84f93e4446" name="Saturation" hidden="false" page="0">
+      <description>This weapon always hits on 4+, regardless of any modifiers.</description>
+      <modifiers/>
+    </rule>
+    <rule id="5be14054-3fa9-5e45-3847-e657d64b154f" name="Sniper" hidden="false" page="0">
+      <description>If the unit remains stationary and fires, this weapon’s shots ignore any cover modifiers and the Stealthy special rule.</description>
+      <modifiers/>
+    </rule>
+    <rule id="bd8b25ee-0322-d073-be08-5e595a33164d" name="Stabilised" hidden="false" page="0">
+      <description>If this unit moves at Full Speed, it can still fire one of its weapons (except for weapons with the Reload! special rule).</description>
+      <modifiers/>
+    </rule>
+    <rule id="9cf4f439-8799-d8a1-4ec2-e8e828c0d9c9" name="Steadfast" hidden="false" page="0">
+      <description>The unit treats Suppressed results on Nerve tests as Steady instead, including in Melee.</description>
+      <modifiers/>
+    </rule>
+    <rule id="a4843341-35bf-0dcd-81bb-c8155ed9890c" name="Stealthy" hidden="false" page="0">
+      <description>Enemies shooting against the unit suffer an additional -1 to hit modifier.</description>
+      <modifiers/>
+    </rule>
+    <rule id="119b0cdd-78bd-cfce-f389-12272b26a372" name="Tough (3)" hidden="false" page="0">
+      <description>Models with this rule are only removed when they have taken 3 points of damage. 
+If the unit is damaged but not destroyed, it must take a Nerve test.</description>
+      <modifiers/>
+    </rule>
+    <rule id="031458ed-cbca-333e-9508-91acd3c79849" name="Tough (4)" hidden="false" page="0">
+      <description>Models with this rule are only removed when they have taken 4 points of damage. 
+If the unit is damaged but not destroyed, it must take a Nerve test.</description>
+      <modifiers/>
+    </rule>
+    <rule id="8ddc5fc3-622e-6f10-fc2c-e39665b5fe90" name="Tough (5)" hidden="false" page="0">
+      <description>Models with this rule are only removed when they have taken 5 points of damage. 
+If the unit is damaged but not destroyed, it must take a Nerve test.</description>
+      <modifiers/>
+    </rule>
+    <rule id="a9b800cc-540f-8e9a-e6b5-5e482c857f30" name="Vicious" hidden="false" page="0">
+      <description>Whenever the unit rolls to damage, it can re-roll one of the dice that failed to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="950d2e87-1f0b-1f60-e8ab-0a38d32fb2a4" name="Zap! (1)" hidden="false" page="0">
+      <description>The model has a ranged attack. This attack has a Firepower of 1, a range of 24”, always hits on 4+ (regardless of modifiers) and is Piercing (1).</description>
+      <modifiers/>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="771104dd-66cd-eaf4-7b42-2bd1fbddb300" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Double dragon breath" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="20"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="12"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="1"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="Saturation"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="8a52baf4-b2e2-e5e2-8cbb-5195740f4695" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Double hailstorm autocannon" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="6"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="36"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="2"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="e090e34d-e754-f551-80a0-4b77fb8e4d81" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Double hailstorm pistol" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="2"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="12"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="1"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="Pistol"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="3659beca-f141-11e1-d05f-6ad555ad4785" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Double heat cannon" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="2"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="24"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="7"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="8ee3a95e-a176-174a-9ae0-8193db25f0c3" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Double mjolnir missile launcher" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="2"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="48"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="5"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="71868ff6-2fa7-f0a1-4ce1-206d7b8d39f0" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Dragon breath" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="10"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="12"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="1"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="Saturation"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="d9e05706-8035-f5ae-7ec1-952559d00f6e" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Hailstorm autocannon" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="3"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="36"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="2"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="3ae1ed59-d494-d72c-fd2e-d2aa135ec3bc" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Hailstorm pistol" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="1"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="12"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="1"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="Pistol"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="c606c843-bc51-894b-4758-4f49a975988d" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Hailstorm rifle" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="1"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="24"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="1"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="55e69ee1-e21c-fe91-396d-596cd77ec175" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Heat cannon" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="1"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="24"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="7"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="9ec1ab71-f183-7b09-a829-7f72cd5f18be" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Jotun" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="12"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="48"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="2"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="a1d5c8a3-063c-4572-990c-261d940a83ff" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Mjolnir missile launcher" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="1"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="48"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="5"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="42a83186-529c-58ee-036b-15bcd6cde84b" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Surtr" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="1"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="36"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="7"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="Blast(D3)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+  </sharedProfiles>
+</catalogue>

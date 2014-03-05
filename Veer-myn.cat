@@ -1,0 +1,1548 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="d3656130-d98a-4dd3-8359-2e997c99f24d" revision="2" gameSystemId="c32ab30b-7a2f-4e2a-a46f-e5c249e706cd" gameSystemRevision="2" battleScribeVersion="1.13b" name="Veer-myn" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entries>
+    <entry id="adefc843-1e4a-4678-a827-a4b3b66e6ef6" name="Blaster" points="90.0" categoryId="4f72646e616e636523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="13011517-1632-c55a-0605-15bc6f7f27bd" name="Weapon" defaultEntryId="8e61acb0-859f-e751-db8d-18f9f6524196" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="bfebb6d9-7008-4fa2-850c-24817515a438" name="Heavy chem laser" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="599bd1c2-3d87-64f0-c51f-356fef4165f7" targetId="829cadff-6542-a5de-e7e9-cb4eb949476f" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="8e61acb0-859f-e751-db8d-18f9f6524196" name="Heavy chem-thrower" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="81a8c4b6-ceb9-7163-7c78-e586cf3d8cf3" targetId="6bb3e0ef-b8db-9b39-1879-e5e7255a01b8" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="1c13d5b8-9d7c-4a95-ed6f-af2a270d332f" profileTypeId="4f72646e616e636523232344415441232323" name="Blaster" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="6"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="-"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="5+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="6/8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="8b93d94f-7043-45ec-85b5-0493744ee158" name="Driller" points="80.0" categoryId="41726d6f757223232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="3f03b105-db9c-5715-64c9-d72b296bd338" profileTypeId="41726d6f757223232344415441232323" name="Driller" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="8"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="-"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="-"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="8+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="b5b248f2-1984-fb5b-a794-f963ab19bf32" targetId="f5775e81-1275-453f-8854-b3a7c2a54a3b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a0d8b272-2795-3455-9b45-a119da01c62d" targetId="812359ac-93e2-a96d-ae8b-d050c477f92a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8c82355d-78e0-f75c-7316-0788c6bfd8b7" targetId="d2c1b08b-84a9-d4b5-cf61-83626b4ea0a4" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c0cd39c1-2d7a-4c6f-85d4-ec96bacaf37d" name="Gougers Team" points="175.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="9e91bbba-cda5-5706-9cf3-eac86a2a01d5" name="Super-drill" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="09405f8c-d057-9704-b223-4c54ea9c0d90" targetId="00e02c51-5bc3-cb33-a8db-e198c1ced41f" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="b84abecd-d5bb-8091-b075-03c55bb8c58e" name="Exterminator" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="f871fa8b-e7a2-9add-bd86-cddec8e9d14a" name="Weapon" defaultEntryId="2b3cbb98-06d0-7d26-bb6c-2d312ef5e79a" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+              <entries>
+                <entry id="2b3cbb98-06d0-7d26-bb6c-2d312ef5e79a" name="Chem-thrower" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="e3b9d9c7-8e4e-b1bb-8058-d8e071f02c50" targetId="c7c9e90f-71b2-2658-1529-0f2e1d65b9e5" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="aac7a926-a68d-be53-9dfb-c036a92cbafc" name="Super-drill" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="1e9e4d9b-9398-d74c-2846-778548a6c76c" targetId="00e02c51-5bc3-cb33-a8db-e198c1ced41f" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="c7bab5f5-a1b5-f9ab-4fbd-616b20c19902" profileTypeId="496e66616e74727923232344415441232323" name="Gougers Team" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="6"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="6/8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="89c444e0-77c3-4a26-b111-bb2810234fe3" name="Night Spawn" points="95.0" categoryId="4865726f6573202f204d6f6e737465727323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="515720de-fef8-f884-dd3c-eafd167c2e4c" name="Chem-burner" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="6e7493cc-293d-67af-27c1-1c7868e16770" targetId="038b21fc-59e0-a485-3f86-1dc29641c6e0" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="887c7d14-e05b-7f61-6949-4556d70abe82" name="Super-drill" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="1a516c8e-e40e-218b-7195-bbcb1fcdb6d8" targetId="00e02c51-5bc3-cb33-a8db-e198c1ced41f" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="df551217-0d19-734c-f0cb-5fcccc34b261" profileTypeId="4865726f23232344415441232323" name="Night Spawn" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="6"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="3+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="3"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="5+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="6/8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="c77adfc8-8a2a-c98f-1744-e1a9e0a3ec6a" targetId="1fe9ea4d-39ac-da07-c6c4-a2c72b885ed2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7b574736-000f-edb3-54e4-c5f171a31454" targetId="aeaf9b49-1bd2-e558-30b2-c57cd8ca68db" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="cffe02c4-b6f4-47ba-a49d-5956892ca6af" name="Night Terror" points="120.0" categoryId="4865726f6573202f204d6f6e737465727323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="4b35d3e0-31f7-c6a1-667c-f4a2eaca63f5" profileTypeId="4d6f6e7374657223232344415441232323" name="Night Terror" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="6"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="5+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="3d6"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="5+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="6/8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="cf85fd52-48ba-eae3-31eb-61303285f2f9" targetId="dbc481e1-c741-accd-3bd5-98bd1ade532c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ec98f7e9-f121-dea7-6b16-bf87e8642642" targetId="fce04660-87f1-009e-d97e-dad8b3f57dde" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0a9b1a32-c5b2-693d-369c-a0c26a86d8c9" targetId="e99dd700-e866-5800-4545-e24b46d3528d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a1735fd4-40bf-459c-8c93-4bae6bec888a" targetId="b357e81d-b1b5-5f1f-8cad-46cd5126586f" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="a6f77b05-a650-46b4-b7e7-1f3c4bf988ef" name="Night-Crawlers Platoon" points="260.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="7e6a0a97-5110-487d-4312-06bcc6b47d3f" name="Ray-pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="9ec301d1-be90-06c2-58fe-547e2e881f7a" targetId="45407fa3-1fea-4967-3e44-e2f51ac7d05d" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="68418e15-5117-3ee4-c97f-a0a448fc43de" name="Ray-gun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="682ebe26-8a26-54ea-dec0-12b8d9bcb1ba" targetId="a8312564-65d2-4835-884c-54a5a7e9bb6c" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="cfdf074a-0edf-9368-6f5b-3507e1ae8c47" name="Exterminator" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="83e703d1-e462-e567-f981-bf3ea9148850" name="Weapon" defaultEntryId="6b7624d1-3832-deee-3d98-e13bb07de453" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+              <entries>
+                <entry id="6b7624d1-3832-deee-3d98-e13bb07de453" name="Chem-thrower" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="ad149b8d-753f-b3a7-0780-f07b5e4b3616" targetId="c7c9e90f-71b2-2658-1529-0f2e1d65b9e5" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="5229c770-05b3-f74e-e124-fe116b67d94b" name="Super-drill" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="dc82efa7-7719-16f2-0f40-6981a2b4960b" targetId="00e02c51-5bc3-cb33-a8db-e198c1ced41f" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="60e60329-f1fc-a6a6-61ec-7110b77ff5c8" name="Master" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries>
+            <entry id="a1a03e98-7527-200e-174d-fcdb94d3debb" name="Combat drill" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="a8498561-daf3-086f-a64b-c3e679cee0f2" targetId="199c818a-2045-fb63-d3a3-e8db7b696018" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="290f05a2-4306-28d8-a0b6-0dac84e65996" name="Ray-pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="92422354-11e0-b783-906c-e5b53b80c595" targetId="45407fa3-1fea-4967-3e44-e2f51ac7d05d" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="a456b426-e028-4b5a-8f51-c6dbdb1d2464" profileTypeId="496e66616e74727923232344415441232323" name="Night-Crawlers Platoon" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="6"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="6/8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="196f3b52-81ad-4acc-845f-7770a7f950e5" name="Night-Crawlers Section" points="130.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="d587e9f6-0769-06cd-c76a-85d3a4b84670" name="Ray-gun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="ac4e23da-b723-9b10-2b46-5c167d4eaf12" targetId="a8312564-65d2-4835-884c-54a5a7e9bb6c" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="72b59a64-e8ff-bbc2-e272-451aa2896f02" name="Exterminator" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="aebbb376-d3fd-c0d0-3238-a6a13afc9adb" name="Weapon" defaultEntryId="5ac5246f-8864-c574-c915-85ec4e7c3699" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+              <entries>
+                <entry id="5ac5246f-8864-c574-c915-85ec4e7c3699" name="Chem-thrower" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="201e4c54-d6ba-7c0d-9496-a3654e683e63" targetId="c7c9e90f-71b2-2658-1529-0f2e1d65b9e5" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="448f1af4-425d-e3b0-8ded-91a9864954ea" name="Super-drill" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="8fe89a7f-75ae-9162-06bf-18672b3c39e4" targetId="00e02c51-5bc3-cb33-a8db-e198c1ced41f" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="42ec2e7f-11c7-a311-890e-cc19bffb55b8" name="Master" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries>
+            <entry id="7c42c39f-c051-8bf3-83e7-dac7278ccf80" name="Combat drill" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="a39ca756-ac88-609a-7294-0089fc96020c" targetId="199c818a-2045-fb63-d3a3-e8db7b696018" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="c6c8bfb1-0fd1-b94f-6cca-2fd8db6c665a" name="Ray-pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="0eaed37c-32d5-33a9-874d-28f3899258d3" targetId="45407fa3-1fea-4967-3e44-e2f51ac7d05d" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="b3a03ee4-4193-98e3-320b-7e9f9f6f8c55" profileTypeId="496e66616e74727923232344415441232323" name="Night-Crawlers Section" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="6"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="6/8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="8a6d1c1c-6af5-479c-a6a4-45dfcdd03f01" name="Night-Crawlers Team" points="50.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="3ee9bc54-e864-1161-e725-8718133b0d8b" name="Ray-gun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="f2ebd279-3427-1182-0721-babfef20a523" targetId="a8312564-65d2-4835-884c-54a5a7e9bb6c" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="f34462d2-1cad-141c-6bec-ccb089f15df1" name="Ray-pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="8ee83419-adeb-b27e-810e-62d97604ea87" targetId="45407fa3-1fea-4967-3e44-e2f51ac7d05d" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="e57cacce-9959-c9bf-28a5-b11ee4c0073e" name="Leader" defaultEntryId="60fcb553-aa3e-9a9b-f1b2-d8167c291f35" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="60fcb553-aa3e-9a9b-f1b2-d8167c291f35" name="Master" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries>
+                <entry id="7aa4edd6-f7ae-8513-a51c-db12f0d2b4e5" name="Combat drill" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="26988f4d-4cfb-22c5-5b2c-d8214e0993e2" targetId="199c818a-2045-fb63-d3a3-e8db7b696018" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="6a0b318e-271e-6eae-3750-289413465947" name="Exterminator" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups>
+                <entryGroup id="7e111718-666a-5aa4-d9ed-56e4d7211c1d" name="Weapon" defaultEntryId="1a6c7224-28d6-c7ce-e6a6-a2535049c8cc" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+                  <entries>
+                    <entry id="92e2a9d9-bf45-ba05-bdaa-c2eab2721d92" name="Chem-thrower" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links>
+                        <link id="ca0b039a-4429-1076-cdc1-a8fba749ec58" targetId="c7c9e90f-71b2-2658-1529-0f2e1d65b9e5" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entry>
+                    <entry id="1a6c7224-28d6-c7ce-e6a6-a2535049c8cc" name="Super-drill" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links>
+                        <link id="3597d4f6-a144-7c10-5c03-25283f9ab94e" targetId="00e02c51-5bc3-cb33-a8db-e198c1ced41f" linkType="rule">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entry>
+                  </entries>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links/>
+                </entryGroup>
+              </entryGroups>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="b4301792-ef50-daa6-511e-09abce2f2076" profileTypeId="496e66616e74727923232344415441232323" name="Night-Crawlers Team" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="6"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="6/8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="80204c91-947e-4518-a4ac-d21685432b76" name="Nightmares Section" points="280.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="9a4e3a61-14d3-abad-8f93-cfe128f8e11d" name="Chem-burner" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="bcc5ea0a-8b4b-a4b2-a7cf-354f964ffdef" targetId="038b21fc-59e0-a485-3f86-1dc29641c6e0" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="f5e4e622-fcf6-0b4a-e604-80448790faef" name="Combat drill" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="020fe857-c6e0-8309-0e05-7c010fb6e335" targetId="199c818a-2045-fb63-d3a3-e8db7b696018" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="0a3fd826-5878-62f6-0a81-6bde5428488f" name="Exterminator" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="767931bc-d6a7-20dc-e837-e0f21d7a082e" name="Weapon" defaultEntryId="149a77c0-c033-face-dcaa-06d6ee07fd58" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+              <entries>
+                <entry id="149a77c0-c033-face-dcaa-06d6ee07fd58" name="Chem-thrower" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="5785e924-1def-e733-48b4-1e1568ab7a50" targetId="c7c9e90f-71b2-2658-1529-0f2e1d65b9e5" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="f1b97357-0191-0b4f-e0d1-b70a7356d7ed" name="Super-drill" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="b65c635f-2d64-23fd-e570-ac346a007b90" targetId="00e02c51-5bc3-cb33-a8db-e198c1ced41f" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="fad697b1-acc1-82cb-d828-9abb87a006c7" profileTypeId="496e66616e74727923232344415441232323" name="Nightmares Section" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="6"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="6/8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="d7fd8fc3-e394-4b60-b9d3-7ac62e2ad353" name="Nightmares Team" points="140.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="1878fb29-7413-89e6-15fc-9b9deaeb2920" name="Combat drill" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="a066fbda-a9af-8d35-582c-d3e9ae2d0397" targetId="199c818a-2045-fb63-d3a3-e8db7b696018" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="8f8981e8-45e2-cad0-5d5d-abf93e265f6a" name="Chem-burner" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="00d64502-7ac9-9523-1205-30da62e5e32d" targetId="038b21fc-59e0-a485-3f86-1dc29641c6e0" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="b6c53535-dca0-0ac4-c0e9-012f2c8941d3" name="Exterminator" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="8837d4a4-89ca-50b8-fa29-f3ae2b9bcc7a" name="Weapon" defaultEntryId="6a07a298-7d6c-e264-2db4-282c5e9b99ce" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+              <entries>
+                <entry id="6a07a298-7d6c-e264-2db4-282c5e9b99ce" name="Chem-thrower" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="b27dd049-a72b-6d7f-c9fe-5f775bc65dd3" targetId="c7c9e90f-71b2-2658-1529-0f2e1d65b9e5" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="17d3d249-b038-b44a-8718-1da63cb2e16a" name="Super-drill" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="5fbbc422-d97c-50c9-bd78-26f857c332cf" targetId="00e02c51-5bc3-cb33-a8db-e198c1ced41f" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="a9ba6096-90e0-aa1d-ed0c-818f80ac7585" profileTypeId="496e66616e74727923232344415441232323" name="Nightmares Team" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="6"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="6/8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="a6d1f5c1-9a47-414c-85be-d47fde52c9c5" name="Ravenous Horde" points="105.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="ac02631a-e6d1-cbee-faf0-f7ef95ce88fd" name="Ray-pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="e223915e-2930-174a-29c5-86c01ee29a2e" targetId="45407fa3-1fea-4967-3e44-e2f51ac7d05d" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="5a0f5959-1f6e-809d-600c-8e14553c4bf2" profileTypeId="496e66616e74727923232344415441232323" name="Ravenous Horde" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="8"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="3+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="6/8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="c23b80d7-3ca0-2fa8-e932-b84ae967cb52" name="Scourgers Team" points="190.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="66896498-ac54-4288-9824-368eb3bbe448" name="Chem-laser" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="691605c1-7553-3ae8-4cdd-8b39f209be89" targetId="8c218b13-ec05-1817-691b-1f232241359a" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="628200ec-1f5f-1d65-c5f8-9a9447199e59" name="Exterminator" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="bbc96b1e-59c2-d842-c035-7262ad31d519" name="Weapon" defaultEntryId="c64711e3-49f3-2b2c-45c4-b33b2ff32649" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+              <entries>
+                <entry id="c64711e3-49f3-2b2c-45c4-b33b2ff32649" name="Chem-thrower" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="a0cbd06b-7745-f3ea-6a8c-aee7e351317d" targetId="c7c9e90f-71b2-2658-1529-0f2e1d65b9e5" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="6996799d-d38c-601d-f576-bbb897716155" name="Super-drill" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="3d71d738-60ca-83f9-76b9-3ce3c997df7d" targetId="00e02c51-5bc3-cb33-a8db-e198c1ced41f" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="05ec638b-9fd2-c6d3-f57b-13158186f32c" profileTypeId="496e66616e74727923232344415441232323" name="Scourgers Team" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="6"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="6/8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="82445c23-9465-4b51-b71d-5a556f3934e7" name="Shredders Team" points="180.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="24ec2d76-95f4-794d-a399-c36531814e5e" name="Paired super-drills" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="97b839e6-99a8-2243-e926-7736ffc15fc6" targetId="f25fe0e0-02b0-dca3-be30-a92ca17c9aa9" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="475d14b3-b366-8ac5-5abe-4dd18c5e6d92" profileTypeId="496e66616e74727923232344415441232323" name="Shredders Team" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="6"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="2"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="6/8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="4e802f7f-e6e6-9037-b789-0034e51ff18c" targetId="47b3f500-fbb4-7889-c984-3b651b5f42ff" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="510f42e0-dc73-8a7d-c8ad-ce9dc012ce06" targetId="3bebc402-2904-d82a-2a2c-d40c619d74f0" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c0a3cacd-6679-43aa-94fb-6b01d376e7c0" name="Stalkers Platoon" points="260.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="1d2ef7d2-3cb7-d20d-c5c2-2943eb4e4b9e" name="Ray-pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="d14d9875-8ed3-8bff-4dc6-9f9ca69eafde" targetId="45407fa3-1fea-4967-3e44-e2f51ac7d05d" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="021d5fc9-b767-ce9e-b154-4c5f7b5ff32a" name="Master" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries>
+            <entry id="2a0f62ea-5b9e-264e-b624-12c226bb7efa" name="Combat drill" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="22624dd7-9929-b6da-751d-5df95d77e8d8" targetId="199c818a-2045-fb63-d3a3-e8db7b696018" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="88251649-18b5-638e-2a1f-54993bb90bde" name="Ray-pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="d5e71567-030c-3550-fa34-f2916996fb18" targetId="45407fa3-1fea-4967-3e44-e2f51ac7d05d" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="37692876-b11e-1e84-4bbe-217377a8cf65" name="Exterminator" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="e0f170ea-fee7-1903-91d0-474d3cd86bc4" name="Weapon" defaultEntryId="14834093-db64-23dc-3255-45332c69f8de" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+              <entries>
+                <entry id="fc20b092-968e-5a31-b459-4fe46dd792be" name="Chem-thrower" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="82f9a479-f627-5297-540f-23fca214758e" targetId="c7c9e90f-71b2-2658-1529-0f2e1d65b9e5" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="14834093-db64-23dc-3255-45332c69f8de" name="Super-drill" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="6c4f1b5d-69b9-ebf7-5002-52de1c8d6d41" targetId="00e02c51-5bc3-cb33-a8db-e198c1ced41f" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="daa679e7-a72a-b963-8401-3ba3965c015e" profileTypeId="496e66616e74727923232344415441232323" name="Stalkers Platoon" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="6"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="6/8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="5a47f0e4-ad7d-4626-a42b-d55ab01831ee" name="Stalkers Section" points="130.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="3904f5cc-d198-a4e5-1874-1eea7c7f9925" name="Ray-pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="0636f7de-30f9-8032-2cb3-2e0dd0ce2b96" targetId="45407fa3-1fea-4967-3e44-e2f51ac7d05d" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="c0fae934-3194-2474-3059-34e913266a65" name="Master" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries>
+            <entry id="2574ca82-a172-e656-38ed-8d6d2eea3e68" name="Combat drill" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="7218c429-8eb8-7ec4-b386-60c070cb9f5a" targetId="199c818a-2045-fb63-d3a3-e8db7b696018" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="ac093522-2ebe-3707-9dd5-a345757eaa05" name="Ray-pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="82701396-4402-264d-b442-03840bad1c6c" targetId="45407fa3-1fea-4967-3e44-e2f51ac7d05d" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="ec4d45fb-07e6-28c4-0a3a-fb9a66eb85cd" name="Exterminator" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="b11bb4f9-69a9-067c-22df-990acebfce59" name="Weapon" defaultEntryId="b1756e90-9898-bfe1-decb-6d34df083cd3" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+              <entries>
+                <entry id="896e6dcf-a3af-2b31-9797-f066a3863e78" name="Chem-thrower" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="02a4db06-005d-9a4c-b57b-43a4c069e4fb" targetId="c7c9e90f-71b2-2658-1529-0f2e1d65b9e5" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="b1756e90-9898-bfe1-decb-6d34df083cd3" name="Super-drill" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="c9fd61e9-2276-d867-5a33-c95dd168120c" targetId="00e02c51-5bc3-cb33-a8db-e198c1ced41f" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="da2ed9a1-ce1c-773e-3494-c5a35208e27a" profileTypeId="496e66616e74727923232344415441232323" name="Stalkers Section" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="6"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="6/8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="8c4ffb01-871b-4ea6-997b-a52420e005e6" name="Stalkers Team" points="50.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="b5d205ac-f83a-47db-6a09-0811dc037bc8" name="Ray-pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="ff2ecd79-8751-ac76-9f75-234e04a1dda0" targetId="45407fa3-1fea-4967-3e44-e2f51ac7d05d" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="88cda1cb-c8ef-ee1d-dfc1-06b997c5e5e2" name="Leader" defaultEntryId="95561690-786e-10d5-44d3-b9e1b630f9c3" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="95561690-786e-10d5-44d3-b9e1b630f9c3" name="Master" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries>
+                <entry id="fa68e75a-e7b8-353a-5a91-c1a84d12e95d" name="Combat drill" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="0655708a-5a1f-1335-b7ce-0faae9c3f0a9" targetId="199c818a-2045-fb63-d3a3-e8db7b696018" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="1a2a75e6-e3c9-d3c1-80c0-f5d25543c604" name="Exterminator" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups>
+                <entryGroup id="5d362a2f-8bd9-b824-41ca-c73911a22eae" name="Weapon" defaultEntryId="8ef3c8c5-b828-f946-ca90-0d580e3f2a49" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+                  <entries>
+                    <entry id="fd940bc2-cb9a-e62b-f746-edfdd46a5844" name="Chem-thrower" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links>
+                        <link id="7db7162c-eaac-d95f-c250-f61f7e097737" targetId="c7c9e90f-71b2-2658-1529-0f2e1d65b9e5" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entry>
+                    <entry id="8ef3c8c5-b828-f946-ca90-0d580e3f2a49" name="Super-drill" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links>
+                        <link id="f906824e-20ce-d497-cd03-77f915812307" targetId="00e02c51-5bc3-cb33-a8db-e198c1ced41f" linkType="rule">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entry>
+                  </entries>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links/>
+                </entryGroup>
+              </entryGroups>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="49d64cbe-6657-f271-3768-2ffa95e9df16" profileTypeId="496e66616e74727923232344415441232323" name="Stalkers Team" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="6"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="6/8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="ead0cdd0-535a-4a12-b1c0-935c237381a9" name="Tunneller" points="260.0" categoryId="41726d6f757223232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="7667e5ad-d233-4e6f-bf12-2beead42884a" name="Chem-thrower [R]" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="e22fe601-cc0f-eb30-431f-72e3d1e92244" targetId="c7c9e90f-71b2-2658-1529-0f2e1d65b9e5" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="ec72ed5d-4473-458a-b39c-caeb53d03901" name="Chem-thrower [P]" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="d64ac11b-a92f-4018-2cb0-547880ac3d93" targetId="c7c9e90f-71b2-2658-1529-0f2e1d65b9e5" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="4b17174e-4607-48c4-9a4b-00e3d0e208a4" name="Chem-thrower [L]" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="89ac7fb1-5da5-08ab-1ff4-9c2849289ab4" targetId="c7c9e90f-71b2-2658-1529-0f2e1d65b9e5" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="bb4284a3-d333-41f8-b11d-edbb7fa49052" name="Chem-thrower [F]" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="3c552757-5de0-83a9-e5d7-fa33a037464e" targetId="c7c9e90f-71b2-2658-1529-0f2e1d65b9e5" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="298b68ca-45b5-3643-8e30-ea330aa9f13d" name="Chem-laser [A]" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="1ffa6bd3-b5b1-df85-87bb-a339ec591a96" targetId="8c218b13-ec05-1817-691b-1f232241359a" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="c8ce855a-ca10-7306-a84b-b8dd5608e2ba" name="Transport (20)" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="371e0e7b-9942-7b5e-50da-cf97de42a2a6" profileTypeId="41726d6f757223232344415441232323" name="Tunneller" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="-"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="-"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="9+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="2f996b07-0355-f8a8-1a9b-9ad516a60fa2" targetId="d2c1b08b-84a9-d4b5-cf61-83626b4ea0a4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7650ab31-2b25-2a55-3e61-11b6108f50c4" targetId="47ebf306-f47a-e120-fa78-ba6b504e13c6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9ba197bc-170b-b1e8-f727-57587e026081" targetId="628a10d7-3be4-375e-8c16-b8cfa9afc5f7" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a4c28684-0a06-126e-cfdc-e0afaa95f9d9" targetId="f5775e81-1275-453f-8854-b3a7c2a54a3b" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+  </entries>
+  <rules>
+    <rule id="a6d00519-4738-9f83-f599-277f90b88456" name="The Rat Pack" hidden="false" page="0">
+      <description>All units in this list have the following rule, unless their entry specifies otherwise. Veermyn units benefit from a +1 modifier to their Nerve (both values) for each friendly Veer-myn unit within 6”, up to a maximum of +4. Note that transported units do count for this purpose – measure the range from their vehicle.</description>
+      <modifiers/>
+    </rule>
+    <rule id="6cde3e01-f184-cc20-f658-66501da84c56" name="Allies" hidden="false" page="0">
+      <description>Corporation, Marauders, Rebs, Asterians.</description>
+      <modifiers/>
+    </rule>
+  </rules>
+  <links/>
+  <sharedEntries/>
+  <sharedEntryGroups/>
+  <sharedRules>
+    <rule id="e72e4596-20ac-9935-32a5-23a460f2f4ef" name="Blast (D3)" hidden="false" page="0">
+      <description>Roll to hit normally. Any hit caused is multiplied by D3 before rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="ab7a6326-0499-5540-d3bf-2fa7a1ce0e30" name="Blast (D6)" hidden="false" page="0">
+      <description>Roll to hit normally. Any hit caused is multiplied by D6 before rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="47b3f500-fbb4-7889-c984-3b651b5f42ff" name="Bulky" hidden="false" page="0">
+      <description>The unit cannot be transported.</description>
+      <modifiers/>
+    </rule>
+    <rule id="199c818a-2045-fb63-d3a3-e8db7b696018" name="Combat Drill" hidden="false" page="0">
+      <description>A combat drill confers the Crushing Strength (1) and Vicious special rules to the model using it in melee.</description>
+      <modifiers/>
+    </rule>
+    <rule id="fce04660-87f1-009e-d97e-dad8b3f57dde" name="Craven" hidden="false" page="0">
+      <description>If the unit wants to Charge, roll a die. If a 1 is rolled, the unit Halts instead.</description>
+      <modifiers/>
+    </rule>
+    <rule id="1fe9ea4d-39ac-da07-c6c4-a2c72b885ed2" name="Crushing Strength (1)" hidden="false" page="0">
+      <description>All Melee hits inflicted by the unit have a +1 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="605a0146-3ad5-d8d7-a838-76da3f52dd4f" name="Crushing Strength (2)" hidden="false" page="0">
+      <description>All Melee hits inflicted by the unit have a +2 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="3c2432fd-3eb8-8e68-1448-fb51d18a15fc" name="Crushing Strength (3)" hidden="false" page="0">
+      <description>All Melee hits inflicted by the unit have a +3 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="b357e81d-b1b5-5f1f-8cad-46cd5126586f" name="Crushing Strength (4)" hidden="false" page="0">
+      <description>All Melee hits inflicted by the unit have a +4 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="3bebc402-2904-d82a-2a2c-d40c619d74f0" name="Crushing Strength (5)" hidden="false" page="0">
+      <description>All Melee hits inflicted by the unit have a +5 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="f5775e81-1275-453f-8854-b3a7c2a54a3b" name="Crushing Strength (6)" hidden="false" page="0">
+      <description>All Melee hits inflicted by the unit have a +6 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="1cfa3da1-a42d-865f-f13f-fdd777f19338" name="Elite" hidden="false" page="0">
+      <description>Whenever the unit rolls to hit, it can reroll one of the dice that failed to hit.</description>
+      <modifiers/>
+    </rule>
+    <rule id="b33f2372-e146-acaf-3b03-c365f0a54b70" name="Fast" hidden="false" page="0">
+      <description>Unit trebles its Speed when moving At The Double or at Full Speed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="dbc481e1-c741-accd-3bd5-98bd1ade532c" name="Headstrong" hidden="false" page="0">
+      <description>When you are trying to activate this unit when it is Suppressed, you can re-roll the die for shaking off the effects of Suppression and successfully activating.</description>
+      <modifiers/>
+    </rule>
+    <rule id="3f1c7b40-4a0b-7400-760c-31e29659c4de" name="Hoverer" hidden="false" page="0">
+      <description>The unit moves over anything without penalties, but cannot land on top of them. In addition the unit cannot Overrun enemy units, and it can only initiate a Collision against enemy units that also have this rule. The unit can be charged only if it’s already Immobilised.
+The unit also has the Nimble special rule.</description>
+      <modifiers/>
+    </rule>
+    <rule id="34737f00-c1d9-b7f7-1f04-2ea73df410bb" name="Howitzer" hidden="false" page="0">
+      <description>The weapon may either be fired normally or by using the Indirect Fire special rule. Declare before you fire.</description>
+      <modifiers/>
+    </rule>
+    <rule id="628a10d7-3be4-375e-8c16-b8cfa9afc5f7" name="Immobile" hidden="false" page="0">
+      <description>This unit must always ‘Halt’ when activated and cannot move. If forced to move by any reason, it is destroyed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="48e13d12-9f19-258b-8887-881892ecdc54" name="Indirect Fire" hidden="false" page="0">
+      <description>Never suffers any to hit modifiers for range or cover. Cannot target units within 12”. 
+The weapon may be fired at targets that the operator cannot see, with an additional -1 To Hit modifier.</description>
+      <modifiers/>
+    </rule>
+    <rule id="1380f250-fbde-603b-e147-b3ff5c2be1e8" name="Infiltration" hidden="false" page="0">
+      <description>During your Deployment, you can place this unit up anywhere on the table outside of the enemy’s Deployment area and more than 12” from any enemy unit that has already deployed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="aeaf9b49-1bd2-e558-30b2-c57cd8ca68db" name="Inspiring" hidden="false" page="0">
+      <description>If the unit itself, or any friendly unit within 6” of it, fails an Activation Test, you can choose to immediately re-roll
+the die. The second result stands. This ability can only be used once per Turn. Re-roll cannot be used on the additional roll that Suppressed units have to make.</description>
+      <modifiers/>
+    </rule>
+    <rule id="1ab9f887-5188-88b1-ea4e-08c754c8b523" name="Jump Troops" hidden="false" page="0">
+      <description>The unit can move as normal, or can activate its jump jets. If it does so, its Speed changes to 9, and it can move
+over anything without penalties, but still cannot land on top of Blocking Terrain or within 1” of another unit. If it Charges using its jump jets, in the ensuing Melee it does not suffer the -1 to hit penalty for charging a defensive position or for a disrupted charge. Unit cannot mount or dismount from a transport using jump jets.</description>
+      <modifiers/>
+    </rule>
+    <rule id="ffaf3a2c-884c-e9c1-a68c-1f12dc83aa4a" name="Lumbering" hidden="false" page="0">
+      <description>The unit cannot move At The Double or at Full Speed. When Charging, it does so at normal speed and not at double speed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="812359ac-93e2-a96d-ae8b-d050c477f92a" name="Nimble" hidden="false" page="0">
+      <description>If moving at normal speed, the unit can make a single extra ‘Hard Turn’ move at any point during its movement.</description>
+      <modifiers/>
+    </rule>
+    <rule id="51ebb393-c042-dfc0-c7d2-1cee71028dae" name="Open Top" hidden="false" page="0">
+      <description>Not Steadfast. Transported units can be activated without Dismounting. Up to 3 transported models can fire. Passengers cannot shoot if the transport has already activated and moved at Full Speed.
+Transported units can move At The Double and Charge after Dismounting from an Open Top unit  However, they charge at their normal Speed, rather than doubling it.</description>
+      <modifiers/>
+    </rule>
+    <rule id="f25fe0e0-02b0-dca3-be30-a92ca17c9aa9" name="Paired Super-drills" hidden="false" page="0">
+      <description>In melee, instead of attacking normally, the model can make 2 special attacks. If these attacks hits, the hits are resolved at Crushing Strength (5). If any roll to damage is a 6, the drill inflcits a point of damage and you can roll to damage again. Keep inflicting damage and rolling to damage until you fail to roll a 6 to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="07e0e142-a160-d1b0-4015-8f985e1e3c94" name="Piercing (1)" hidden="false" page="0">
+      <description>All hits inflicted by this weapon have a +1 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="af9ed2ad-22e3-e6de-38f3-cef76726b129" name="Pistol" hidden="false" page="0">
+      <description>A model armed with a pistol has one extra Attack in Melee.
+In addition, if the pistol has a Piercing value, it confers an equivalent Crushing Strength to all of the model’s Melee attacks. If the model already has a higher Crushing Strength value, use that instead.</description>
+      <modifiers/>
+    </rule>
+    <rule id="a0462820-d7ec-df51-33b5-6f714e949b0d" name="Recon" hidden="false" page="0">
+      <description>The unit can make a single At The Double or Full Speed move after all Deployment is finished, but before the players roll for the Initiative on Turn 1.
+If both armies have units with this rule, roll a die. The highest scorer decides who begins to move one of his Recon units first, then the players alternate until all Recon units have been moved.</description>
+      <modifiers/>
+    </rule>
+    <rule id="8f39cbfb-8ad1-493c-dd12-04e985c21bf1" name="Reload!" hidden="false" page="0">
+      <description>The weapon can only be fired if the unit has Halted during this activation.</description>
+      <modifiers/>
+    </rule>
+    <rule id="e3dfcc73-0ce2-36ba-18ea-748034a77555" name="Saturation" hidden="false" page="0">
+      <description>This weapon always hits on 4+, regardless of any modifiers.</description>
+      <modifiers/>
+    </rule>
+    <rule id="4b5f7553-4624-338e-4e09-8653819cf64e" name="Sniper" hidden="false" page="0">
+      <description>If the unit remains stationary and fires, this weapon’s shots ignore any cover modifiers and the Stealthy special rule.</description>
+      <modifiers/>
+    </rule>
+    <rule id="a759ffd3-cd99-4e39-d842-8da50bf6cbf5" name="Stabilised" hidden="false" page="0">
+      <description>If this unit moves at Full Speed, it can still fire one of its weapons (except for weapons with the Reload! special rule).</description>
+      <modifiers/>
+    </rule>
+    <rule id="da690de3-25a7-8049-31b3-1855cf071cc2" name="Steadfast" hidden="false" page="0">
+      <description>The unit treats Suppressed results on Nerve tests as Steady instead, including in Melee.</description>
+      <modifiers/>
+    </rule>
+    <rule id="65d312b4-a5fe-9682-f2d0-6c2b20856c9e" name="Stealthy" hidden="false" page="0">
+      <description>Enemies shooting against the unit suffer an additional -1 to hit modifier.</description>
+      <modifiers/>
+    </rule>
+    <rule id="00e02c51-5bc3-cb33-a8db-e198c1ced41f" name="Super-drill" hidden="false" page="0">
+      <description>In melee, instead of attacking normally, the model can make a single special attack. If this attack hits, the hit is resolved at Crushing Strength (5). If the roll to damage is a 6, the drill inflcits a point of damage and you can roll to damage again. Keep inflicting damage and rolling to damage until you fail to roll a 6 to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="d2c1b08b-84a9-d4b5-cf61-83626b4ea0a4" name="They came from below!" hidden="false" page="0">
+      <description>Unit is always left behind as a Reinforcement. When it arrives, it emerges from the ground (this counts as a Manoeuvre). The unit is placed anywhere on the table, except for Impassable Terrain. If that space is occupied by other units (including immobile units), move them as little as possible to make space for the emerging unit, until they are 1” away from it, and then immediately resolve this either as a Collision, leaving the dislodged armoured unit(s) in contact with the emerging unit, or an Overrun, as appropriate.</description>
+      <modifiers/>
+    </rule>
+    <rule id="3b8b2aa7-9099-e86f-a091-5cb3f44d85ed" name="Tough (3)" hidden="false" page="0">
+      <description>Models with this rule are only removed when they have taken 3 points of damage. 
+If the unit is damaged but not destroyed, it must take a Nerve test.</description>
+      <modifiers/>
+    </rule>
+    <rule id="47ebf306-f47a-e120-fa78-ba6b504e13c6" name="Tough (4)" hidden="false" page="0">
+      <description>Models with this rule are only removed when they have taken 4 points of damage. 
+If the unit is damaged but not destroyed, it must take a Nerve test.</description>
+      <modifiers/>
+    </rule>
+    <rule id="e99dd700-e866-5800-4545-e24b46d3528d" name="Tough (5)" hidden="false" page="0">
+      <description>Models with this rule are only removed when they have taken 5 points of damage. 
+If the unit is damaged but not destroyed, it must take a Nerve test.</description>
+      <modifiers/>
+    </rule>
+    <rule id="5e4c89b3-6361-f432-b408-92607bff34fd" name="Vicious" hidden="false" page="0">
+      <description>Whenever the unit rolls to damage, it can re-roll one of the dice that failed to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="87b7beea-db6e-b796-55ee-9ee5f784ed28" name="Zap! (1)" hidden="false" page="0">
+      <description>The model has a ranged attack. This attack has a Firepower of 1, a range of 24”, always hits on 4+ (regardless of modifiers) and is Piercing (1).</description>
+      <modifiers/>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="038b21fc-59e0-a485-3f86-1dc29641c6e0" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Chem-burner" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="4"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="12"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="2"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="Saturation"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="8c218b13-ec05-1817-691b-1f232241359a" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Chem-laser" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="1"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="12"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="6"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="c7c9e90f-71b2-2658-1529-0f2e1d65b9e5" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Chem-thrower" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="8"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="12"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="2"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="Saturation"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="829cadff-6542-a5de-e7e9-cb4eb949476f" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Heavy chem-laser" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="1"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="24"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="6"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="Blast (D3)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="6bb3e0ef-b8db-9b39-1879-e5e7255a01b8" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Heavy chem-thrower" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="16"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="24"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="2"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="Saturation"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="a8312564-65d2-4835-884c-54a5a7e9bb6c" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Ray-gun" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="1"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="18"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="1"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="45407fa3-1fea-4967-3e44-e2f51ac7d05d" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Ray-pistol" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="1"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="12"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="1"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+  </sharedProfiles>
+</catalogue>

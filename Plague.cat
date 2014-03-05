@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="57e2754a-8544-9883-6bbc-ca8400cca169" revision="3" gameSystemId="c32ab30b-7a2f-4e2a-a46f-e5c249e706cd" gameSystemRevision="3" battleScribeVersion="1.13b" name="Plague (Alpha)" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entries>
+    <entry id="b499db4d-8a4d-891e-cdf3-5d5faff2b663" name="1st Gen Plague Mutant" points="75.0" categoryId="4865726f6573202f204d6f6e737465727323232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="95ad0225-8c83-5817-3b22-018c1aa3704c" profileTypeId="4865726f23232344415441232323" name="1st Gen Plague Mutant" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="6"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="3+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="4"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="6+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/12"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="817fa6d9-e224-b41b-8afb-e474aaacda46" targetId="e9eef958-5512-c2fd-f8c0-01efcc5ce570" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5138ba5c-6b51-7d6e-bf94-991be4cc9130" targetId="86f6448b-e124-7c6e-939b-99ddf71cd8e2" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="b084a199-4dff-83e1-79aa-efa879c9b220" name="2nd Gen Mutants (3)" points="105.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="0edff2a7-c0ca-c028-4089-92662bd6b169" profileTypeId="496e66616e74727923232344415441232323" name="2nd Gen Mutant" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="6"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="3"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="5+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="6732007a-c8ee-9656-2a5b-cb3222bb2504" targetId="2821c662-d0ec-136a-5ce5-9461ea543996" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e20cf6af-2eb9-cff5-d624-393a34030982" targetId="23d5feb2-ac27-6165-dec9-72cdf7745367" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f3a3ba81-4bea-11e3-c90d-1a140bb84c51" name="2nd Gen Mutants (4)" points="140.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="83210f03-1404-4084-176f-2ce9f44d9b98" profileTypeId="496e66616e74727923232344415441232323" name="2nd Gen Mutant" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="6"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="3"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="5+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="592638e6-5154-a683-4e42-702a5d89fbb2" targetId="2821c662-d0ec-136a-5ce5-9461ea543996" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6caf459b-ee79-7c4c-4e29-f58e212eefd7" targetId="23d5feb2-ac27-6165-dec9-72cdf7745367" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="692121a8-fbaf-3b76-037e-2f4f09c93469" name="2nd Gen Mutants (5)" points="175.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="6f6a9448-154c-f9fe-f72c-d321f7308c4e" profileTypeId="496e66616e74727923232344415441232323" name="2nd Gen Mutant" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="6"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="3"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="5+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="fa95f9e6-2c0f-0557-06de-656bef2ff57d" targetId="2821c662-d0ec-136a-5ce5-9461ea543996" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="61f97d3a-aaaa-5427-0d56-392394754c53" targetId="23d5feb2-ac27-6165-dec9-72cdf7745367" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="db2a73be-e9e5-86d9-562a-ac7a614c68a4" name="Heavy Weapon Section" points="75.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="6588ca8e-7714-218d-707c-0196b27641ae" name="Weapon options" defaultEntryId="28dd4696-dd07-072a-5c6b-525c2ddd0292" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="28dd4696-dd07-072a-5c6b-525c2ddd0292" name="Heavy Machine Guns" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="f1acec7c-d898-492a-5136-14770fa12740" targetId="046ec27c-c41d-58db-fd2f-934981efd301" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="26661f68-ad8a-57d8-c09c-0764e115ee54" name="Missile Launchers" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="93adde7d-1627-83c0-420b-76e24648eab8" targetId="0c43f483-590c-7cca-66cd-d5d9afc83e14" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="b51d5412-04b5-c867-d97e-18ecdbdc2430" name="Mortars" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="3ef6d36b-79fb-303e-3848-a97e12083222" targetId="896741f8-76e4-c36e-28cc-bac7a4c2a8b1" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="049d91ad-aa37-c0e0-12c1-547befd4e173" name="Plague Dogs (10)" points="120.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="7522c22d-7e4a-673f-76e5-361f533fa71b" profileTypeId="496e66616e74727923232344415441232323" name="Plague Dogs" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="9"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="2"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="3+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="bc9f6c70-e2a0-f672-6fcb-cb1bc0730b45" name="Plague Dogs (5)" points="60.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="84aa9672-c3d7-da7a-c47b-2c5a19d6e530" profileTypeId="496e66616e74727923232344415441232323" name="Plague Dogs" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="9"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="2"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="3+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="f54cd076-7b8b-d4cd-2f2d-5df540d2bc81" name="Plague Striders" points="165.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="f4624c8f-161c-9800-5fba-72b61a6473ba" name="Weapon options" defaultEntryId="26394629-39cd-0ffc-bc10-7b099017dabc" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="26394629-39cd-0ffc-bc10-7b099017dabc" name="Heavy Machine Guns" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="9bbcd98d-c802-0fb5-86aa-f5e0b86e24ea" targetId="046ec27c-c41d-58db-fd2f-934981efd301" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="aa776014-e8d4-f596-5bf7-86e5bb92abe8" name="Missile Launchers" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="4bfd3705-2020-ef81-018d-b5050419c8eb" targetId="0c43f483-590c-7cca-66cd-d5d9afc83e14" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="361b0737-3283-63ce-df2b-d0a62f9d0e85" profileTypeId="496e66616e74727923232344415441232323" name="Plague Striders" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="6"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="5+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="6+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="3c317238-a13a-3129-a795-34e2b532789e" targetId="d7c07af5-6206-8004-1060-f9c706f323f2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="017d0a09-825f-a965-6858-a7afb9b42607" targetId="7db71e47-1340-c01c-51ae-59aea5e1dc32" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1b1c64ea-39ba-34b1-6c61-f0517dfae4e6" targetId="23d5feb2-ac27-6165-dec9-72cdf7745367" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="8d58198f-9c96-186f-cfef-1ad263ad6cbc" name="Plague Swarm (3)" points="90.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="73395d95-4b0d-1fe3-ca09-850b2cec0b3e" profileTypeId="496e66616e74727923232344415441232323" name="Plague Swarm" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="8"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="5"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="3"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="bb73e7c1-3670-64cd-f9a4-0c98e129b8aa" name="Plague Swarm (4)" points="120.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="965b1535-4e6e-de65-e36f-8e2f4ba1a3c3" profileTypeId="496e66616e74727923232344415441232323" name="Plague Swarm" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="8"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="5"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="3"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="da282372-f39b-1ccb-bf40-f27676d05c72" name="Plague Swarm (5)" points="150.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="38f8b062-aa1f-c369-0750-fd41523a89f8" profileTypeId="496e66616e74727923232344415441232323" name="Plague Swarm" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="8"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="5"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="3"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="f11d04b9-9290-b3fd-cc99-d1ea5ca619d8" name="Plague Teraton" points="90.0" categoryId="4865726f6573202f204d6f6e737465727323232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="5c1d7bd9-eaed-ac04-d21b-94885030e32c" profileTypeId="4d6f6e7374657223232344415441232323" name="Plague Teraton" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="6"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="6+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="0d795200-8522-5724-62af-eaf25de446b9" targetId="2cbf5053-19df-f086-827f-86938f78339d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5900b0b0-175b-5463-0bd3-f026f9b57484" targetId="bbc047b8-04b1-c69b-ffb0-cda35b6f6531" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="dfee51d4-5663-4201-f0f7-e2760f51da0a" name="Plague Troopers Platoon" points="240.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="7ced52e3-7730-c3e4-00f4-57bbe25d2307" name="Assault Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="62845b46-6f16-4be4-1fed-d69bff5f2034" targetId="fec3c935-0f73-9605-af8b-57cd39382651" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="12fe1add-8320-50b0-5f0e-55c9078e8db8" name="Trooper Upgrades" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="6c50b1a5-7eb3-e82a-ef18-49287ead2344" name="Light Machine Gun" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="064eb38c-8363-c6b8-c1ee-16fea976d84b" targetId="40c01bed-410a-d82c-cf33-636b725ccbd2" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="e50e269d-3f72-ae9a-6732-ea6552582b95" name="Grenade Launcher" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="04488237-8d53-f03a-e1eb-a6bc173d9bd2" name="Blast (D3)" hidden="false" page="0">
+                  <description>Roll to hit normally. Any hit caused is multiplied by D3 before rolling to damage.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links>
+                <link id="3bba2f3a-fc2d-7b7b-f724-7c1cc04dd128" targetId="c56cfa9d-7c11-6183-33fc-7ac2026ce843" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="aab74a37-4f97-e433-d3ed-568ae3fd8591" name="Leader Weapon" defaultEntryId="f28a4904-ad44-331f-e4ed-83b8ef7d2f22" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="ed2085a9-9cc5-c3b1-9155-823772232a14" name="1x Cleaver" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="05c1ab40-9791-b937-bf31-5d13f08d86a7" targetId="e9eef958-5512-c2fd-f8c0-01efcc5ce570" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="f28a4904-ad44-331f-e4ed-83b8ef7d2f22" name="1x Assault Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="772fe2d3-1b2a-18f3-64f5-7d6758002813" targetId="fec3c935-0f73-9605-af8b-57cd39382651" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="65f5c549-60d5-d216-b609-7bdbfb2ec158" profileTypeId="496e66616e74727923232344415441232323" name="Plague Troopers Platoon" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="5+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="2"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="682fa85d-0949-4a9e-03a2-733984832c72" name="Plague Troopers Section" points="120.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="f44cc4b4-a569-68de-9104-5120f3facbb1" name="Assault Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="4df8bff9-444c-ddbf-71b8-31342b83f3a4" targetId="fec3c935-0f73-9605-af8b-57cd39382651" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="200a0650-1c2c-20b5-d391-f0c11726a78a" name="Trooper Upgrades" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="89523f5a-1b26-ba89-9c7d-9d8e3b1a8833" name="Light Machine Gun" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="77611cd8-9f48-9c27-82c0-ec4d921c4113" targetId="40c01bed-410a-d82c-cf33-636b725ccbd2" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="e80055cc-8973-ee50-defd-974c0e89853d" name="Grenade Launcher" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="65ab0523-77a6-94a9-eeae-daecc5fc89a7" name="Blast (D3)" hidden="false" page="0">
+                  <description>Roll to hit normally. Any hit caused is multiplied by D3 before rolling to damage.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links>
+                <link id="f703a198-21c3-b00e-d826-d04edeedf678" targetId="c56cfa9d-7c11-6183-33fc-7ac2026ce843" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="0d53fabd-7617-f3fb-5530-d4c20c173b93" name="Leader Weapon" defaultEntryId="a3111ee3-b44c-0b3d-b9e4-a37386f534c0" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="a01c1e1c-6585-7132-7df7-6f9851a59a40" name="1x Cleaver" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="a888be5d-901b-0fa6-2d20-69b0928a1b22" targetId="e9eef958-5512-c2fd-f8c0-01efcc5ce570" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="a3111ee3-b44c-0b3d-b9e4-a37386f534c0" name="1x Assault Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="a6db1ae0-40f8-bad2-b390-39f2d2f53ec0" targetId="fec3c935-0f73-9605-af8b-57cd39382651" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="a4d56ed2-91f4-70da-4f81-026873461480" profileTypeId="496e66616e74727923232344415441232323" name="Plague Troopers Section" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="5+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="2"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="3b20d5d2-f63b-9cc8-95b5-b78d4890b661" name="Plague Troopers Team" points="60.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="7e235f21-ceaf-fcf4-5c18-1d516fc6e594" name="Assault Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="885a3b99-37e1-43ff-f42c-d20c9feb5228" targetId="fec3c935-0f73-9605-af8b-57cd39382651" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="6e182278-e2d8-adb0-4291-cf1374f24559" name="Leader Weapon" defaultEntryId="1cdaf249-acbd-e023-603b-b357dd230df3" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="90045526-d7bb-c820-3377-1f767b2a880a" name="1x Cleaver" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="ac524704-095d-48c5-08f7-63a775b713d5" targetId="e9eef958-5512-c2fd-f8c0-01efcc5ce570" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="1cdaf249-acbd-e023-603b-b357dd230df3" name="1x Assault Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="31ac0c9d-cccb-b0cb-aceb-b468cc37ffb0" targetId="fec3c935-0f73-9605-af8b-57cd39382651" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="1a45eb5e-7a5b-c356-79ef-787f5d7b5938" profileTypeId="496e66616e74727923232344415441232323" name="Plague Troopers Team" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="5+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="2"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="a94daa48-82af-7a1c-6d92-39b2e266f089" name="Plague Warriors Platoon" points="240.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="b8f6e50d-c992-3dc8-ae94-b1ba08af7fcc" name="Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="dc343b91-9083-e4c3-a8d4-d188afddbed4" targetId="0d74c004-a2e7-69d1-0d33-2a71281e77a5" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="7e771b3a-793d-e8b8-ed72-ec340f6b8a11" targetId="33533704-25fa-fd83-f40c-f676fa242440" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="ae4f34a1-2c3d-6a5f-fd14-9b28c5618d1c" name="Warrior Upgrades" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="0728f8d7-70c5-741e-91b8-fdf8b29679bb" name="Light Machine Gun" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="68a8a497-b861-465f-2059-39d9b473cc72" targetId="40c01bed-410a-d82c-cf33-636b725ccbd2" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="0712cc79-936a-34e0-d38f-9a0c67b54218" name="Grenade Launcher" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="54aaea20-8e84-9504-7f32-d159742d7e63" name="Blast (D3)" hidden="false" page="0">
+                  <description>Roll to hit normally. Any hit caused is multiplied by D3 before rolling to damage.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links>
+                <link id="44126a71-f924-3d26-0cfa-dc79e1886381" targetId="c56cfa9d-7c11-6183-33fc-7ac2026ce843" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="4e59f812-9972-8a95-adc5-a674fe9fb6ec" name="Leader Weapon" defaultEntryId="788bae84-ed16-9562-6049-794dcd945186" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="ec20ceb3-b996-21f8-39c3-0a6334598e17" name="1x Cleaver" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="47f941e6-e920-9d74-e058-0ff06c67c7ca" targetId="e9eef958-5512-c2fd-f8c0-01efcc5ce570" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="788bae84-ed16-9562-6049-794dcd945186" name="1x Assault Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="b6d866bf-1153-e75c-0199-485f2277a1b2" targetId="fec3c935-0f73-9605-af8b-57cd39382651" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="e09ccd8c-e09a-7b93-7109-0bc69b98536b" profileTypeId="496e66616e74727923232344415441232323" name="Plague Troopers Team" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="5+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="2"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="1b96eafc-eb4e-8d76-f9b0-9c5bb6e8e4d8" name="Plague Warriors Section" points="120.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="8ded2581-a1bc-db60-6a16-77b6a1f43e1c" name="Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="d4cbc30c-0c38-81bd-27db-768cd22749e7" targetId="0d74c004-a2e7-69d1-0d33-2a71281e77a5" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="2186184c-e3bc-5b97-c28e-636d24e27161" targetId="33533704-25fa-fd83-f40c-f676fa242440" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="34ad3d37-49e9-b6d8-f1e1-f4f996c96da7" name="Warrior Upgrades" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="20bcc099-7708-f01e-ec64-abb12ae3baa5" name="Light Machine Gun" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="a9c02701-f142-841b-1029-366e65e8c938" targetId="40c01bed-410a-d82c-cf33-636b725ccbd2" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="421bb9f8-f09b-57ef-136d-92f20d1710f7" name="Grenade Launcher" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="66058a07-de7b-df98-4800-d2f6345c700f" name="Blast (D3)" hidden="false" page="0">
+                  <description>Roll to hit normally. Any hit caused is multiplied by D3 before rolling to damage.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links>
+                <link id="57e786ed-362c-473b-c1e7-489aed0a6cd4" targetId="c56cfa9d-7c11-6183-33fc-7ac2026ce843" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="e2bdeba0-1603-e138-59d4-237d32d16dd9" name="Leader Weapon" defaultEntryId="23d3066f-5198-7fdc-dab9-6b6b965db9f6" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="3f516ead-a288-6605-58ba-d94e6685d43c" name="1x Cleaver" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="c4a901d1-7b8b-29da-21fd-a1f33c49f0b9" targetId="e9eef958-5512-c2fd-f8c0-01efcc5ce570" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="23d3066f-5198-7fdc-dab9-6b6b965db9f6" name="1x Assault Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="e6f128c4-a1a3-0948-22a7-048f84f41df5" targetId="fec3c935-0f73-9605-af8b-57cd39382651" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="8e293ff7-dab4-92f4-74d0-04b03d7e09f6" profileTypeId="496e66616e74727923232344415441232323" name="Plague Troopers Team" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="5+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="2"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="10a6f14c-2ace-c585-cfd1-1156a225803a" name="Plague Warriors Team" points="60.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="76a3f304-17b3-2ef6-d642-33dbdc453ab6" name="Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="f3f2e5d0-7bbd-b12b-81fa-dfa773478608" targetId="0d74c004-a2e7-69d1-0d33-2a71281e77a5" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="a55297ee-2806-5590-b3d3-769d1482e5cf" targetId="33533704-25fa-fd83-f40c-f676fa242440" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="440d6c1e-7268-b080-1c6c-92f9d04f4253" name="Leader Weapon" defaultEntryId="5f3bca74-d81f-a36e-11d4-db0d9b4df7ff" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="f8e91dc6-17a8-5265-92f7-75b05d9849e8" name="1x Cleaver" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="fde7acd4-a3ed-4a9e-8f2f-422927c2f706" targetId="e9eef958-5512-c2fd-f8c0-01efcc5ce570" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="5f3bca74-d81f-a36e-11d4-db0d9b4df7ff" name="1x Assault Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="7404a915-b704-a83d-a95d-dd8b3d667cc9" targetId="fec3c935-0f73-9605-af8b-57cd39382651" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="54903b57-a56d-3054-c30a-b53cc52f0cb2" profileTypeId="496e66616e74727923232344415441232323" name="Plague Troopers Team" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="5+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="2"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="f9bc2207-06d0-16a3-73b5-a1e87a4da6b2" name="Plague Zombies (20)" points="200.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="342224cf-15ea-1133-0de2-edd242095d26" profileTypeId="496e66616e74727923232344415441232323" name="Plague Zombies" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="4"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="5+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="2"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="3+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="78ec4570-f6c2-7282-4d77-4946210a89cf" targetId="c04ea759-7df1-4c9b-89f3-5942afa6998a" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="d04705ee-ddc8-43e8-a1e8-f456c3e7ecb6" name="Plague Zombies (30)" points="300.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="6a04df91-6f31-97f7-54ee-60156d1123b3" profileTypeId="496e66616e74727923232344415441232323" name="Plague Zombies" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="4"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="5+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="2"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="3+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="bc22a035-f7c7-44e5-5191-063e38e5b5fb" targetId="c04ea759-7df1-4c9b-89f3-5942afa6998a" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="13646223-d7c6-734a-03a6-2e88232d282c" name="Plague Zombies (40)" points="400.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="99351a1f-d6bd-ecb0-1f13-1f49669bc692" profileTypeId="496e66616e74727923232344415441232323" name="Plague Zombies" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="4"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="5+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="2"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="3+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="c93cf15b-9797-ad6e-7663-881d8a8507b2" targetId="c04ea759-7df1-4c9b-89f3-5942afa6998a" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+  </entries>
+  <rules>
+    <rule id="c0bbb2f6-2a60-302d-5f15-c9e20def7657" name="Frenzied" hidden="false" page="0">
+      <description>All units in this list have steadfast. All melee attacks are vicious</description>
+      <modifiers/>
+    </rule>
+    <rule id="2632f157-580d-86bd-e715-26d956e20392" name="Allies" hidden="false" page="0">
+      <description>None</description>
+      <modifiers/>
+    </rule>
+  </rules>
+  <links/>
+  <sharedEntries/>
+  <sharedEntryGroups/>
+  <sharedRules>
+    <rule id="f609fce2-578c-1980-b72d-45e762324504" name="Blast (D3)" hidden="false" page="0">
+      <description>Roll to hit normally. Any hit caused is multiplied by D3 before rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c04ea759-7df1-4c9b-89f3-5942afa6998a" name="Brainless" hidden="false" page="0">
+      <description>The Unit automatically passes all nerve checks</description>
+      <modifiers/>
+    </rule>
+    <rule id="23d5feb2-ac27-6165-dec9-72cdf7745367" name="Bulky" hidden="false" page="0">
+      <description>The unit cannot be transported.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7db71e47-1340-c01c-51ae-59aea5e1dc32" name="Crushing Strength (1)" hidden="false" page="0">
+      <description>All Melee hits inflicted by the unit have a +1 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="2821c662-d0ec-136a-5ce5-9461ea543996" name="Crushing Strength (3)" hidden="false" page="0">
+      <description>All Melee hits inflicted by the unit have a +3 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="e9eef958-5512-c2fd-f8c0-01efcc5ce570" name="Crushing Strength (4)" hidden="false" page="0">
+      <description>All Melee hits inflicted by the unit have a +4 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="2cbf5053-19df-f086-827f-86938f78339d" name="Crushing Strength (6)" hidden="false" page="0">
+      <description>All Melee hits inflicted by the unit have a +6 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="d7c07af5-6206-8004-1060-f9c706f323f2" name="Fast" hidden="false" page="0">
+      <description>Unit trebles its Speed when moving At The Double or at Full Speed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="434b077c-e51e-2616-749a-edffac458ac5" name="Indirect Fire" hidden="false" page="0">
+      <description>Never suffers any to hit modifiers for range or cover. Cannot target units within 12”. 
+The weapon may be fired at targets that the operator cannot see, with an additional -1 To Hit modifier.</description>
+      <modifiers/>
+    </rule>
+    <rule id="86f6448b-e124-7c6e-939b-99ddf71cd8e2" name="Inspiring" hidden="false" page="0">
+      <description>If the unit itself, or any friendly unit within 6” of it, fails an Activation Test, you can choose to immediately re-roll
+the die. The second result stands. This ability can only be used once per Turn. Re-roll cannot be used on the additional roll that Suppressed units have to make.</description>
+      <modifiers/>
+    </rule>
+    <rule id="33533704-25fa-fd83-f40c-f676fa242440" name="Pistol" hidden="false" page="0">
+      <description>A model armed with a pistol has one extra Attack in Melee.
+In addition, if the pistol has a Piercing value, it confers an equivalent Crushing Strength to all of the model’s Melee attacks. If the model already has a higher Crushing Strength value, use that instead.</description>
+      <modifiers/>
+    </rule>
+    <rule id="bbc047b8-04b1-c69b-ffb0-cda35b6f6531" name="Tough (6)" hidden="false" page="0">
+      <description>Models with this rule are only removed when they have taken 6 points of damage. 
+If the unit is damaged but not destroyed, it must take a Nerve test.</description>
+      <modifiers/>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="fec3c935-0f73-9605-af8b-57cd39382651" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Assault Rifle" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="1"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="24"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="-"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="c56cfa9d-7c11-6183-33fc-7ac2026ce843" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Grenade Launcher" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="1"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="18"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="2"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="Blast D3"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="046ec27c-c41d-58db-fd2f-934981efd301" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Heavy Machine Gun" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="3"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="36"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="2"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="40c01bed-410a-d82c-cf33-636b725ccbd2" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Light machine gun" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="5"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="36"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="-"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="0c43f483-590c-7cca-66cd-d5d9afc83e14" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Missile Launcher" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="1"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="36"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="5"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="896741f8-76e4-c36e-28cc-bac7a4c2a8b1" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Mortar" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="1"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="72"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="1"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="Indirect Fire, Blast D3"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="0d74c004-a2e7-69d1-0d33-2a71281e77a5" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Pistol" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="1"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="12"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="-"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="Pistol"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+  </sharedProfiles>
+</catalogue>

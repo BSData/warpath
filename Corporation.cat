@@ -1,0 +1,2091 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="b561e40c-1c4f-4d56-9d32-4ba6520fe118" revision="5" gameSystemId="c32ab30b-7a2f-4e2a-a46f-e5c249e706cd" gameSystemRevision="2" battleScribeVersion="1.13b" name="Corporation" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entries>
+    <entry id="9056dfda-2cd2-481d-be63-f16007e00332" name="APC-13 Warrior" points="130.0" categoryId="41726d6f757223232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="2dec9119-4013-4d98-ae04-c6048f920978" name="burst laser [F]" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="53f4a4eb-1395-928b-59e0-dfe1d1089a8b" targetId="62056c7b-cab2-7172-b463-3325e7c6f464" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="e255f305-97b8-402c-a08e-28e81781ea11" name="burst laser [A]" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="da7d801b-d423-1cf5-6e9f-688f130ba8ee" targetId="62056c7b-cab2-7172-b463-3325e7c6f464" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="cc08124e-c671-d53d-fe7f-cec51be653f8" name="Transport (10)" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="d2270a82-d5ea-0342-96f9-b2de0b25da6b" profileTypeId="41726d6f757223232344415441232323" name="APC-13 Warrior" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="12"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="-"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="9+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="f6f206ad-cb84-f534-234a-618590748e26" targetId="e78949f1-72aa-cbdd-041b-5c44b7941115" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5f03023f-4861-00b1-2df8-7d177c4dc41a" targetId="b176b6c0-a152-3faf-01c2-7d14a2974f1c" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="bf07f96e-59d0-445a-9a3a-02e3f5d4b548" name="Commander" points="60.0" categoryId="4865726f6573202f204d6f6e737465727323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="669f0a4e-9d3c-ae36-0212-551365aa172f" name="Energy gauntlet" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="f0a3b245-5d97-452d-997d-c8febcea2c66" targetId="65fb9cf3-b377-5402-ea0a-e1ae50d8bcdf" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="20cb9a83-4bc6-a2b3-da37-121be4b53b93" name="Heavy laser pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="6e0dc71e-18f2-4737-c1db-4b83bd9b1fec" targetId="9251e5cc-f957-fc5f-8949-f5b95c970542" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="e2398713-bc0b-80c3-d57c-f43055999914" name="(not Inspiring for Enforcers)" hidden="false" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="0df47c98-ed1b-6e41-405a-523a015e2c85" profileTypeId="4865726f23232344415441232323" name="Commander" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="10/12"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="5f2e5257-5a00-f52f-cef8-0d84f25bfce4" targetId="65ee687c-db3a-a9b5-6f2d-6a29925db87c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a1d74eba-5807-d28c-00ad-5083345f8974" targetId="6fa89d4f-482f-cf98-7a48-23d878421c7d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a7f2b9b8-7cb2-1091-c4de-912aa3ba0272" targetId="b58c5e21-c66a-1b25-de24-b1e94b2e44d0" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="0102c3aa-e560-11df-9cd4-a58b664f0c6f" name="Enforcer Assault Section" points="240.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="30b37177-7818-cfa7-aa50-a1d01eb0ad2d" name="Heavy laser pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="2ee204f3-f840-e0ef-3384-12ee21092c87" targetId="9251e5cc-f957-fc5f-8949-f5b95c970542" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="aecb9179-bf77-86f5-b99a-a4fda78d6fc9" name="Tactical flame unit" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="17e91829-cb2c-a159-f682-b7a5c2ecbed6" targetId="08315175-83f8-7e81-a674-c6f660e49c73" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="d607f752-b5e9-5770-0595-42160dc0b6b0" profileTypeId="496e66616e74727923232344415441232323" name="Enforcer Assault Section" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="3+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="5+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="9/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e494ea60-46dd-595f-0282-96e2757e39fb" targetId="ff5f1b0a-13e5-827a-6812-c4ec5e76099c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8a92cf21-b4c0-5413-c8db-5e097c136c42" targetId="111de472-f533-74b4-e2e5-d85aaaa07128" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0e999c1b-efb1-e5c5-82af-43c690eafb17" targetId="89aa213a-ce55-88e5-69d1-5d82cb8b62e6" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="db8397a4-1437-0c88-5b08-b157e0bce583" name="Enforcer Assault Team" points="120.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="593017cc-e5ea-5890-9c60-d76c1e3afe57" name="Heavy laser pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="6c170a16-129d-e7c8-4dae-7039194b799d" targetId="9251e5cc-f957-fc5f-8949-f5b95c970542" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="24acd406-daf7-4363-c94b-41954addccff" name="Tactical flame unit" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="faabf148-7f50-0840-e668-bb49bde62480" targetId="08315175-83f8-7e81-a674-c6f660e49c73" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="b93c1e05-dd0e-2e79-d2fc-f064abcb0d8a" profileTypeId="496e66616e74727923232344415441232323" name="Enforcer Assault Team" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="3+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="5+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="9/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="ca785bf2-87e8-6fba-8980-1978436af3fd" targetId="ff5f1b0a-13e5-827a-6812-c4ec5e76099c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="28249fb3-fea9-812d-a4bf-674767fb840a" targetId="111de472-f533-74b4-e2e5-d85aaaa07128" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="221fa7cd-817e-9a93-ceb1-6721dd28a44b" targetId="89aa213a-ce55-88e5-69d1-5d82cb8b62e6" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="4c2d2935-ede6-abc1-fe53-b47dba36a564" name="Enforcer Captain" points="60.0" categoryId="4865726f6573202f204d6f6e737465727323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="9841e06c-099d-85ec-2713-d221f95fc4d0" name="Energy gauntlet" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="d6aae2bb-c5a5-6711-22b0-c4706aa2b29d" targetId="65fb9cf3-b377-5402-ea0a-e1ae50d8bcdf" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="9a7819db-c06a-7233-70dd-cf8797e6e0d9" name="Heavy laser pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="e7c7cf5b-d8bf-c71a-7385-aac994cf0a2a" targetId="9251e5cc-f957-fc5f-8949-f5b95c970542" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="5e88107a-8029-a3c4-2f2c-5aee6aca2f30" profileTypeId="4865726f23232344415441232323" name="Enforcer Captain" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="3+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="2"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="6+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="10/12"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="70f66305-df7b-23ec-a83f-aa350a17f0c4" targetId="65ee687c-db3a-a9b5-6f2d-6a29925db87c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f1d4c0ca-01c5-6cbb-9cac-623ab1d9caa7" targetId="111de472-f533-74b4-e2e5-d85aaaa07128" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5035aea6-e5ea-01cf-7a4a-239706ebf694" targetId="0542e787-4696-9f6c-a7d1-f4fce80d51c8" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c13c04bd-285c-e44d-38d5-f92c810cc70f" targetId="ff5f1b0a-13e5-827a-6812-c4ec5e76099c" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="316ed18f-7320-ef60-713e-5d4cf28587d2" name="Enforcer Strike Section" points="240.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="c5f0c10b-645c-2759-40d4-2cf1b7681626" name="Heavy laser rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="a0223eb4-2d5e-507e-6120-901651299011" targetId="25dfb12e-de40-8312-4d81-e265646ff481" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="c48658c1-7f17-8989-907b-511db3e01ffe" name="Heavy laser pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="6919c5af-d6aa-eace-3602-0830154d48e7" targetId="9251e5cc-f957-fc5f-8949-f5b95c970542" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="11716ae4-a834-d527-6247-834cf33e0c60" name="Special Weapon" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="6bcc3932-402b-a036-7edf-b08fb070e0fe" name="Rocket launcher" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="62306d0d-90f7-0954-c3b1-a52415431c74" targetId="9fbbfca2-3b75-d3b9-b435-738f423901f2" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="7630eb59-e2de-6628-e48a-fc6e3f5d4461" name="Burst laser" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="f280e101-03e3-c094-3e03-ffcdf1f5d8f3" targetId="62056c7b-cab2-7172-b463-3325e7c6f464" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="f27f3e9b-fdf0-31ea-8449-3b74273a1d61" name="Tactical flame unit" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="f6c208f9-29fc-632d-9ee8-88449ebea569" targetId="08315175-83f8-7e81-a674-c6f660e49c73" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="43442831-6971-28d8-5fcf-bf7c5c5db986" profileTypeId="496e66616e74727923232344415441232323" name="Enforcer Strike Section" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="3+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="5+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="9/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="5c8104e4-940f-a2c4-1011-be49a272da67" targetId="ff5f1b0a-13e5-827a-6812-c4ec5e76099c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f0d4c777-b175-9e92-d23b-51d4b249fc05" targetId="111de472-f533-74b4-e2e5-d85aaaa07128" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9f78d88b-4bf0-8319-152e-65298b7eb13c" targetId="89aa213a-ce55-88e5-69d1-5d82cb8b62e6" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="24973982-2d6b-194e-de79-a48c0d753021" name="Enforcer Strike Team" points="120.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="b6e07a76-59b2-9105-7dcb-8b760b1bef73" name="Heavy laser rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="4d188599-deaa-1a1f-9a86-78441e71712e" targetId="25dfb12e-de40-8312-4d81-e265646ff481" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="60e9a09e-b072-3ba3-7648-87f576be0519" name="Heavy laser pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="7072c826-9029-ba3b-71f7-351040a2d4ba" targetId="9251e5cc-f957-fc5f-8949-f5b95c970542" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="5f93c66f-084f-9088-350c-21c605671ef9" name="Special Weapon" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="0fd18901-12d9-8378-d70a-d0717057807c" name="Rocket launcher" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="d0e1a76f-0cd8-c492-bd06-626c86f881dd" targetId="9fbbfca2-3b75-d3b9-b435-738f423901f2" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="39fa63f5-9595-bade-2522-30d8fe6c1d15" name="Burst laser" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="2032c2a9-d90a-7605-33f0-cf66a4482317" targetId="62056c7b-cab2-7172-b463-3325e7c6f464" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="4e6ffe58-735a-539c-a074-6b805c7a0f12" name="Tactical flame unit" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="f96bc0a0-810a-eba1-5c90-8e7b81ce520e" targetId="08315175-83f8-7e81-a674-c6f660e49c73" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="da512bb5-0e5c-6f9a-ff2d-0a76d03a32d9" profileTypeId="496e66616e74727923232344415441232323" name="Enforcer Strike Team" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="3+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="5+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="9/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="0830733e-37be-a30a-b9e0-6b4f2be0194e" targetId="ff5f1b0a-13e5-827a-6812-c4ec5e76099c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c90331ab-412a-d329-9745-357df6e1f878" targetId="111de472-f533-74b4-e2e5-d85aaaa07128" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="17dd5b7a-c9b3-f064-3002-6f8bde6747fa" targetId="89aa213a-ce55-88e5-69d1-5d82cb8b62e6" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="00b4ddc6-4a33-6fac-79b3-5ede7fc950fe" name="Enforcer Suppression Section" points="240.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="229b1203-f1cf-0cb5-adef-bd9444053cdb" name="Heavy laser rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="7c028e1a-939b-d595-a3c7-79562f35ad94" targetId="25dfb12e-de40-8312-4d81-e265646ff481" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="3db1b80c-1d3d-2a13-fcd3-268e47bf70d7" name="Heavy laser pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="b848c0e7-d1ea-8f53-be69-28e471a60247" targetId="9251e5cc-f957-fc5f-8949-f5b95c970542" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="a4bec960-518c-440f-6166-111670f8acf0" name="Heavy Weapons" defaultEntryId="cbea7f1d-02aa-c6de-47e2-f77d1756a519" minSelections="4" maxSelections="9" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="79f55b70-7cf2-79cd-8ef7-efd46938f1c5" name="Rocket launcher" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="9" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="4f40b8eb-b6f6-b321-0a66-1d9759c9b319" targetId="9fbbfca2-3b75-d3b9-b435-738f423901f2" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="cbea7f1d-02aa-c6de-47e2-f77d1756a519" name="Burst laser" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="9" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="a3c61f5e-7e7d-0856-304a-1122423c8345" targetId="62056c7b-cab2-7172-b463-3325e7c6f464" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="a989b9b9-2b4c-b79b-d6e9-8a5d3d47576f" profileTypeId="496e66616e74727923232344415441232323" name="Enforcer Strike Section" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="3+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="5+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="9/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="cbc895c4-87ff-9941-fb18-8de4eca1413a" targetId="ff5f1b0a-13e5-827a-6812-c4ec5e76099c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f6a219f9-a3a3-46ee-d34a-34ff10f26e0f" targetId="111de472-f533-74b4-e2e5-d85aaaa07128" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8928b5d7-8c13-b9a5-574b-b2cdf3baa366" targetId="89aa213a-ce55-88e5-69d1-5d82cb8b62e6" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="ebd0d328-de04-39bb-4d73-b53ff8563e01" name="Enforcer Suppression Team" points="120.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="eef9e5eb-4d69-ec32-f3ba-9a887cedd7c1" name="Heavy laser rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="33722aa6-718a-04b3-08da-753ce5bac262" targetId="25dfb12e-de40-8312-4d81-e265646ff481" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="e18f5b4a-86c7-7400-03ad-540f698d7512" name="Heavy laser pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="ad6f50ec-e3d3-12aa-59ce-1b5fa24d4df9" targetId="9251e5cc-f957-fc5f-8949-f5b95c970542" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="5bc2d4d3-0de9-e8e9-289e-33daa184483f" name="Heavy Weapons" defaultEntryId="cfadb4d1-f58c-1fd2-e4e7-199ab1a3e3f9" minSelections="2" maxSelections="4" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="c8897f4b-592a-17f6-9472-8d0757e9dc64" name="Rocket launcher" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="4" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="67897b56-72bd-112e-19b0-57efaa475e85" targetId="9fbbfca2-3b75-d3b9-b435-738f423901f2" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="cfadb4d1-f58c-1fd2-e4e7-199ab1a3e3f9" name="Burst laser" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="4" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="2a1bab3d-279f-8bc9-c229-4747b99885b4" targetId="62056c7b-cab2-7172-b463-3325e7c6f464" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="d0dc58f8-7d71-ef00-80a1-0af5e0b92968" profileTypeId="496e66616e74727923232344415441232323" name="Enforcer Strike Team" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="3+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="5+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="9/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="489743c6-e15a-68d8-9ada-1754f61404fe" targetId="ff5f1b0a-13e5-827a-6812-c4ec5e76099c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="58ff04e9-d1da-5bb8-b64b-4a0f03f3e976" targetId="111de472-f533-74b4-e2e5-d85aaaa07128" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f4e4c627-451e-0484-5761-9b10d623c3e6" targetId="89aa213a-ce55-88e5-69d1-5d82cb8b62e6" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="8d92b7f0-4f59-44cc-b93a-a818b13b95d7" name="Field Artillery" points="95.0" categoryId="4f72646e616e636523232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="7dc1ad24-ba35-468c-8fb9-f4996a9e0f9a" name="Weapon" defaultEntryId="5f0caaf7-1973-493e-b65f-8f7ef80513fe" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="b2750dd6-44c9-4a53-8fe0-bd7f41c41ff1" name="Heavy laser cannon" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="65a96732-0148-fefd-129d-04362eff2c55" targetId="a118e75a-5f7f-686e-ee8b-d6f7d461919e" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="5f0caaf7-1973-493e-b65f-8f7ef80513fe" name="Field howitzer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="20ea577d-8d7f-6da8-3b0d-ba2a5888694b" targetId="0ba300d1-f372-99f8-9430-688677f59d33" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="bec16eef-8915-710e-aa03-407f13b6b8cc" profileTypeId="4f72646e616e636523232344415441232323" name="Field Artillery" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="-"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="5+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="8/10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="3880d6ec-e8c6-43d0-951b-4b8700f4d01b" name="Flt-8 Firestorm" points="130.0" categoryId="41726d6f757223232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="5dee1f0c-144c-4889-a99e-9fc725db80b2" name="Tactical flame weapon [A]" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="e13ace98-ac69-43a0-5669-cbb857819c36" targetId="08315175-83f8-7e81-a674-c6f660e49c73" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="0f49dc4f-f4de-497d-b144-eb6141a808ee" name="Weapon [F]" defaultEntryId="1030a1b0-fb3c-4b72-a961-d754374d38da" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="1030a1b0-fb3c-4b72-a961-d754374d38da" name="Burst laser" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="3377c50b-2d8e-6990-6cb3-28ea78330a3e" targetId="62056c7b-cab2-7172-b463-3325e7c6f464" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="627aab12-f727-406b-b255-8be3663d8018" name="Tactical flame weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="84f0b1ba-0d5c-215e-e482-6987a8cf1161" targetId="08315175-83f8-7e81-a674-c6f660e49c73" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="1d3f0137-a54f-9334-4e36-f05eb6da087e" profileTypeId="41726d6f757223232344415441232323" name="FTLT-8 Firestorm" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="12"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="-"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="9+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="dd7900f8-0bfc-053c-100a-9f6a30017ba1" targetId="55dbc58f-d631-fe91-6afa-05fdb6eea440" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7b18a852-1920-1343-b639-c803ef0e783b" targetId="e78949f1-72aa-cbdd-041b-5c44b7941115" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="bca6b366-f711-b18a-c2e5-2a57321746b9" targetId="b176b6c0-a152-3faf-01c2-7d14a2974f1c" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="de29486e-20e6-4619-a461-ae80f926ce68" name="Heavy Weapons Section" points="75.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="f1879cab-4747-4653-a15f-97f912cfe3fb" name="Heavy Weapons" defaultEntryId="85be2571-9019-4570-90d0-150f17d6a4cd" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="3788cd3c-34ed-4a00-aac8-b284a8f39f4f" name="3 light laser cannons" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="85be2571-9019-4570-90d0-150f17d6a4cd" name="3 burst lasers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="3671e3e2-da1d-9302-c304-ddcae758aa55" profileTypeId="496e66616e74727923232344415441232323" name="Heavy Weapons Section" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="8/10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="ad49ff3c-c2e5-4888-85ac-005a0e0c7c7e" name="Marines Platoon" points="240.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="cb4ad077-2237-cc56-dee1-0534a794f764" name="Laser rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="087cf9dc-2564-527b-9d3f-710a22ff7796" targetId="7f1ba5fe-41d1-90b2-4037-52b7fe1518fa" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="335640d3-9183-2d1d-cb5f-951980437c52" name="Tactical flame unit" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="4f2e8a23-780e-4f36-02a4-a80ffb9291f9" targetId="08315175-83f8-7e81-a674-c6f660e49c73" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="9408422e-19c3-db4d-10fc-72be9a8d4cac" name="Heavy laser rifle" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="4" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="6193d1f2-8077-10e6-1903-809449cf5918" targetId="25dfb12e-de40-8312-4d81-e265646ff481" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="f3e9e326-452f-7181-aaa9-6533d6119d04" name="Laser pistol and energy gauntlet" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="604addfe-eefe-0e0c-5248-c69a6570948d" targetId="65fb9cf3-b377-5402-ea0a-e1ae50d8bcdf" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="6fda5d24-6d27-a433-4908-ce362876bbaf" targetId="21a96428-5ca1-e4ef-b663-23d6794ed0e4" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="58bfdc7e-ab9b-2fd0-30de-81cc52b7d7d4" profileTypeId="496e66616e74727923232344415441232323" name="Marines Platoon" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="8/10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="c2bcfbd5-4c97-4f50-9416-c8fdea2f0577" name="Marines Section" points="120.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="5d535396-97af-67f6-3d7d-2de004921272" name="Heavy laser rifle" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="7fe06bcf-2ba7-fb7e-422d-b911f345c437" targetId="25dfb12e-de40-8312-4d81-e265646ff481" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="c738e48f-5029-b64f-e5ad-decb83fe48c6" name="Tactical flame unit" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="314d05a2-1890-b293-9584-ae06e80bd135" targetId="08315175-83f8-7e81-a674-c6f660e49c73" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="3dcf20b9-2b13-7f68-5ed4-9a122c357cab" name="Laser rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="6feb4690-4c3d-a4e3-817e-9ae296feaef7" targetId="7f1ba5fe-41d1-90b2-4037-52b7fe1518fa" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="6c222148-dad1-5425-b514-c0329da75d7f" name="Laser pistol and energy gauntlet" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="a827f33d-5bb8-3ca7-3ac7-7ad978301c7f" targetId="65fb9cf3-b377-5402-ea0a-e1ae50d8bcdf" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="26250bd4-735e-808f-e11b-8949489ee3e7" targetId="21a96428-5ca1-e4ef-b663-23d6794ed0e4" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="863763bc-9e85-12c2-68d4-ef4ed927886e" profileTypeId="496e66616e74727923232344415441232323" name="Marines Section" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="8/10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="d2820465-b93a-444e-adce-cae721b80415" name="Marines Team" points="50.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="ccf92b05-9e6a-4250-925d-2ab2d1284fc2" name="Tactical flame unit" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="44457aeb-453e-4674-c4e9-c9d2b57ddefc" targetId="08315175-83f8-7e81-a674-c6f660e49c73" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="3d185384-412d-eeb5-b8f5-f75549a7c4c5" name="Heavy laser rifle" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="a4010b9b-caad-2f1c-05b7-47b93c1a2537" targetId="25dfb12e-de40-8312-4d81-e265646ff481" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="bb3d0b1c-8e22-a6fa-a1d0-2c1261ff6927" name="Laser pistol and energy gauntlet" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="aaf4a5cd-db52-0123-ad4f-41c2c4c6fef1" targetId="65fb9cf3-b377-5402-ea0a-e1ae50d8bcdf" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="9a436521-ee44-d241-f3bb-e3e6872c1831" targetId="21a96428-5ca1-e4ef-b663-23d6794ed0e4" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="05d904ac-4147-cd97-de90-83ae2eef91a8" name="Laser rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="c6246379-b4ff-5250-7e28-3f5ef310a7ef" targetId="7f1ba5fe-41d1-90b2-4037-52b7fe1518fa" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="28a8904a-0904-b8cf-6c92-2437fbf2fb55" profileTypeId="496e66616e74727923232344415441232323" name="Marines Team" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="8/10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="d2ff3f52-066e-42d6-9adf-811e4baf1ab7" name="MBT-01 Pulverizer" points="260.0" categoryId="41726d6f757223232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="af0dc990-7050-40f4-90b8-70a462837bf9" name="Sponson Weapons [R] &amp; [L]" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="264e4f69-0a26-428d-9845-45a6c555c33e" name="2 Light laser cannons" points="70.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="b6e4d3ba-8566-420c-806f-983ad4b07ef7" targetId="96a0f0de-1c93-288d-2032-bbc65192c5ca" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="9783eb7a-19fe-401e-b697-7196efa092de" name="2 Tactical flame weapons" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="c2bbfa8e-5582-ff9e-a00a-f22ac99af6f2" targetId="08315175-83f8-7e81-a674-c6f660e49c73" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="5047ebb1-e03f-49fe-b825-1c61b82413ed" name="Front Weapon [F]" defaultEntryId="2ffaa46b-7e24-4e9b-a987-9f88aaf9fddb" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="665aee1c-27dd-402f-91b6-a58ad1836f7f" name="Tactical flame unit" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="f4af885d-78cc-e2b6-fb07-ff332a214a10" targetId="08315175-83f8-7e81-a674-c6f660e49c73" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="2ffaa46b-7e24-4e9b-a987-9f88aaf9fddb" name="Burst laser" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="c333350d-4d02-5d2f-7466-ed48fbf7f2b6" targetId="62056c7b-cab2-7172-b463-3325e7c6f464" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="e153b6d4-e770-4147-b81a-2e78596a38c2" name="Light laser cannon" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="9fe4e2aa-d5c0-cd71-0fa7-de2326e8154b" targetId="96a0f0de-1c93-288d-2032-bbc65192c5ca" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="4c0aab62-5adc-45a9-939c-33b33b5ca03e" name="Main Weapon [A]" defaultEntryId="3cf97e74-3d41-48bb-a8f7-d46a7cfd48cd" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="3cf97e74-3d41-48bb-a8f7-d46a7cfd48cd" name="Heavy laser cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="3775af17-461e-7711-853b-3944070c8730" targetId="a118e75a-5f7f-686e-ee8b-d6f7d461919e" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="58241548-7a5a-4859-9a33-7d91f6b0b66f" name="Close assault gun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="3b3b9c35-bf41-8022-f077-8956339d1e63" targetId="05ddf287-8b09-e0ab-4ed9-d5898942517a" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="5620b418-b3af-8618-6ad6-238b0c7f3890" profileTypeId="41726d6f757223232344415441232323" name="MBT-01 Pulverizer" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="12"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="-"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="11+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="-/10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="a9136b9d-7e53-c9b0-e842-ceb0f9f830c1" targetId="b176b6c0-a152-3faf-01c2-7d14a2974f1c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="41812364-6cde-9a12-2226-8e13d60c2ce4" targetId="9a241242-9a5b-fec4-551c-a79f8cc8e368" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ed1e9140-1cc6-25e4-250f-eabfa3828002" targetId="71227efb-e8df-d845-fc2f-b0e46cfd10ab" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="0af7a882-fa21-4114-b9b6-08da1e6143a7" name="Rangers Section" points="200.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="e80f3929-e2dc-083c-dea6-051d3b081122" name="Heavy laser rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="b0b7afc0-a38f-d560-51d5-5d4cb87e7748" targetId="25dfb12e-de40-8312-4d81-e265646ff481" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="1fcf7929-de10-d537-896e-ce7a485dbfd6" name="Laser pistol and energy gauntlet" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="e9bc14e6-007c-3b30-0854-270ed71dbace" targetId="65fb9cf3-b377-5402-ea0a-e1ae50d8bcdf" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="aceb63ed-f388-7e84-7533-791d7e93c271" targetId="21a96428-5ca1-e4ef-b663-23d6794ed0e4" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="b8896726-4d7d-b287-3e19-279308d7f2ee" name="Tactical flame unit" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="c09e40b0-a91d-8465-e314-7f6356feb912" targetId="08315175-83f8-7e81-a674-c6f660e49c73" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="be529c31-4746-d2c5-eca0-ddf226784f0a" profileTypeId="496e66616e74727923232344415441232323" name="Rangers Section" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="9/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="8449885d-7220-b326-a776-daddb0a86ef8" targetId="8bb8dfc2-a771-3c5a-4b29-a6e43be77486" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b2827ba4-9d55-32b5-73e0-046751d2c9c9" targetId="b58c5e21-c66a-1b25-de24-b1e94b2e44d0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="19c79d5e-3914-f9c1-dae1-725029c4dcf9" targetId="ff5f1b0a-13e5-827a-6812-c4ec5e76099c" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="2c8d909a-ee17-4a42-9a55-6c5310fc1157" name="Rangers Team" points="90.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="ef5870e3-b21e-6b89-e993-04761fca28fa" name="Heavy laser rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="4f3baba5-ea66-eaa4-4ae8-b2f8f7345d70" targetId="25dfb12e-de40-8312-4d81-e265646ff481" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="acaeb48f-98a5-2987-f30b-7ee67fd65f2f" name="Tactical flame unit" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="11f9b594-a16c-2f0b-05d5-68c30661ec79" targetId="08315175-83f8-7e81-a674-c6f660e49c73" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="377fd470-285c-128a-49ce-1e090d7507d0" name="Laser pistol and energy gauntlet" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="70951f99-7ef9-0278-d114-75a9eb199191" targetId="65fb9cf3-b377-5402-ea0a-e1ae50d8bcdf" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="c52632b2-19a6-8be9-7f2c-56129f2f3529" targetId="21a96428-5ca1-e4ef-b663-23d6794ed0e4" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="796bb7a5-fe82-2482-32c8-e2a1df4727ce" profileTypeId="496e66616e74727923232344415441232323" name="Rangers Team" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="9/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="7e5e640b-edc5-2e3c-65b1-ca99eee59f86" targetId="ff5f1b0a-13e5-827a-6812-c4ec5e76099c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="815d8620-6b94-61f3-9afd-b2d9799c7c8c" targetId="b58c5e21-c66a-1b25-de24-b1e94b2e44d0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c1c46e77-adb7-99e8-ac46-6e9c82a9ae22" targetId="8bb8dfc2-a771-3c5a-4b29-a6e43be77486" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="684558d8-73f6-4d49-a9ff-08f9da611d2f" name="Sniper" points="50.0" categoryId="4865726f6573202f204d6f6e737465727323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="b7f09b91-7787-365f-9c01-e5d47de2b867" name="Sniper rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="982b80d6-8ae2-ee81-250b-a1a024f9d546" targetId="5438d88a-8b33-3d7e-cd2d-7828557894c3" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="3078d33f-28a4-2447-799c-a2ed05fa6518" name="Laser pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="c04b2d00-da52-ba43-539e-3d21726a71e5" targetId="7f1ba5fe-41d1-90b2-4037-52b7fe1518fa" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="4d7c6363-46e4-8b23-b98c-0b7cfeab1e73" name="Magnetic charges" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="287c74ea-fe98-2610-a011-72b41759109b" targetId="ff5f1b0a-13e5-827a-6812-c4ec5e76099c" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="426c6f9e-26ff-afed-fc24-008ea54d2ec6" profileTypeId="4865726f23232344415441232323" name="Sniper" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="3+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="9/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="07632d88-3a99-e6f9-b958-403b363492fa" targetId="7a07d500-4923-897e-546f-6a4978916c14" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d1195c5c-5514-04b8-71ab-915d0d1fb0dd" targetId="b58c5e21-c66a-1b25-de24-b1e94b2e44d0" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="b7559ad6-3785-464e-984f-f5382f50c60d" name="SPA-7 Pounder" points="145.0" categoryId="41726d6f757223232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="28876fcf-9405-4234-8d42-befd1bff5bf4" name="Burst laser [F]" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="bc71bc72-5397-8da7-90e1-73552976d5ff" targetId="62056c7b-cab2-7172-b463-3325e7c6f464" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="85621868-7586-4310-9e36-ea8fed236e0d" name="Weapon [F]" defaultEntryId="7ffea280-30e7-4518-990e-0a5dba0039dc" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="f028858c-335c-4037-881c-bda697b172de" name="Multiple rocket launcher" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="8173655a-e1bd-a0d3-e7a9-b94de93b4008" targetId="0041a11c-13e6-f187-d02e-a3ddf137261c" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="7ffea280-30e7-4518-990e-0a5dba0039dc" name="Field howitzer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="0ba2a049-b4a3-149e-e77c-155aa326c29e" targetId="0ba300d1-f372-99f8-9430-688677f59d33" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="b7b2d211-4457-601c-0f8a-89d3bbde93c9" profileTypeId="41726d6f757223232344415441232323" name="SPA-7 Pounder" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="12"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="-"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="7+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="8/10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e1ed3f0f-19ef-3ce7-e4ab-9fadb64179e8" targetId="2d4d09e1-59ec-10dd-7ebb-38cc99dc169f" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ffe28907-f0d6-3d26-4ba6-f501810d6a74" targetId="0542e787-4696-9f6c-a7d1-f4fce80d51c8" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="069bc81d-2973-42a0-8e7a-51670c2e3e5b" name="Strider Section" points="180.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="a46d0cd2-ae09-431b-97f3-a039c69456ef" name="Weapons" defaultEntryId="b3b56de0-c464-43af-bdb0-06464cca2921" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="731a4451-fad5-4bcb-b98e-97a20ef9548e" name="light laser cannons" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="a34f42db-4168-404b-914b-070946ce92f3" name="tactical flame weapons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="b3b56de0-c464-43af-bdb0-06464cca2921" name="burst lasers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="a602f10d-e7e4-9dc1-281d-1f39f14f882f" profileTypeId="496e66616e74727923232344415441232323" name="LSW-21 Striders Team" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="6"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="6+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="8/10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="83730dfc-97df-cd18-c132-c435369d8ae1" targetId="89aa213a-ce55-88e5-69d1-5d82cb8b62e6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="90453ea8-c1f1-105b-8f57-c50b29eb8fff" targetId="55dbc58f-d631-fe91-6afa-05fdb6eea440" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="38429b0d-b322-3baf-3976-dd32696224d7" targetId="61777567-630b-ca41-bfdf-e286bf007fb1" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c731b7f5-2d7d-50ad-c3b7-22cdcc8b5fb8" targetId="7b36ee82-2835-b206-522e-04b1735e9645" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="8634eead-a019-4a7f-a28d-7b725dd22f49" name="Veterans Section" points="145.0" categoryId="536f6c696420556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="8b58b9ae-c9a1-b4ff-9384-0d09681a8290" name="Laser rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="78819ce4-1334-e262-d4e7-aa494429a420" targetId="7f1ba5fe-41d1-90b2-4037-52b7fe1518fa" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="a699d731-05e9-ca20-0da4-10f5227038e4" name="Heavy laser rifle" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="4" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="0a7ae085-de31-5a8c-bd7c-5ce4bfa665c1" targetId="25dfb12e-de40-8312-4d81-e265646ff481" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="c98ca122-91de-ce6c-3f1e-209cd62499d3" name="Laser pistol and energy gauntlet" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="f066fc7c-b0c3-3660-c161-5a77c1861331" targetId="65fb9cf3-b377-5402-ea0a-e1ae50d8bcdf" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="a69ad995-4b69-bc2d-fa1b-229839c9c3a7" targetId="21a96428-5ca1-e4ef-b663-23d6794ed0e4" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="96d71c3a-171a-4557-5e30-970c50339f7f" name="Tactical flame unit" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="30350d5d-7dd1-c1a1-8a2c-715e131e2c70" targetId="08315175-83f8-7e81-a674-c6f660e49c73" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="b2f51178-f8d6-4e45-5efd-d522e77b1c29" name="Heavy Weapon" defaultEntryId="f90d0fc0-4eb4-72b9-5c1f-c30b1e8a88f1" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="40df3338-41f5-5c52-5604-d23a98221e0d" name="Light laser cannon" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="7f350ab9-1683-5a00-daba-7e1d2193de74" targetId="96a0f0de-1c93-288d-2032-bbc65192c5ca" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="f90d0fc0-4eb4-72b9-5c1f-c30b1e8a88f1" name="Burst laser" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="47fe21a9-c5b8-508c-451e-7c907652add6" targetId="62056c7b-cab2-7172-b463-3325e7c6f464" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="47357cbf-f7d8-de10-e169-0ecab79fc2f7" profileTypeId="496e66616e74727923232344415441232323" name="Veterans Section" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="9/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="3e278a34-f66a-4a71-829b-44d73d835457" name="Veterans Team" points="60.0" categoryId="556e69747323232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries>
+        <entry id="8121b836-8016-50ae-4881-729b0c698183" name="Laser rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="074322dd-f329-656d-93e7-86a5c061264a" targetId="7f1ba5fe-41d1-90b2-4037-52b7fe1518fa" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="64ca1db9-27e8-c01b-f563-c88c6d2e5d76" name="Heavy laser rifle" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="72b00797-6253-3b4b-8358-f5e6f8a27ed2" targetId="25dfb12e-de40-8312-4d81-e265646ff481" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="a16eae67-def2-a92c-09b6-381464d7e5e5" name="Tactical flame unit" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="9ccf8cb8-142c-c5ff-4edd-4b7617cf69b3" targetId="08315175-83f8-7e81-a674-c6f660e49c73" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="72b27982-aa10-7b4e-ddcf-6add4597a83f" name="Laser pistol and energy gauntlet" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="db7774f5-c501-296f-5fb1-81401f30dc54" targetId="65fb9cf3-b377-5402-ea0a-e1ae50d8bcdf" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="72194fb9-5965-7e90-8819-e931c69415b8" targetId="21a96428-5ca1-e4ef-b663-23d6794ed0e4" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="bae07b2a-a71a-de82-c1bd-86ab7eaaeb96" name="Heavy Weapon" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="09b35cb8-0057-3ad7-96b5-7d113f759a70" name="Light laser cannon" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="eea77953-149f-394e-943d-939a9677eebe" targetId="96a0f0de-1c93-288d-2032-bbc65192c5ca" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="4a169946-038e-4179-3e3a-9f054c542bcf" name="Burst laser" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="23aaab14-f151-d014-3f71-5deccf73a484" targetId="62056c7b-cab2-7172-b463-3325e7c6f464" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="c74dad01-2639-1935-af20-f8c2b6242171" profileTypeId="496e66616e74727923232344415441232323" name="Veterans Team" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="53706423232344415441232323" name="Spd" value="5"/>
+            <characteristic characteristicId="48697423232344415441232323" name="Hit" value="4+"/>
+            <characteristic characteristicId="41747423232344415441232323" name="Att" value="1"/>
+            <characteristic characteristicId="44656623232344415441232323" name="Def" value="4+"/>
+            <characteristic characteristicId="4e657223232344415441232323" name="Ner" value="9/11"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+  </entries>
+  <rules>
+    <rule id="1d66d23c-9b9f-655c-af4b-1978feba9576" name="Command &amp; Control" hidden="false" page="0">
+      <description>For all models in this list, the Inspiring special rule has a range of 12” instead of the usual 6”.</description>
+      <modifiers/>
+    </rule>
+    <rule id="17b438e1-a8d9-88dc-c07e-06b774296ae5" name="Allies" hidden="false" page="0">
+      <description>Marauders, Forge Fathers, Veer-myn, Asterians.</description>
+      <modifiers/>
+    </rule>
+  </rules>
+  <links/>
+  <sharedEntries/>
+  <sharedEntryGroups/>
+  <sharedRules>
+    <rule id="fa3a61c6-50c4-1823-5ecd-2b2d1b50e531" name="Blast (2D3)" hidden="false" page="0">
+      <description>Roll to hit normally. Any hit caused is multiplied by 2D3 before rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c822cc39-e22a-9853-2615-3b8b72370239" name="Blast (2D6)" hidden="false" page="0">
+      <description>Roll to hit normally. Any hit caused is multiplied by 2D6 before rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="d3ec9e91-d83c-b00a-9b02-e8c258eee580" name="Blast (3D6)" hidden="false" page="0">
+      <description>Roll to hit normally. Any hit caused is multiplied by 3D6 before rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="1623104d-1d6a-d98f-78ae-bb2bdc5e9de1" name="Blast (4D6)" hidden="false" page="0">
+      <description>Roll to hit normally. Any hit caused is multiplied by 4D6 before rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="508ff899-926d-2809-c1c1-6581b962e7b8" name="Blast (5D6)" hidden="false" page="0">
+      <description>Roll to hit normally. Any hit caused is multiplied by 5D6 before rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c26f933e-5425-9edc-73e7-8f066f99275e" name="Blast (D3)" hidden="false" page="0">
+      <description>Roll to hit normally. Any hit caused is multiplied by D3 before rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="21af397c-d14b-f982-95f8-0a5257a34495" name="Blast (D6)" hidden="false" page="0">
+      <description>Roll to hit normally. Any hit caused is multiplied by D6 before rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7b36ee82-2835-b206-522e-04b1735e9645" name="Bulky" hidden="false" page="0">
+      <description>The unit cannot be transported.</description>
+      <modifiers/>
+    </rule>
+    <rule id="03b6c961-67c2-5058-15e8-f5f74b58c2f2" name="Craven" hidden="false" page="0">
+      <description>If the unit wants to Charge, roll a die. If a 1 is rolled, the unit Halts instead.</description>
+      <modifiers/>
+    </rule>
+    <rule id="89aa213a-ce55-88e5-69d1-5d82cb8b62e6" name="Crushing Strength (1)" hidden="false" page="0">
+      <description>All Melee hits inflicted by the unit have a +1 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="0542e787-4696-9f6c-a7d1-f4fce80d51c8" name="Crushing Strength (2)" hidden="false" page="0">
+      <description>All Melee hits inflicted by the unit have a +2 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="ed5c3884-ddf4-5ad6-5a3b-c6d55e388f51" name="Crushing Strength (3)" hidden="false" page="0">
+      <description>All Melee hits inflicted by the unit have a +3 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="e78949f1-72aa-cbdd-041b-5c44b7941115" name="Crushing Strength (4)" hidden="false" page="0">
+      <description>All Melee hits inflicted by the unit have a +4 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="408979ee-1f5c-6b30-c61b-39083a85191f" name="Crushing Strength (5)" hidden="false" page="0">
+      <description>All Melee hits inflicted by the unit have a +5 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="9a241242-9a5b-fec4-551c-a79f8cc8e368" name="Crushing Strength (6)" hidden="false" page="0">
+      <description>All Melee hits inflicted by the unit have a +6 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="8bb8dfc2-a771-3c5a-4b29-a6e43be77486" name="Elite" hidden="false" page="0">
+      <description>Whenever the unit rolls to hit, it can reroll one of the dice that failed to hit.</description>
+      <modifiers/>
+    </rule>
+    <rule id="65fb9cf3-b377-5402-ea0a-e1ae50d8bcdf" name="Energy gauntlet" hidden="false" page="0">
+      <description>This weapon confers Crushing Strength (5) to all of the model’s Attacks. It cannot be used in conjunction with a pistol though, so a model equipped with both must choose which one to use before he attacks in melee.</description>
+      <modifiers/>
+    </rule>
+    <rule id="55dbc58f-d631-fe91-6afa-05fdb6eea440" name="Fast" hidden="false" page="0">
+      <description>Unit trebles its Speed when moving At The Double or at Full Speed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="35dd2fb0-40db-80e2-4e01-119306d68c7f" name="Headstrong" hidden="false" page="0">
+      <description>When you are trying to activate this unit when it is Suppressed, you can re-roll the die for shaking off the effects of Suppression and successfully activating.</description>
+      <modifiers/>
+    </rule>
+    <rule id="87b905e6-b1b3-c646-dfde-3210339e4488" name="Hoverer" hidden="false" page="0">
+      <description>The unit moves over anything without penalties, but cannot land on top of them. In addition the unit cannot Overrun enemy units, and it can only initiate a Collision against enemy units that also have this rule. The unit can be charged only if it’s already Immobilised.
+The unit also has the Nimble special rule.</description>
+      <modifiers/>
+    </rule>
+    <rule id="8a1a0e09-7964-271a-8eba-574701c4dee5" name="Howitzer" hidden="false" page="0">
+      <description>The weapon may either be fired normally or by using the Indirect Fire special rule. Declare before you fire.</description>
+      <modifiers/>
+    </rule>
+    <rule id="b3881eeb-625f-f511-c16a-5508165e3611" name="Immobile" hidden="false" page="0">
+      <description>This unit must always ‘Halt’ when activated and cannot move. If forced to move by any reason, it is destroyed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="a6779606-ed07-669d-4e7b-02fd28155db4" name="Indirect Fire" hidden="false" page="0">
+      <description>Never suffers any to hit modifiers for range or cover. Cannot target units within 12”. 
+The weapon may be fired at targets that the operator cannot see, with an additional -1 To Hit modifier.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7a07d500-4923-897e-546f-6a4978916c14" name="Infiltration" hidden="false" page="0">
+      <description>During your Deployment, you can place this unit up anywhere on the table outside of the enemy’s Deployment area and more than 12” from any enemy unit that has already deployed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="65ee687c-db3a-a9b5-6f2d-6a29925db87c" name="Inspiring" hidden="false" page="0">
+      <description>If the unit itself, or any friendly unit within 6” of it, fails an Activation Test, you can choose to immediately re-roll
+the die. The second result stands. This ability can only be used once per Turn. Re-roll cannot be used on the additional roll that Suppressed units have to make.</description>
+      <modifiers/>
+    </rule>
+    <rule id="111de472-f533-74b4-e2e5-d85aaaa07128" name="Jump Troops" hidden="false" page="0">
+      <description>The unit can move as normal, or can activate its jump jets. If it does so, its Speed changes to 9, and it can move
+over anything without penalties, but still cannot land on top of Blocking Terrain or within 1” of another unit. If it Charges using its jump jets, in the ensuing Melee it does not suffer the -1 to hit penalty for charging a defensive position or for a disrupted charge. Unit cannot mount or dismount from a transport using jump jets.</description>
+      <modifiers/>
+    </rule>
+    <rule id="85e42f1d-ddf3-8c31-d077-2258ac006edd" name="Lumbering" hidden="false" page="0">
+      <description>The unit cannot move At The Double or at Full Speed. When Charging, it does so at normal speed and not at double speed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="ff5f1b0a-13e5-827a-6812-c4ec5e76099c" name="Magnetic charges" hidden="false" page="0">
+      <description>If in melee against an Armoured unit, instead of attacking normally, the model can make a single special attack. If this attack hits, the hit is resolved at Crushing Strength (3), or Crushing Strength (5) if the target is stationary.</description>
+      <modifiers/>
+    </rule>
+    <rule id="af596bda-0f81-4107-2cc8-a7a2c475f4e3" name="Nimble" hidden="false" page="0">
+      <description>If moving at normal speed, the unit can make a single extra ‘Hard Turn’ move at any point during its movement.</description>
+      <modifiers/>
+    </rule>
+    <rule id="2d4d09e1-59ec-10dd-7ebb-38cc99dc169f" name="Open Top" hidden="false" page="0">
+      <description>Not Steadfast. Transported units can be activated without Dismounting. Up to 3 transported models can fire. Passengers cannot shoot if the transport has already activated and moved at Full Speed.
+Transported units can move At The Double and Charge after Dismounting from an Open Top unit  However, they charge at their normal Speed, rather than doubling it.</description>
+      <modifiers/>
+    </rule>
+    <rule id="92364a9d-2e32-bd0c-14b1-8030c5951337" name="Piercing (1)" hidden="false" page="0">
+      <description>All hits inflicted by this weapon have a +1 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="9ba2bee0-8c44-b1c9-2ced-09cda2552c29" name="Piercing (2)" hidden="false" page="0">
+      <description>All hits inflicted by this weapon have a +2 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c1f5630b-851b-60a1-f0d2-0e722a484fa9" name="Piercing (3)" hidden="false" page="0">
+      <description>All hits inflicted by this weapon have a +3 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="95938b14-ca1c-eb24-f51e-72e7cab79f30" name="Piercing (4)" hidden="false" page="0">
+      <description>All hits inflicted by this weapon have a +4modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="a7d96783-a046-3f18-1bc5-4a60460b36cc" name="Piercing (5)" hidden="false" page="0">
+      <description>All hits inflicted by this weapon have a +5 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="dd029222-bbd8-81f4-2ba7-1747dc5ead03" name="Piercing (6)" hidden="false" page="0">
+      <description>All hits inflicted by this weapon have a +6 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="246e873e-a1af-a54e-567c-7b37ad5f8a55" name="Piercing (7)" hidden="false" page="0">
+      <description>All hits inflicted by this weapon have a +7 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="563dae9e-335b-1c17-2791-e9526f0e344a" name="Piercing (8)" hidden="false" page="0">
+      <description>All hits inflicted by this weapon have a +8 modifier when rolling to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="cfc0c1f9-7f7f-a065-8657-10a405af11c4" name="Pistol" hidden="false" page="0">
+      <description>A model armed with a pistol has one extra Attack in Melee.
+In addition, if the pistol has a Piercing value, it confers an equivalent Crushing Strength to all of the model’s Melee attacks. If the model already has a higher Crushing Strength value, use that instead.</description>
+      <modifiers/>
+    </rule>
+    <rule id="61777567-630b-ca41-bfdf-e286bf007fb1" name="Recon" hidden="false" page="0">
+      <description>The unit can make a single At The Double or Full Speed move after all Deployment is finished, but before the players roll for the Initiative on Turn 1.
+If both armies have units with this rule, roll a die. The highest scorer decides who begins to move one of his Recon units first, then the players alternate until all Recon units have been moved.</description>
+      <modifiers/>
+    </rule>
+    <rule id="fc16b238-a535-8f3f-b518-49e26645962c" name="Reload!" hidden="false" page="0">
+      <description>The weapon can only be fired if the unit has Halted during this activation.</description>
+      <modifiers/>
+    </rule>
+    <rule id="8c18bc7f-2bac-5c47-ed60-0fe3c55f2c4c" name="Saturation" hidden="false" page="0">
+      <description>This weapon always hits on 4+, regardless of any modifiers.</description>
+      <modifiers/>
+    </rule>
+    <rule id="d66b3220-c2ec-ea6c-c77d-3e033ee96e31" name="Sniper" hidden="false" page="0">
+      <description>If the unit remains stationary and fires, this weapon’s shots ignore any cover modifiers and the Stealthy special rule.</description>
+      <modifiers/>
+    </rule>
+    <rule id="b176b6c0-a152-3faf-01c2-7d14a2974f1c" name="Stabilised" hidden="false" page="0">
+      <description>If this unit moves at Full Speed, it can still fire one of its weapons (except for weapons with the Reload! special rule).</description>
+      <modifiers/>
+    </rule>
+    <rule id="154d8a01-2412-cb46-3df0-cc2a24b758b1" name="Steadfast" hidden="false" page="0">
+      <description>The unit treats Suppressed results on Nerve tests as Steady instead, including in Melee.</description>
+      <modifiers/>
+    </rule>
+    <rule id="b58c5e21-c66a-1b25-de24-b1e94b2e44d0" name="Stealthy" hidden="false" page="0">
+      <description>Enemies shooting against the unit suffer an additional -1 to hit modifier.</description>
+      <modifiers/>
+    </rule>
+    <rule id="6fa89d4f-482f-cf98-7a48-23d878421c7d" name="Support Grid Relay" hidden="false" page="0">
+      <description>The model counts as armed with a Multiple Rocket Launcher (Fire:2, Ran:72, Indirect Fire, Blast (D6), Piercing (1), Reload!), which he can use only once per game.</description>
+      <modifiers/>
+    </rule>
+    <rule id="e0a0e86e-1e43-153f-512c-705fb9c6f3d3" name="Tough (2)" hidden="false" page="0">
+      <description>Models with this rule are only removed when they have taken 2 points of damage. 
+If the unit is damaged but not destroyed, it must take a Nerve test.</description>
+      <modifiers/>
+    </rule>
+    <rule id="85e7ee34-32c2-9e4b-a306-784549ff27bb" name="Tough (3)" hidden="false" page="0">
+      <description>Models with this rule are only removed when they have taken 3 points of damage. 
+If the unit is damaged but not destroyed, it must take a Nerve test.</description>
+      <modifiers/>
+    </rule>
+    <rule id="71227efb-e8df-d845-fc2f-b0e46cfd10ab" name="Tough (4)" hidden="false" page="0">
+      <description>Models with this rule are only removed when they have taken 4 points of damage. 
+If the unit is damaged but not destroyed, it must take a Nerve test.</description>
+      <modifiers/>
+    </rule>
+    <rule id="910d39ef-2fbd-badb-7213-d612ef518065" name="Tough (5)" hidden="false" page="0">
+      <description>Models with this rule are only removed when they have taken 5 points of damage. 
+If the unit is damaged but not destroyed, it must take a Nerve test.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7a546772-b3b6-ea26-1bdf-1d4ab600930f" name="Tough (6)" hidden="false" page="0">
+      <description>Models with this rule are only removed when they have taken 6 points of damage. 
+If the unit is damaged but not destroyed, it must take a Nerve test.</description>
+      <modifiers/>
+    </rule>
+    <rule id="fda1df98-f973-917f-abce-c4d85c3c17d5" name="Vicious" hidden="false" page="0">
+      <description>Whenever the unit rolls to damage, it can re-roll one of the dice that failed to damage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="5e2a82da-7507-b29b-ddde-436d1c925d62" name="Zap! (1)" hidden="false" page="0">
+      <description>The model has a ranged attack. This attack has a Firepower of 1, a range of 24”, always hits on 4+ (regardless of modifiers) and is Piercing (1).</description>
+      <modifiers/>
+    </rule>
+    <rule id="48e86d4f-a165-9162-4d5d-81f20536eeb2" name="Zap! (2)" hidden="false" page="0">
+      <description>The model has a ranged attack. This attack has a Firepower of 2, a range of 24”, always hits on 4+ (regardless of modifiers) and is Piercing (1).</description>
+      <modifiers/>
+    </rule>
+    <rule id="986880fb-22f9-99bf-8d68-52c397dafded" name="Zap! (3)" hidden="false" page="0">
+      <description>The model has a ranged attack. This attack has a Firepower of 3, a range of 24”, always hits on 4+ (regardless of modifiers) and is Piercing (1).</description>
+      <modifiers/>
+    </rule>
+    <rule id="b2b09c82-2224-9a6d-2ac8-f6d3988c01e8" name="Zap! (4)" hidden="false" page="0">
+      <description>The model has a ranged attack. This attack has a Firepower of 4, a range of 24”, always hits on 4+ (regardless of modifiers) and is Piercing (1).</description>
+      <modifiers/>
+    </rule>
+    <rule id="496d882f-7326-1201-2349-c6def6d6b0f3" name="Zap! (5)" hidden="false" page="0">
+      <description>The model has a ranged attack. This attack has a Firepower of 5, a range of 24”, always hits on 4+ (regardless of modifiers) and is Piercing (1).</description>
+      <modifiers/>
+    </rule>
+    <rule id="d63d5c64-44c6-d5b5-14d7-3d431a3944e4" name="Zap! (6)" hidden="false" page="0">
+      <description>The model has a ranged attack. This attack has a Firepower of 6, a range of 24”, always hits on 4+ (regardless of modifiers) and is Piercing (1).</description>
+      <modifiers/>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="62056c7b-cab2-7172-b463-3325e7c6f464" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Burst laser" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="5"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="36"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="1"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="05ddf287-8b09-e0ab-4ed9-d5898942517a" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Close assault gun" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="1"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="24"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="5"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="Bllast (D6)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="0ba300d1-f372-99f8-9430-688677f59d33" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Field howitzer" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="1"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="72"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="2"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="Howitzer, Blast (D6), Reload!"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="a118e75a-5f7f-686e-ee8b-d6f7d461919e" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Heavy laser cannon" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="1"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="72"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="6"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="9251e5cc-f957-fc5f-8949-f5b95c970542" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Heavy laser pistol" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="1"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="12"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="1"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="Pistol"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="25dfb12e-de40-8312-4d81-e265646ff481" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Heavy laser rifle" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="1"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="18"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="1"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="21a96428-5ca1-e4ef-b663-23d6794ed0e4" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Laser pistol" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="1"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="12"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="-"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="Pistol"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="7f1ba5fe-41d1-90b2-4037-52b7fe1518fa" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Laser rifle" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="1"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="24"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="-"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="96a0f0de-1c93-288d-2032-bbc65192c5ca" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Light laser cannon" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="1"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="24"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="6"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="0041a11c-13e6-f187-d02e-a3ddf137261c" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Multiple rocket launcher" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="2"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="72"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="1"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="Indirect Fire, Blast (D6), Reload!"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="9fbbfca2-3b75-d3b9-b435-738f423901f2" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Rocket launcher" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="1"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="36"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="5"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="-"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="5438d88a-8b33-3d7e-cd2d-7828557894c3" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Sniper rifle" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="1"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="36"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="3"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="Sniper, Reload!"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="08315175-83f8-7e81-a674-c6f660e49c73" profileTypeId="4e329259-2faa-0eda-e0a7-b885d264914b" name="Tactical flame unit" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="bc18166f-e63c-ebd0-d383-6bd4681d835d" name="Fire" value="10"/>
+        <characteristic characteristicId="8733af56-e9db-90e6-41ac-9f6dceb91948" name="Ran" value="12"/>
+        <characteristic characteristicId="7a80b4b7-e10a-4388-319c-cb615f34128d" name="Piercing" value="-"/>
+        <characteristic characteristicId="bafe9e0f-2716-bf08-700f-a950e5ace89a" name="Special" value="Saturation"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+  </sharedProfiles>
+</catalogue>
