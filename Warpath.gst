@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="c32ab30b-7a2f-4e2a-a46f-e5c249e706cd" revision="3" battleScribeVersion="1.13b" name="Warpath" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="c32ab30b-7a2f-4e2a-a46f-e5c249e706cd" revision="3" battleScribeVersion="1.14b" name="Warpath" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
-    <forceType id="5374616e6461726423232344415441232323" name="Standard" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1">
+    <forceType id="5374616e6461726423232344415441232323" name="Standard" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
-        <category id="536f6c696420556e69747323232344415441232323" name="Solid Units" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1">
+        <category id="536f6c696420556e69747323232344415441232323" name="Solid Units" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
-        <category id="556e69747323232344415441232323" name="Units" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1">
+        <category id="556e69747323232344415441232323" name="Units" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
-        <category id="4f72646e616e636523232344415441232323" name="Ordnance" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1">
+        <category id="4f72646e616e636523232344415441232323" name="Ordnance" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers>
             <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="536f6c696420556e69747323232344415441232323" incrementField="selections" incrementValue="1.0">
               <conditions/>
@@ -17,7 +17,7 @@
             </modifier>
           </modifiers>
         </category>
-        <category id="416972637261667423232344415441232323" name="Aircraft" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1">
+        <category id="416972637261667423232344415441232323" name="Aircraft" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers>
             <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="536f6c696420556e69747323232344415441232323" incrementField="selections" incrementValue="1.0">
               <conditions/>
@@ -25,7 +25,7 @@
             </modifier>
           </modifiers>
         </category>
-        <category id="41726d6f757223232344415441232323" name="Armour" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1">
+        <category id="41726d6f757223232344415441232323" name="Armour" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers>
             <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="536f6c696420556e69747323232344415441232323" incrementField="selections" incrementValue="1.0">
               <conditions/>
@@ -33,7 +33,7 @@
             </modifier>
           </modifiers>
         </category>
-        <category id="4865726f6573202f204d6f6e737465727323232344415441232323" name="Heroes / Monsters" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1">
+        <category id="4865726f6573202f204d6f6e737465727323232344415441232323" name="Heroes / Monsters" minSelections="0" maxSelections="0" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers>
             <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="536f6c696420556e69747323232344415441232323" incrementField="selections" incrementValue="1.0">
               <conditions/>
@@ -42,6 +42,7 @@
           </modifiers>
         </category>
       </categories>
+      <forceTypes/>
     </forceType>
   </forceTypes>
   <profileTypes>

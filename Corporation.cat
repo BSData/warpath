@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b561e40c-1c4f-4d56-9d32-4ba6520fe118" revision="5" gameSystemId="c32ab30b-7a2f-4e2a-a46f-e5c249e706cd" gameSystemRevision="2" battleScribeVersion="1.13b" name="Corporation" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b561e40c-1c4f-4d56-9d32-4ba6520fe118" revision="5" gameSystemId="c32ab30b-7a2f-4e2a-a46f-e5c249e706cd" gameSystemRevision="2" battleScribeVersion="1.14b" name="Corporation" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="9056dfda-2cd2-481d-be63-f16007e00332" name="APC-13 Warrior" points="130.0" categoryId="41726d6f757223232344415441232323" type="unit" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries>

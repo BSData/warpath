@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="57e2754a-8544-9883-6bbc-ca8400cca169" revision="3" gameSystemId="c32ab30b-7a2f-4e2a-a46f-e5c249e706cd" gameSystemRevision="3" battleScribeVersion="1.13b" name="Plague (Alpha)" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="57e2754a-8544-9883-6bbc-ca8400cca169" revision="3" gameSystemId="c32ab30b-7a2f-4e2a-a46f-e5c249e706cd" gameSystemRevision="3" battleScribeVersion="1.14b" name="Plague (Alpha)" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="b499db4d-8a4d-891e-cdf3-5d5faff2b663" name="1st Gen Plague Mutant" points="75.0" categoryId="4865726f6573202f204d6f6e737465727323232344415441232323" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries/>
