@@ -1,4 +1,4 @@
-Warpath
+Warpath 2nd Edition
 =======
 
 ####Contents####
