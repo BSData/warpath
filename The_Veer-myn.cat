@@ -1,0 +1,3472 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="79c0-37d2-2596-d2b2" name="The Veer-myn" revision="1" battleScribeVersion="2.01" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries>
+    <selectionEntry id="26e1-0506-fc87-15c8" name="Nightcrawlers Unit" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="0b10-4151-7530-c4a1" name="Nightcrawlers" hidden="false" profileTypeId="1212-678a-919c-31c3" profileTypeName="Regular Infantry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="a0e1-8c35-0fab-1273" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="26e1-0506-fc87-15c8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="869a-08a5-5ef6-b273" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="a0e1-8c35-0fab-1273" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="26e1-0506-fc87-15c8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5a43-ed4b-22d3-361e" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Height" characteristicTypeId="d723-f1f8-3a56-85d5" value="2"/>
+            <characteristic name="Speed" characteristicTypeId="2f36-598a-350d-e493" value="6"/>
+            <characteristic name="Accuracy" characteristicTypeId="9b81-4745-f2cd-ab0e" value="5+"/>
+            <characteristic name="Defence" characteristicTypeId="ccd6-629b-1604-9421" value="4+"/>
+            <characteristic name="Resilience" characteristicTypeId="c6d5-03a0-b428-5f44" value="3"/>
+            <characteristic name="Nerve" characteristicTypeId="a0e1-8c35-0fab-1273" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="5a94-d57f-4173-ec6b" name="New CategoryLink" hidden="false" targetId="fac8-0454-71ff-88d2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5681-7ff4-8d2e-7f1a" name="Teams" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7d6-780d-38e5-05aa" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdc8-c5de-d7f8-fb6e" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="5ca4-0e76-9fc0-74ab" name="Nightcrawler Team" hidden="false" collective="false" type="unit">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="fd9c-490f-826a-1e36" name="Expendable" hidden="false" targetId="19e0-0e05-b30c-21c2" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="6530-4b51-8f83-642d" name="Equipment" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="b98f-636a-cb1a-3c62" name="Ray Gun" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="98c9-8c64-61f4-39b8" name="Ray Gun" hidden="false" targetId="a3d1-1533-a523-ba78" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints/>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="be2d-0852-8f0f-3ae8" name="Teeth &amp; Claws" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="1efc-d7dc-2518-2ac8" name="Teeth &amp; Claws" hidden="false" targetId="37fe-60fd-a016-fb91" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints/>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="2b77-e172-c2f3-5060" name="Personnel" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3619-8e53-564e-e47d" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="8ef1-f4aa-89c2-9e47" name="Malignus Heavy Ray Gun Personnel Upgrade" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints/>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups>
+                        <selectionEntryGroup id="0fa3-81aa-baa5-a1f8" name="Equipment" hidden="false" collective="false">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <constraints/>
+                          <categoryLinks/>
+                          <selectionEntries>
+                            <selectionEntry id="3186-4473-d1e5-afbd" name="Heavy Ray Gun" hidden="false" collective="false" type="upgrade">
+                              <profiles/>
+                              <rules/>
+                              <infoLinks>
+                                <infoLink id="f2f7-5cb8-e035-b884" name="Heavy Ray Gun" hidden="false" targetId="0c84-a269-09fd-3129" type="profile">
+                                  <profiles/>
+                                  <rules/>
+                                  <infoLinks/>
+                                  <modifiers/>
+                                </infoLink>
+                                <infoLink id="a94b-1667-7e99-9fa5" name="Experimental" hidden="false" targetId="0d03-8604-0cfa-c89b" type="rule">
+                                  <profiles/>
+                                  <rules/>
+                                  <infoLinks/>
+                                  <modifiers/>
+                                </infoLink>
+                              </infoLinks>
+                              <modifiers/>
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f606-8f7e-5b2f-e8dd" type="max"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7896-0ad8-9175-6c6e" type="min"/>
+                              </constraints>
+                              <categoryLinks/>
+                              <selectionEntries/>
+                              <selectionEntryGroups/>
+                              <entryLinks/>
+                              <costs>
+                                <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                                <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                              </costs>
+                            </selectionEntry>
+                          </selectionEntries>
+                          <selectionEntryGroups/>
+                          <entryLinks/>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="15.0"/>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="97ca-cba8-6bee-0ee7" name="Malignus Chem-Thrower Personnel Upgrade" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints/>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups>
+                        <selectionEntryGroup id="3c61-b623-b205-d507" name="Equipment" hidden="false" collective="false">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <constraints/>
+                          <categoryLinks/>
+                          <selectionEntries>
+                            <selectionEntry id="81b6-32a8-23e8-10d7" name="Chem-Thrower" hidden="false" collective="false" type="upgrade">
+                              <profiles/>
+                              <rules/>
+                              <infoLinks>
+                                <infoLink id="005d-6db2-a5c0-49a1" name="Chem-Thrower" hidden="false" targetId="02c7-78cd-3392-4c75" type="profile">
+                                  <profiles/>
+                                  <rules/>
+                                  <infoLinks/>
+                                  <modifiers/>
+                                </infoLink>
+                                <infoLink id="40e2-0880-778b-7f06" name="Blast (x)" hidden="false" targetId="d8f6-a772-a777-6764" type="rule">
+                                  <profiles/>
+                                  <rules/>
+                                  <infoLinks/>
+                                  <modifiers>
+                                    <modifier type="set" field="name" value="Blast (2D3)">
+                                      <repeats/>
+                                      <conditions/>
+                                      <conditionGroups/>
+                                    </modifier>
+                                  </modifiers>
+                                </infoLink>
+                                <infoLink id="4920-68a8-be5f-7e92" name="Experimental" hidden="false" targetId="0d03-8604-0cfa-c89b" type="rule">
+                                  <profiles/>
+                                  <rules/>
+                                  <infoLinks/>
+                                  <modifiers/>
+                                </infoLink>
+                              </infoLinks>
+                              <modifiers/>
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d509-d832-59bd-d4dc" type="max"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a2b-a055-3bde-f5cc" type="min"/>
+                              </constraints>
+                              <categoryLinks/>
+                              <selectionEntries/>
+                              <selectionEntryGroups/>
+                              <entryLinks/>
+                              <costs>
+                                <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                                <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                              </costs>
+                            </selectionEntry>
+                          </selectionEntries>
+                          <selectionEntryGroups/>
+                          <entryLinks/>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="25.0"/>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks>
+                    <entryLink id="40af-48d3-4a77-ed93" name="Brood Mother Personnel Upgrade" hidden="false" targetId="5a43-ed4b-22d3-361e" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints/>
+                      <categoryLinks/>
+                    </entryLink>
+                    <entryLink id="49a9-2d84-e7d5-7031" name="Progenitor Personnel Upgrade" hidden="false" targetId="5ed0-e47e-e69c-3a63" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints/>
+                      <categoryLinks/>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="30.0"/>
+                <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="11cd-1b06-6a13-a89e" name="Nightcrawler Stalker Team" hidden="false" collective="false" type="unit">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="dd93-a2f4-1fb9-a218" name="Expendable" hidden="false" targetId="19e0-0e05-b30c-21c2" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="ea25-210c-e369-b3e7" name="Equipment" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="0053-4942-a80b-edc0" name="Teeth &amp; Claws" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="dfd3-61f4-01bc-bce3" name="Teeth &amp; Claws" hidden="false" targetId="37fe-60fd-a016-fb91" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers>
+                            <modifier type="set" field="2a0b-b5bd-a193-5f9e" value="10">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e87f-9770-1e5e-e22d" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55b8-84f1-d47e-2ac1" type="min"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="1d10-1684-14fc-d350" name="Ray Pistol" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="daab-ee24-9b23-0ca6" name="Ray Pistol" hidden="false" targetId="1c35-c97d-0cf4-af03" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b63e-e532-51a1-b759" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb97-0d7a-094a-6b91" type="min"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="651d-0ac4-0fed-b99a" name="Personnel" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20ea-f811-52b2-c5cd" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="37b4-7364-78fa-e927" name="Malignus Heavy Ray Gun Personnel Upgrade" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints/>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups>
+                        <selectionEntryGroup id="aa79-ae03-0440-276a" name="Equipment" hidden="false" collective="false">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <constraints/>
+                          <categoryLinks/>
+                          <selectionEntries>
+                            <selectionEntry id="9953-3072-0b82-f02d" name="Heavy Ray Gun" hidden="false" collective="false" type="upgrade">
+                              <profiles/>
+                              <rules/>
+                              <infoLinks>
+                                <infoLink id="5753-a0d5-daef-2eec" name="Heavy Ray Gun" hidden="false" targetId="0c84-a269-09fd-3129" type="profile">
+                                  <profiles/>
+                                  <rules/>
+                                  <infoLinks/>
+                                  <modifiers/>
+                                </infoLink>
+                                <infoLink id="c5c5-8c4d-8a77-9ca5" name="Experimental" hidden="false" targetId="0d03-8604-0cfa-c89b" type="rule">
+                                  <profiles/>
+                                  <rules/>
+                                  <infoLinks/>
+                                  <modifiers/>
+                                </infoLink>
+                              </infoLinks>
+                              <modifiers/>
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3148-9e92-6a7f-7596" type="max"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12e5-c604-79c9-8de6" type="min"/>
+                              </constraints>
+                              <categoryLinks/>
+                              <selectionEntries/>
+                              <selectionEntryGroups/>
+                              <entryLinks/>
+                              <costs>
+                                <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                                <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                              </costs>
+                            </selectionEntry>
+                          </selectionEntries>
+                          <selectionEntryGroups/>
+                          <entryLinks/>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="15.0"/>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="f0b8-1fbf-5efd-44f9" name="Malignus Chem-Thrower Personnel Upgrade" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints/>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups>
+                        <selectionEntryGroup id="d7d7-1059-ddbc-61f2" name="Equipment" hidden="false" collective="false">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <constraints/>
+                          <categoryLinks/>
+                          <selectionEntries>
+                            <selectionEntry id="f051-67a4-1fae-c260" name="Chem-Thrower" hidden="false" collective="false" type="upgrade">
+                              <profiles/>
+                              <rules/>
+                              <infoLinks>
+                                <infoLink id="ade0-708e-2a42-706f" name="Chem-Thrower" hidden="false" targetId="02c7-78cd-3392-4c75" type="profile">
+                                  <profiles/>
+                                  <rules/>
+                                  <infoLinks/>
+                                  <modifiers/>
+                                </infoLink>
+                                <infoLink id="01ec-96b6-ad92-7298" name="Blast (x)" hidden="false" targetId="d8f6-a772-a777-6764" type="rule">
+                                  <profiles/>
+                                  <rules/>
+                                  <infoLinks/>
+                                  <modifiers>
+                                    <modifier type="set" field="name" value="Blast (2D3)">
+                                      <repeats/>
+                                      <conditions/>
+                                      <conditionGroups/>
+                                    </modifier>
+                                  </modifiers>
+                                </infoLink>
+                                <infoLink id="3489-a05a-7371-2529" name="Experimental" hidden="false" targetId="0d03-8604-0cfa-c89b" type="rule">
+                                  <profiles/>
+                                  <rules/>
+                                  <infoLinks/>
+                                  <modifiers/>
+                                </infoLink>
+                              </infoLinks>
+                              <modifiers/>
+                              <constraints>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="858d-9c3d-afd3-f632" type="max"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aaf6-0f70-60fd-d1a5" type="min"/>
+                              </constraints>
+                              <categoryLinks/>
+                              <selectionEntries/>
+                              <selectionEntryGroups/>
+                              <entryLinks/>
+                              <costs>
+                                <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                                <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                              </costs>
+                            </selectionEntry>
+                          </selectionEntries>
+                          <selectionEntryGroups/>
+                          <entryLinks/>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="25.0"/>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks>
+                    <entryLink id="6c82-134b-4e83-0b00" name="Brood Mother Personnel Upgrade" hidden="false" targetId="5a43-ed4b-22d3-361e" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints/>
+                      <categoryLinks/>
+                    </entryLink>
+                    <entryLink id="db71-113c-2c23-c7ad" name="Progenitor Personnel Upgrade" hidden="false" targetId="5ed0-e47e-e69c-3a63" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints/>
+                      <categoryLinks/>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="30.0"/>
+                <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8dca-40d2-92e6-7c17" name="Nightcrawler Creeper Team" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="756b-ea16-866c-2b9a" name="Fire in the Hole!" hidden="false" targetId="bbe3-4405-7e7e-79aa" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="f73b-3cc9-6787-c6bf" name="Reckless Advance" hidden="false" targetId="6b36-5798-5bdb-6f59" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="46fe-6603-5936-0108" name="Saboteur" hidden="false" targetId="bc2e-00ac-dbaf-8d5a" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="ea0a-6795-dc20-2fdc" name="Equipment" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="5c1f-3c3c-feef-d9b0" name="Ray Pistol" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="d8ae-337c-5bd7-d10e" name="Ray Pistol" hidden="false" targetId="1c35-c97d-0cf4-af03" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers>
+                            <modifier type="set" field="2a0b-b5bd-a193-5f9e" value="10">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2b7-ed9c-debe-4234" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78ce-b7c0-5ae2-91a7" type="min"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="8425-f38b-f49b-a342" name="Knives, Teeth &amp; Claws" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="0aea-2376-e12e-159e" name="Knives, Teeth &amp; Claws" hidden="false" targetId="f0d6-1fea-bea4-c202" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2d1-ecb5-7b6b-2680" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcdb-7f7d-b560-9539" type="min"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="5d1f-3f11-3057-82a9" name="Explosives" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="697c-7bc8-056a-f73d" name="Explosives" hidden="false" targetId="e4f6-c708-9918-aef0" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                        <infoLink id="fbbc-526e-b777-9461" name="Anti-Tank (x)" hidden="false" targetId="ecf4-0e0a-3807-e698" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers>
+                            <modifier type="set" field="name" value="Anti-Tank (2)">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d93-8fc9-321e-95cd" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c16-af51-3e5e-b548" type="min"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="50f8-0fff-1445-ecae" name="Personnel" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b89c-a265-dedc-f41d" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks>
+                    <entryLink id="e0c1-fdbb-6d7f-80f1" name="Brood Mother Personnel Upgrade" hidden="false" targetId="5a43-ed4b-22d3-361e" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints/>
+                      <categoryLinks/>
+                    </entryLink>
+                    <entryLink id="534d-e55c-741e-3c1b" name="Hacker Halftail" hidden="false" targetId="869a-08a5-5ef6-b273" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints/>
+                      <categoryLinks/>
+                    </entryLink>
+                    <entryLink id="0b04-33eb-e114-5cbd" name="Master Creeper Personnel Upgrade" hidden="false" targetId="5478-3e73-77b9-874c" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints/>
+                      <categoryLinks/>
+                    </entryLink>
+                    <entryLink id="1815-0994-d972-a1c5" name="Progenitor Personnel Upgrade" hidden="false" targetId="5ed0-e47e-e69c-3a63" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints/>
+                      <categoryLinks/>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="50.0"/>
+                <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="166d-e22b-a487-b22a" name="Maligni Unit" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="7acb-70fb-3eb0-21b3" name="Maligni" hidden="false" profileTypeId="1212-678a-919c-31c3" profileTypeName="Regular Infantry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="a0e1-8c35-0fab-1273" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="166d-e22b-a487-b22a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5a43-ed4b-22d3-361e" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Height" characteristicTypeId="d723-f1f8-3a56-85d5" value="2"/>
+            <characteristic name="Speed" characteristicTypeId="2f36-598a-350d-e493" value="6"/>
+            <characteristic name="Accuracy" characteristicTypeId="9b81-4745-f2cd-ab0e" value="4+"/>
+            <characteristic name="Defence" characteristicTypeId="ccd6-629b-1604-9421" value="4+"/>
+            <characteristic name="Resilience" characteristicTypeId="c6d5-03a0-b428-5f44" value="4"/>
+            <characteristic name="Nerve" characteristicTypeId="a0e1-8c35-0fab-1273" value="2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="b0c4-96e5-8d28-724b" name="New CategoryLink" hidden="false" targetId="fac8-0454-71ff-88d2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f760-6db6-0892-709f" name="Equipment" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="21ff-d783-2df8-9a55" name="Chem-Spitter" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="3b9c-f1b5-3129-0f7a" name="Chem-Spitter" hidden="false" targetId="fef3-4d23-64bf-3c39" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="4e40-36a0-56d4-b826" name="Blast (x)" hidden="false" targetId="d8f6-a772-a777-6764" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Blast (D3)">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08af-ae1a-908e-ee61" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d0f-4cfd-6ad0-3b1b" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="aeb7-e8b4-3e71-1827" name="Combat Drill" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="fabf-1631-34ef-153f" name="Combat Drill" hidden="false" targetId="db50-0556-4bc4-6d7b" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="f3b2-2181-5322-d095" name="Shredder" hidden="false" targetId="f61a-49b6-a5c5-b583" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffed-527c-48bf-fc94" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89a7-9ff0-f9a3-c94d" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="03a6-5c7a-b6b4-81e7" name="Equipment Upgrades" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e98-7749-5fba-046a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="8ac7-ee47-acef-4288" name="Two Heavy Ray Guns Equipment Upgrade" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="3e92-2bca-3d1c-a843" name="Two Heavy Ray Guns" hidden="false" targetId="d97c-882d-137a-9e9a" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="9c95-aba3-5fa1-a83a" name="Experimental" hidden="false" targetId="0d03-8604-0cfa-c89b" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="25.0"/>
+                <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2e1e-7ef2-97fb-2769" name="Two Chem-Throwers Equipment Upgrade" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="8062-eeba-ecd1-302a" name="Two Chem-Throwers" hidden="false" targetId="da9b-1196-2da7-3cc4" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="1587-5d34-0aa4-bbed" name="Blast (x)" hidden="false" targetId="d8f6-a772-a777-6764" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Blast (2D3)">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="3a60-a051-ba5c-659f" name="Experimental" hidden="false" targetId="0d03-8604-0cfa-c89b" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="40.0"/>
+                <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="4889-213c-ad1c-ddea" name="Personnel" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4e6-844c-9475-c1df" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="0747-634a-37ef-1c47" name="Brood Mother Personnel Upgrade" hidden="false" targetId="5a43-ed4b-22d3-361e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="0af7-3ec0-b299-dbd9" name="Progenitor Personnel Upgrade" hidden="false" targetId="5ed0-e47e-e69c-3a63" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="65.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f4c2-93e5-0aa9-0736" name="Nightmares Unit" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="7345-5816-97b3-2804" name="Nightmares" hidden="false" profileTypeId="769c-2e42-f8d3-26f2" profileTypeName="Large Infantry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="ea80-6247-9634-ceab" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="f4c2-93e5-0aa9-0736" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5a43-ed4b-22d3-361e" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Height" characteristicTypeId="1706-1ba2-c8aa-b708" value="2"/>
+            <characteristic name="Speed" characteristicTypeId="a72b-b7f3-d4f0-9b4d" value="5"/>
+            <characteristic name="Accuracy" characteristicTypeId="c943-ee09-d8d1-fd10" value="5+"/>
+            <characteristic name="Defence" characteristicTypeId="a009-f7b2-9792-c40c" value="5+"/>
+            <characteristic name="Resilience" characteristicTypeId="3264-b1e8-4ac0-517a" value="4"/>
+            <characteristic name="Nerve" characteristicTypeId="ea80-6247-9634-ceab" value="2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="10bc-5584-49fb-4934" name="New CategoryLink" hidden="false" targetId="0a72-3aae-eeae-9df9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="56f1-fa1c-faf9-3b0a" name="Teams" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96de-9ddf-8b09-9757" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55ab-6272-f1c7-a996" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="77eb-cf72-05e8-107b" name="Nightmare Team" hidden="false" collective="false" type="unit">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="b97d-eb5d-b0b8-9fad" name="Equipment" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="658c-c8b7-99ee-5757" name="Chem-Thrower" hidden="false" collective="false" type="upgrade">
+                      <profiles>
+                        <profile id="93fb-e9ec-e597-dd6e" name="Chem-Thrower" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <characteristics>
+                            <characteristic name="Range" characteristicTypeId="3401-0064-8450-a80f" value="16&quot;"/>
+                            <characteristic name="Dice" characteristicTypeId="2a0b-b5bd-a193-5f9e" value="4"/>
+                            <characteristic name="AP" characteristicTypeId="a383-6bfe-9209-fb8c" value="2"/>
+                            <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="-"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bbb-a45c-10e2-10c8" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ade0-6c1d-8d19-abfd" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="3bb0-5840-549b-ac96" name="Combat Drill" hidden="false" collective="false" type="upgrade">
+                      <profiles>
+                        <profile id="a0c4-3998-e04e-cdca" name="Combat Drill" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <characteristics>
+                            <characteristic name="Range" characteristicTypeId="3401-0064-8450-a80f" value="A"/>
+                            <characteristic name="Dice" characteristicTypeId="2a0b-b5bd-a193-5f9e" value="6"/>
+                            <characteristic name="AP" characteristicTypeId="a383-6bfe-9209-fb8c" value="3"/>
+                            <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Shredder"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="115e-f244-7ca8-5a42" name="Shredder" hidden="false" targetId="f61a-49b6-a5c5-b583" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cc7-536d-282d-788a" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccd1-05ce-bf8b-7b2c" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="a2b9-b1f8-a01f-4acb" name="Personnel" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3071-65d2-e742-f04f" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks>
+                    <entryLink id="3026-c877-65c8-7217" name="Brood Mother Personnel Upgrade" hidden="false" targetId="5a43-ed4b-22d3-361e" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="f4c2-93e5-0aa9-0736" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cca3-c19e-0ca1-4ac5" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                    </entryLink>
+                    <entryLink id="ef90-ab1c-8ef3-93b1" name="Progenitor Personnel Upgrade" hidden="false" targetId="5ed0-e47e-e69c-3a63" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="f4c2-93e5-0aa9-0736" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c782-0597-0314-c54a" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="65.0"/>
+                <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="be0e-17a0-0bd2-cb9a" name="Nightmare Shredder Team" hidden="false" collective="false" type="unit">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="97b6-77b3-8c09-10f1" name="Equipment" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="c6c9-af0e-a58b-d929" name="Twin Combat Drills" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="d6ae-5aec-84fc-51f1" name="Twin Combat Drills" hidden="false" targetId="3a95-b298-69c7-82a0" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                        <infoLink id="9d41-d3f2-ba51-b621" name="Shredder" hidden="false" targetId="f61a-49b6-a5c5-b583" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6769-c4ba-d96f-6c7f" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9716-18fa-36f7-5b5b" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="466c-cc4a-d6aa-8391" name="Personnel" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4618-8ba8-abbb-b379" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks>
+                    <entryLink id="0f6e-a225-f462-6b97" name="Brood Mother Personnel Upgrade" hidden="false" targetId="5a43-ed4b-22d3-361e" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="f4c2-93e5-0aa9-0736" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d47f-37b5-f3bc-5c95" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                    </entryLink>
+                    <entryLink id="7698-73c3-a164-e076" name="Progenitor Personnel Upgrade" hidden="false" targetId="5ed0-e47e-e69c-3a63" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="f4c2-93e5-0aa9-0736" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a1f0-93c9-f5f5-329f" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="70.0"/>
+                <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="599e-671b-4399-e1f0" name="Nightmare Chem-Thrower Team" hidden="false" collective="false" type="unit">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="cc5b-bef7-d00e-baed" name="Equipment" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="be6a-3964-6505-da01" name="Chem-Thrower" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="4f7f-ba44-a188-def7" name="Chem-Thrower" hidden="false" targetId="02c7-78cd-3392-4c75" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers>
+                            <modifier type="set" field="3401-0064-8450-a80f" value="16&quot;">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                            <modifier type="set" field="ac63-4116-ed59-2756" value="-">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cc5-8604-6f47-2a39" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28e9-c680-8006-56fd" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="3a88-5808-41fa-2188" name="Combat Drill" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="c502-4959-9d58-0133" name="Combat Drill" hidden="false" targetId="db50-0556-4bc4-6d7b" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers>
+                            <modifier type="set" field="2a0b-b5bd-a193-5f9e" value="3">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                            <modifier type="set" field="a383-6bfe-9209-fb8c" value="3">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
+                        <infoLink id="b990-e8d7-6e5e-6c5b" name="Shredder" hidden="false" targetId="f61a-49b6-a5c5-b583" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32b7-196c-5c54-89a0" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb00-65f7-50f0-1ed6" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="a5c6-10fe-5c3c-fdc7" name="Heavy Chem-Thrower" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="0ab6-74a2-7992-dbc0" name="Heavy Chem Thrower" hidden="false" targetId="1caa-968b-5464-7132" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                        <infoLink id="ad34-e869-afb7-70ce" name="Experimental" hidden="false" targetId="0d03-8604-0cfa-c89b" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                        <infoLink id="a7c5-394e-0f6f-7e62" name="Blast (x)" hidden="false" targetId="d8f6-a772-a777-6764" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers>
+                            <modifier type="set" field="name" value="Blast (3D3)">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83be-c6ab-c208-93c0" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7048-fac4-2365-3b91" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="913d-b814-244b-87f9" name="Personnel" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f66-63dc-0916-192a" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks>
+                    <entryLink id="451b-6531-5ff0-6edc" name="Brood Mother Personnel Upgrade" hidden="false" targetId="5a43-ed4b-22d3-361e" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="f4c2-93e5-0aa9-0736" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0d90-da44-f1ee-46b0" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                    </entryLink>
+                    <entryLink id="128c-06b5-2c72-b38f" name="Progenitor Personnel Upgrade" hidden="false" targetId="5ed0-e47e-e69c-3a63" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="f4c2-93e5-0aa9-0736" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="51f8-7031-f3b3-e001" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="85.0"/>
+                <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b74f-5cd5-d59b-cb5e" name="Nightmare Ravager Team" hidden="false" collective="false" type="unit">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="a3e8-3f7c-dc06-cc46" name="Equipment" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="0fad-4916-a2e5-e6d8" name="Chem-Thrower" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="8450-85fa-dc1f-dca9" name="Chem-Thrower" hidden="false" targetId="02c7-78cd-3392-4c75" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers>
+                            <modifier type="set" field="3401-0064-8450-a80f" value="16&quot;">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                            <modifier type="set" field="ac63-4116-ed59-2756" value="-">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cad-6d8c-06fe-d444" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="663b-bf7d-1095-fe8e" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="6d58-2108-c4a7-60b8" name="Combat Drill" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="67eb-3c32-79ca-d2ea" name="Combat Drill" hidden="false" targetId="db50-0556-4bc4-6d7b" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers>
+                            <modifier type="set" field="2a0b-b5bd-a193-5f9e" value="3">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                            <modifier type="set" field="a383-6bfe-9209-fb8c" value="3">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
+                        <infoLink id="a25d-2702-4caf-418b" name="Shredder" hidden="false" targetId="f61a-49b6-a5c5-b583" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="382d-c828-a5bf-70e9" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9f3-410d-5167-df29" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="affd-02cc-8908-a943" name="Heavy Combat Drill" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="9f78-4839-4031-3376" name="Heavy Combat Drill" hidden="false" targetId="6253-ec6b-f4f5-c5a8" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                        <infoLink id="095b-568b-09f7-9181" name="Anti-Tank (x)" hidden="false" targetId="ecf4-0e0a-3807-e698" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers>
+                            <modifier type="set" field="name" value="Anti-Tank (D3+1)">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
+                        <infoLink id="d830-fb9a-b01e-0397" name="Shredder" hidden="false" targetId="f61a-49b6-a5c5-b583" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18f2-b15d-432d-f059" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77e6-8d45-0b9c-2998" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="8574-5969-8a87-a443" name="Personnel" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71ea-79aa-7b28-0e8b" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks>
+                    <entryLink id="0d10-659b-f5ba-2403" name="Brood Mother Personnel Upgrade" hidden="false" targetId="5a43-ed4b-22d3-361e" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="f4c2-93e5-0aa9-0736" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a375-d790-5c74-631a" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                    </entryLink>
+                    <entryLink id="2b4c-cf93-b676-4fe4" name="Progenitor Personnel Upgrade" hidden="false" targetId="5ed0-e47e-e69c-3a63" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="f4c2-93e5-0aa9-0736" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="172f-3dd2-72eb-f566" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="75.0"/>
+                <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5c72-f028-c464-c99d" name="Night Terrors Unit" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="79dd-25b2-3fa2-f257" name="Night Terrors" hidden="false" profileTypeId="8c58-4c4b-cf8c-7910" profileTypeName="Massive Infantry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="00cd-f4fc-b697-5797" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="5c72-f028-c464-c99d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5a43-ed4b-22d3-361e" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Height" characteristicTypeId="49b2-9d35-aeb5-1a35" value="3"/>
+            <characteristic name="Speed" characteristicTypeId="6874-53bb-f521-a22f" value="7"/>
+            <characteristic name="Accuracy" characteristicTypeId="c4c0-1244-1464-c8c6" value="5+"/>
+            <characteristic name="Defence" characteristicTypeId="7ac3-d7ea-304c-9a53" value="5+"/>
+            <characteristic name="Resilience" characteristicTypeId="376f-320c-1e38-4e6c" value="4"/>
+            <characteristic name="Nerve" characteristicTypeId="00cd-f4fc-b697-5797" value="4"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9c02-05f6-b968-68f3" name="Expendable" hidden="false" targetId="19e0-0e05-b30c-21c2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3cc4-27dc-8e53-6179" name="Unflinching" hidden="false" targetId="6ad5-9063-d033-bdeb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="32c4-2bd0-f3a4-2d27" name="Unseen Terror" hidden="false" targetId="862b-ff24-d92c-ad09" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="0801-04e0-7746-d031" name="New CategoryLink" hidden="false" targetId="0af5-6285-2781-d201" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6a3d-12bc-d591-8bf9" name="Teams" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e88c-3334-c305-ffed" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df94-2bc8-e551-f115" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="00fe-dedd-84c7-ef55" name="Terror with Reaper Harness" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="e079-6c94-75dd-8943" name="Equipment" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="f202-744a-3792-96c0" name="Scythes" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="e5d1-e6f8-c52a-aaae" name="Scythes" hidden="false" targetId="a678-2ed1-8c4a-8b27" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0063-69c3-c930-864f" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f39-efe5-fb22-f388" type="min"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="90.0"/>
+                <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="baab-9b80-acc7-79b5" name="Terror with Acid-Sprayer" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="0f15-6dff-d34e-0168" name="Equipment" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="fa60-657d-0cb3-b8b8" name="Chem-Sprayer" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="c0b9-950f-4a47-42a5" name="Chem-Sprayer" hidden="false" targetId="6f38-483a-7e7f-34b3" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                        <infoLink id="2162-141f-edb3-f489" name="Area Effect" hidden="false" targetId="81a2-f3a4-5b46-4ba9" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                        <infoLink id="1dce-1a7e-665a-8442" name="Blast (x)" hidden="false" targetId="d8f6-a772-a777-6764" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers>
+                            <modifier type="set" field="name" value="Blast (2D3)">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
+                        <infoLink id="f435-3a72-2d60-8b99" name="Experimental" hidden="false" targetId="0d03-8604-0cfa-c89b" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                        <infoLink id="6bac-acbe-638d-c5c4" name="Saturation" hidden="false" targetId="915d-9cf0-1df3-93bb" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b63-fbd2-495b-4114" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e223-5d57-117f-1821" type="min"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="91db-4662-302a-2a9a" name="Teeth &amp; Claws" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="6a16-8242-c5a2-1b08" name="Teeth &amp; Claws" hidden="false" targetId="37fe-60fd-a016-fb91" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers>
+                            <modifier type="set" field="2a0b-b5bd-a193-5f9e" value="8">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                            <modifier type="set" field="a383-6bfe-9209-fb8c" value="1">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="820a-58e4-d54a-daf9" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e6b-e2a0-096f-24f9" type="min"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="150.0"/>
+                <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="799d-6fe3-e3c0-53f1" name="Personnel" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a699-0eb3-540d-03b4" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="b578-1fc1-5bca-2bd4" name="Brood Mother Personnel Upgrade" hidden="false" targetId="5a43-ed4b-22d3-361e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="e388-17b6-fe3a-7e71" name="Progenitor Personnel Upgrade" hidden="false" targetId="5ed0-e47e-e69c-3a63" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b412-39bb-8a5c-5033" name="Tunnel Runners Formation" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c495-c687-9833-2b4c" name="Bulky" hidden="false" targetId="11d4-1104-8fa3-008b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e63a-17be-e54b-1ca4" name="Tunnel Runners" hidden="false" targetId="ccd3-c023-7124-052c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="14ed-be94-dce6-7050" name="New CategoryLink" hidden="false" targetId="0af5-6285-2781-d201" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2b21-4f79-f7c8-3f20" name="Tunnel Runner" hidden="false" collective="false" type="unit">
+          <profiles>
+            <profile id="9f61-51fc-f463-c30b" name="Tunnel Runner" hidden="false" profileTypeId="8c58-4c4b-cf8c-7910" profileTypeName="Massive Infantry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Height" characteristicTypeId="49b2-9d35-aeb5-1a35" value="3"/>
+                <characteristic name="Speed" characteristicTypeId="6874-53bb-f521-a22f" value="10"/>
+                <characteristic name="Accuracy" characteristicTypeId="c4c0-1244-1464-c8c6" value="4+"/>
+                <characteristic name="Defence" characteristicTypeId="7ac3-d7ea-304c-9a53" value="6+"/>
+                <characteristic name="Resilience" characteristicTypeId="376f-320c-1e38-4e6c" value="3"/>
+                <characteristic name="Nerve" characteristicTypeId="00cd-f4fc-b697-5797" value="2"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ab8-a8e2-79e8-45cb" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78b9-7ecf-80c3-4afc" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="9b5a-c702-3f6c-7cff" name="Equipment" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="2f27-3985-6d06-dbbf" name="Twin Chem-Spitters" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="e37b-92e2-578c-dbca" name="Twin Chem-Spitters" hidden="false" targetId="c76b-8e0f-9900-04c8" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="867e-22c1-de6d-b5f2" name="Blast (x)" hidden="false" targetId="d8f6-a772-a777-6764" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers>
+                        <modifier type="set" field="name" value="Blast (D3)">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5674-a3a8-0859-ec43" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e30-c9ab-6ea3-27ab" type="min"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                    <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="417a-e945-e4e8-4d7a" name="Wheel" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="d723-66a0-aa31-c0fb" name="Wheel" hidden="false" targetId="780b-7e08-050f-2694" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1d5-4167-f15b-7d70" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7110-28a0-2fb5-4891" type="min"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                    <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="100.0"/>
+            <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a017-fbb5-e3e2-a3a4" name="Rumbler Weapon Platforms Formation" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="8965-9dfe-31d4-3940" name="Rumbler Weapon Platform" hidden="false" profileTypeId="1c23-d26a-305b-d849" profileTypeName="Vehicle">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Height" characteristicTypeId="1024-62d6-5513-ebfd" value="3"/>
+            <characteristic name="Speed" characteristicTypeId="3bff-0fa3-f6ff-40d3" value="5"/>
+            <characteristic name="Accuracy" characteristicTypeId="67a0-5274-4ecf-4a9f" value="4+"/>
+            <characteristic name="Defence" characteristicTypeId="8dbc-60d4-4c4c-7e62" value="6+"/>
+            <characteristic name="Resilience" characteristicTypeId="04d7-4543-a951-f670" value="3"/>
+            <characteristic name="Nerve" characteristicTypeId="927b-4718-6749-e1d9" value="2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="b58e-f43c-1dc2-694a" name="New CategoryLink" hidden="false" targetId="6aab-a426-442e-9546" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="27e0-8854-df45-62a7" name="Equipment Patterns" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ebb-c617-4a2b-7b4f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb4a-485f-b615-f706" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="471d-ab2b-8943-71fa" name="Thrower Weapon Platform" hidden="false" collective="false" type="unit">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="5b51-b4e5-5562-0672" name="Equipment" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="fc5d-7389-e6de-4263" name="Assault" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="5819-a7b1-aaea-a5b5" name="Assault" hidden="false" targetId="8825-3357-cb2c-cc39" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="441b-cfb4-4bd3-2943" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="147e-e085-35fe-3d7d" type="min"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="2068-f589-b70f-4795" name="Super-Heavy Chem Thrower" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="abfc-5254-11da-28fd" name="Super-Heavy Chem Thrower" hidden="false" targetId="3ec8-c80d-29d8-cbb7" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                        <infoLink id="45a6-95f9-9664-9a76" name="Area Effect" hidden="false" targetId="81a2-f3a4-5b46-4ba9" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                        <infoLink id="2f6b-8261-eb68-bd9c" name="Blast (x)" hidden="false" targetId="d8f6-a772-a777-6764" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers>
+                            <modifier type="set" field="name" value="Blast (3D3)">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
+                        <infoLink id="f5a0-1abe-fca4-9b8e" name="Experimental" hidden="false" targetId="0d03-8604-0cfa-c89b" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="579c-dd49-ceb8-68ca" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39bd-184a-8506-3b2e" type="min"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="120.0"/>
+                <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="db1b-ff08-832b-8b64" name="Laser Weapon Platform" hidden="false" collective="false" type="unit">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="3210-ab7a-5a08-35c4" name="Equipment" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="0f62-801d-472b-4815" name="Super-Heavy Ray Gun" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="30c5-ddf1-3dee-ebff" name="Super-Heavy Ray Gun" hidden="false" targetId="d1c3-427b-dbd1-0282" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                        <infoLink id="0e18-2069-c577-b8e7" name="Anti-Tank (x)" hidden="false" targetId="ecf4-0e0a-3807-e698" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers>
+                            <modifier type="set" field="name" value="Anti-Tank (D3)">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
+                        <infoLink id="1364-f68f-9930-c91f" name="Experimental" hidden="false" targetId="0d03-8604-0cfa-c89b" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8a9-45ff-daad-e977" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="070a-d948-2c42-07e5" type="min"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="4d64-5945-6c9f-6a26" name="Assault" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="bc66-1b6f-79b4-f4af" name="Assault" hidden="false" targetId="8825-3357-cb2c-cc39" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6277-766b-92ec-5669" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a1e-2495-d2a6-204f" type="min"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="80.0"/>
+                <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2b7b-67ae-fe61-f327" name="Tunneller" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="3cbd-06e3-4a93-13a9" name="Tunneller" hidden="false" profileTypeId="1c23-d26a-305b-d849" profileTypeName="Vehicle">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Height" characteristicTypeId="1024-62d6-5513-ebfd" value="3"/>
+            <characteristic name="Speed" characteristicTypeId="3bff-0fa3-f6ff-40d3" value="7"/>
+            <characteristic name="Accuracy" characteristicTypeId="67a0-5274-4ecf-4a9f" value="5+"/>
+            <characteristic name="Defence" characteristicTypeId="8dbc-60d4-4c4c-7e62" value="8+"/>
+            <characteristic name="Resilience" characteristicTypeId="04d7-4543-a951-f670" value="4"/>
+            <characteristic name="Nerve" characteristicTypeId="927b-4718-6749-e1d9" value="3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="16f5-740e-09d0-fc9a" name="Subterranean Deployment" hidden="false" targetId="133f-43ab-303f-6608" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="f50b-7aed-7fe9-fd11" name="New CategoryLink" hidden="false" targetId="6aab-a426-442e-9546" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c73d-8d9e-5a2e-6f66" name="Additional Transport Sections" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b024-39f2-38d1-4ff7" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="30.0"/>
+            <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cbda-2942-b520-7b89" name="Pheromone Trail" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="0b77-2c70-b3ba-2934" name="Pheromone Trail" hidden="false" targetId="b366-27bc-22a9-24bd" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6632-9ef5-1855-609d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="40.0"/>
+            <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2aeb-5c27-fc2b-ba12" name="Rock Corroder" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="cd38-d356-81e7-8db4" name="Rock Corroder" hidden="false" targetId="07c7-f822-158a-06e4" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a16-068c-6ef8-dee7" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="30.0"/>
+            <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0382-c4ab-9f6e-3d0c" name="Equipment Patterns" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da15-b6b9-efeb-8511" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67a3-92a7-9a7b-4e2b" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="27c8-c304-261b-0bf8" name="Tunneller Transport" hidden="false" collective="false" type="unit">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="db45-537c-1bbe-b04f" name="Transport (x)" hidden="false" targetId="ecdd-ad43-7142-6abb" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Transport (2)">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="name" value="Transport (3)">
+                      <repeats/>
+                      <conditions>
+                        <condition field="selections" scope="2b7b-67ae-fe61-f327" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c73d-8d9e-5a2e-6f66" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="name" value="Transport (4)">
+                      <repeats/>
+                      <conditions>
+                        <condition field="selections" scope="2b7b-67ae-fe61-f327" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c73d-8d9e-5a2e-6f66" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="4f80-7ed9-5c0a-ae9c" name="Equipment" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="8028-b961-101b-0621" name="Drill Head" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="f1e7-fe6e-36c9-2649" name="Drill Head" hidden="false" targetId="720a-170b-893a-7ccb" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                        <infoLink id="5157-fd04-558d-14b5" name="Shredder" hidden="false" targetId="f61a-49b6-a5c5-b583" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99b5-fc52-9bd5-983d" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c68-ba79-1d41-935d" type="min"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="170.0"/>
+                <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b9df-7526-64bd-aa1b" name="Tunneller Weapons Platform w/ Chem-Sprayer" hidden="false" collective="false" type="unit">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="c819-4f61-0277-6b70" name="Transport (x)" hidden="false" targetId="ecdd-ad43-7142-6abb" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Transport (0)">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="name" value="Transport (1)">
+                      <repeats/>
+                      <conditions>
+                        <condition field="selections" scope="2b7b-67ae-fe61-f327" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c73d-8d9e-5a2e-6f66" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="name" value="Transport (2)">
+                      <repeats/>
+                      <conditions>
+                        <condition field="selections" scope="2b7b-67ae-fe61-f327" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c73d-8d9e-5a2e-6f66" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="83ac-39b9-6347-7d74" name="Equipment" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="2171-f306-48bf-ab55" name="Chem-Sprayer" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="d6ca-e845-322c-5dce" name="Chem-Sprayer" hidden="false" targetId="6f38-483a-7e7f-34b3" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers>
+                            <modifier type="set" field="a383-6bfe-9209-fb8c" value="3">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
+                        <infoLink id="a19b-0fb7-f87c-f750" name="Area Effect" hidden="false" targetId="81a2-f3a4-5b46-4ba9" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                        <infoLink id="a959-612c-557d-e769" name="Blast (x)" hidden="false" targetId="d8f6-a772-a777-6764" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers>
+                            <modifier type="set" field="name" value="Blast (2D3)">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
+                        <infoLink id="8b5a-64ff-b578-1822" name="Experimental" hidden="false" targetId="0d03-8604-0cfa-c89b" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                        <infoLink id="ba98-61a2-2c72-1027" name="Saturation" hidden="false" targetId="915d-9cf0-1df3-93bb" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4929-0f1f-c86d-d378" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d931-6e61-bf76-4f2f" type="min"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="7253-12c8-6547-847b" name="Drill Head" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="f2f9-a500-df20-ca4a" name="Drill Head" hidden="false" targetId="720a-170b-893a-7ccb" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                        <infoLink id="c69c-27cf-012b-70b4" name="Shredder" hidden="false" targetId="f61a-49b6-a5c5-b583" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9eb-57e0-9002-3975" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ff2-591a-627c-ad63" type="min"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="225.0"/>
+                <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5994-367a-a5fd-33f9" name="Tunneller Weapons Platform w/ Super-Heavy Ray Gun" hidden="false" collective="false" type="unit">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="2148-41af-8bf5-6c35" name="Transport (x)" hidden="false" targetId="ecdd-ad43-7142-6abb" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Transport (0)">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="name" value="Transport (1)">
+                      <repeats/>
+                      <conditions>
+                        <condition field="selections" scope="2b7b-67ae-fe61-f327" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c73d-8d9e-5a2e-6f66" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="name" value="Transport (2)">
+                      <repeats/>
+                      <conditions>
+                        <condition field="selections" scope="2b7b-67ae-fe61-f327" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c73d-8d9e-5a2e-6f66" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="19ba-7ef9-4b89-e076" name="Equipment" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="b77d-441a-ac33-5568" name="Super-Heavy Ray Gun" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="e461-4c9d-2b53-895d" name="Super-Heavy Ray Gun" hidden="false" targetId="d1c3-427b-dbd1-0282" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                        <infoLink id="cac0-8a53-ff7f-1d94" name="Anti-Tank (x)" hidden="false" targetId="ecf4-0e0a-3807-e698" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers>
+                            <modifier type="set" field="name" value="Anti-Tank (D3)">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
+                        <infoLink id="e9d0-8695-2ac8-0671" name="Experimental" hidden="false" targetId="0d03-8604-0cfa-c89b" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e848-7d94-f38a-2a6b" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ebd-1be2-71e3-0d85" type="min"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="1eb9-c7ff-7d6f-3b2c" name="Drill Head" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="38ac-27b1-0e1b-3027" name="Drill Head" hidden="false" targetId="720a-170b-893a-7ccb" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                        <infoLink id="c54b-bf50-89c9-4b5c" name="Shredder" hidden="false" targetId="f61a-49b6-a5c5-b583" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaa0-61ca-f1ed-2bf5" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f68b-6305-7cb1-6a85" type="min"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="210.0"/>
+                <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="da6e-65ce-69f0-eec8" name="Tangle" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="a233-ef0a-1b54-0323" name="Tangle" hidden="false" profileTypeId="8c58-4c4b-cf8c-7910" profileTypeName="Massive Infantry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="00cd-f4fc-b697-5797" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="da6e-65ce-69f0-eec8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5a43-ed4b-22d3-361e" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Height" characteristicTypeId="49b2-9d35-aeb5-1a35" value="2"/>
+            <characteristic name="Speed" characteristicTypeId="6874-53bb-f521-a22f" value="5"/>
+            <characteristic name="Accuracy" characteristicTypeId="c4c0-1244-1464-c8c6" value="-"/>
+            <characteristic name="Defence" characteristicTypeId="7ac3-d7ea-304c-9a53" value="4+"/>
+            <characteristic name="Resilience" characteristicTypeId="376f-320c-1e38-4e6c" value="4"/>
+            <characteristic name="Nerve" characteristicTypeId="00cd-f4fc-b697-5797" value="3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="7fdf-94ec-3081-c40b" name="Bulky" hidden="false" targetId="11d4-1104-8fa3-008b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2e8e-fbaa-3bce-9f27" name="Inspiring" hidden="false" targetId="6914-dda0-83d5-364b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="56e1-90ee-3ca5-3886" name="Premonition Order" hidden="false" targetId="a957-98c6-b91d-55ce" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d3e6-815c-ad87-6b36" name="Prophet" hidden="false" targetId="d16f-c4cf-c3d0-e986" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a012-cd42-6007-bab5" name="Protection (x)" hidden="false" targetId="4f9e-b6bf-ac88-4dce" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Protection (Nightcrawlers)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bcfb-02d1-6a60-7404" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a436-f232-7482-09c6" name="New CategoryLink" hidden="false" targetId="0af5-6285-2781-d201" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3ea6-7500-9543-d3ff" name="Malignus Body Guard" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="41c0-3178-adbb-8c46" name="Malignus Body Guard" hidden="false" targetId="2f60-c45e-574b-1535" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="302e-51ac-b6fe-7b05" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac00-7212-5e22-f462" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+            <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7815-03fc-a11c-e3fc" name="Personnel" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1df-5a97-1121-e657" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="234b-e48e-88df-27f6" name="Brood Mother Personnel Upgrade" hidden="false" targetId="5a43-ed4b-22d3-361e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="40c8-1d76-f355-ed32" name="Progenitor Personnel Upgrade" hidden="false" targetId="5ed0-e47e-e69c-3a63" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="1.0"/>
+        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="200.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks/>
+  <sharedSelectionEntries>
+    <selectionEntry id="5a43-ed4b-22d3-361e" name="Brood Mother Personnel Upgrade" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="1822-ca92-c14c-c601" name="Command (x)" hidden="false" targetId="e3e3-f40e-d837-641d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Command (3)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="b630-598e-d8ea-9bea" name="Inspiring" hidden="false" targetId="6914-dda0-83d5-364b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="18f7-6b67-bd9f-c269" name="Protection (x)" hidden="false" targetId="4f9e-b6bf-ac88-4dce" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Protection (Nightcrawlers)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="150.0"/>
+        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5ed0-e47e-e69c-3a63" name="Progenitor Personnel Upgrade" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="467f-7309-c481-aa56" name="Command (x)" hidden="false" targetId="e3e3-f40e-d837-641d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Command (1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="ef98-0ee6-7cb6-494f" name="Leadership" hidden="false" targetId="751e-83e4-d5d4-f6b9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="40.0"/>
+        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5478-3e73-77b9-874c" name="Master Creeper Personnel Upgrade" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="4807-141e-ff42-d271" name="Command (x)" hidden="false" targetId="e3e3-f40e-d837-641d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Command (1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="cb6a-20b7-5aae-24f3" name="Sabotage Objective Order" hidden="false" targetId="2f63-1fb8-bb1a-fd6f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0fc2-e911-4be4-3e85" name="Recon" hidden="false" targetId="b021-3a8e-aa6d-5599" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="50.0"/>
+        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="869a-08a5-5ef6-b273" name="Hacker Halftail" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6656-823f-15d6-1d67" name="Command (x)" hidden="false" targetId="e3e3-f40e-d837-641d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Command (2)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="f33d-7982-620f-20e5" name="Sabotage Objective Order" hidden="false" targetId="2f63-1fb8-bb1a-fd6f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6015-d9d0-ece3-e106" name="Recon" hidden="false" targetId="b021-3a8e-aa6d-5599" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5e51-afc1-1c38-63e0" name="Disruption" hidden="false" targetId="7448-8a10-05ea-65da" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cff4-fff5-19d1-0044" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="100.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups/>
+  <sharedRules>
+    <rule id="ccd3-c023-7124-052c" name="Tunnel Runners" book="Warpath Rulebook" page="143" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Once a Veer-myn Tunneller has arrived on the board using its Subterranean Deployment rule, place a tunnel marker in the position where it arrived. If you don’t have a tunnel marker, use a spare counter or model to mark this point.
+For the rest of the game, units with this rule previously placed in Reserve may arrive on the board from any tunnel marker as if they had the Subterranean Deployment rule themselves, without rolling any Command dice to do so.
+They may only do this if there is enough room to physically place them in contact with the marker, without them entering within 1” of an enemy unit or defensible terrain piece.</description>
+    </rule>
+    <rule id="862b-ff24-d92c-ad09" name="Unseen Terror" book="Warpath Rulebook" page="146" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Night Terrors cannot be targeted by Shooting attacks while there are at least 3 Nightcrawler units within 6” of it, representing the Nightcrawlers keeping it hidden within their ranks. It does not block line of sight – it is considered to simply not be on the table for targeting purposes.
+In addition, the Veer-myn player needs these troops to keep control of the Terror. At the beginning of each of the Terror’s Activations where there are less than 3 Nightcrawler units within 6”, roll a die. On a 1-2 the Terror will be uncontrollable. It must use its Activation to move as directly as possible towards the nearest other unit, friend or foe, and engage it in Assault.</description>
+    </rule>
+    <rule id="b366-27bc-22a9-24bd" name="Pheromone Trail" book="Warpath Rulebook" page="148" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This bestows the Tunnel Runnersrule upon any Infantry units kept in Reserve.</description>
+    </rule>
+    <rule id="07c7-f822-158a-06e4" name="Rock Corroder" book="Warpath Rulebook" page="148" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When you use the Tunneller’s Subterranean Deployment rule to enter the table with a Reserves Order, this Tunneller may re-roll one of the Command dice. In addition, the AP of the unit’s Drill Head is increased to 5.</description>
+    </rule>
+    <rule id="d16f-c4cf-c3d0-e986" name="Prophet" book="Warpath Rulebook" page="150" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>While the Tangle is not a Commander as such, it can use its premonitions to direct its brood towards the events they were fated to witness. At the beginning of each turn the Tangle will generate 2 Command dice. These dice may only be used by the Tangle itself, and the Tangle may not use the regular Command pool. The dice may be used to issue Orders of any level. The Tangle is considered to have a Command value of 2 for any rules that require it, such as the Call to Arms Order. If the dice are not used by the end of the turn, they are discarded.</description>
+    </rule>
+    <rule id="a957-98c6-b91d-55ce" name="Premonition Order" book="Warpath Rulebook" page="150" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This Order may only be given by a Tangle.
+If the Order is successful, choose an unengaged, unactivated enemy Infantry unit within range. Roll a single D6 and compare it to the unit’s Nerve stat. If the result on the die is greater than the unit’s Nerve, the Veer-myn player may make a single Move action with the unit (which may not end in contact with an enemy), add a suppression token to it, and then mark it as activated.
+This counts as the Veer-myn player’s activation.</description>
+    </rule>
+    <rule id="7448-8a10-05ea-65da" name="Disruption" book="Warpath Rulebook" page="151" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This unit gains access to a new type of long action: Disrupt. This action may be used against any enemy unit within 12”. Roll a die.
+1. No effect.
+2. Remove one of the following special rules of the Disrupting player’s choice from the unit and its weapons until the end of the Turn – Anti-Grav, Communications, Independent Target Matrix, Shield (X), Tag.
+3. As above, plus add a Suppression Token to the unit.
+4. As above, plus add a second Suppression Token to the unit.
+5. As above, plus pick one of the unit’s ranged weapons – it cannot fire this turn.
+6. As above, plus mark the unit as activated.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="a3d1-1533-a523-ba78" name="Ray Gun" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="3401-0064-8450-a80f" value="18&quot;"/>
+        <characteristic name="Dice" characteristicTypeId="2a0b-b5bd-a193-5f9e" value="8"/>
+        <characteristic name="AP" characteristicTypeId="a383-6bfe-9209-fb8c" value="-"/>
+        <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="37fe-60fd-a016-fb91" name="Teeth &amp; Claws" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="3401-0064-8450-a80f" value="A"/>
+        <characteristic name="Dice" characteristicTypeId="2a0b-b5bd-a193-5f9e" value="6"/>
+        <characteristic name="AP" characteristicTypeId="a383-6bfe-9209-fb8c" value="-"/>
+        <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="1c35-c97d-0cf4-af03" name="Ray Pistol" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="3401-0064-8450-a80f" value="10&quot;"/>
+        <characteristic name="Dice" characteristicTypeId="2a0b-b5bd-a193-5f9e" value="8"/>
+        <characteristic name="AP" characteristicTypeId="a383-6bfe-9209-fb8c" value="-"/>
+        <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="0c84-a269-09fd-3129" name="Heavy Ray Gun" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="3401-0064-8450-a80f" value="32&quot;"/>
+        <characteristic name="Dice" characteristicTypeId="2a0b-b5bd-a193-5f9e" value="3"/>
+        <characteristic name="AP" characteristicTypeId="a383-6bfe-9209-fb8c" value="4"/>
+        <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Experimental"/>
+      </characteristics>
+    </profile>
+    <profile id="02c7-78cd-3392-4c75" name="Chem-Thrower" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="3401-0064-8450-a80f" value="18&quot;"/>
+        <characteristic name="Dice" characteristicTypeId="2a0b-b5bd-a193-5f9e" value="2"/>
+        <characteristic name="AP" characteristicTypeId="a383-6bfe-9209-fb8c" value="2"/>
+        <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Blast (2D3), Experimental"/>
+      </characteristics>
+    </profile>
+    <profile id="f0d6-1fea-bea4-c202" name="Knives, Teeth &amp; Claws" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="3401-0064-8450-a80f" value="A"/>
+        <characteristic name="Dice" characteristicTypeId="2a0b-b5bd-a193-5f9e" value="4"/>
+        <characteristic name="AP" characteristicTypeId="a383-6bfe-9209-fb8c" value="-"/>
+        <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="e4f6-c708-9918-aef0" name="Explosives" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="3401-0064-8450-a80f" value="A"/>
+        <characteristic name="Dice" characteristicTypeId="2a0b-b5bd-a193-5f9e" value="4"/>
+        <characteristic name="AP" characteristicTypeId="a383-6bfe-9209-fb8c" value="4"/>
+        <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Anti-Tank (2)"/>
+      </characteristics>
+    </profile>
+    <profile id="fef3-4d23-64bf-3c39" name="Chem-Spitter" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="3401-0064-8450-a80f" value="12&quot;"/>
+        <characteristic name="Dice" characteristicTypeId="2a0b-b5bd-a193-5f9e" value="4"/>
+        <characteristic name="AP" characteristicTypeId="a383-6bfe-9209-fb8c" value="1"/>
+        <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Blast (D3)"/>
+      </characteristics>
+    </profile>
+    <profile id="db50-0556-4bc4-6d7b" name="Combat Drill" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="3401-0064-8450-a80f" value="A"/>
+        <characteristic name="Dice" characteristicTypeId="2a0b-b5bd-a193-5f9e" value="6"/>
+        <characteristic name="AP" characteristicTypeId="a383-6bfe-9209-fb8c" value="1"/>
+        <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Shredder"/>
+      </characteristics>
+    </profile>
+    <profile id="d97c-882d-137a-9e9a" name="Two Heavy Ray Guns" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="3401-0064-8450-a80f" value="23&quot;"/>
+        <characteristic name="Dice" characteristicTypeId="2a0b-b5bd-a193-5f9e" value="6"/>
+        <characteristic name="AP" characteristicTypeId="a383-6bfe-9209-fb8c" value="4"/>
+        <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Experimental"/>
+      </characteristics>
+    </profile>
+    <profile id="da9b-1196-2da7-3cc4" name="Two Chem-Throwers" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="3401-0064-8450-a80f" value="18&quot;"/>
+        <characteristic name="Dice" characteristicTypeId="2a0b-b5bd-a193-5f9e" value="4"/>
+        <characteristic name="AP" characteristicTypeId="a383-6bfe-9209-fb8c" value="2"/>
+        <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Blast (2D3), Experimental"/>
+      </characteristics>
+    </profile>
+    <profile id="1caa-968b-5464-7132" name="Heavy Chem Thrower" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="3401-0064-8450-a80f" value="18&quot;"/>
+        <characteristic name="Dice" characteristicTypeId="2a0b-b5bd-a193-5f9e" value="3"/>
+        <characteristic name="AP" characteristicTypeId="a383-6bfe-9209-fb8c" value="3"/>
+        <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Blast (3D3), Experimental"/>
+      </characteristics>
+    </profile>
+    <profile id="6253-ec6b-f4f5-c5a8" name="Heavy Combat Drill" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="3401-0064-8450-a80f" value="A"/>
+        <characteristic name="Dice" characteristicTypeId="2a0b-b5bd-a193-5f9e" value="2"/>
+        <characteristic name="AP" characteristicTypeId="a383-6bfe-9209-fb8c" value="4"/>
+        <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Anti-Tank (D3+1), Shredder"/>
+      </characteristics>
+    </profile>
+    <profile id="3a95-b298-69c7-82a0" name="Twin Combat Drills" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="3401-0064-8450-a80f" value="A"/>
+        <characteristic name="Dice" characteristicTypeId="2a0b-b5bd-a193-5f9e" value="10"/>
+        <characteristic name="AP" characteristicTypeId="a383-6bfe-9209-fb8c" value="3"/>
+        <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Shredder"/>
+      </characteristics>
+    </profile>
+    <profile id="a678-2ed1-8c4a-8b27" name="Scythes" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="3401-0064-8450-a80f" value="A"/>
+        <characteristic name="Dice" characteristicTypeId="2a0b-b5bd-a193-5f9e" value="10"/>
+        <characteristic name="AP" characteristicTypeId="a383-6bfe-9209-fb8c" value="2"/>
+        <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="6f38-483a-7e7f-34b3" name="Chem-Sprayer" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="3401-0064-8450-a80f" value="12&quot;"/>
+        <characteristic name="Dice" characteristicTypeId="2a0b-b5bd-a193-5f9e" value="4"/>
+        <characteristic name="AP" characteristicTypeId="a383-6bfe-9209-fb8c" value="2"/>
+        <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Area Effect, Blast (2D3), Experimental, Saturation"/>
+      </characteristics>
+    </profile>
+    <profile id="c76b-8e0f-9900-04c8" name="Twin Chem-Spitters" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="3401-0064-8450-a80f" value="12&quot;"/>
+        <characteristic name="Dice" characteristicTypeId="2a0b-b5bd-a193-5f9e" value="4"/>
+        <characteristic name="AP" characteristicTypeId="a383-6bfe-9209-fb8c" value="1"/>
+        <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Blast (D3)"/>
+      </characteristics>
+    </profile>
+    <profile id="780b-7e08-050f-2694" name="Wheel" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="3401-0064-8450-a80f" value="A"/>
+        <characteristic name="Dice" characteristicTypeId="2a0b-b5bd-a193-5f9e" value="6"/>
+        <characteristic name="AP" characteristicTypeId="a383-6bfe-9209-fb8c" value="1"/>
+        <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="d1c3-427b-dbd1-0282" name="Super-Heavy Ray Gun" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="3401-0064-8450-a80f" value="40&quot;"/>
+        <characteristic name="Dice" characteristicTypeId="2a0b-b5bd-a193-5f9e" value="6"/>
+        <characteristic name="AP" characteristicTypeId="a383-6bfe-9209-fb8c" value="6"/>
+        <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Anti-Tank (D3), Experimental"/>
+      </characteristics>
+    </profile>
+    <profile id="8825-3357-cb2c-cc39" name="Assault" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="3401-0064-8450-a80f" value="R"/>
+        <characteristic name="Dice" characteristicTypeId="2a0b-b5bd-a193-5f9e" value="4"/>
+        <characteristic name="AP" characteristicTypeId="a383-6bfe-9209-fb8c" value="-"/>
+        <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="3ec8-c80d-29d8-cbb7" name="Super-Heavy Chem Thrower" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="3401-0064-8450-a80f" value="24&quot;"/>
+        <characteristic name="Dice" characteristicTypeId="2a0b-b5bd-a193-5f9e" value="4"/>
+        <characteristic name="AP" characteristicTypeId="a383-6bfe-9209-fb8c" value="3"/>
+        <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Area Effect, Blast (3D3), Experimental"/>
+      </characteristics>
+    </profile>
+    <profile id="720a-170b-893a-7ccb" name="Drill Head" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="3401-0064-8450-a80f" value="R"/>
+        <characteristic name="Dice" characteristicTypeId="2a0b-b5bd-a193-5f9e" value="8"/>
+        <characteristic name="AP" characteristicTypeId="a383-6bfe-9209-fb8c" value="4"/>
+        <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Shredder"/>
+      </characteristics>
+    </profile>
+    <profile id="2f60-c45e-574b-1535" name="Malignus Body Guard" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="3401-0064-8450-a80f" value="A"/>
+        <characteristic name="Dice" characteristicTypeId="2a0b-b5bd-a193-5f9e" value="4"/>
+        <characteristic name="AP" characteristicTypeId="a383-6bfe-9209-fb8c" value="1"/>
+        <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="-"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
