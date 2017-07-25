@@ -3134,6 +3134,7 @@
                   <modifiers/>
                   <constraints>
                     <constraint field="selections" scope="2b9c-c03f-e8be-2e95" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fd76-c586-95cb-aeb7" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37ea-62cb-ed45-0b2e" type="max"/>
                   </constraints>
                   <categoryLinks/>
                 </entryLink>
@@ -3241,6 +3242,7 @@
                   <modifiers/>
                   <constraints>
                     <constraint field="selections" scope="2b9c-c03f-e8be-2e95" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6d43-47fd-78c7-fa9f" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c92-3503-38d9-560b" type="max"/>
                   </constraints>
                   <categoryLinks/>
                 </entryLink>
@@ -3348,6 +3350,7 @@
                   <modifiers/>
                   <constraints>
                     <constraint field="selections" scope="2b9c-c03f-e8be-2e95" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="617f-68cc-1fa2-f726" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ea8-7358-6947-8397" type="max"/>
                   </constraints>
                   <categoryLinks/>
                 </entryLink>
@@ -3468,6 +3471,7 @@
                   <modifiers/>
                   <constraints>
                     <constraint field="selections" scope="2b9c-c03f-e8be-2e95" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="61eb-10de-1731-4b67" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70d1-ec9f-0564-dc71" type="max"/>
                   </constraints>
                   <categoryLinks/>
                 </entryLink>
@@ -4103,6 +4107,12 @@
                   <conditionGroups/>
                 </modifier>
               </modifiers>
+            </infoLink>
+            <infoLink id="bdc0-4768-5c63-18d4" name="Orbital Bombardment" hidden="false" targetId="c96d-5e07-976a-2ea7" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
             </infoLink>
           </infoLinks>
           <modifiers/>

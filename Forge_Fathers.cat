@@ -5679,7 +5679,7 @@
         <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Blast (D3+2)"/>
       </characteristics>
     </profile>
-    <profile id="7cd7-691b-bf1d-1f1a" name="Twin Hailstorm Autocannons" hidden="true" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+    <profile id="7cd7-691b-bf1d-1f1a" name="Twin Hailstorm Autocannons" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>

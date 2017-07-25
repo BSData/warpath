@@ -480,7 +480,10 @@
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                    <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
@@ -490,6 +493,7 @@
           <entryLinks/>
           <costs>
             <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="30.0"/>
+            <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -590,7 +594,10 @@
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                    <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
@@ -632,6 +639,7 @@
           <entryLinks/>
           <costs>
             <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="60.0"/>
+            <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -744,7 +752,10 @@
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                    <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
@@ -786,6 +797,7 @@
           <entryLinks/>
           <costs>
             <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="90.0"/>
+            <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -874,7 +886,7 @@
                           <conditions/>
                           <conditionGroups/>
                         </modifier>
-                        <modifier type="set" field="a383-6bfe-9209-fb8c" value="8">
+                        <modifier type="set" field="2a0b-b5bd-a193-5f9e" value="8">
                           <repeats/>
                           <conditions/>
                           <conditionGroups/>
@@ -891,7 +903,10 @@
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                    <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
@@ -933,6 +948,7 @@
           <entryLinks/>
           <costs>
             <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="80.0"/>
+            <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1064,6 +1080,7 @@
                       <entryLinks/>
                       <costs>
                         <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="5.0"/>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1108,7 +1125,10 @@
                           <selectionEntries/>
                           <selectionEntryGroups/>
                           <entryLinks/>
-                          <costs/>
+                          <costs>
+                            <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                            <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                          </costs>
                         </selectionEntry>
                         <selectionEntry id="d642-2309-26d5-6282" name="Assault" hidden="false" collective="false" type="upgrade">
                           <profiles/>
@@ -1130,7 +1150,10 @@
                           <selectionEntries/>
                           <selectionEntryGroups/>
                           <entryLinks/>
-                          <costs/>
+                          <costs>
+                            <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                            <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                          </costs>
                         </selectionEntry>
                       </selectionEntries>
                       <selectionEntryGroups/>
@@ -1140,6 +1163,7 @@
                   <entryLinks/>
                   <costs>
                     <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="110.0"/>
+                    <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="d913-3e07-4964-ef8f" name="Mule with Laser Cannon" hidden="false" collective="false" type="unit">
@@ -1210,6 +1234,7 @@
                       <entryLinks/>
                       <costs>
                         <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="5.0"/>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1254,7 +1279,10 @@
                           <selectionEntries/>
                           <selectionEntryGroups/>
                           <entryLinks/>
-                          <costs/>
+                          <costs>
+                            <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                            <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                          </costs>
                         </selectionEntry>
                         <selectionEntry id="3f76-9571-5d32-5723" name="Assault" hidden="false" collective="false" type="upgrade">
                           <profiles/>
@@ -1276,7 +1304,10 @@
                           <selectionEntries/>
                           <selectionEntryGroups/>
                           <entryLinks/>
-                          <costs/>
+                          <costs>
+                            <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                            <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                          </costs>
                         </selectionEntry>
                       </selectionEntries>
                       <selectionEntryGroups/>
@@ -1286,6 +1317,7 @@
                   <entryLinks/>
                   <costs>
                     <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="100.0"/>
+                    <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -1393,7 +1425,10 @@
                                   <selectionEntries/>
                                   <selectionEntryGroups/>
                                   <entryLinks/>
-                                  <costs/>
+                                  <costs>
+                                    <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                                    <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                                  </costs>
                                 </selectionEntry>
                                 <selectionEntry id="d8de-2986-1edf-1c85" name="Heavy Burst Laser" hidden="false" collective="false" type="upgrade">
                                   <profiles/>
@@ -1427,7 +1462,10 @@
                                   <selectionEntries/>
                                   <selectionEntryGroups/>
                                   <entryLinks/>
-                                  <costs/>
+                                  <costs>
+                                    <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                                    <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                                  </costs>
                                 </selectionEntry>
                               </selectionEntries>
                               <selectionEntryGroups/>
@@ -1437,6 +1475,7 @@
                           <entryLinks/>
                           <costs>
                             <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="125.0"/>
+                            <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
                           </costs>
                         </selectionEntry>
                         <selectionEntry id="b3cb-c24b-f19d-e206" name="Plague Urban Assault Strider" hidden="false" collective="false" type="unit">
@@ -1495,7 +1534,10 @@
                                   <selectionEntries/>
                                   <selectionEntryGroups/>
                                   <entryLinks/>
-                                  <costs/>
+                                  <costs>
+                                    <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                                    <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                                  </costs>
                                 </selectionEntry>
                                 <selectionEntry id="d5ff-5f7e-6b5c-2c19" name="Heavy Flamethrower" hidden="false" collective="false" type="upgrade">
                                   <profiles/>
@@ -1535,7 +1577,10 @@
                                   <selectionEntries/>
                                   <selectionEntryGroups/>
                                   <entryLinks/>
-                                  <costs/>
+                                  <costs>
+                                    <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                                    <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                                  </costs>
                                 </selectionEntry>
                               </selectionEntries>
                               <selectionEntryGroups/>
@@ -1545,6 +1590,7 @@
                           <entryLinks/>
                           <costs>
                             <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="140.0"/>
+                            <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
                           </costs>
                         </selectionEntry>
                         <selectionEntry id="6f41-1adf-b333-ded3" name="Plague Polaris Strider" hidden="false" collective="false" type="unit">
@@ -1595,7 +1641,10 @@
                                   <selectionEntries/>
                                   <selectionEntryGroups/>
                                   <entryLinks/>
-                                  <costs/>
+                                  <costs>
+                                    <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                                    <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                                  </costs>
                                 </selectionEntry>
                                 <selectionEntry id="4553-c929-4412-31f1" name="Polaris Cannon" hidden="false" collective="false" type="upgrade">
                                   <profiles/>
@@ -1629,7 +1678,10 @@
                                   <selectionEntries/>
                                   <selectionEntryGroups/>
                                   <entryLinks/>
-                                  <costs/>
+                                  <costs>
+                                    <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                                    <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                                  </costs>
                                 </selectionEntry>
                               </selectionEntries>
                               <selectionEntryGroups/>
@@ -1775,7 +1827,10 @@
                       <selectionEntries/>
                       <selectionEntryGroups/>
                       <entryLinks/>
-                      <costs/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                     <selectionEntry id="9a83-5083-fb0e-10d5" name="Heavy Burst Laser" hidden="false" collective="false" type="upgrade">
                       <profiles/>
@@ -1809,7 +1864,10 @@
                       <selectionEntries/>
                       <selectionEntryGroups/>
                       <entryLinks/>
-                      <costs/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                   </selectionEntries>
                   <selectionEntryGroups/>
@@ -1819,6 +1877,7 @@
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="125.0"/>
+                <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="60fe-54f6-d362-dd05" name="Plague Urban Assault Strider" hidden="false" collective="false" type="unit">
@@ -1877,7 +1936,10 @@
                       <selectionEntries/>
                       <selectionEntryGroups/>
                       <entryLinks/>
-                      <costs/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                     <selectionEntry id="cf4b-c140-cd7f-5f71" name="Heavy Flamethrower" hidden="false" collective="false" type="upgrade">
                       <profiles/>
@@ -1917,7 +1979,10 @@
                       <selectionEntries/>
                       <selectionEntryGroups/>
                       <entryLinks/>
-                      <costs/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                   </selectionEntries>
                   <selectionEntryGroups/>
@@ -1927,6 +1992,7 @@
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="140.0"/>
+                <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="11f7-561c-d59c-7c77" name="Plague Polaris Strider" hidden="false" collective="false" type="unit">
@@ -1977,7 +2043,10 @@
                       <selectionEntries/>
                       <selectionEntryGroups/>
                       <entryLinks/>
-                      <costs/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                     <selectionEntry id="d5d3-c666-881f-6252" name="Polaris Cannon" hidden="false" collective="false" type="upgrade">
                       <profiles/>
@@ -2011,7 +2080,10 @@
                       <selectionEntries/>
                       <selectionEntryGroups/>
                       <entryLinks/>
-                      <costs/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                   </selectionEntries>
                   <selectionEntryGroups/>
@@ -2137,7 +2209,10 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -2216,6 +2291,7 @@
           <entryLinks/>
           <costs>
             <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="160.0"/>
+            <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2259,7 +2335,10 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -2371,7 +2450,10 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -2496,6 +2578,7 @@
           <entryLinks/>
           <costs>
             <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="10.0"/>
+            <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2560,7 +2643,10 @@
                       <selectionEntries/>
                       <selectionEntryGroups/>
                       <entryLinks/>
-                      <costs/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                   </selectionEntries>
                   <selectionEntryGroups/>
@@ -2622,7 +2708,10 @@
                       <selectionEntries/>
                       <selectionEntryGroups/>
                       <entryLinks/>
-                      <costs/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                   </selectionEntries>
                   <selectionEntryGroups/>
@@ -2684,7 +2773,10 @@
                       <selectionEntries/>
                       <selectionEntryGroups/>
                       <entryLinks/>
-                      <costs/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                   </selectionEntries>
                   <selectionEntryGroups/>
@@ -2729,7 +2821,15 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="62a9-9d1d-031a-deab" name="New CategoryLink" hidden="false" targetId="6aab-a426-442e-9546" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="edef-6fd6-c834-b6e4" name="Equipment Pattern" hidden="false" collective="false">
@@ -2792,7 +2892,10 @@
                       <selectionEntries/>
                       <selectionEntryGroups/>
                       <entryLinks/>
-                      <costs/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                     <selectionEntry id="f3b6-2ec8-010e-8155" name="Assault" hidden="false" collective="false" type="upgrade">
                       <profiles/>
@@ -2820,7 +2923,10 @@
                       <selectionEntries/>
                       <selectionEntryGroups/>
                       <entryLinks/>
-                      <costs/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                     <selectionEntry id="c6e5-4b1f-8d67-2b3c" name="Laser Rifle" hidden="false" collective="false" type="upgrade">
                       <profiles/>
@@ -2842,7 +2948,10 @@
                       <selectionEntries/>
                       <selectionEntryGroups/>
                       <entryLinks/>
-                      <costs/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                   </selectionEntries>
                   <selectionEntryGroups/>
@@ -2904,7 +3013,10 @@
                       <selectionEntries/>
                       <selectionEntryGroups/>
                       <entryLinks/>
-                      <costs/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                     <selectionEntry id="6781-e249-0a35-89cf" name="Assault" hidden="false" collective="false" type="upgrade">
                       <profiles/>
@@ -2932,7 +3044,10 @@
                       <selectionEntries/>
                       <selectionEntryGroups/>
                       <entryLinks/>
-                      <costs/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                     <selectionEntry id="bc8c-c717-2f89-5ba0" name="Laser Rifle" hidden="false" collective="false" type="upgrade">
                       <profiles/>
@@ -2954,7 +3069,10 @@
                       <selectionEntries/>
                       <selectionEntryGroups/>
                       <entryLinks/>
-                      <costs/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                   </selectionEntries>
                   <selectionEntryGroups/>
@@ -2973,7 +3091,10 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="53e0-7ada-e93c-f18f" name="Plague Lieutenant Personnel Upgrade" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -3006,6 +3127,7 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="40.0"/>
+        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="58c3-ed72-e7a0-2bb7" name="Subject 901" hidden="false" collective="false" type="upgrade">
@@ -3072,7 +3194,10 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -3080,7 +3205,10 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="100.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
