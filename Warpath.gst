@@ -440,7 +440,7 @@ Any further shooting in that Turn against the tagged unit is at +1 to hit. The t
       <description>This unit is able to hold enemies in position, whether by surrounding their prey, gripping them with tentacles, or using some kind of alien weaponry.
 Enemy units may not make a Disengage action while in contact with a unit with this rule.</description>
     </rule>
-    <rule id="ecdd-ad43-7142-6abb" name="Transport (x)" hidden="false">
+    <rule id="ecdd-ad43-7142-6abb" name="Transport (x)" book="Warpath Rulebook" page="64" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -484,14 +484,14 @@ Furthermore, this unit does not suffer the single, initial suppression token add
       <modifiers/>
       <description>As a Level 1 Command a player may choose a friendly Vehicle within 6&quot; of the unit with the Repair Order and immediately remove D3+1 Suppression Tokens.</description>
     </rule>
-    <rule id="ec4c-967b-7b2d-6363" name="Fortify Position Order" hidden="false">
+    <rule id="ec4c-967b-7b2d-6363" name="Fortify Position Order" book="Warpath Rulebook" page="72" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>As a Level 1 Command a player may choose a terrain piece in which there is a unit with the Fortify Position Order and the terrain piece is upgraded to fortified terrain until the end of the Turn. In addition, the unit gains an additional +1 to hit modifier when shooting against all targets within 12”</description>
     </rule>
-    <rule id="ea4b-5b97-dc3e-b4e9" name="Precision Fire Order" hidden="false">
+    <rule id="ea4b-5b97-dc3e-b4e9" name="Precision Fire Order" book="Warpath Rulebook" page="72" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -499,7 +499,7 @@ Furthermore, this unit does not suffer the single, initial suppression token add
       <description>This Order may only be given during the unit’s Shoot action, before any casualties are removed.
 If any enemy teams are due to be removed from the target unit, the Shooting player may choose one of teams to be removed instead of the owning player.</description>
     </rule>
-    <rule id="2f63-1fb8-bb1a-fd6f" name="Sabotage Objective Order" hidden="false">
+    <rule id="2f63-1fb8-bb1a-fd6f" name="Sabotage Objective Order" book="Warpath Rulebook" page="72" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
