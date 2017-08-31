@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4901-fd79-26a5-da99" name="Enforcers" revision="1" battleScribeVersion="2.01" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4901-fd79-26a5-da99" name="Enforcers" book="Warpath Rulebook" page="92" revision="1" battleScribeVersion="2.01" authorName="Ben Edwards" authorContact="BAE2 (Github)" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -8,9 +8,9 @@
   <categoryEntries/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="0e9e-e938-2ba9-4100" name="Enforcers Unit" hidden="false" collective="false" type="unit">
+    <selectionEntry id="0e9e-e938-2ba9-4100" name="Enforcers Unit" book="Warpath Rulebook" page="94" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="cd9e-ef28-2f93-b4e3" name="Enforcers" hidden="false" profileTypeId="1212-678a-919c-31c3" profileTypeName="Regular Infantry">
+        <profile id="cd9e-ef28-2f93-b4e3" name="Enforcers" book="Warpath Rulebook" page="94" hidden="false" profileTypeId="1212-678a-919c-31c3" profileTypeName="Regular Infantry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -89,7 +89,13 @@
                           <profiles/>
                           <rules/>
                           <infoLinks/>
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="94">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </infoLink>
                       </infoLinks>
                       <modifiers/>
@@ -114,7 +120,13 @@
                           <profiles/>
                           <rules/>
                           <infoLinks/>
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="94">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </infoLink>
                       </infoLinks>
                       <modifiers/>
@@ -139,7 +151,13 @@
                           <profiles/>
                           <rules/>
                           <infoLinks/>
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="94">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </infoLink>
                       </infoLinks>
                       <modifiers/>
@@ -159,7 +177,7 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="68b7-cf46-514e-cd45" name="Personnel" hidden="false" collective="false">
+                <selectionEntryGroup id="68b7-cf46-514e-cd45" name="Personnel Upgrades" hidden="false" collective="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -275,7 +293,13 @@
                           <profiles/>
                           <rules/>
                           <infoLinks/>
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="94">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </infoLink>
                       </infoLinks>
                       <modifiers/>
@@ -300,7 +324,13 @@
                           <profiles/>
                           <rules/>
                           <infoLinks/>
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="94">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </infoLink>
                       </infoLinks>
                       <modifiers/>
@@ -321,7 +351,7 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="f6dd-7b55-c90d-c007" name="Personnel" hidden="false" collective="false">
+                <selectionEntryGroup id="f6dd-7b55-c90d-c007" name="Personnel Upgrades" hidden="false" collective="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -444,7 +474,13 @@
                           <profiles/>
                           <rules/>
                           <infoLinks/>
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="94">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </infoLink>
                         <infoLink id="fe2b-c76a-d58d-d2a8" name="Blast (x)" hidden="false" targetId="d8f6-a772-a777-6764" type="rule">
                           <profiles/>
@@ -481,7 +517,13 @@
                           <profiles/>
                           <rules/>
                           <infoLinks/>
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="94">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </infoLink>
                       </infoLinks>
                       <modifiers/>
@@ -506,7 +548,13 @@
                           <profiles/>
                           <rules/>
                           <infoLinks/>
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="94">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </infoLink>
                         <infoLink id="14b1-fa0a-7bf7-4d1e" name="Blast (x)" hidden="false" targetId="d8f6-a772-a777-6764" type="rule">
                           <profiles/>
@@ -544,7 +592,7 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="c579-141a-5cea-57f2" name="Personnel" hidden="false" collective="false">
+                <selectionEntryGroup id="c579-141a-5cea-57f2" name="Personnel Upgrades" hidden="false" collective="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -660,7 +708,13 @@
                           <profiles/>
                           <rules/>
                           <infoLinks/>
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="94">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </infoLink>
                         <infoLink id="5f51-8697-5d53-8c99" name="Blast (x)" hidden="false" targetId="d8f6-a772-a777-6764" type="rule">
                           <profiles/>
@@ -703,7 +757,13 @@
                           <profiles/>
                           <rules/>
                           <infoLinks/>
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="94">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </infoLink>
                         <infoLink id="3bd1-faad-0d22-8604" name="Anti-Tank (x)" hidden="false" targetId="ecf4-0e0a-3807-e698" type="rule">
                           <profiles/>
@@ -746,7 +806,13 @@
                           <profiles/>
                           <rules/>
                           <infoLinks/>
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="94">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </infoLink>
                       </infoLinks>
                       <modifiers>
@@ -777,7 +843,13 @@
                           <profiles/>
                           <rules/>
                           <infoLinks/>
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="94">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </infoLink>
                       </infoLinks>
                       <modifiers/>
@@ -798,7 +870,7 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="6eda-6615-ae1c-b303" name="Personnel" hidden="false" collective="false">
+                <selectionEntryGroup id="6eda-6615-ae1c-b303" name="Personnel Upgrades" hidden="false" collective="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -914,7 +986,13 @@
                           <profiles/>
                           <rules/>
                           <infoLinks/>
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="94">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </infoLink>
                       </infoLinks>
                       <modifiers/>
@@ -939,7 +1017,13 @@
                           <profiles/>
                           <rules/>
                           <infoLinks/>
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="94">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </infoLink>
                       </infoLinks>
                       <modifiers/>
@@ -964,7 +1048,13 @@
                           <profiles/>
                           <rules/>
                           <infoLinks/>
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="94">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </infoLink>
                       </infoLinks>
                       <modifiers/>
@@ -985,7 +1075,7 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="e7a4-1891-d4fe-ddf5" name="Personnel" hidden="false" collective="false">
+                <selectionEntryGroup id="e7a4-1891-d4fe-ddf5" name="Personnel Upgrades" hidden="false" collective="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1087,9 +1177,9 @@
         <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b574-10e4-5ff5-6b31" name="Pathfinders Unit" hidden="false" collective="false" type="unit">
+    <selectionEntry id="b574-10e4-5ff5-6b31" name="Pathfinders Unit" book="Warpath Rulebook" page="96" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="114b-e57b-6879-9852" name="Pathfinders" hidden="false" profileTypeId="1212-678a-919c-31c3" profileTypeName="Regular Infantry">
+        <profile id="114b-e57b-6879-9852" name="Pathfinders" book="Warpath Rulebook" page="96" hidden="false" profileTypeId="1212-678a-919c-31c3" profileTypeName="Regular Infantry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1158,12 +1248,6 @@
                   <infoLinks/>
                   <modifiers/>
                 </infoLink>
-                <infoLink id="cc9b-ebe0-9128-db25" name="Burst Laser" hidden="false" targetId="39c7-f346-39ac-c50f" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
               </infoLinks>
               <modifiers/>
               <constraints>
@@ -1172,7 +1256,48 @@
               </constraints>
               <categoryLinks/>
               <selectionEntries/>
-              <selectionEntryGroups/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="f440-f938-3c6a-4011" name="Equipment" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="4b45-2018-5904-f004" name="Burst Laser" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="0fd8-8414-7fda-f0dd" name="Burst Laser" hidden="false" targetId="39c7-f346-39ac-c50f" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="96">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2841-4d22-8239-9d50" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f8c-6da3-bb35-72c0" type="min"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs/>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="30.0"/>
@@ -1199,6 +1324,11 @@
                       <infoLinks/>
                       <modifiers>
                         <modifier type="set" field="name" value="(X) Sniper Rifle">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                        <modifier type="set" field="page" value="96">
                           <repeats/>
                           <conditions/>
                           <conditionGroups/>
@@ -1252,6 +1382,11 @@
                           <conditions/>
                           <conditionGroups/>
                         </modifier>
+                        <modifier type="set" field="page" value="96">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
                       </modifiers>
                     </infoLink>
                   </infoLinks>
@@ -1283,6 +1418,11 @@
                           <conditions/>
                           <conditionGroups/>
                         </modifier>
+                        <modifier type="set" field="page" value="96">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
                       </modifiers>
                     </infoLink>
                   </infoLinks>
@@ -1304,7 +1444,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
             </selectionEntryGroup>
-            <selectionEntryGroup id="04d7-a3ab-977e-2596" name="Personnel" hidden="false" collective="false">
+            <selectionEntryGroup id="04d7-a3ab-977e-2596" name="Personnel Upgrades" hidden="false" collective="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1314,7 +1454,7 @@
               </constraints>
               <categoryLinks/>
               <selectionEntries>
-                <selectionEntry id="6e31-1dcf-bfa3-c036" name="Unit Leader Personnel Upgrade" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="6e31-1dcf-bfa3-c036" name="Unit Leader" hidden="false" collective="false" type="upgrade">
                   <profiles/>
                   <rules/>
                   <infoLinks>
@@ -1442,9 +1582,9 @@
         <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="638d-89c9-9b23-21d0" name="Pathfinders Bikes Unit" hidden="false" collective="false" type="unit">
+    <selectionEntry id="638d-89c9-9b23-21d0" name="Pathfinders Bikes Unit" book="Warpath Rulebook" page="96" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="049d-fd4d-2863-671b" name="Pathfinders Bikes" hidden="false" profileTypeId="769c-2e42-f8d3-26f2" profileTypeName="Large Infantry">
+        <profile id="049d-fd4d-2863-671b" name="Pathfinders Bikes" book="Warpath Rulebook" page="96" hidden="false" profileTypeId="769c-2e42-f8d3-26f2" profileTypeName="Large Infantry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1520,6 +1660,11 @@
                           <conditions/>
                           <conditionGroups/>
                         </modifier>
+                        <modifier type="set" field="page" value="96">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
                       </modifiers>
                     </infoLink>
                     <infoLink id="1bea-f73a-f4d2-2984" name="Tag" hidden="false" targetId="6c4a-04b8-ae62-4a7a" type="rule">
@@ -1574,6 +1719,11 @@
                           <conditions/>
                           <conditionGroups/>
                         </modifier>
+                        <modifier type="set" field="page" value="96">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
                       </modifiers>
                     </infoLink>
                   </infoLinks>
@@ -1605,6 +1755,11 @@
                           <conditions/>
                           <conditionGroups/>
                         </modifier>
+                        <modifier type="set" field="page" value="96">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
                       </modifiers>
                     </infoLink>
                   </infoLinks>
@@ -1626,7 +1781,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
             </selectionEntryGroup>
-            <selectionEntryGroup id="a675-3554-89bf-74fb" name="Personnel" hidden="false" collective="false">
+            <selectionEntryGroup id="a675-3554-89bf-74fb" name="Personnel Upgrades" hidden="false" collective="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1715,9 +1870,9 @@
         <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="11a4-a290-bbe3-c6e1" name="Jetbikes Unit" hidden="false" collective="false" type="unit">
+    <selectionEntry id="11a4-a290-bbe3-c6e1" name="Jetbikes Unit" book="Warpath Rulebook" page="97" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="8124-f2cc-154d-385c" name="Jetbikes" hidden="false" profileTypeId="769c-2e42-f8d3-26f2" profileTypeName="Large Infantry">
+        <profile id="8124-f2cc-154d-385c" name="Jetbikes" book="Warpath Rulebook" page="97" hidden="false" profileTypeId="769c-2e42-f8d3-26f2" profileTypeName="Large Infantry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1796,7 +1951,13 @@
                           <profiles/>
                           <rules/>
                           <infoLinks/>
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="97">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </infoLink>
                       </infoLinks>
                       <modifiers/>
@@ -1821,7 +1982,13 @@
                           <profiles/>
                           <rules/>
                           <infoLinks/>
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="97">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </infoLink>
                       </infoLinks>
                       <modifiers/>
@@ -1842,7 +2009,7 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="2148-ce15-4056-5d4f" name="Personnel" hidden="false" collective="false">
+                <selectionEntryGroup id="2148-ce15-4056-5d4f" name="Personnel Upgrades" hidden="false" collective="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1958,7 +2125,13 @@
                           <profiles/>
                           <rules/>
                           <infoLinks/>
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="97">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </infoLink>
                       </infoLinks>
                       <modifiers/>
@@ -1983,7 +2156,13 @@
                           <profiles/>
                           <rules/>
                           <infoLinks/>
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="97">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </infoLink>
                         <infoLink id="8113-866e-4913-dc47" name="Suppressive Fire (x)" hidden="false" targetId="530e-eefa-4456-033c" type="rule">
                           <profiles/>
@@ -2020,7 +2199,13 @@
                           <profiles/>
                           <rules/>
                           <infoLinks/>
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="97">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </infoLink>
                       </infoLinks>
                       <modifiers/>
@@ -2041,7 +2226,7 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="3a5b-9daf-8c21-822d" name="Personnel" hidden="false" collective="false">
+                <selectionEntryGroup id="3a5b-9daf-8c21-822d" name="Personnel Upgrades" hidden="false" collective="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2157,7 +2342,13 @@
                           <profiles/>
                           <rules/>
                           <infoLinks/>
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="97">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </infoLink>
                       </infoLinks>
                       <modifiers/>
@@ -2184,6 +2375,11 @@
                           <infoLinks/>
                           <modifiers>
                             <modifier type="set" field="2a0b-b5bd-a193-5f9e" value="2">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                            <modifier type="set" field="page" value="97">
                               <repeats/>
                               <conditions/>
                               <conditionGroups/>
@@ -2237,6 +2433,11 @@
                               <conditions/>
                               <conditionGroups/>
                             </modifier>
+                            <modifier type="set" field="page" value="97">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
                           </modifiers>
                         </infoLink>
                         <infoLink id="81e4-7c9a-147a-d261" name="Anti-Tank (x)" hidden="false" targetId="ecf4-0e0a-3807-e698" type="rule">
@@ -2280,7 +2481,13 @@
                           <profiles/>
                           <rules/>
                           <infoLinks/>
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="97">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </infoLink>
                       </infoLinks>
                       <modifiers/>
@@ -2301,7 +2508,7 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="3fb1-e7c7-9b40-afc5" name="Personnel" hidden="false" collective="false">
+                <selectionEntryGroup id="3fb1-e7c7-9b40-afc5" name="Personnel Upgrades" hidden="false" collective="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2403,9 +2610,9 @@
         <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="157a-74f0-8366-ef90" name="Peacekeepers Unit" hidden="false" collective="false" type="unit">
+    <selectionEntry id="157a-74f0-8366-ef90" name="Peacekeepers Unit" book="Warpath Rulebook" page="98" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="078d-8a03-2ef2-10f2" name="Peacekeepers" hidden="false" profileTypeId="1212-678a-919c-31c3" profileTypeName="Regular Infantry">
+        <profile id="078d-8a03-2ef2-10f2" name="Peacekeepers" book="Warpath Rulebook" page="98" hidden="false" profileTypeId="1212-678a-919c-31c3" profileTypeName="Regular Infantry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2497,6 +2704,11 @@
                               <conditions/>
                               <conditionGroups/>
                             </modifier>
+                            <modifier type="set" field="page" value="98">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
                           </modifiers>
                         </infoLink>
                       </infoLinks>
@@ -2522,7 +2734,13 @@
                           <profiles/>
                           <rules/>
                           <infoLinks/>
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="98">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </infoLink>
                       </infoLinks>
                       <modifiers/>
@@ -2540,87 +2758,10 @@
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
-                  <selectionEntryGroups>
-                    <selectionEntryGroup id="3f91-d7e7-af96-d26f" name="Upgrades" hidden="false" collective="false">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="631c-5466-34b0-7933" type="max"/>
-                      </constraints>
-                      <categoryLinks/>
-                      <selectionEntries>
-                        <selectionEntry id="3648-cdc2-2e97-125b" name="Burst Laser Equipment Upgrade" hidden="false" collective="false" type="upgrade">
-                          <profiles/>
-                          <rules/>
-                          <infoLinks>
-                            <infoLink id="ef11-3207-cba8-ab5c" name="Burst Laser" hidden="false" targetId="39c7-f346-39ac-c50f" type="profile">
-                              <profiles/>
-                              <rules/>
-                              <infoLinks/>
-                              <modifiers/>
-                            </infoLink>
-                          </infoLinks>
-                          <modifiers/>
-                          <constraints/>
-                          <categoryLinks/>
-                          <selectionEntries/>
-                          <selectionEntryGroups/>
-                          <entryLinks/>
-                          <costs>
-                            <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="40.0"/>
-                            <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="1d40-fdcb-7848-9655" name="Incinerator Equipment Upgrade" hidden="false" collective="false" type="upgrade">
-                          <profiles/>
-                          <rules/>
-                          <infoLinks>
-                            <infoLink id="d955-96c8-9999-394e" name="Incinerator" hidden="false" targetId="6257-f17a-4cfc-9aec" type="profile">
-                              <profiles/>
-                              <rules/>
-                              <infoLinks/>
-                              <modifiers/>
-                            </infoLink>
-                            <infoLink id="4a6b-9245-47d5-f62c" name="Blast (x)" hidden="false" targetId="d8f6-a772-a777-6764" type="rule">
-                              <profiles/>
-                              <rules/>
-                              <infoLinks/>
-                              <modifiers>
-                                <modifier type="set" field="name" value="Blast (2D3)">
-                                  <repeats/>
-                                  <conditions/>
-                                  <conditionGroups/>
-                                </modifier>
-                              </modifiers>
-                            </infoLink>
-                            <infoLink id="231a-8fd4-4098-5d3d" name="Saturation" hidden="false" targetId="915d-9cf0-1df3-93bb" type="rule">
-                              <profiles/>
-                              <rules/>
-                              <infoLinks/>
-                              <modifiers/>
-                            </infoLink>
-                          </infoLinks>
-                          <modifiers/>
-                          <constraints/>
-                          <categoryLinks/>
-                          <selectionEntries/>
-                          <selectionEntryGroups/>
-                          <entryLinks/>
-                          <costs>
-                            <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="25.0"/>
-                            <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <selectionEntryGroups/>
-                      <entryLinks/>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
+                  <selectionEntryGroups/>
                   <entryLinks/>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="02b3-3bda-2c25-3bd1" name="Personnel" hidden="false" collective="false">
+                <selectionEntryGroup id="02b3-3bda-2c25-3bd1" name="Personnel Upgrades" hidden="false" collective="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2704,6 +2845,94 @@
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
+                <selectionEntryGroup id="304b-bbae-8307-5d56" name="Equipment Upgrades" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="091d-dd96-6a24-eeae" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="b36e-7c6b-9df6-4ae8" name="Burst Laser Equipment Upgrade" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="e4f4-58e6-eb4d-e3e7" name="Burst Laser" hidden="false" targetId="39c7-f346-39ac-c50f" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="98">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints/>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="40.0"/>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="d562-26a9-168f-1d9c" name="Incinerator Equipment Upgrade" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="129e-6e0a-8d89-9320" name="Incinerator" hidden="false" targetId="6257-f17a-4cfc-9aec" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="98">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
+                        <infoLink id="01d1-2975-0a99-145b" name="Blast (x)" hidden="false" targetId="d8f6-a772-a777-6764" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers>
+                            <modifier type="set" field="name" value="Blast (2D3)">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
+                        <infoLink id="e8f3-fbda-7070-c333" name="Saturation" hidden="false" targetId="915d-9cf0-1df3-93bb" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints/>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="25.0"/>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks/>
               <costs>
@@ -2742,6 +2971,11 @@
                               <conditions/>
                               <conditionGroups/>
                             </modifier>
+                            <modifier type="set" field="page" value="98">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
                           </modifiers>
                         </infoLink>
                       </infoLinks>
@@ -2767,7 +3001,13 @@
                           <profiles/>
                           <rules/>
                           <infoLinks/>
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="98">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </infoLink>
                       </infoLinks>
                       <modifiers/>
@@ -2785,87 +3025,10 @@
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
-                  <selectionEntryGroups>
-                    <selectionEntryGroup id="81bd-58aa-2b5c-5758" name="Upgrades" hidden="false" collective="false">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63ed-ccf0-b4a0-2f20" type="max"/>
-                      </constraints>
-                      <categoryLinks/>
-                      <selectionEntries>
-                        <selectionEntry id="f99d-5ad8-8c15-a6f5" name="Burst Laser Equipment Upgrade" hidden="false" collective="false" type="upgrade">
-                          <profiles/>
-                          <rules/>
-                          <infoLinks>
-                            <infoLink id="5dd7-b10e-0873-e766" name="Burst Laser" hidden="false" targetId="39c7-f346-39ac-c50f" type="profile">
-                              <profiles/>
-                              <rules/>
-                              <infoLinks/>
-                              <modifiers/>
-                            </infoLink>
-                          </infoLinks>
-                          <modifiers/>
-                          <constraints/>
-                          <categoryLinks/>
-                          <selectionEntries/>
-                          <selectionEntryGroups/>
-                          <entryLinks/>
-                          <costs>
-                            <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="40.0"/>
-                            <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="55fc-b105-aaf6-e446" name="Incinerator Equipment Upgrade" hidden="false" collective="false" type="upgrade">
-                          <profiles/>
-                          <rules/>
-                          <infoLinks>
-                            <infoLink id="ee52-cdf2-248c-b510" name="Incinerator" hidden="false" targetId="6257-f17a-4cfc-9aec" type="profile">
-                              <profiles/>
-                              <rules/>
-                              <infoLinks/>
-                              <modifiers/>
-                            </infoLink>
-                            <infoLink id="3cbe-88ce-78fe-4171" name="Blast (x)" hidden="false" targetId="d8f6-a772-a777-6764" type="rule">
-                              <profiles/>
-                              <rules/>
-                              <infoLinks/>
-                              <modifiers>
-                                <modifier type="set" field="name" value="Blast (2D3)">
-                                  <repeats/>
-                                  <conditions/>
-                                  <conditionGroups/>
-                                </modifier>
-                              </modifiers>
-                            </infoLink>
-                            <infoLink id="16a2-409d-f394-d412" name="Saturation" hidden="false" targetId="915d-9cf0-1df3-93bb" type="rule">
-                              <profiles/>
-                              <rules/>
-                              <infoLinks/>
-                              <modifiers/>
-                            </infoLink>
-                          </infoLinks>
-                          <modifiers/>
-                          <constraints/>
-                          <categoryLinks/>
-                          <selectionEntries/>
-                          <selectionEntryGroups/>
-                          <entryLinks/>
-                          <costs>
-                            <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="25.0"/>
-                            <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <selectionEntryGroups/>
-                      <entryLinks/>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
+                  <selectionEntryGroups/>
                   <entryLinks/>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="ba91-9dd2-0dd8-7d6f" name="Personnel" hidden="false" collective="false">
+                <selectionEntryGroup id="ba91-9dd2-0dd8-7d6f" name="Personnel Upgrades" hidden="false" collective="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2949,6 +3112,94 @@
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
+                <selectionEntryGroup id="8455-6b67-4080-3b33" name="Equipment Upgrades" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ca5-d31f-1ab6-bb8a" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="d63e-2750-cd41-47a6" name="Burst Laser Equipment Upgrade" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="5103-22cb-7d8e-6425" name="Burst Laser" hidden="false" targetId="39c7-f346-39ac-c50f" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="98">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints/>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="40.0"/>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="5b2d-a04a-7b87-b2dc" name="Incinerator Equipment Upgrade" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="7629-e23e-aa14-70a5" name="Incinerator" hidden="false" targetId="6257-f17a-4cfc-9aec" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="98">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
+                        <infoLink id="61e2-fb51-9790-5f66" name="Blast (x)" hidden="false" targetId="d8f6-a772-a777-6764" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers>
+                            <modifier type="set" field="name" value="Blast (2D3)">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
+                        <infoLink id="752a-abaf-cf53-02b5" name="Saturation" hidden="false" targetId="915d-9cf0-1df3-93bb" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints/>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="25.0"/>
+                        <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks/>
               <costs>
@@ -2967,9 +3218,9 @@
         <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2b9c-c03f-e8be-2e95" name="Strider Formation" hidden="false" collective="false" type="unit">
+    <selectionEntry id="2b9c-c03f-e8be-2e95" name="Strider Formation" book="Warpath Rulebook" page="99" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="c277-40dd-3827-5f7b" name="Strider" hidden="false" profileTypeId="1c23-d26a-305b-d849" profileTypeName="Vehicle">
+        <profile id="c277-40dd-3827-5f7b" name="Strider" book="Warpath Rulebook" page="99" hidden="false" profileTypeId="1c23-d26a-305b-d849" profileTypeName="Vehicle">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3055,7 +3306,13 @@
                           <profiles/>
                           <rules/>
                           <infoLinks/>
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="99">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </infoLink>
                         <infoLink id="8142-b19d-0f3d-68b3" name="Blast (x)" hidden="false" targetId="d8f6-a772-a777-6764" type="rule">
                           <profiles/>
@@ -3092,7 +3349,13 @@
                           <profiles/>
                           <rules/>
                           <infoLinks/>
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="99">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </infoLink>
                         <infoLink id="2ef5-d3c5-7034-1e52" name="Blast (x)" hidden="false" targetId="d8f6-a772-a777-6764" type="rule">
                           <profiles/>
@@ -3134,7 +3397,6 @@
                   <modifiers/>
                   <constraints>
                     <constraint field="selections" scope="2b9c-c03f-e8be-2e95" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fd76-c586-95cb-aeb7" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37ea-62cb-ed45-0b2e" type="max"/>
                   </constraints>
                   <categoryLinks/>
                 </entryLink>
@@ -3169,7 +3431,13 @@
                           <profiles/>
                           <rules/>
                           <infoLinks/>
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="99">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </infoLink>
                         <infoLink id="c69d-edc5-8a42-81b1" name="Anti-Tank (x)" hidden="false" targetId="ecf4-0e0a-3807-e698" type="rule">
                           <profiles/>
@@ -3212,6 +3480,11 @@
                               <conditions/>
                               <conditionGroups/>
                             </modifier>
+                            <modifier type="set" field="page" value="99">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
                           </modifiers>
                         </infoLink>
                       </infoLinks>
@@ -3242,7 +3515,6 @@
                   <modifiers/>
                   <constraints>
                     <constraint field="selections" scope="2b9c-c03f-e8be-2e95" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6d43-47fd-78c7-fa9f" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c92-3503-38d9-560b" type="max"/>
                   </constraints>
                   <categoryLinks/>
                 </entryLink>
@@ -3277,7 +3549,13 @@
                           <profiles/>
                           <rules/>
                           <infoLinks/>
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="99">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </infoLink>
                         <infoLink id="6bca-48d5-c563-e9ee" name="Suppressive Fire (x)" hidden="false" targetId="530e-eefa-4456-033c" type="rule">
                           <profiles/>
@@ -3320,6 +3598,11 @@
                               <conditions/>
                               <conditionGroups/>
                             </modifier>
+                            <modifier type="set" field="page" value="99">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
                           </modifiers>
                         </infoLink>
                       </infoLinks>
@@ -3350,7 +3633,6 @@
                   <modifiers/>
                   <constraints>
                     <constraint field="selections" scope="2b9c-c03f-e8be-2e95" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="617f-68cc-1fa2-f726" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ea8-7358-6947-8397" type="max"/>
                   </constraints>
                   <categoryLinks/>
                 </entryLink>
@@ -3406,6 +3688,12 @@
                           <infoLinks/>
                           <modifiers/>
                         </infoLink>
+                        <infoLink id="3db7-7ed4-3b70-4c7b" name="Heavy Flamethrower" hidden="false" targetId="12e3-fa56-cb8c-35f5" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
                       </infoLinks>
                       <modifiers/>
                       <constraints>
@@ -3429,7 +3717,13 @@
                           <profiles/>
                           <rules/>
                           <infoLinks/>
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="99">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </infoLink>
                         <infoLink id="4e3b-a3ea-a108-8467" name="Anti-Tank (x)" hidden="false" targetId="ecf4-0e0a-3807-e698" type="rule">
                           <profiles/>
@@ -3471,7 +3765,6 @@
                   <modifiers/>
                   <constraints>
                     <constraint field="selections" scope="2b9c-c03f-e8be-2e95" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="61eb-10de-1731-4b67" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70d1-ec9f-0564-dc71" type="max"/>
                   </constraints>
                   <categoryLinks/>
                 </entryLink>
@@ -3492,9 +3785,9 @@
         <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fde5-ee76-0755-4714" name="Accuser Interceptor" hidden="false" collective="false" type="unit">
+    <selectionEntry id="fde5-ee76-0755-4714" name="Accuser Interceptor" book="Warpath Rulebook" page="100" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="65ff-8b79-e816-18e6" name="Interceptor" hidden="false" profileTypeId="1c23-d26a-305b-d849" profileTypeName="Vehicle">
+        <profile id="65ff-8b79-e816-18e6" name="Interceptor" book="Warpath Rulebook" page="100" hidden="false" profileTypeId="1c23-d26a-305b-d849" profileTypeName="Vehicle">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3570,7 +3863,13 @@
                       <profiles/>
                       <rules/>
                       <infoLinks/>
-                      <modifiers/>
+                      <modifiers>
+                        <modifier type="set" field="page" value="100">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
                     </infoLink>
                     <infoLink id="074b-6da4-90b8-004a" name="Suppressive Fire (x)" hidden="false" targetId="530e-eefa-4456-033c" type="rule">
                       <profiles/>
@@ -3623,7 +3922,13 @@
                       <profiles/>
                       <rules/>
                       <infoLinks/>
-                      <modifiers/>
+                      <modifiers>
+                        <modifier type="set" field="page" value="100">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
                     </infoLink>
                     <infoLink id="c1ce-4579-a68f-aa41" name="Anti-Tank (x)" hidden="false" targetId="ecf4-0e0a-3807-e698" type="rule">
                       <profiles/>
@@ -3682,7 +3987,13 @@
                   <profiles/>
                   <rules/>
                   <infoLinks/>
-                  <modifiers/>
+                  <modifiers>
+                    <modifier type="set" field="page" value="100">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                 </infoLink>
                 <infoLink id="af3a-3990-bf56-cb62" name="Anti-Tank (x)" hidden="false" targetId="ecf4-0e0a-3807-e698" type="rule">
                   <profiles/>
@@ -3763,9 +4074,9 @@
         <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d36c-e48b-a62d-42c9" name="Persecutor Bomber" hidden="false" collective="false" type="unit">
+    <selectionEntry id="d36c-e48b-a62d-42c9" name="Persecutor Bomber" book="Warpath Rulebook" page="101" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="d0f1-1c4f-a148-ad54" name="Persecutor Bomber" hidden="false" profileTypeId="1c23-d26a-305b-d849" profileTypeName="Vehicle">
+        <profile id="d0f1-1c4f-a148-ad54" name="Persecutor Bomber" book="Warpath Rulebook" page="101" hidden="false" profileTypeId="1c23-d26a-305b-d849" profileTypeName="Vehicle">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3833,7 +4144,13 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="page" value="101">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
             </infoLink>
             <infoLink id="f299-06c3-7101-5090" name="Area Effect" hidden="false" targetId="81a2-f3a4-5b46-4ba9" type="rule">
               <profiles/>
@@ -3900,7 +4217,13 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="page" value="101">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
             </infoLink>
             <infoLink id="1e99-facf-d784-10bd" name="Area Effect" hidden="false" targetId="81a2-f3a4-5b46-4ba9" type="rule">
               <profiles/>
@@ -3973,6 +4296,11 @@
                   <conditions/>
                   <conditionGroups/>
                 </modifier>
+                <modifier type="set" field="page" value="101">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
               </modifiers>
             </infoLink>
             <infoLink id="35a9-57c4-84f9-5526" name="Anti-Tank (x)" hidden="false" targetId="ecf4-0e0a-3807-e698" type="rule">
@@ -4010,9 +4338,9 @@
         <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="185.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="efe4-79b1-93ce-ee00" name="Orbital Commander" hidden="false" collective="false" type="unit">
+    <selectionEntry id="efe4-79b1-93ce-ee00" name="Orbital Commander" book="Warpath Rulebook" page="102" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="3e90-7771-9937-b2a6" name="Orbital Commander" hidden="false" profileTypeId="fbf7-c885-7e53-84e1" profileTypeName="Other">
+        <profile id="3e90-7771-9937-b2a6" name="Orbital Commander" book="Warpath Rulebook" page="102" hidden="false" profileTypeId="fbf7-c885-7e53-84e1" profileTypeName="Other">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4108,11 +4436,17 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="bdc0-4768-5c63-18d4" name="Orbital Bombardment" hidden="false" targetId="c96d-5e07-976a-2ea7" type="profile">
+            <infoLink id="5658-3ee9-074e-5195" name="Orbital Bombardment" hidden="false" targetId="c96d-5e07-976a-2ea7" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="page" value="102">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
             </infoLink>
           </infoLinks>
           <modifiers/>
@@ -4140,7 +4474,7 @@
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries>
-    <selectionEntry id="d1e6-8c9c-5cb9-2e83" name="Unit Leader Personnel Upgrade" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="d1e6-8c9c-5cb9-2e83" name="Unit Leader" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -4174,7 +4508,7 @@
         <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e7b4-17be-152a-8565" name="Captain Personnel Upgrade" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="e7b4-17be-152a-8565" name="Captain" book="Warpath Rulebook" page="102" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -4208,7 +4542,7 @@
         <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d96c-d702-5f9a-0bab" name="Engineer Personnel Upgrade" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="d96c-d702-5f9a-0bab" name="Engineer" book="Warpath Rulebook" page="102" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -4242,7 +4576,7 @@
         <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a2da-2351-a12e-2d08" name="Sniper Personnel Upgrade" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="a2da-2351-a12e-2d08" name="Sniper" book="Warpath Rulebook" page="102" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -4264,7 +4598,7 @@
         <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5754-04da-3cc0-2515" name="Medic Personnel Upgrade" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="5754-04da-3cc0-2515" name="Medic" book="Warpath Rulebook" page="102" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -4286,7 +4620,7 @@
         <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dd51-3111-457e-525d" name="Forward Observer Personnel Upgrade" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="dd51-3111-457e-525d" name="Forward Observer" book="Warpath Rulebook" page="102" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -4328,7 +4662,7 @@
         <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e03c-6c58-ee62-a93b" name="Lt. Commander Roca, Forward Observer" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="e03c-6c58-ee62-a93b" name="Lt. Commander Roca, Forward Observer" book="Warpath Rulebook" page="103" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -4391,7 +4725,7 @@
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
-    <rule id="30f0-9df2-e112-ce0e" name="RDL Transmission" hidden="false">
+    <rule id="30f0-9df2-e112-ce0e" name="RDL Transmission" book="Warpath Rulebook" page="93" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4399,14 +4733,14 @@
       <description>While any unit with this rule is in play, the controlling player may re-roll a single Command die in each Turn of the game.
 In addition, if a unit with this rule is destroyed during a battle, an Enforcer Orbital Commander may use an Order to access its final upload and give High Command a strategic advantage. This is a Level 2 Order, and any dice for it must be rolled as soon as the drone is removed from the table. If successful, at the end of a mission when calculating VPs, reduce the opponent’s score by 1, to a minimum of zero.</description>
     </rule>
-    <rule id="7767-e7bc-010a-5fb0" name="Countermeasures" hidden="false">
+    <rule id="7767-e7bc-010a-5fb0" name="Countermeasures" book="Warpath Rulebook" page="93" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>This airborne vehicle has anti-missile flares that can confuse targeting systems. Whenever a weapon with the Anti-Tank rule hits this vehicle, you may try to avoid being hit. For each hit that you want to avoid, add a suppression token to the vehicle and then roll a die. On a 5+ the hit is discarded.</description>
     </rule>
-    <rule id="c199-960b-01ab-a89a" name="Alien Intel" hidden="false">
+    <rule id="c199-960b-01ab-a89a" name="Alien Intel" book="Warpath Rulebook" page="103" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4415,7 +4749,7 @@ In addition, if a unit with this rule is destroyed during a battle, an Enforcer 
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="47fc-e6b8-9cb1-d2b1" name="Laser Assault Rifle" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+    <profile id="47fc-e6b8-9cb1-d2b1" name="Laser Assault Rifle" book="Warpath Rulebook" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4427,7 +4761,7 @@ In addition, if a unit with this rule is destroyed during a battle, an Enforcer 
         <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="-"/>
       </characteristics>
     </profile>
-    <profile id="4178-0cfe-bd60-8a38" name="Assault Weaponry" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+    <profile id="4178-0cfe-bd60-8a38" name="Assault Weaponry" book="Warpath Rulebook" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4439,7 +4773,7 @@ In addition, if a unit with this rule is destroyed during a battle, an Enforcer 
         <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="-"/>
       </characteristics>
     </profile>
-    <profile id="39c7-f346-39ac-c50f" name="Burst Laser" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+    <profile id="39c7-f346-39ac-c50f" name="Burst Laser" book="Warpath Rulebook" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4451,7 +4785,7 @@ In addition, if a unit with this rule is destroyed during a battle, an Enforcer 
         <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="-"/>
       </characteristics>
     </profile>
-    <profile id="93c2-a122-eba1-8668" name="Pistol" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+    <profile id="93c2-a122-eba1-8668" name="Pistol" book="Warpath Rulebook" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4463,7 +4797,7 @@ In addition, if a unit with this rule is destroyed during a battle, an Enforcer 
         <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="-"/>
       </characteristics>
     </profile>
-    <profile id="ca4f-b5c7-00f8-6706" name="Wristblade" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+    <profile id="ca4f-b5c7-00f8-6706" name="Wristblade" book="Warpath Rulebook" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4475,7 +4809,7 @@ In addition, if a unit with this rule is destroyed during a battle, an Enforcer 
         <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="-"/>
       </characteristics>
     </profile>
-    <profile id="8f76-e679-a7ac-2177" name="Shotgun" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+    <profile id="8f76-e679-a7ac-2177" name="Shotgun" book="Warpath Rulebook" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4487,7 +4821,7 @@ In addition, if a unit with this rule is destroyed during a battle, an Enforcer 
         <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Blast (D3)"/>
       </characteristics>
     </profile>
-    <profile id="6257-f17a-4cfc-9aec" name="Incinerator" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+    <profile id="6257-f17a-4cfc-9aec" name="Incinerator" book="Warpath Rulebook" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4499,7 +4833,7 @@ In addition, if a unit with this rule is destroyed during a battle, an Enforcer 
         <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Blast (2D3), Saturation"/>
       </characteristics>
     </profile>
-    <profile id="b1ca-c87f-3b80-a648" name="(X) Missile Launchers" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+    <profile id="b1ca-c87f-3b80-a648" name="(X) Missile Launchers" book="Warpath Rulebook" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4511,7 +4845,7 @@ In addition, if a unit with this rule is destroyed during a battle, an Enforcer 
         <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Blast (D3+1), Heavy Firepower"/>
       </characteristics>
     </profile>
-    <profile id="d1bb-c7d2-2ecf-c61c" name="(X) Missile (AT) Launchers" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+    <profile id="d1bb-c7d2-2ecf-c61c" name="(X) Missile (AT) Launchers" book="Warpath Rulebook" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4523,7 +4857,7 @@ In addition, if a unit with this rule is destroyed during a battle, an Enforcer 
         <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Anti-Tank (D3+1), Heavy Firepower"/>
       </characteristics>
     </profile>
-    <profile id="db3b-c37b-4b3d-895d" name="Thermal Rifle" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+    <profile id="db3b-c37b-4b3d-895d" name="Thermal Rifle" book="Warpath Rulebook" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4535,7 +4869,7 @@ In addition, if a unit with this rule is destroyed during a battle, an Enforcer 
         <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Anti-Tank (D3+2)"/>
       </characteristics>
     </profile>
-    <profile id="c8aa-dbdd-eb59-fae5" name="Wristblade &amp; Mines" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+    <profile id="c8aa-dbdd-eb59-fae5" name="Wristblade &amp; Mines" book="Warpath Rulebook" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4547,7 +4881,7 @@ In addition, if a unit with this rule is destroyed during a battle, an Enforcer 
         <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="-"/>
       </characteristics>
     </profile>
-    <profile id="ada9-5d8c-cd5b-768b" name="Sniper Rifle" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+    <profile id="ada9-5d8c-cd5b-768b" name="Sniper Rifle" book="Warpath Rulebook" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4559,7 +4893,7 @@ In addition, if a unit with this rule is destroyed during a battle, an Enforcer 
         <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Suppressive Fire (1), Tag"/>
       </characteristics>
     </profile>
-    <profile id="d46d-8c76-151d-8aa3" name="Twin Laser Assault Rifles" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+    <profile id="d46d-8c76-151d-8aa3" name="Twin Laser Assault Rifles" book="Warpath Rulebook" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4571,7 +4905,7 @@ In addition, if a unit with this rule is destroyed during a battle, an Enforcer 
         <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="-"/>
       </characteristics>
     </profile>
-    <profile id="3b32-ee5c-aace-5ecb" name="Heavy Burst Laser" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+    <profile id="3b32-ee5c-aace-5ecb" name="Heavy Burst Laser" book="Warpath Rulebook" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4583,7 +4917,7 @@ In addition, if a unit with this rule is destroyed during a battle, an Enforcer 
         <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Suppressive Fire (1)"/>
       </characteristics>
     </profile>
-    <profile id="2732-1ab1-a05c-b7d5" name="Energy Gauntlet" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+    <profile id="2732-1ab1-a05c-b7d5" name="Energy Gauntlet" book="Warpath Rulebook" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4595,7 +4929,7 @@ In addition, if a unit with this rule is destroyed during a battle, an Enforcer 
         <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="-"/>
       </characteristics>
     </profile>
-    <profile id="e44d-b48b-5306-cafd" name="Grav-ram Spear (Assault)" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+    <profile id="e44d-b48b-5306-cafd" name="Grav-ram Spear (Assault)" book="Warpath Rulebook" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4607,7 +4941,7 @@ In addition, if a unit with this rule is destroyed during a battle, an Enforcer 
         <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Blast (D3)"/>
       </characteristics>
     </profile>
-    <profile id="2984-4324-5d6c-908d" name="Grav-ram Spear (Ranged)" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+    <profile id="2984-4324-5d6c-908d" name="Grav-ram Spear (Ranged)" book="Warpath Rulebook" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4619,7 +4953,7 @@ In addition, if a unit with this rule is destroyed during a battle, an Enforcer 
         <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Blast (D3)"/>
       </characteristics>
     </profile>
-    <profile id="e3ec-c1c4-a3aa-232f" name="Polaris Cannon" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+    <profile id="e3ec-c1c4-a3aa-232f" name="Polaris Cannon" book="Warpath Rulebook" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4631,7 +4965,7 @@ In addition, if a unit with this rule is destroyed during a battle, an Enforcer 
         <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Anti-Tank (D6)"/>
       </characteristics>
     </profile>
-    <profile id="12e3-fa56-cb8c-35f5" name="Heavy Flamethrower" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+    <profile id="12e3-fa56-cb8c-35f5" name="Heavy Flamethrower" book="Warpath Rulebook" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4640,10 +4974,10 @@ In addition, if a unit with this rule is destroyed during a battle, an Enforcer 
         <characteristic name="Range" characteristicTypeId="3401-0064-8450-a80f" value="12&quot;"/>
         <characteristic name="Dice" characteristicTypeId="2a0b-b5bd-a193-5f9e" value="4"/>
         <characteristic name="AP" characteristicTypeId="a383-6bfe-9209-fb8c" value="1"/>
-        <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Blast 2D3), Saturation"/>
+        <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Blast (2D3), Saturation"/>
       </characteristics>
     </profile>
-    <profile id="c3a2-1d7e-0a1b-dfb0" name="Chainsaw" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+    <profile id="c3a2-1d7e-0a1b-dfb0" name="Chainsaw" book="Warpath Rulebook" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4655,7 +4989,7 @@ In addition, if a unit with this rule is destroyed during a battle, an Enforcer 
         <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Anti-Tank (D3)"/>
       </characteristics>
     </profile>
-    <profile id="f5bb-075f-924b-6ea4" name="Twin Heavy Burst Lasers" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+    <profile id="f5bb-075f-924b-6ea4" name="Twin Heavy Burst Lasers" book="Warpath Rulebook" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4667,7 +5001,7 @@ In addition, if a unit with this rule is destroyed during a battle, an Enforcer 
         <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Suppressive Fire (1)"/>
       </characteristics>
     </profile>
-    <profile id="de52-61c5-9095-5e76" name="Missile Pods" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+    <profile id="de52-61c5-9095-5e76" name="Missile Pods" book="Warpath Rulebook" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4679,7 +5013,7 @@ In addition, if a unit with this rule is destroyed during a battle, an Enforcer 
         <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Anti-Tank (D3+2)"/>
       </characteristics>
     </profile>
-    <profile id="3437-e32f-099f-a790" name="Twin Polaris Cannons" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+    <profile id="3437-e32f-099f-a790" name="Twin Polaris Cannons" book="Warpath Rulebook" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4691,7 +5025,7 @@ In addition, if a unit with this rule is destroyed during a battle, an Enforcer 
         <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Anti-Tank (D6)"/>
       </characteristics>
     </profile>
-    <profile id="d433-b4eb-4d65-e6df" name="(X) Anti-Infantry Bombs" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+    <profile id="d433-b4eb-4d65-e6df" name="(X) Anti-Infantry Bombs" book="Warpath Rulebook" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4703,7 +5037,7 @@ In addition, if a unit with this rule is destroyed during a battle, an Enforcer 
         <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Area Effect, Blast (3D3), Limited (2), Suppressive Fire (2)"/>
       </characteristics>
     </profile>
-    <profile id="3836-13fd-0873-eb2a" name="(X) Bunker Buster Bombs" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+    <profile id="3836-13fd-0873-eb2a" name="(X) Bunker Buster Bombs" book="Warpath Rulebook" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4715,7 +5049,7 @@ In addition, if a unit with this rule is destroyed during a battle, an Enforcer 
         <characteristic name="Special" characteristicTypeId="ac63-4116-ed59-2756" value="Area Effect, Anti-Tank (D3+2), Blast (D3), Limited (2)"/>
       </characteristics>
     </profile>
-    <profile id="c96d-5e07-976a-2ea7" name="Orbital Bombardment" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
+    <profile id="c96d-5e07-976a-2ea7" name="Orbital Bombardment" book="Warpath Rulebook" hidden="false" profileTypeId="b141-66c4-d719-9dc4" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>

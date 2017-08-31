@@ -3749,7 +3749,7 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="68cd-3222-f8ed-6102" name="Cypher Prime Support Upgrade" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="68cd-3222-f8ed-6102" name="Cypher Prime Support Upgrade" book="Warpath Rulebook" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -4558,7 +4558,7 @@ Place it back onto the table in a new location within 12” of the same or any o
         <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c486-4dba-c56d-a987" name="Overseer" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="c486-4dba-c56d-a987" name="Overseer" book="Warpath Rulebook" page="91" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -4598,7 +4598,7 @@ Place it back onto the table in a new location within 12” of the same or any o
         <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="50cf-6707-ba6a-fa34" name="Shuuvatar" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="50cf-6707-ba6a-fa34" name="Shuuvatar" book="Warpath Rulebook" page="91" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -4626,7 +4626,7 @@ Place it back onto the table in a new location within 12” of the same or any o
         <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="57eb-3144-f0c8-8a1b" name="Kalyshi Dervish" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="57eb-3144-f0c8-8a1b" name="Kalyshi Dervish" book="Warpath Rulebook" page="91" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -4710,7 +4710,7 @@ Place it back onto the table in a new location within 12” of the same or any o
         <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e316-4ed0-7a68-e5bb" name="Ten&apos;ur Go" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="e316-4ed0-7a68-e5bb" name="Ten&apos;ur Go" book="Warpath Rulebook" page="91" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -4786,7 +4786,10 @@ Place it back onto the table in a new location within 12” of the same or any o
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="★ HVA" costTypeId="5a38-1f4e-63c5-a379" value="0.0"/>
+                <cost name="pts" costTypeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
