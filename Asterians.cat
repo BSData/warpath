@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7500-ca60-ce1f-0ea9" name="Asterians" revision="2" battleScribeVersion="2.03" authorName="Alpha-1983" authorContact="Alpha-1983 (Github)" library="false" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Included changes from Errata and FAQ v1.0
-Set the Hidden Strike Assassin Drone to Vehicle, previously it was uncategorized</comment>
+<catalogue id="7500-ca60-ce1f-0ea9" name="Asterians" revision="3" battleScribeVersion="2.03" authorName="Alpha-1983" authorContact="Alpha-1983 (Github)" library="false" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Updated the command value of Shuuvatar and Ten&apos;ur Go from X to their actual values.
+Fixed issue that prevented seeing the Noh Rifle from the Marionettes Weapons Drone</comment>
   <publications>
     <publication id="7500-ca60-pubN65537" name="Warpath Rulebook"/>
     <publication id="7500-ca60-pubN67484" name="Warpath Firefight"/>
@@ -56,6 +56,7 @@ Set the Hidden Strike Assassin Drone to Vehicle, previously it was uncategorized
                         <modifier type="set" field="2a0b-b5bd-a193-5f9e" value="6"/>
                         <modifier type="set" field="ac63-4116-ed59-2756" value="Suppressive Fire (1)"/>
                         <modifier type="set" field="page" value="82"/>
+                        <modifier type="set" field="name" value="Noh Rifles - Weapons Drone"/>
                       </modifiers>
                     </infoLink>
                   </infoLinks>
@@ -1755,6 +1756,10 @@ Set the Hidden Strike Assassin Drone to Vehicle, previously it was uncategorized
         <infoLink id="1052-0ed2-be53-9306" name="Order (3): Comms Interference" hidden="false" targetId="109e-8be9-4855-b8db" type="rule"/>
         <infoLink id="6c56-cf83-2922-38a8" name="Order (3): Reprioritise the Mission" hidden="false" targetId="56e9-4b1c-1510-3846" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="★ HVA" typeId="5a38-1f4e-63c5-a379" value="0.0"/>
+        <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
@@ -2043,19 +2048,19 @@ Set the Hidden Strike Assassin Drone to Vehicle, previously it was uncategorized
         </profile>
       </profiles>
       <rules>
-        <rule id="4b24-62ea-6d5e-e85f" name="Signal Relay" hidden="false">
+        <rule id="4b24-62ea-6d5e-e85f" name="Signal Relay" publicationId="395a-29cb-pubN65537" page="89" hidden="false">
           <description>The Narsa is used to extend the reach of the various technological advancements enjoyed by the Asterians, providing a stable long-range teleportation and communications relay throughout the force.
 Any Commander in the Asterian Force with the Orbital Commandor Communications rule can relay their Orders through a Narsa Drone, measuring the 12” radius from the Narsa rather than their own location.
 In addition, they will have access to additional Orders.</description>
         </rule>
-        <rule id="8cda-e360-6993-0788" name="New Order - Live to Fight Another Day" hidden="false">
+        <rule id="8cda-e360-6993-0788" name="Specialized Order (2): Live to Fight Another Day" publicationId="395a-29cb-pubN65537" page="89" hidden="false">
           <description>Asterians will not take unnecessary risks, and value their technology in the same way as they value their lives, especially their Cypher constructs. They will not stay on to fight an unwinnable battle when they can be of more use elsewhere.
 This Order may only be given when relayed through a Narsa Support Drone.
 When an Asterian unit within range is charged, the Asterian player can give this Order instead of making a charge reaction.
 If successful, the unit will be teleported away from the battlefield.
 The opponent may only claim half of the value of its remaining teams for the Kill Total, and the unit does not count as destroyed for the purposes of any other victory conditions.</description>
         </rule>
-        <rule id="725e-c1fc-51b8-1df2" name="New Order - Teleport" hidden="false">
+        <rule id="725e-c1fc-51b8-1df2" name="Specialized Order (2): Teleport" hidden="false">
           <description>This Order may only be given when relayed through a Narsa Support Drone. Pick a friendly Infantry unit within range of the Drone and remove it from the table.
 Place it back onto the table in a new location within 12” of the same or any other Narsa Drone.</description>
         </rule>
@@ -2513,6 +2518,14 @@ This Order is given before the game has started, but after the forces are deploy
         <characteristic name="Dice" typeId="2a0b-b5bd-a193-5f9e">4</characteristic>
         <characteristic name="AP" typeId="a383-6bfe-9209-fb8c">2</characteristic>
         <characteristic name="Special" typeId="ac63-4116-ed59-2756">Anti-Tank (D3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b1cf-0940-e8b9-c476" name="Noh Rifles - Weapons Drone" publicationId="395a-29cb-pubN65537" page="82" hidden="false" typeId="b141-66c4-d719-9dc4" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="3401-0064-8450-a80f">24</characteristic>
+        <characteristic name="Dice" typeId="2a0b-b5bd-a193-5f9e">6</characteristic>
+        <characteristic name="AP" typeId="a383-6bfe-9209-fb8c">-</characteristic>
+        <characteristic name="Special" typeId="ac63-4116-ed59-2756">Suppressive Fire (1)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
