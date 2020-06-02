@@ -2161,7 +2161,11 @@ Place it back onto the table in a new location within 12” of the same or any o
     </selectionEntry>
     <selectionEntry id="50cf-6707-ba6a-fa34" name="Shuuvatar" publicationId="7500-ca60-pubN65537" page="91" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="c156-47be-609f-6350" name="Command (x)" hidden="false" targetId="e3e3-f40e-d837-641d" type="rule"/>
+        <infoLink id="c156-47be-609f-6350" name="Command (x)" hidden="false" targetId="e3e3-f40e-d837-641d" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Command (1)"/>
+          </modifiers>
+        </infoLink>
         <infoLink id="526d-e48e-8878-6ff5" name="Observer" hidden="false" targetId="f5de-d0e8-c184-4032" type="rule"/>
       </infoLinks>
       <costs>
@@ -2209,7 +2213,11 @@ Place it back onto the table in a new location within 12” of the same or any o
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="25a3-c0e8-5b3b-e57a" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="93e1-fe3e-9d27-165c" name="Command (x)" hidden="false" targetId="e3e3-f40e-d837-641d" type="rule"/>
+        <infoLink id="93e1-fe3e-9d27-165c" name="Command (x)" hidden="false" targetId="e3e3-f40e-d837-641d" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Command (2)"/>
+          </modifiers>
+        </infoLink>
         <infoLink id="02c5-3003-f9e4-182a" name="Headstrong" hidden="false" targetId="79dc-a23e-8433-6c72" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Headstrong (Unflinching when facing the Plague)"/>

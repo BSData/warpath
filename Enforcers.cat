@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4901-fd79-26a5-da99" name="Enforcers" revision="2" battleScribeVersion="2.03" authorName="Alpha-1983" authorContact="Alpha-1983 (Github)" library="false" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Updated according to FAQ v1.0
-Corrected Peacekeeper type to Heavy Infantry
-Removed Heavy Firepower from the Jetbikes, since they never had that rule</comment>
+<catalogue id="4901-fd79-26a5-da99" name="Enforcers" revision="3" battleScribeVersion="2.03" authorName="Alpha-1983" authorContact="Alpha-1983 (Github)" library="false" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Changed the range of the Grav-ram spear to the correct 16&quot;
+Removed Heavy Firepower from Jetbikes
+</comment>
   <publications>
     <publication id="4901-fd79-pubN65537" name="Warpath Rulebook"/>
     <publication id="c6c2-7be7-b8b0-1972" name="Errata and FAQ v1.0" publicationDate="2019"/>
@@ -1215,6 +1215,7 @@ Removed Heavy Firepower from the Jetbikes, since they never had that rule</comme
                           <modifiers>
                             <modifier type="set" field="2a0b-b5bd-a193-5f9e" value="2"/>
                             <modifier type="set" field="page" value="97"/>
+                            <modifier type="set" field="ac63-4116-ed59-2756" value="Blast (D3+1)"/>
                           </modifiers>
                         </infoLink>
                         <infoLink id="a963-c01a-994a-015b" name="Blast (x)" hidden="false" targetId="d8f6-a772-a777-6764" type="rule">
@@ -1238,6 +1239,7 @@ Removed Heavy Firepower from the Jetbikes, since they never had that rule</comme
                           <modifiers>
                             <modifier type="set" field="2a0b-b5bd-a193-5f9e" value="2"/>
                             <modifier type="set" field="page" value="97"/>
+                            <modifier type="set" field="ac63-4116-ed59-2756" value="Anti-Tank (D3+1)"/>
                           </modifiers>
                         </infoLink>
                         <infoLink id="81e4-7c9a-147a-d261" name="Anti-Tank (x)" hidden="false" targetId="ecf4-0e0a-3807-e698" type="rule">
@@ -2193,6 +2195,10 @@ Corrected type to Large Infantry</comment>
         <infoLink id="d864-74d0-2199-7772" name="Order (2): Coordinated Offensive" hidden="false" targetId="8f2f-8751-1d6a-5122" type="rule"/>
         <infoLink id="6add-5150-2e22-456e" name="Order (3): Fusillade" hidden="false" targetId="ca46-f869-370d-cdb8" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="★ HVA" typeId="5a38-1f4e-63c5-a379" value="0.0"/>
+        <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
@@ -2450,7 +2456,7 @@ None of the participating units are marked as activated.</description>
     </profile>
     <profile id="2984-4324-5d6c-908d" name="Grav-ram Spear (Ranged)" publicationId="4901-fd79-pubN65537" hidden="false" typeId="b141-66c4-d719-9dc4" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="3401-0064-8450-a80f">12&quot;</characteristic>
+        <characteristic name="Range" typeId="3401-0064-8450-a80f">16&quot;</characteristic>
         <characteristic name="Dice" typeId="2a0b-b5bd-a193-5f9e">4</characteristic>
         <characteristic name="AP" typeId="a383-6bfe-9209-fb8c">4</characteristic>
         <characteristic name="Special" typeId="ac63-4116-ed59-2756">Blast (D3)</characteristic>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="23d8-84f4-baa2-e64a" name="Forge Fathers" revision="3" battleScribeVersion="2.03" authorName="Alpha-1983" authorContact="Alpha-1983 (Github)" library="false" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Modified the Sturnhammer Hagall Pattern to fix issue reported in Bug report: Forge_Fathers.catz #3</comment>
+<catalogue id="23d8-84f4-baa2-e64a" name="Forge Fathers" revision="4" battleScribeVersion="2.03" authorName="Alpha-1983" authorContact="Alpha-1983 (Github)" library="false" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Changed Hailstorm Pistols AP to 1
+Added +1 Nerve modifier to Brokkrs and Valkyrs Unit Leaders
+Added different names for the Assault weapons of Doomstorm and Hellermal, so both are displayed in case both share the same unit.
+Added heavy firepower to the Heavy Hailstorm Cannon of the Jotunn weapons platform</comment>
   <publications>
     <publication id="23d8-84f4-pubN65537" name="Warpath Rulebook"/>
     <publication id="23d8-84f4-pubN80092" name="Warpath Universe"/>
@@ -706,10 +709,18 @@
                     <constraint field="selections" scope="a86a-312d-22f8-f69d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e39e-302a-153d-5545" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="6d9d-9ff4-9538-5f48" name="Unit Leader Personnel Upgrade" hidden="false" collective="false" import="true" targetId="b193-c55b-22b9-15ed" type="selectionEntry">
+                <entryLink id="6d9d-9ff4-9538-5f48" name="Unit Leader" hidden="false" collective="false" import="true" targetId="b193-c55b-22b9-15ed" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Unit Leader (add +1 to Nerve to Unit)"/>
+                  </modifiers>
                   <constraints>
                     <constraint field="selections" scope="a86a-312d-22f8-f69d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="856f-617d-83d1-ce8c" type="max"/>
                   </constraints>
+                  <rules>
+                    <rule id="d65f-a335-5430-b787" name="Add +1 Nerve to Brokkr Unit" publicationId="395a-29cb-pubN65537" page="108" hidden="false">
+                      <description>As long as the Brokkr Unit Leader is within the Brokkr Unit, it receives a +1 modifier to its Nerve attribute</description>
+                    </rule>
+                  </rules>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -827,10 +838,18 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d299-001e-dc25-9403" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="a667-b04e-f0c2-a754" name="Unit Leader Personnel Upgrade" hidden="false" collective="false" import="true" targetId="b193-c55b-22b9-15ed" type="selectionEntry">
+                <entryLink id="a667-b04e-f0c2-a754" name="Unit Leader" hidden="false" collective="false" import="true" targetId="b193-c55b-22b9-15ed" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Unit Leader (add +1 Nerve to Unit)"/>
+                  </modifiers>
                   <constraints>
                     <constraint field="selections" scope="5e49-9662-421f-5a0c" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ef33-e58c-d1c1-79e4" type="max"/>
                   </constraints>
+                  <rules>
+                    <rule id="418e-46ed-8f74-a5fc" name="Add +1 Nerve to Valkyrs Unit" publicationId="395a-29cb-pubN65537" page="108" hidden="false">
+                      <description>As long as the Valkyrs Unit Leader is within the Valkyrs Unit, it receives a +1 modifier to its Nerve attribute</description>
+                    </rule>
+                  </rules>
                 </entryLink>
                 <entryLink id="6cec-d1d5-312a-d852" name="Huscarl Personnel Upgrade" hidden="false" collective="false" import="true" targetId="c64a-6e63-46fc-3137" type="selectionEntry">
                   <constraints>
@@ -1257,6 +1276,7 @@
                             <modifier type="set" field="2a0b-b5bd-a193-5f9e" value="2"/>
                             <modifier type="set" field="a383-6bfe-9209-fb8c" value="2"/>
                             <modifier type="set" field="page" value="110"/>
+                            <modifier type="set" field="name" value="Assault Weaponry - Doomstorm"/>
                           </modifiers>
                         </infoLink>
                       </infoLinks>
@@ -1347,6 +1367,7 @@
                             <modifier type="set" field="2a0b-b5bd-a193-5f9e" value="6"/>
                             <modifier type="set" field="a383-6bfe-9209-fb8c" value="5"/>
                             <modifier type="set" field="page" value="110"/>
+                            <modifier type="set" field="name" value="Assault Weaponry - Hellermal"/>
                           </modifiers>
                         </infoLink>
                       </infoLinks>
@@ -2170,14 +2191,15 @@
                         <infoLink id="6d0a-e7d2-f5e5-01ab" name="Heavy Hailstorm Cannon" hidden="false" targetId="22f7-a0ec-ba99-9448" type="profile">
                           <modifiers>
                             <modifier type="set" field="page" value="114"/>
+                            <modifier type="set" field="ac63-4116-ed59-2756" value="Heavy Firepower, Suppressive Fire (2)"/>
                           </modifiers>
                         </infoLink>
-                        <infoLink id="9319-ec28-4b27-2fd5" name="Heavy Firepower" hidden="false" targetId="a5be-0dde-d3ff-8eb6" type="rule"/>
                         <infoLink id="50a8-b662-c773-b697" name="Suppressive Fire (x)" hidden="false" targetId="530e-eefa-4456-033c" type="rule">
                           <modifiers>
                             <modifier type="set" field="name" value="Suppressive Fire (2)"/>
                           </modifiers>
                         </infoLink>
+                        <infoLink id="82e6-a9b3-89b6-e365" name="Heavy Firepower" hidden="false" targetId="a5be-0dde-d3ff-8eb6" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="0.0"/>
@@ -2949,7 +2971,7 @@ Only natural modifiers for cover may be ignored; modifiers granted by a special 
       <characteristics>
         <characteristic name="Range" typeId="3401-0064-8450-a80f">12&quot;</characteristic>
         <characteristic name="Dice" typeId="2a0b-b5bd-a193-5f9e">4</characteristic>
-        <characteristic name="AP" typeId="a383-6bfe-9209-fb8c">4</characteristic>
+        <characteristic name="AP" typeId="a383-6bfe-9209-fb8c">1</characteristic>
         <characteristic name="Special" typeId="ac63-4116-ed59-2756">-</characteristic>
       </characteristics>
     </profile>
