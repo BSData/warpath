@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="030b-4ce4-2767-124a" name="The GCPS" revision="2" battleScribeVersion="2.03" authorName="Alpha-1983" authorContact="Alpha-1983 (Github)" library="false" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="030b-4ce4-2767-124a" name="The GCPS" revision="3" battleScribeVersion="2.03" authorName="Alpha-1983" authorContact="Alpha-1983 (Github)" library="false" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Changed the name of the Assault Weaponry of the marine and veteran teams so avoid it being overwritten by the one from the heavy weapons teams.
+Fixed the veteran laser rifles, now they are always shown and don&apos;t need to be taken as an upgrade. Same for the Assault entry of the Mules and all of the weapons of the Lancer
+Changed the Flamethrower for the Heavy Flamethrower for the Urban Assault Strider
+Removed Heavy Firepower from the Mule weapons</comment>
   <publications>
     <publication id="030b-4ce4-pubN65537" name="Warpath Rulebook"/>
     <publication id="372a-3dee-66bd-a90c" name="Errata and FAQ v1.0" publicationDate="2019"/>
@@ -58,6 +62,7 @@
                         <infoLink id="0616-dc96-f50f-7814" name="Assault Weaponry" hidden="false" targetId="8ede-ecfb-0c1b-ca75" type="profile">
                           <modifiers>
                             <modifier type="set" field="page" value="118"/>
+                            <modifier type="set" field="name" value="Assault Weaponry - Marine Team"/>
                           </modifiers>
                         </infoLink>
                       </infoLinks>
@@ -636,13 +641,17 @@
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4133-338e-a755-5dcb" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="c0b0-3c09-ab29-3298" name="Marine Team" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="c0b0-3c09-ab29-3298" name="Veteran Team" hidden="false" collective="false" import="true" type="unit">
               <selectionEntryGroups>
                 <selectionEntryGroup id="652a-cfd1-6f54-934b" name="Equipment" hidden="false" collective="false" import="true">
                   <selectionEntries>
                     <selectionEntry id="0e0f-de3c-b5bf-2a4d" name="Laser Rifle" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7210-cd19-8595-c669" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7c9-4a94-0956-561c" type="min"/>
+                      </constraints>
                       <infoLinks>
-                        <infoLink id="8918-0ee2-16a7-1fe4" name="Laser Rifle" hidden="false" targetId="4510-1460-1219-0721" type="profile">
+                        <infoLink id="8bf8-d2bd-cd42-ccfc" name="Laser Rifle" hidden="false" targetId="4510-1460-1219-0721" type="profile">
                           <modifiers>
                             <modifier type="set" field="page" value="119"/>
                           </modifiers>
@@ -662,6 +671,7 @@
                         <infoLink id="48c3-0370-065e-18fd" name="Assault Weaponry" hidden="false" targetId="8ede-ecfb-0c1b-ca75" type="profile">
                           <modifiers>
                             <modifier type="set" field="page" value="119"/>
+                            <modifier type="set" field="name" value="Assault Weaponry - Veteran Team"/>
                           </modifiers>
                         </infoLink>
                       </infoLinks>
@@ -772,7 +782,7 @@
                 <cost name="★ HVA" typeId="5a38-1f4e-63c5-a379" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b3cf-3d03-b652-dfe4" name="Marine Autocannon Team" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="b3cf-3d03-b652-dfe4" name="Veteran Autocannon Team" hidden="false" collective="false" import="true" type="unit">
               <selectionEntryGroups>
                 <selectionEntryGroup id="778c-7938-98b7-f2c5" name="Equipment" hidden="false" collective="false" import="true">
                   <selectionEntries>
@@ -879,7 +889,7 @@
                 <cost name="★ HVA" typeId="5a38-1f4e-63c5-a379" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5513-8f09-d51b-d02c" name="Marine Laser Cannon Team" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="5513-8f09-d51b-d02c" name="Veteran Laser Cannon Team" hidden="false" collective="false" import="true" type="unit">
               <selectionEntryGroups>
                 <selectionEntryGroup id="bb46-77be-8d52-6a4a" name="Equipment" hidden="false" collective="false" import="true">
                   <selectionEntries>
@@ -986,7 +996,7 @@
                 <cost name="★ HVA" typeId="5a38-1f4e-63c5-a379" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="2677-314c-4860-fec0" name="Marine Missile Launcher Team" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="2677-314c-4860-fec0" name="Veteran Missile Launcher Team" hidden="false" collective="false" import="true" type="unit">
               <selectionEntryGroups>
                 <selectionEntryGroup id="7cdd-eca7-bf3b-13b6" name="Equipment" hidden="false" collective="false" import="true">
                   <selectionEntries>
@@ -1093,7 +1103,7 @@
                 <cost name="★ HVA" typeId="5a38-1f4e-63c5-a379" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c687-9584-2681-857b" name="Marine Mortar Team" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="c687-9584-2681-857b" name="Veteran Mortar Team" hidden="false" collective="false" import="true" type="unit">
               <selectionEntryGroups>
                 <selectionEntryGroup id="1d16-fb24-ac06-a856" name="Equipment" hidden="false" collective="false" import="true">
                   <selectionEntries>
@@ -1951,6 +1961,10 @@
                     <selectionEntryGroup id="9e59-c12d-889a-b652" name="Equipment" hidden="false" collective="false" import="true">
                       <selectionEntries>
                         <selectionEntry id="c894-3512-ba40-80f8" name="Assault" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82a5-8786-12f9-136c" type="max"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c8c-f0dc-8a83-8feb" type="min"/>
+                          </constraints>
                           <infoLinks>
                             <infoLink id="f33f-7652-5c9e-c7b5" name="Assault" hidden="false" targetId="3864-225f-f9cb-b6bc" type="profile">
                               <modifiers>
@@ -1972,6 +1986,7 @@
                             <infoLink id="8ed7-dc80-dc80-4f50" name="Autocannon" hidden="false" targetId="e408-f782-9dbf-680f" type="profile">
                               <modifiers>
                                 <modifier type="set" field="page" value="121"/>
+                                <modifier type="set" field="ac63-4116-ed59-2756" value="Suppressive Fire (1)"/>
                               </modifiers>
                             </infoLink>
                             <infoLink id="6b59-09c5-a936-00d3" name="Suppressive Fire (x)" hidden="false" targetId="530e-eefa-4456-033c" type="rule">
@@ -2015,6 +2030,7 @@
                             <infoLink id="4352-3360-4534-5340" name="Laser Cannon" hidden="false" targetId="fd97-3b25-d1fd-f9cd" type="profile">
                               <modifiers>
                                 <modifier type="set" field="page" value="121"/>
+                                <modifier type="set" field="ac63-4116-ed59-2756" value="Anti-Tank (D3)"/>
                               </modifiers>
                             </infoLink>
                             <infoLink id="bd4c-5003-20db-8b76" name="Anti-Tank (x)" hidden="false" targetId="ecf4-0e0a-3807-e698" type="rule">
@@ -2029,6 +2045,10 @@
                           </costs>
                         </selectionEntry>
                         <selectionEntry id="a869-504a-d3e9-f9df" name="Assault" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f32-a823-0ba7-2f5b" type="max"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9ae-8bf8-2edb-024c" type="min"/>
+                          </constraints>
                           <infoLinks>
                             <infoLink id="f96b-06ee-b71c-e17e" name="Assault" hidden="false" targetId="3864-225f-f9cb-b6bc" type="profile">
                               <modifiers>
@@ -2145,7 +2165,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d5d-395b-7257-1b10" type="min"/>
                       </constraints>
                       <infoLinks>
-                        <infoLink id="79b0-3abd-0ed7-7549" name="Flamethrower" hidden="false" targetId="ac14-ae4c-c49f-3c24" type="profile">
+                        <infoLink id="79b0-3abd-0ed7-7549" name="Heavy Flamethrower" hidden="false" targetId="adac-f047-43d6-7728" type="profile">
                           <modifiers>
                             <modifier type="set" field="page" value="121"/>
                           </modifiers>
@@ -2272,6 +2292,10 @@
         <infoLink id="3de9-1ebb-fffc-8474" name="Order (1): Focus Fire" hidden="false" targetId="9333-63d0-65cd-5854" type="rule"/>
         <infoLink id="32a1-1fd9-4edd-9cef" name="Order (2): Tactical Genius" hidden="false" targetId="907a-7610-f5ba-d767" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="★ HVA" typeId="5a38-1f4e-63c5-a379" value="0.0"/>
+        <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
@@ -2413,6 +2437,10 @@
                 <selectionEntryGroup id="0af5-8c14-7b59-0e58" name="Equipment" hidden="false" collective="false" import="true">
                   <selectionEntries>
                     <selectionEntry id="a164-3872-dc81-e3cf" name="Laser Rifle" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d05-5661-d169-1a39" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="329e-eefd-e60f-c917" type="min"/>
+                      </constraints>
                       <infoLinks>
                         <infoLink id="8b0d-e001-bf98-363e" name="Laser Rifle" hidden="false" targetId="4510-1460-1219-0721" type="profile">
                           <modifiers>
@@ -2427,6 +2455,10 @@
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="2edf-449e-8c3d-5d17" name="Heavy Laser Cannon" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3409-2ae5-127d-5cff" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02da-652a-974a-dd89" type="min"/>
+                      </constraints>
                       <infoLinks>
                         <infoLink id="1e5d-5eb8-74d6-ab5f" name="Heavy Laser Cannon" hidden="false" targetId="4e39-cb1b-f169-a0dd" type="profile">
                           <modifiers>
@@ -2445,6 +2477,10 @@
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="7bbf-8be6-c863-5081" name="Assault" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="763f-3bb5-7930-b04b" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdd3-7c46-d70e-a0eb" type="min"/>
+                      </constraints>
                       <infoLinks>
                         <infoLink id="a7f1-6ff9-7af5-af1c" name="Assault" hidden="false" targetId="3864-225f-f9cb-b6bc" type="profile">
                           <modifiers>
