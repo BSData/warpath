@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c74-bdfb-0b7c-d432" name="The Marauders" revision="2" battleScribeVersion="2.03" authorName="Alpha-1983" authorContact="Alpha-1983 (Github)" library="false" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Added FAQv1.0
-Added missing rocket launcher to Rainmaker team</comment>
+<catalogue id="1c74-bdfb-0b7c-d432" name="The Marauders" revision="3" battleScribeVersion="2.03" authorName="Alpha-1983" authorContact="Alpha-1983 (Github)" library="false" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Added Fire in the Hole! to the Pyro upgrade of the Commandos, Orc Commando Skyscrapers
+Added +1 to Nerve for the Orc Commandos Unit Leader, Orc Commando Skyscrapers
+Added team number constraints for the Goblin Scouts Unit and Goran Stalkers
+Changed the name of the melee weapons of the Rainmaker Team. Now no longer overwrites the melee weapon stats of the Mauler teams
+Corrected Goblin guntrack HEW to Anti-Tank (2D3)</comment>
   <publications>
     <publication id="1c74-bdfb-pubN65537" name="Warpath Rulebook"/>
   </publications>
@@ -143,6 +146,7 @@ Added missing rocket launcher to Rainmaker team</comment>
                     <infoLink id="7eeb-8c71-c2b7-394d" name="Teeth &amp; Claws" hidden="false" targetId="2852-7393-1ff9-09eb" type="profile">
                       <modifiers>
                         <modifier type="set" field="page" value="126"/>
+                        <modifier type="set" field="name" value="Teeth &amp; Claws - Mawbeast"/>
                       </modifiers>
                     </infoLink>
                     <infoLink id="7eb7-8dcb-dca9-099c" name="Shredder" hidden="false" targetId="f61a-49b6-a5c5-b583" type="rule"/>
@@ -190,6 +194,7 @@ Added missing rocket launcher to Rainmaker team</comment>
         <selectionEntry id="0a3d-ebec-08a8-90fa" name="Goran Stalker Team" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84e9-9f3f-a4f2-9fac" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c12-b3eb-cf92-c902" type="min"/>
           </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup id="4952-b868-c3ec-d16c" name="Equipment" hidden="false" collective="false" import="true">
@@ -372,6 +377,11 @@ Added missing rocket launcher to Rainmaker team</comment>
                   <constraints>
                     <constraint field="selections" scope="ed94-7679-94eb-b15e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b943-82fe-3fc3-e609" type="max"/>
                   </constraints>
+                  <rules>
+                    <rule id="0267-f91c-d9b7-b912" name="Add +1 Nerve to Orc Commandos Unit" publicationId="395a-29cb-pubN65537" page="127" hidden="false">
+                      <description>As long as the Orc Commandos Unit Leader is within the Orc Commandos Unit, it receives a +1 modifier to its Nerve attribute</description>
+                    </rule>
+                  </rules>
                   <infoLinks>
                     <infoLink id="46e7-5357-ecd2-2b29" name="Leadership" hidden="false" targetId="751e-83e4-d5d4-f6b9" type="rule"/>
                     <infoLink id="0372-e276-9eb0-2081" name="Command (x)" hidden="false" targetId="e3e3-f40e-d837-641d" type="rule">
@@ -404,9 +414,9 @@ Added missing rocket launcher to Rainmaker team</comment>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="087b-0302-0347-aa48" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="4e19-03a8-6282-4631" name="Pyro" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="4e19-03a8-6282-4631" name="Pyro" publicationId="395a-29cb-pubN65537" page="127" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
-                    <infoLink id="7a27-db98-85f4-b8e4" name="Flamethrower" hidden="false" targetId="7cf3-9d31-4ed6-30df" type="profile">
+                    <infoLink id="7a27-db98-85f4-b8e4" name="Flamethrower" publicationId="395a-29cb-pubN65537" page="127" hidden="false" targetId="7cf3-9d31-4ed6-30df" type="profile">
                       <modifiers>
                         <modifier type="set" field="page" value="127"/>
                       </modifiers>
@@ -417,6 +427,7 @@ Added missing rocket launcher to Rainmaker team</comment>
                       </modifiers>
                     </infoLink>
                     <infoLink id="8527-c264-e9ca-2556" name="Saturation" hidden="false" targetId="915d-9cf0-1df3-93bb" type="rule"/>
+                    <infoLink id="5a01-95ac-91df-5f4e" name="Fire in the Hole!" page="" hidden="false" targetId="bbe3-4405-7e7e-79aa" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="35.0"/>
@@ -462,6 +473,7 @@ Added missing rocket launcher to Rainmaker team</comment>
                     <infoLink id="21f3-5e0d-cbe1-5ddb" name="Teeth &amp; Claws" hidden="false" targetId="2852-7393-1ff9-09eb" type="profile">
                       <modifiers>
                         <modifier type="set" field="page" value="127"/>
+                        <modifier type="set" field="name" value="Teeth &amp; Claws - Mawbeast"/>
                       </modifiers>
                     </infoLink>
                     <infoLink id="9826-5195-baf8-3fc3" name="Shredder" hidden="false" targetId="f61a-49b6-a5c5-b583" type="rule"/>
@@ -508,6 +520,10 @@ Added missing rocket launcher to Rainmaker team</comment>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="cea8-de5b-6749-9566" name="Goblin Scout Team" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6740-bc9f-b589-8fa6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc40-423f-d1d3-4a78" type="min"/>
+          </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup id="8199-5e6e-fd13-9ddb" name="Equipment" hidden="false" collective="false" import="true">
               <selectionEntries>
@@ -658,6 +674,11 @@ Added missing rocket launcher to Rainmaker team</comment>
                   <constraints>
                     <constraint field="selections" scope="520f-611b-90e8-ff6c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="aeb6-33a4-3999-695c" type="max"/>
                   </constraints>
+                  <rules>
+                    <rule id="4d57-d3c2-2fd7-205d" name="Add +1 Nerve to Orc Commando Skyscrapers Unit" hidden="false">
+                      <description>As long as the Orc Commando Skyscrapers  Unit Leader is within the Orc Commando SkyscrapersUnit, it receives a +1 modifier to its Nerve attribute</description>
+                    </rule>
+                  </rules>
                   <infoLinks>
                     <infoLink id="73fc-688d-f3b6-7a7d" name="Leadership" hidden="false" targetId="751e-83e4-d5d4-f6b9" type="rule"/>
                     <infoLink id="d32e-785b-5d65-789e" name="Command (x)" hidden="false" targetId="e3e3-f40e-d837-641d" type="rule">
@@ -703,6 +724,7 @@ Added missing rocket launcher to Rainmaker team</comment>
                       </modifiers>
                     </infoLink>
                     <infoLink id="c7ad-0226-455c-84ab" name="Saturation" hidden="false" targetId="915d-9cf0-1df3-93bb" type="rule"/>
+                    <infoLink id="03d1-17f0-0156-246b" name="Fire in the Hole!" hidden="false" targetId="bbe3-4405-7e7e-79aa" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="35.0"/>
@@ -935,7 +957,7 @@ Added missing rocket launcher to Rainmaker team</comment>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74cc-b093-8115-046e" type="max"/>
                       </constraints>
                       <infoLinks>
-                        <infoLink id="89c8-d341-eb97-32c7" name="Assorted Weaponry" hidden="false" targetId="ac9e-64ce-c7df-1ac4" type="profile">
+                        <infoLink id="89c8-d341-eb97-32c7" name="Assault Weaponry - Rainmakers" hidden="false" targetId="97c7-9ad5-0779-15ac" type="profile">
                           <modifiers>
                             <modifier type="set" field="2a0b-b5bd-a193-5f9e" value="4"/>
                             <modifier type="set" field="a383-6bfe-9209-fb8c" value="1"/>
@@ -1101,14 +1123,14 @@ Added missing rocket launcher to Rainmaker team</comment>
                         <infoLink id="c739-5ddc-ec74-e092" name="(X) H.E.W. Beam" hidden="false" targetId="13a9-bbfa-5555-96f3" type="profile">
                           <modifiers>
                             <modifier type="set" field="name" value="H.E.W. Beam"/>
-                            <modifier type="set" field="ac63-4116-ed59-2756" value="Blast (2D3)"/>
+                            <modifier type="set" field="ac63-4116-ed59-2756" value="Anti-Tank (2D3)"/>
                             <modifier type="set" field="3401-0064-8450-a80f" value="8-48&quot;"/>
                             <modifier type="set" field="page" value="130"/>
                           </modifiers>
                         </infoLink>
-                        <infoLink id="cbbd-c5a8-d411-369a" name="Blast (x)" hidden="false" targetId="d8f6-a772-a777-6764" type="rule">
+                        <infoLink id="cbbd-c5a8-d411-369a" name="Anti-Tank (x)" hidden="false" targetId="ecf4-0e0a-3807-e698" type="rule">
                           <modifiers>
-                            <modifier type="set" field="name" value="Blast (2D3)"/>
+                            <modifier type="set" field="name" value="Anti-Tank(2D3)"/>
                           </modifiers>
                         </infoLink>
                       </infoLinks>
@@ -1427,6 +1449,10 @@ Added missing rocket launcher to Rainmaker team</comment>
         <infoLink id="59f8-b71a-363d-e4be" name="Order (1): Focus Fire" hidden="false" targetId="36f6-8fde-ce2d-478b" type="rule"/>
         <infoLink id="fe65-835b-1c7a-8125" name="Order (2): Tactical Genius" hidden="false" targetId="ebd6-077e-7845-4a93" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="★ HVA" typeId="5a38-1f4e-63c5-a379" value="0.0"/>
+        <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
@@ -1660,7 +1686,7 @@ This Order may be given after the opposing player has made a dice roll of any ki
         <characteristic name="Range" typeId="3401-0064-8450-a80f">12-40&quot;</characteristic>
         <characteristic name="Dice" typeId="2a0b-b5bd-a193-5f9e">4</characteristic>
         <characteristic name="AP" typeId="a383-6bfe-9209-fb8c">-</characteristic>
-        <characteristic name="Special" typeId="ac63-4116-ed59-2756">Blast (D6+2, Indirect, Suppressive Fire (2)</characteristic>
+        <characteristic name="Special" typeId="ac63-4116-ed59-2756">Blast (D6+2), Indirect, Suppressive Fire (2)</characteristic>
       </characteristics>
     </profile>
     <profile id="3dcf-2dff-89fd-873c" name="Missile Launcher" publicationId="1c74-bdfb-pubN65537" hidden="false" typeId="b141-66c4-d719-9dc4" typeName="Weapon">
