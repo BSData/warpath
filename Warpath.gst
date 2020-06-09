@@ -82,7 +82,7 @@
   <forceEntries>
     <forceEntry id="4647-279c-645f-10ad" name="Standard" publicationId="395a-29cb-pubN65537" page="142" hidden="false">
       <constraints>
-        <constraint field="cbfc-3789-94e1-d3cc" scope="fac8-0454-71ff-88d2" value="25.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="false" id="82f5-2616-c61b-81a5" type="min">
+        <constraint field="cbfc-3789-94e1-d3cc" scope="fac8-0454-71ff-88d2" value="25.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="82f5-2616-c61b-81a5" type="min">
           <comment>Change introduced by FAQ v1.0:
 At Least 25% of your force&apos;s points must be spent on non-HVA Regular Infantry units. These units can be comprised of any Regular Infantry regardless of stats, weapons, or Special Rules. Regular Infantry Units from Allies cannot be counted as part of the Core Unit&apos;s required 25%.</comment>
         </constraint>

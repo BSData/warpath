@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0975-9269-97cf-1c2c" name="The Plague" revision="2" battleScribeVersion="2.03" authorName="Alpha-1983" authorContact="Alpha-1983 (Github)" library="false" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Added FAQ v1.0
-Changed Terraton name to correct Teraton</comment>
+<catalogue id="0975-9269-97cf-1c2c" name="The Plague" revision="3" battleScribeVersion="2.03" authorName="Alpha-1983" authorContact="Alpha-1983 (Github)" library="false" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Fixed HMG by setting special to Suppressive Fire (1)
+Modified weapon name to Subject 901 - Teeth &amp; Claws, to avoid it being overwritten by weapons with the same name
+Changed the weapons of the Leapers from Dice 6 AP 8 to Dice 8 AP 1
+Category of Lancer set to Vehicle
+Set the number of &quot;Teeth and Claws&quot; entries in the Plague Lord to 1</comment>
   <publications>
     <publication id="0975-9269-pubN65537" name="Warpath Rulebook"/>
   </publications>
@@ -419,7 +422,7 @@ Changed Terraton name to correct Teraton</comment>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup id="d3dc-4f28-1e37-bb8c" name="Personnel" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="d3dc-4f28-1e37-bb8c" name="Personnel Upgrades" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec46-7fdc-4000-5075" type="max"/>
               </constraints>
@@ -482,7 +485,7 @@ Changed Terraton name to correct Teraton</comment>
                     <infoLink id="321e-86c4-1192-a9eb" name="Teeth &amp; Claws" hidden="false" targetId="cf9f-5e93-5040-35b5" type="profile">
                       <modifiers>
                         <modifier type="set" field="a383-6bfe-9209-fb8c" value="1"/>
-                        <modifier type="set" field="a383-6bfe-9209-fb8c" value="8"/>
+                        <modifier type="set" field="2a0b-b5bd-a193-5f9e" value="8"/>
                         <modifier type="set" field="page" value="136"/>
                       </modifiers>
                     </infoLink>
@@ -1277,6 +1280,10 @@ Changed Terraton name to correct Teraton</comment>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="359a-22d2-8607-d7b7" name="Equipment" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08a5-081a-34bb-2070" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d071-842c-0296-e2d7" type="min"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="1725-52c4-f817-ba9b" name="Teeth &amp; Claws" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
@@ -1319,6 +1326,10 @@ Changed Terraton name to correct Teraton</comment>
         <infoLink id="41e1-8760-be86-82e1" name="Order (2): Thirst for Blood" hidden="false" targetId="7427-af7a-70b6-ff38" type="rule"/>
         <infoLink id="d54c-9d73-3d9d-b7d6" name="Order (1): Transfixed by Fear" hidden="false" targetId="7529-58f8-90a3-1ebd" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="★ HVA" typeId="5a38-1f4e-63c5-a379" value="0.0"/>
+        <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
@@ -1509,6 +1520,9 @@ Changed Terraton name to correct Teraton</comment>
           </characteristics>
         </profile>
       </profiles>
+      <categoryLinks>
+        <categoryLink id="d90c-3bbe-2c32-ed51" name="New CategoryLink" hidden="false" targetId="6aab-a426-442e-9546" primary="true"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="edef-6fd6-c834-b6e4" name="Equipment Pattern" hidden="false" collective="false" import="true">
           <constraints>
@@ -1691,13 +1705,13 @@ Changed Terraton name to correct Teraton</comment>
       <selectionEntryGroups>
         <selectionEntryGroup id="bcea-0ecb-4a02-4dbb" name="Equipment" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="59c5-1360-7cac-6bf0" name="Teeth &amp; Claws" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="59c5-1360-7cac-6bf0" name="Subject 901 - Teeth &amp; Claws" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c83b-7847-6f90-9e33" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb15-d301-39f2-ecf5" type="min"/>
               </constraints>
               <profiles>
-                <profile id="a6be-bc03-6499-1a45" name="Teeth &amp; Claws" hidden="false" typeId="b141-66c4-d719-9dc4" typeName="Weapon">
+                <profile id="a6be-bc03-6499-1a45" name="Subject 901 - Teeth &amp; Claws" hidden="false" typeId="b141-66c4-d719-9dc4" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="3401-0064-8450-a80f">A</characteristic>
                     <characteristic name="Dice" typeId="2a0b-b5bd-a193-5f9e">6</characteristic>
@@ -1722,7 +1736,7 @@ Changed Terraton name to correct Teraton</comment>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="6fda-9678-6e52-32a2" name="Explosive Payload" publicationId="0975-9269-pubN65537" page="133" hidden="false">
-      <description>Instead of transporting troops, you may use some or all of a Vehicle’s Transportcapacity for explosives - each batch of explosives will reduce the Transportcapacity by 1. A Vehicle carrying an Explosive Payload will always explode when destroyed. Each batch of explosives on board increases the blast radius by D3” (this may take it beyond the 6” maximum), and adds 1 to the number of hits inflicted.
+      <description>Instead of transporting troops, you may use some or all of a Vehicle’s Transportcapacity for explosives - each batch of explosives will reduce the Transport capacity by 1. A Vehicle carrying an Explosive Payload will always explode when destroyed. Each batch of explosives on board increases the blast radius by D3” (this may take it beyond the 6” maximum), and adds 1 to the number of hits inflicted.
 A Vehicle with this rule may spend a short Action to detonate itself – assume that the damage exceeded its Resilience by D3 for the purposes of the initial blast radius. This
 Vehicle may also be fired upon by friendly troops.</description>
     </rule>
@@ -1778,7 +1792,7 @@ The rule has no effect against any Robotic or Marauder units.</description>
         <characteristic name="Range" typeId="3401-0064-8450-a80f">28&quot;</characteristic>
         <characteristic name="Dice" typeId="2a0b-b5bd-a193-5f9e">2</characteristic>
         <characteristic name="AP" typeId="a383-6bfe-9209-fb8c">-</characteristic>
-        <characteristic name="Special" typeId="ac63-4116-ed59-2756">Blast (D3+1)</characteristic>
+        <characteristic name="Special" typeId="ac63-4116-ed59-2756">Suppressive Fire (1)</characteristic>
       </characteristics>
     </profile>
     <profile id="44c6-4f25-f6d4-003e" name="Mortar" publicationId="0975-9269-pubN65537" hidden="false" typeId="b141-66c4-d719-9dc4" typeName="Weapon">
