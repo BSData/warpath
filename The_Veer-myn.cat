@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="79c0-37d2-2596-d2b2" name="The Veer-myn" revision="2" battleScribeVersion="2.03" authorName="Alpha-1983" authorContact="Alpha-1983 (Github)" library="false" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Added FAQv1.0</comment>
+<catalogue id="79c0-37d2-2596-d2b2" name="The Veer-myn" revision="3" battleScribeVersion="2.03" authorName="Alpha-1983" authorContact="Alpha-1983 (Github)" library="false" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Changed range for &quot;Two Heavy Ray guns&quot; to the correct 32&quot;
+Changed the bonus to transport provided by the Additional Transport Sections to 2</comment>
   <publications>
     <publication id="79c0-37d2-pubN65537" name="Warpath Rulebook"/>
     <publication id="f661-49cf-cfb9-c4d1" name="Errata and FAQ v1.0" publicationDate="2019"/>
@@ -498,8 +499,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4e6-844c-9475-c1df" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="0747-634a-37ef-1c47" name="Brood Mother Personnel Upgrade" hidden="false" collective="false" import="true" targetId="5a43-ed4b-22d3-361e" type="selectionEntry"/>
-            <entryLink id="0af7-3ec0-b299-dbd9" name="Progenitor Personnel Upgrade" hidden="false" collective="false" import="true" targetId="5ed0-e47e-e69c-3a63" type="selectionEntry"/>
+            <entryLink id="0747-634a-37ef-1c47" name="Brood Mother" hidden="false" collective="false" import="true" targetId="5a43-ed4b-22d3-361e" type="selectionEntry"/>
+            <entryLink id="0af7-3ec0-b299-dbd9" name="Progenitor" hidden="false" collective="false" import="true" targetId="5ed0-e47e-e69c-3a63" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -542,7 +543,7 @@
               <selectionEntryGroups>
                 <selectionEntryGroup id="b97d-eb5d-b0b8-9fad" name="Equipment" hidden="false" collective="false" import="true">
                   <selectionEntries>
-                    <selectionEntry id="658c-c8b7-99ee-5757" name="Chem-Thrower" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="658c-c8b7-99ee-5757" name="Nightmare Team - Chem-Thrower" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bbb-a45c-10e2-10c8" type="min"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ade0-6c1d-8d19-abfd" type="max"/>
@@ -565,7 +566,7 @@
                         <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="3bb0-5840-549b-ac96" name="Combat Drill" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="3bb0-5840-549b-ac96" name="Nightmare Team - Combat Drill" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cc7-536d-282d-788a" type="min"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccd1-05ce-bf8b-7b2c" type="max"/>
@@ -620,7 +621,7 @@
               <selectionEntryGroups>
                 <selectionEntryGroup id="97b6-77b3-8c09-10f1" name="Equipment" hidden="false" collective="false" import="true">
                   <selectionEntries>
-                    <selectionEntry id="c6c9-af0e-a58b-d929" name="Twin Combat Drills" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="c6c9-af0e-a58b-d929" name="Nightmare Shredder Team - Twin Combat Drills" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6769-c4ba-d96f-6c7f" type="min"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9716-18fa-36f7-5b5b" type="max"/>
@@ -667,7 +668,7 @@
               <selectionEntryGroups>
                 <selectionEntryGroup id="cc5b-bef7-d00e-baed" name="Equipment" hidden="false" collective="false" import="true">
                   <selectionEntries>
-                    <selectionEntry id="be6a-3964-6505-da01" name="Chem-Thrower" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="be6a-3964-6505-da01" name="Nightmare Chem-Thrower Team - Chem-Thrower" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cc5-8604-6f47-2a39" type="min"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28e9-c680-8006-56fd" type="max"/>
@@ -686,7 +687,7 @@
                         <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="3a88-5808-41fa-2188" name="Combat Drill" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="3a88-5808-41fa-2188" name="Nightmare Chem-Thrower Team - Combat Drill" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32b7-196c-5c54-89a0" type="min"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb00-65f7-50f0-1ed6" type="max"/>
@@ -706,7 +707,7 @@
                         <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="a5c6-10fe-5c3c-fdc7" name="Heavy Chem-Thrower" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="a5c6-10fe-5c3c-fdc7" name="Nightmare Chem-Thrower Team - Heavy Chem-Thrower" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83be-c6ab-c208-93c0" type="min"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7048-fac4-2365-3b91" type="max"/>
@@ -758,7 +759,7 @@
               <selectionEntryGroups>
                 <selectionEntryGroup id="a3e8-3f7c-dc06-cc46" name="Equipment" hidden="false" collective="false" import="true">
                   <selectionEntries>
-                    <selectionEntry id="0fad-4916-a2e5-e6d8" name="Chem-Thrower" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="0fad-4916-a2e5-e6d8" name="Nightmare Ravager Team - Chem-Thrower" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cad-6d8c-06fe-d444" type="min"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="663b-bf7d-1095-fe8e" type="max"/>
@@ -777,7 +778,7 @@
                         <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="6d58-2108-c4a7-60b8" name="Combat Drill" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="6d58-2108-c4a7-60b8" name="Nightmare Ravager Team - Combat Drill" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="382d-c828-a5bf-70e9" type="min"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9f3-410d-5167-df29" type="max"/>
@@ -797,7 +798,7 @@
                         <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="affd-02cc-8908-a943" name="Heavy Combat Drill" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="affd-02cc-8908-a943" name="Nightmare Ravager Team - Heavy Combat Drill" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18f2-b15d-432d-f059" type="min"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77e6-8d45-0b9c-2998" type="max"/>
@@ -1274,12 +1275,12 @@
                 <infoLink id="db45-537c-1bbe-b04f" name="Transport (x)" hidden="false" targetId="ecdd-ad43-7142-6abb" type="rule">
                   <modifiers>
                     <modifier type="set" field="name" value="Transport (2)"/>
-                    <modifier type="set" field="name" value="Transport (3)">
+                    <modifier type="set" field="name" value="Transport (4)">
                       <conditions>
                         <condition field="selections" scope="2b7b-67ae-fe61-f327" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c73d-8d9e-5a2e-6f66" type="equalTo"/>
                       </conditions>
                     </modifier>
-                    <modifier type="set" field="name" value="Transport (4)">
+                    <modifier type="set" field="name" value="Transport (6)">
                       <conditions>
                         <condition field="selections" scope="2b7b-67ae-fe61-f327" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c73d-8d9e-5a2e-6f66" type="equalTo"/>
                       </conditions>
@@ -1321,12 +1322,12 @@
                 <infoLink id="c819-4f61-0277-6b70" name="Transport (x)" hidden="false" targetId="ecdd-ad43-7142-6abb" type="rule">
                   <modifiers>
                     <modifier type="set" field="name" value="Transport (0)"/>
-                    <modifier type="set" field="name" value="Transport (1)">
+                    <modifier type="set" field="name" value="Transport (2)">
                       <conditions>
                         <condition field="selections" scope="2b7b-67ae-fe61-f327" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c73d-8d9e-5a2e-6f66" type="equalTo"/>
                       </conditions>
                     </modifier>
-                    <modifier type="set" field="name" value="Transport (2)">
+                    <modifier type="set" field="name" value="Transport (4)">
                       <conditions>
                         <condition field="selections" scope="2b7b-67ae-fe61-f327" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c73d-8d9e-5a2e-6f66" type="equalTo"/>
                       </conditions>
@@ -1394,12 +1395,12 @@
                 <infoLink id="2148-41af-8bf5-6c35" name="Transport (x)" hidden="false" targetId="ecdd-ad43-7142-6abb" type="rule">
                   <modifiers>
                     <modifier type="set" field="name" value="Transport (0)"/>
-                    <modifier type="set" field="name" value="Transport (1)">
+                    <modifier type="set" field="name" value="Transport (2)">
                       <conditions>
                         <condition field="selections" scope="2b7b-67ae-fe61-f327" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c73d-8d9e-5a2e-6f66" type="equalTo"/>
                       </conditions>
                     </modifier>
-                    <modifier type="set" field="name" value="Transport (2)">
+                    <modifier type="set" field="name" value="Transport (4)">
                       <conditions>
                         <condition field="selections" scope="2b7b-67ae-fe61-f327" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c73d-8d9e-5a2e-6f66" type="equalTo"/>
                       </conditions>
@@ -1557,6 +1558,10 @@
         <infoLink id="5dde-613c-097d-fa8e" name="Order (3): Comms Interference" hidden="false" targetId="109e-8be9-4855-b8db" type="rule"/>
         <infoLink id="14ec-e9b4-df1a-60d6" name="Order (3): Reprioritise the Mission" hidden="false" targetId="56e9-4b1c-1510-3846" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="★ HVA" typeId="5a38-1f4e-63c5-a379" value="0.0"/>
+        <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
@@ -1743,7 +1748,7 @@ This counts as the Veer-myn player’s activation.</description>
     </profile>
     <profile id="d97c-882d-137a-9e9a" name="Two Heavy Ray Guns" publicationId="79c0-37d2-pubN65537" hidden="false" typeId="b141-66c4-d719-9dc4" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="3401-0064-8450-a80f">23&quot;</characteristic>
+        <characteristic name="Range" typeId="3401-0064-8450-a80f">32&quot;</characteristic>
         <characteristic name="Dice" typeId="2a0b-b5bd-a193-5f9e">6</characteristic>
         <characteristic name="AP" typeId="a383-6bfe-9209-fb8c">4</characteristic>
         <characteristic name="Special" typeId="ac63-4116-ed59-2756">Experimental</characteristic>

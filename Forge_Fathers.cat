@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="23d8-84f4-baa2-e64a" name="Forge Fathers" revision="4" battleScribeVersion="2.03" authorName="Alpha-1983" authorContact="Alpha-1983 (Github)" library="false" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Changed Hailstorm Pistols AP to 1
-Added +1 Nerve modifier to Brokkrs and Valkyrs Unit Leaders
-Added different names for the Assault weapons of Doomstorm and Hellermal, so both are displayed in case both share the same unit.
-Added heavy firepower to the Heavy Hailstorm Cannon of the Jotunn weapons platform</comment>
+  <comment>Fixes to Brokkrs and Valkyr units to let them display the Nerve increment when the Unit Leader is selected</comment>
   <publications>
     <publication id="23d8-84f4-pubN65537" name="Warpath Rulebook"/>
     <publication id="23d8-84f4-pubN80092" name="Warpath Universe"/>
@@ -623,7 +620,7 @@ Added heavy firepower to the Heavy Hailstorm Cannon of the Jotunn weapons platfo
           <modifiers>
             <modifier type="increment" field="a0e1-8c35-0fab-1273" value="1">
               <conditions>
-                <condition field="selections" scope="a86a-312d-22f8-f69d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6d9d-9ff4-9538-5f48" type="equalTo"/>
+                <condition field="selections" scope="a86a-312d-22f8-f69d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b193-c55b-22b9-15ed" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -803,7 +800,7 @@ Added heavy firepower to the Heavy Hailstorm Cannon of the Jotunn weapons platfo
           <modifiers>
             <modifier type="increment" field="ea80-6247-9634-ceab" value="1">
               <conditions>
-                <condition field="selections" scope="5e49-9662-421f-5a0c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a667-b04e-f0c2-a754" type="equalTo"/>
+                <condition field="selections" scope="5e49-9662-421f-5a0c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b193-c55b-22b9-15ed" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>

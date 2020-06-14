@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c74-bdfb-0b7c-d432" name="The Marauders" revision="3" battleScribeVersion="2.03" authorName="Alpha-1983" authorContact="Alpha-1983 (Github)" library="false" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Added Fire in the Hole! to the Pyro upgrade of the Commandos, Orc Commando Skyscrapers
-Added +1 to Nerve for the Orc Commandos Unit Leader, Orc Commando Skyscrapers
-Added team number constraints for the Goblin Scouts Unit and Goran Stalkers
-Changed the name of the melee weapons of the Rainmaker Team. Now no longer overwrites the melee weapon stats of the Mauler teams
-Corrected Goblin guntrack HEW to Anti-Tank (2D3)</comment>
+<catalogue id="1c74-bdfb-0b7c-d432" name="The Marauders" revision="4" battleScribeVersion="2.03" authorName="Alpha-1983" authorContact="Alpha-1983 (Github)" library="false" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Orc Commandos and Orc Commando Skyscrapers now display the +1 to nerve in their stats when selecting the unit leader</comment>
   <publications>
     <publication id="1c74-bdfb-pubN65537" name="Warpath Rulebook"/>
   </publications>
@@ -307,6 +303,13 @@ Corrected Goblin guntrack HEW to Anti-Tank (2D3)</comment>
     <selectionEntry id="ed94-7679-94eb-b15e" name="Orc Commandos Unit" publicationId="1c74-bdfb-pubN65537" page="127" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="fd7b-2244-90b6-44a2" name="Orc Commandos" publicationId="1c74-bdfb-pubN65537" page="127" hidden="false" typeId="1212-678a-919c-31c3" typeName="Regular Infantry">
+          <modifiers>
+            <modifier type="set" field="a0e1-8c35-0fab-1273" value="3">
+              <conditions>
+                <condition field="selections" scope="ed94-7679-94eb-b15e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="adeb-fee1-f547-a746" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Height" typeId="d723-f1f8-3a56-85d5">2</characteristic>
             <characteristic name="Speed" typeId="2f36-598a-350d-e493">5</characteristic>
@@ -602,6 +605,13 @@ Corrected Goblin guntrack HEW to Anti-Tank (2D3)</comment>
     <selectionEntry id="520f-611b-90e8-ff6c" name="Orc Commando Skyscrapers Unit" publicationId="1c74-bdfb-pubN65537" page="128" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="c00e-c63e-786c-9e5a" name="Orc Commando Skyscrapers Unit" publicationId="1c74-bdfb-pubN65537" page="128" hidden="false" typeId="1212-678a-919c-31c3" typeName="Regular Infantry">
+          <modifiers>
+            <modifier type="set" field="a0e1-8c35-0fab-1273" value="3">
+              <conditions>
+                <condition field="selections" scope="520f-611b-90e8-ff6c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="098f-0a0f-fc91-dc35" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Height" typeId="d723-f1f8-3a56-85d5">2</characteristic>
             <characteristic name="Speed" typeId="2f36-598a-350d-e493">6</characteristic>

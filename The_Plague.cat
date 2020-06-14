@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0975-9269-97cf-1c2c" name="The Plague" revision="3" battleScribeVersion="2.03" authorName="Alpha-1983" authorContact="Alpha-1983 (Github)" library="false" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Fixed HMG by setting special to Suppressive Fire (1)
-Modified weapon name to Subject 901 - Teeth &amp; Claws, to avoid it being overwritten by weapons with the same name
-Changed the weapons of the Leapers from Dice 6 AP 8 to Dice 8 AP 1
-Category of Lancer set to Vehicle
-Set the number of &quot;Teeth and Claws&quot; entries in the Plague Lord to 1</comment>
+<catalogue id="0975-9269-97cf-1c2c" name="The Plague" revision="4" battleScribeVersion="2.03" authorName="Alpha-1983" authorContact="Alpha-1983 (Github)" library="false" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Added point cost to Subject 901, previously missing</comment>
   <publications>
     <publication id="0975-9269-pubN65537" name="Warpath Rulebook"/>
   </publications>
@@ -432,7 +428,11 @@ Set the number of &quot;Teeth and Claws&quot; entries in the Plague Lord to 1</c
                     <constraint field="selections" scope="c724-263e-3aa2-1aa1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c136-1e3b-c92c-014b" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="32cd-4851-343b-7dc5" name="Subject 901" hidden="false" collective="false" import="true" targetId="58c3-ed72-e7a0-2bb7" type="selectionEntry"/>
+                <entryLink id="32cd-4851-343b-7dc5" name="Subject 901" hidden="false" collective="false" import="true" targetId="58c3-ed72-e7a0-2bb7" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="100.0"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -507,7 +507,14 @@ Set the number of &quot;Teeth and Claws&quot; entries in the Plague Lord to 1</c
                     <constraint field="selections" scope="3a2f-af2f-d5da-0aa4" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9cd1-4053-bbec-7856" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="1202-3eb5-2fe1-7a83" name="Subject 901" hidden="false" collective="false" import="true" targetId="58c3-ed72-e7a0-2bb7" type="selectionEntry"/>
+                <entryLink id="1202-3eb5-2fe1-7a83" name="Subject 901" hidden="false" collective="false" import="true" targetId="58c3-ed72-e7a0-2bb7" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab6a-4716-6e2d-ad38" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="100.0"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -1730,7 +1737,7 @@ Set the number of &quot;Teeth and Claws&quot; entries in the Plague Lord to 1</c
       </selectionEntryGroups>
       <costs>
         <cost name="★ HVA" typeId="5a38-1f4e-63c5-a379" value="0.0"/>
-        <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="0.0"/>
+        <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="100.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
