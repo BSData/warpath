@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="030b-4ce4-2767-124a" name="The GCPS" revision="3" battleScribeVersion="2.03" authorName="Alpha-1983" authorContact="Alpha-1983 (Github)" library="false" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Changed the name of the Assault Weaponry of the marine and veteran teams so avoid it being overwritten by the one from the heavy weapons teams.
-Fixed the veteran laser rifles, now they are always shown and don&apos;t need to be taken as an upgrade. Same for the Assault entry of the Mules and all of the weapons of the Lancer
-Changed the Flamethrower for the Heavy Flamethrower for the Urban Assault Strider
-Removed Heavy Firepower from the Mule weapons</comment>
+<catalogue id="030b-4ce4-2767-124a" name="The GCPS" revision="4" battleScribeVersion="2.03" authorName="Alpha-1983" authorContact="Alpha-1983 (Github)" library="false" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>If a unit has the Inspiring rule, its Nerve value is increased by 1, displaying the effect of the rule</comment>
   <publications>
     <publication id="030b-4ce4-pubN65537" name="Warpath Rulebook"/>
     <publication id="372a-3dee-66bd-a90c" name="Errata and FAQ v1.0" publicationDate="2019"/>
@@ -12,6 +9,13 @@ Removed Heavy Firepower from the Mule weapons</comment>
     <selectionEntry id="4a28-936c-eaf3-1786" name="Corp. Marines Unit" publicationId="030b-4ce4-pubN65537" page="118" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="e714-0f2a-b3ce-9303" name="Corp. Marines" publicationId="030b-4ce4-pubN65537" page="118" hidden="false" typeId="1212-678a-919c-31c3" typeName="Regular Infantry">
+          <modifiers>
+            <modifier type="increment" field="a0e1-8c35-0fab-1273" value="1">
+              <conditions>
+                <condition field="selections" scope="4a28-936c-eaf3-1786" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="31ee-eabb-837d-bbcb" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Height" typeId="d723-f1f8-3a56-85d5">2</characteristic>
             <characteristic name="Speed" typeId="2f36-598a-350d-e493">5</characteristic>
@@ -618,6 +622,13 @@ Removed Heavy Firepower from the Mule weapons</comment>
     <selectionEntry id="65b0-a4c1-8a2e-4762" name="Corp. Veterans Unit" publicationId="030b-4ce4-pubN65537" page="119" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="6f1b-0009-fe8b-898c" name="Corp. Veterans Unit" publicationId="030b-4ce4-pubN65537" page="119" hidden="false" typeId="1212-678a-919c-31c3" typeName="Regular Infantry">
+          <modifiers>
+            <modifier type="increment" field="a0e1-8c35-0fab-1273" value="1">
+              <conditions>
+                <condition field="selections" scope="65b0-a4c1-8a2e-4762" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="31ee-eabb-837d-bbcb" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Height" typeId="d723-f1f8-3a56-85d5">2</characteristic>
             <characteristic name="Speed" typeId="2f36-598a-350d-e493">5</characteristic>
@@ -1227,6 +1238,13 @@ Removed Heavy Firepower from the Mule weapons</comment>
     <selectionEntry id="cf66-40f9-0c1d-c5c6" name="Corp. Rangers Unit" publicationId="030b-4ce4-pubN65537" page="120" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="5f43-5a26-be76-643c" name="Corp. Rangers" publicationId="030b-4ce4-pubN65537" page="120" hidden="false" typeId="1212-678a-919c-31c3" typeName="Regular Infantry">
+          <modifiers>
+            <modifier type="increment" field="a0e1-8c35-0fab-1273" value="1">
+              <conditions>
+                <condition field="selections" scope="cf66-40f9-0c1d-c5c6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="31ee-eabb-837d-bbcb" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Height" typeId="d723-f1f8-3a56-85d5">2</characteristic>
             <characteristic name="Speed" typeId="2f36-598a-350d-e493">5</characteristic>
@@ -1581,6 +1599,13 @@ Removed Heavy Firepower from the Mule weapons</comment>
     <selectionEntry id="4b82-bc76-cd67-8ecc" name="Corp. Recruits Unit" publicationId="030b-4ce4-pubN65537" page="120" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="92bd-dc27-72c0-e9ac" name="Corp. Recruits" publicationId="030b-4ce4-pubN65537" page="120" hidden="false" typeId="1212-678a-919c-31c3" typeName="Regular Infantry">
+          <modifiers>
+            <modifier type="increment" field="a0e1-8c35-0fab-1273" value="1">
+              <conditions>
+                <condition field="selections" scope="4b82-bc76-cd67-8ecc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="31ee-eabb-837d-bbcb" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Height" typeId="d723-f1f8-3a56-85d5">2</characteristic>
             <characteristic name="Speed" typeId="2f36-598a-350d-e493">5</characteristic>
@@ -2273,7 +2298,7 @@ Removed Heavy Firepower from the Mule weapons</comment>
         <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="698b-702a-c29d-d742" name="1. Show Orders" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="698b-702a-c29d-d742" name="Show Orders" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="e571-7382-1a04-b5da" name="Order (1): Bounding Overwatch" hidden="false" targetId="f4ae-2807-c57c-5273" type="rule"/>
         <infoLink id="ed96-a151-7837-aace" name="Order (1): Change of Plans" hidden="false" targetId="a77f-81f9-3742-8613" type="rule"/>

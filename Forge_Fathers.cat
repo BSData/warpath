@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="23d8-84f4-baa2-e64a" name="Forge Fathers" revision="4" battleScribeVersion="2.03" authorName="Alpha-1983" authorContact="Alpha-1983 (Github)" library="false" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Fixes to Brokkrs and Valkyr units to let them display the Nerve increment when the Unit Leader is selected</comment>
+<catalogue id="23d8-84f4-baa2-e64a" name="Forge Fathers" revision="5" battleScribeVersion="2.03" authorName="Alpha-1983" authorContact="Alpha-1983 (Github)" library="false" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Upgrades that add the Inspiring rule to a unit now increment by 1 the nerve value of the unit, to display the effect of the Inspiring rule</comment>
   <publications>
     <publication id="23d8-84f4-pubN65537" name="Warpath Rulebook"/>
     <publication id="23d8-84f4-pubN80092" name="Warpath Universe"/>
@@ -13,8 +13,12 @@
           <modifiers>
             <modifier type="increment" field="a0e1-8c35-0fab-1273" value="1">
               <conditions>
-                <condition field="selections" scope="8746-99af-a834-843a" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="f645-5c34-ac19-c13b" type="equalTo"/>
-                <condition field="selections" scope="8746-99af-a834-843a" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="06d6-0ca1-c451-a9b9" type="equalTo"/>
+                <condition field="selections" scope="8746-99af-a834-843a" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="f645-5c34-ac19-c13b" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="a0e1-8c35-0fab-1273" value="1">
+              <conditions>
+                <condition field="selections" scope="8746-99af-a834-843a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a2dd-66d7-77a4-6e00" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -235,6 +239,13 @@
     <selectionEntry id="67bf-661f-2d25-30ba" name="Militia Unit" publicationId="23d8-84f4-pubN65537" page="106" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="ac3b-767f-e75b-15ce" name="Militia" publicationId="23d8-84f4-pubN65537" page="106" hidden="false" typeId="1212-678a-919c-31c3" typeName="Regular Infantry">
+          <modifiers>
+            <modifier type="set" field="a0e1-8c35-0fab-1273" value="1">
+              <conditions>
+                <condition field="selections" scope="67bf-661f-2d25-30ba" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a2dd-66d7-77a4-6e00" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Height" typeId="d723-f1f8-3a56-85d5">2</characteristic>
             <characteristic name="Speed" typeId="2f36-598a-350d-e493">4</characteristic>
@@ -342,6 +353,13 @@
     <selectionEntry id="4ef8-5d8f-84bd-bacd" name="Stormrage Veterans Unit" publicationId="23d8-84f4-pubN65537" page="107" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="e665-430f-e51c-d1ed" name="Stormrage Veterans" publicationId="23d8-84f4-pubN65537" page="107" hidden="false" typeId="1212-678a-919c-31c3" typeName="Regular Infantry">
+          <modifiers>
+            <modifier type="increment" field="a0e1-8c35-0fab-1273" value="1">
+              <conditions>
+                <condition field="selections" scope="4ef8-5d8f-84bd-bacd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a2dd-66d7-77a4-6e00" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Height" typeId="d723-f1f8-3a56-85d5">2</characteristic>
             <characteristic name="Speed" typeId="2f36-598a-350d-e493">4</characteristic>
@@ -623,6 +641,11 @@
                 <condition field="selections" scope="a86a-312d-22f8-f69d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b193-c55b-22b9-15ed" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="a0e1-8c35-0fab-1273" value="1">
+              <conditions>
+                <condition field="selections" scope="a86a-312d-22f8-f69d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a2dd-66d7-77a4-6e00" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Height" typeId="d723-f1f8-3a56-85d5">2</characteristic>
@@ -803,6 +826,11 @@
                 <condition field="selections" scope="5e49-9662-421f-5a0c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b193-c55b-22b9-15ed" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="ea80-6247-9634-ceab" value="1">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a2dd-66d7-77a4-6e00" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Height" typeId="1706-1ba2-c8aa-b708">2</characteristic>
@@ -919,6 +947,18 @@
     <selectionEntry id="d4b8-1a05-4990-53c2" name="Forge Guard Unit" publicationId="23d8-84f4-pubN65537" page="109" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="50b1-637d-6409-5c13" name="Forge Guard" publicationId="23d8-84f4-pubN65537" page="109" hidden="false" typeId="1212-678a-919c-31c3" typeName="Regular Infantry">
+          <modifiers>
+            <modifier type="increment" field="a0e1-8c35-0fab-1273" value="1">
+              <conditions>
+                <condition field="selections" scope="d4b8-1a05-4990-53c2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cea1-bd72-9554-17c9" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="a0e1-8c35-0fab-1273" value="1">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a2dd-66d7-77a4-6e00" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Height" typeId="d723-f1f8-3a56-85d5">2</characteristic>
             <characteristic name="Speed" typeId="2f36-598a-350d-e493">4</characteristic>
@@ -952,7 +992,7 @@
                     <constraint field="selections" scope="d4b8-1a05-4990-53c2" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6b2b-9512-adb5-6419" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="2ca5-9d3a-3f27-4039" name="Forge Lord Personnel Upgrade" hidden="false" collective="false" import="true" targetId="a2dd-66d7-77a4-6e00" type="selectionEntry">
+                <entryLink id="2ca5-9d3a-3f27-4039" name="Forge Lord" hidden="false" collective="false" import="true" targetId="a2dd-66d7-77a4-6e00" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="d4b8-1a05-4990-53c2" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="250d-86b3-d8ac-1293" type="max"/>
                   </constraints>
@@ -1086,6 +1126,13 @@
     <selectionEntry id="696a-0c4b-76d9-05ff" name="Hammerfist Drop Squad Unit" publicationId="23d8-84f4-pubN65537" page="109" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="5717-86e0-d07b-c7e7" name="Hammerfist Drop Squad" publicationId="23d8-84f4-pubN65537" page="109" hidden="false" typeId="1212-678a-919c-31c3" typeName="Regular Infantry">
+          <modifiers>
+            <modifier type="increment" field="a0e1-8c35-0fab-1273" value="1">
+              <conditions>
+                <condition field="selections" scope="696a-0c4b-76d9-05ff" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a2dd-66d7-77a4-6e00" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Height" typeId="d723-f1f8-3a56-85d5">2</characteristic>
             <characteristic name="Speed" typeId="2f36-598a-350d-e493">4</characteristic>
@@ -1141,7 +1188,7 @@
                     <constraint field="selections" scope="696a-0c4b-76d9-05ff" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="32e0-5632-72cf-cc17" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="e08c-c7b1-1902-205b" name="Forge Lord Personnel Upgrade" hidden="false" collective="false" import="true" targetId="a2dd-66d7-77a4-6e00" type="selectionEntry">
+                <entryLink id="e08c-c7b1-1902-205b" name="Forge Lord" hidden="false" collective="false" import="true" targetId="a2dd-66d7-77a4-6e00" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="696a-0c4b-76d9-05ff" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="acf6-ff23-bbe7-9612" type="max"/>
                   </constraints>
@@ -2349,7 +2396,7 @@
         <cost name="★ HVA" typeId="5a38-1f4e-63c5-a379" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5b14-14a3-daf4-8c5c" name="1. Show Orders" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5b14-14a3-daf4-8c5c" name="Show Orders" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="1e2e-af55-a5da-214b" name="Order (1): Bounding Overwatch" hidden="false" targetId="f4ae-2807-c57c-5273" type="rule"/>
         <infoLink id="934e-4225-ee00-d6b2" name="Order (1): Masters of Engineering" hidden="false" targetId="d397-e338-afc3-07e1" type="rule"/>

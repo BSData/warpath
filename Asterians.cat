@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7500-ca60-ce1f-0ea9" name="Asterians" revision="3" battleScribeVersion="2.03" authorName="Alpha-1983" authorContact="Alpha-1983 (Github)" library="false" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Updated the command value of Shuuvatar and Ten&apos;ur Go from X to their actual values.
-Fixed issue that prevented seeing the Noh Rifle from the Marionettes Weapons Drone</comment>
+<catalogue id="7500-ca60-ce1f-0ea9" name="Asterians" revision="4" battleScribeVersion="2.03" authorName="Alpha-1983" authorContact="Alpha-1983 (Github)" library="false" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Changed the name of the Sky Razors weapon to Twin Noh Rifles
+Changed the team names of the Cyphers from Command (1) to the correct ones. 
+Added Command (1) rule to the Warden Cyphers
+Any infantry units including an Overseer (and thus getting the inspiring rule) get their Nerve increased by 1</comment>
   <publications>
     <publication id="7500-ca60-pubN65537" name="Warpath Rulebook"/>
     <publication id="7500-ca60-pubN67484" name="Warpath Firefight"/>
@@ -11,6 +13,13 @@ Fixed issue that prevented seeing the Noh Rifle from the Marionettes Weapons Dro
     <selectionEntry id="4799-78ae-d074-92c3" name="Marionettes Unit" publicationId="7500-ca60-pubN65537" page="82" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="7db5-ffb5-8a4d-953e" name="Marionettes" hidden="false" typeId="1212-678a-919c-31c3" typeName="Regular Infantry">
+          <modifiers>
+            <modifier type="increment" field="a0e1-8c35-0fab-1273" value="1">
+              <conditions>
+                <condition field="selections" scope="4799-78ae-d074-92c3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c486-4dba-c56d-a987" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Height" typeId="d723-f1f8-3a56-85d5">2</characteristic>
             <characteristic name="Speed" typeId="2f36-598a-350d-e493">5</characteristic>
@@ -351,6 +360,13 @@ Fixed issue that prevented seeing the Noh Rifle from the Marionettes Weapons Dro
     <selectionEntry id="5bee-35e4-48f7-b46d" name="Cyphers Unit" publicationId="7500-ca60-pubN65537" page="84" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="322f-0143-77de-60a1" name="Cyphers" publicationId="7500-ca60-pubN67484" page="84" hidden="false" typeId="1212-678a-919c-31c3" typeName="Regular Infantry">
+          <modifiers>
+            <modifier type="increment" field="a0e1-8c35-0fab-1273" value="1">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c486-4dba-c56d-a987" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Height" typeId="d723-f1f8-3a56-85d5">2</characteristic>
             <characteristic name="Speed" typeId="2f36-598a-350d-e493">6</characteristic>
@@ -381,11 +397,12 @@ Fixed issue that prevented seeing the Noh Rifle from the Marionettes Weapons Dro
           </constraints>
           <selectionEntries>
             <selectionEntry id="5bd7-1867-7c6f-204d" name="Cypher Rifle Team" hidden="false" collective="false" import="true" type="unit">
-              <modifiers>
-                <modifier type="set" field="name" value="Command (1)"/>
-              </modifiers>
               <infoLinks>
-                <infoLink id="8055-36e5-d5ef-4d09" name="Command (x)" hidden="false" targetId="e3e3-f40e-d837-641d" type="rule"/>
+                <infoLink id="8055-36e5-d5ef-4d09" name="Command (x)" hidden="false" targetId="e3e3-f40e-d837-641d" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Command (1)"/>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="b47f-8b77-3215-5a1c" name="Equipment" hidden="false" collective="false" import="true">
@@ -527,9 +544,13 @@ Fixed issue that prevented seeing the Noh Rifle from the Marionettes Weapons Dro
               </costs>
             </selectionEntry>
             <selectionEntry id="8bff-11e0-398f-3565" name="Cypher Warden Team" hidden="false" collective="false" import="true" type="unit">
-              <modifiers>
-                <modifier type="set" field="name" value="Command (1)"/>
-              </modifiers>
+              <infoLinks>
+                <infoLink id="3060-df21-a3c6-4138" name="Command (x)" hidden="false" targetId="e3e3-f40e-d837-641d" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Command (1)"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="7125-3b81-e0d9-6935" name="Equipment" hidden="false" collective="false" import="true">
                   <selectionEntries>
@@ -689,6 +710,13 @@ Fixed issue that prevented seeing the Noh Rifle from the Marionettes Weapons Dro
     <selectionEntry id="c8b7-503c-95d8-ae03" name="Overseer Guard Unit" publicationId="7500-ca60-pubN65537" page="84" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="c1b1-1c7e-489d-ac52" name="Overseer Guard" publicationId="7500-ca60-pubN65537" page="84" hidden="false" typeId="1212-678a-919c-31c3" typeName="Regular Infantry">
+          <modifiers>
+            <modifier type="increment" field="a0e1-8c35-0fab-1273" value="1">
+              <conditions>
+                <condition field="selections" scope="c8b7-503c-95d8-ae03" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c486-4dba-c56d-a987" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Height" typeId="d723-f1f8-3a56-85d5">2</characteristic>
             <characteristic name="Speed" typeId="2f36-598a-350d-e493">5</characteristic>
@@ -820,6 +848,11 @@ Fixed issue that prevented seeing the Noh Rifle from the Marionettes Weapons Dro
             <modifier type="increment" field="c6d5-03a0-b428-5f44" value="1">
               <conditions>
                 <condition field="selections" scope="f43a-976c-0c94-b6d1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3fa4-3347-93bf-b802" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="a0e1-8c35-0fab-1273" value="1">
+              <conditions>
+                <condition field="selections" scope="f43a-976c-0c94-b6d1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c486-4dba-c56d-a987" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -959,6 +992,13 @@ Fixed issue that prevented seeing the Noh Rifle from the Marionettes Weapons Dro
     <selectionEntry id="ab58-f73b-83f6-7605" name="Sky Razors Unit" publicationId="7500-ca60-pubN65537" page="85" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="4b1e-fd42-433b-3e92" name="Sky Razors" publicationId="7500-ca60-pubN65537" page="85" hidden="false" typeId="769c-2e42-f8d3-26f2" typeName="Large Infantry">
+          <modifiers>
+            <modifier type="increment" field="ea80-6247-9634-ceab" value="1">
+              <conditions>
+                <condition field="selections" scope="ab58-f73b-83f6-7605" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c486-4dba-c56d-a987" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Height" typeId="1706-1ba2-c8aa-b708">2</characteristic>
             <characteristic name="Speed" typeId="a72b-b7f3-d4f0-9b4d">14</characteristic>
@@ -997,7 +1037,7 @@ Fixed issue that prevented seeing the Noh Rifle from the Marionettes Weapons Dro
           <selectionEntryGroups>
             <selectionEntryGroup id="54bf-b9e7-b522-544f" name="Equipment" hidden="false" collective="false" import="true">
               <selectionEntries>
-                <selectionEntry id="d025-f4fe-a778-9b5c" name="Twin Noh Riles" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="d025-f4fe-a778-9b5c" name="Twin Noh Rifles" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e193-43c1-2ec2-75ed" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3674-ce74-9108-9185" type="min"/>
@@ -1038,7 +1078,7 @@ Fixed issue that prevented seeing the Noh Rifle from the Marionettes Weapons Dro
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc5c-8dcd-fdf9-704f" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="a6a5-9ff6-fdd2-3687" name="Overseer Personnel Upgrade" hidden="false" collective="false" import="true" targetId="c486-4dba-c56d-a987" type="selectionEntry">
+                <entryLink id="a6a5-9ff6-fdd2-3687" name="Overseer" hidden="false" collective="false" import="true" targetId="c486-4dba-c56d-a987" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="ab58-f73b-83f6-7605" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bff8-315f-2402-9b2b" type="max"/>
                   </constraints>

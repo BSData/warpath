@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c74-bdfb-0b7c-d432" name="The Marauders" revision="4" battleScribeVersion="2.03" authorName="Alpha-1983" authorContact="Alpha-1983 (Github)" library="false" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Orc Commandos and Orc Commando Skyscrapers now display the +1 to nerve in their stats when selecting the unit leader</comment>
+<catalogue id="1c74-bdfb-0b7c-d432" name="The Marauders" revision="5" battleScribeVersion="2.03" authorName="Alpha-1983" authorContact="Alpha-1983 (Github)" library="false" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Any units including the Inspiring rule get their nerve increased by 1</comment>
   <publications>
     <publication id="1c74-bdfb-pubN65537" name="Warpath Rulebook"/>
   </publications>
@@ -8,6 +8,13 @@
     <selectionEntry id="a964-35f0-856b-eb84" name="Goran Auxiliaries Unit" publicationId="1c74-bdfb-pubN65537" page="126" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="77c2-67fb-1975-cc17" name="Goran Auxiliaries" publicationId="1c74-bdfb-pubN65537" page="126" hidden="false" typeId="1212-678a-919c-31c3" typeName="Regular Infantry">
+          <modifiers>
+            <modifier type="increment" field="a0e1-8c35-0fab-1273" value="1">
+              <conditions>
+                <condition field="selections" scope="a964-35f0-856b-eb84" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2d86-e44f-aa25-de9c" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Height" typeId="d723-f1f8-3a56-85d5">2</characteristic>
             <characteristic name="Speed" typeId="2f36-598a-350d-e493">4</characteristic>
@@ -169,6 +176,13 @@
     <selectionEntry id="208d-6cc2-550c-58de" name="Goran Stalkers Unit" publicationId="1c74-bdfb-pubN65537" page="126" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="4a83-2740-3be2-3069" name="Goran Stalkers Unit" publicationId="1c74-bdfb-pubN65537" page="126" hidden="false" typeId="1212-678a-919c-31c3" typeName="Regular Infantry">
+          <modifiers>
+            <modifier type="increment" field="a0e1-8c35-0fab-1273" value="1">
+              <conditions>
+                <condition field="selections" scope="208d-6cc2-550c-58de" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2d86-e44f-aa25-de9c" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Height" typeId="d723-f1f8-3a56-85d5">2</characteristic>
             <characteristic name="Speed" typeId="2f36-598a-350d-e493">5</characteristic>
@@ -304,9 +318,14 @@
       <profiles>
         <profile id="fd7b-2244-90b6-44a2" name="Orc Commandos" publicationId="1c74-bdfb-pubN65537" page="127" hidden="false" typeId="1212-678a-919c-31c3" typeName="Regular Infantry">
           <modifiers>
-            <modifier type="set" field="a0e1-8c35-0fab-1273" value="3">
+            <modifier type="increment" field="a0e1-8c35-0fab-1273" value="1">
               <conditions>
                 <condition field="selections" scope="ed94-7679-94eb-b15e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="adeb-fee1-f547-a746" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="a0e1-8c35-0fab-1273" value="1">
+              <conditions>
+                <condition field="selections" scope="ed94-7679-94eb-b15e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2d86-e44f-aa25-de9c" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -503,6 +522,13 @@
     <selectionEntry id="a47c-1ab6-0406-10e3" name="Goblin Scouts Unit" publicationId="1c74-bdfb-pubN65537" page="127" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="8dfb-52bd-a6d2-7d7c" name="Goblin Scouts Unit" publicationId="1c74-bdfb-pubN65537" page="127" hidden="false" typeId="1212-678a-919c-31c3" typeName="Regular Infantry">
+          <modifiers>
+            <modifier type="increment" field="a0e1-8c35-0fab-1273" value="1">
+              <conditions>
+                <condition field="selections" scope="a47c-1ab6-0406-10e3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2d86-e44f-aa25-de9c" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Height" typeId="d723-f1f8-3a56-85d5">2</characteristic>
             <characteristic name="Speed" typeId="2f36-598a-350d-e493">6</characteristic>
@@ -606,9 +632,14 @@
       <profiles>
         <profile id="c00e-c63e-786c-9e5a" name="Orc Commando Skyscrapers Unit" publicationId="1c74-bdfb-pubN65537" page="128" hidden="false" typeId="1212-678a-919c-31c3" typeName="Regular Infantry">
           <modifiers>
-            <modifier type="set" field="a0e1-8c35-0fab-1273" value="3">
+            <modifier type="increment" field="a0e1-8c35-0fab-1273" value="1">
               <conditions>
                 <condition field="selections" scope="520f-611b-90e8-ff6c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="098f-0a0f-fc91-dc35" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="a0e1-8c35-0fab-1273" value="1">
+              <conditions>
+                <condition field="selections" scope="520f-611b-90e8-ff6c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2d86-e44f-aa25-de9c" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -771,6 +802,13 @@
     <selectionEntry id="8c4b-7adb-265a-9409" name="Hulk Formation" publicationId="1c74-bdfb-pubN65537" page="128" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="b096-2354-1ea4-7719" name="Hulk Formation" publicationId="1c74-bdfb-pubN65537" page="128" hidden="false" typeId="8c58-4c4b-cf8c-7910" typeName="Massive Infantry">
+          <modifiers>
+            <modifier type="increment" field="00cd-f4fc-b697-5797" value="1">
+              <conditions>
+                <condition field="selections" scope="8c4b-7adb-265a-9409" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2d86-e44f-aa25-de9c" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Height" typeId="49b2-9d35-aeb5-1a35">3</characteristic>
             <characteristic name="Speed" typeId="6874-53bb-f521-a22f">5</characteristic>
@@ -849,6 +887,13 @@
     <selectionEntry id="e620-56b5-bbd6-1438" name="Orc Ripper Suits Unit" publicationId="1c74-bdfb-pubN65537" page="129" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="962f-c01d-bc20-757f" name="Orc Ripper Suits" publicationId="1c74-bdfb-pubN65537" page="129" hidden="false" typeId="769c-2e42-f8d3-26f2" typeName="Large Infantry">
+          <modifiers>
+            <modifier type="increment" field="ea80-6247-9634-ceab" value="1">
+              <conditions>
+                <condition field="selections" scope="e620-56b5-bbd6-1438" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2d86-e44f-aa25-de9c" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Height" typeId="1706-1ba2-c8aa-b708">2</characteristic>
             <characteristic name="Speed" typeId="a72b-b7f3-d4f0-9b4d">5</characteristic>
@@ -1440,7 +1485,7 @@
         <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d29e-c776-de70-b824" name="1. Show Orders" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d29e-c776-de70-b824" name="Show Orders" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="5f5b-6d83-62a5-3979" name="Order (1): Bounding Overwatch" hidden="false" targetId="f4ae-2807-c57c-5273" type="rule"/>
         <infoLink id="378d-ce73-87d4-1c28" name="Order (1): Change of Plans" hidden="false" targetId="a77f-81f9-3742-8613" type="rule"/>

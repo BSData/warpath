@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="0975-9269-97cf-1c2c" name="The Plague" revision="4" battleScribeVersion="2.03" authorName="Alpha-1983" authorContact="Alpha-1983 (Github)" library="false" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Added point cost to Subject 901, previously missing</comment>
+  <comment>Added the option to take the Plague Lieutenant with any unit, as stated by the rules</comment>
   <publications>
     <publication id="0975-9269-pubN65537" name="Warpath Rulebook"/>
   </publications>
@@ -90,7 +90,11 @@
                     <constraint field="selections" scope="6014-2106-f587-5616" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="983a-76cb-6591-fa09" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="887d-3180-5422-27ee" name="Subject 901" hidden="false" collective="false" import="true" targetId="58c3-ed72-e7a0-2bb7" type="selectionEntry"/>
+                <entryLink id="887d-3180-5422-27ee" name="Subject 901" hidden="false" collective="false" import="true" targetId="58c3-ed72-e7a0-2bb7" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3c8-135e-35c4-1e45" type="max"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="510c-66f5-bc86-f839" name="Equipment Upgrades" hidden="false" collective="false" import="true">
@@ -278,7 +282,11 @@
                     <constraint field="selections" scope="dfc7-4ec5-3a6d-8f4b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1500-92ee-90fd-c98e" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="db7c-985d-d166-9da1" name="Subject 901" hidden="false" collective="false" import="true" targetId="58c3-ed72-e7a0-2bb7" type="selectionEntry"/>
+                <entryLink id="db7c-985d-d166-9da1" name="Subject 901" hidden="false" collective="false" import="true" targetId="58c3-ed72-e7a0-2bb7" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b251-587c-e3da-e5ee" type="max"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -352,7 +360,11 @@
                     <constraint field="selections" scope="f519-0492-4527-51f4" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a0b7-a501-701b-74f2" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="042d-b00d-c1f2-2e32" name="Subject 901" hidden="false" collective="false" import="true" targetId="58c3-ed72-e7a0-2bb7" type="selectionEntry"/>
+                <entryLink id="042d-b00d-c1f2-2e32" name="Subject 901" hidden="false" collective="false" import="true" targetId="58c3-ed72-e7a0-2bb7" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08ec-f3cc-d00b-9108" type="max"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -423,12 +435,15 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec46-7fdc-4000-5075" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="f520-d9f4-34bd-c960" name="Plague Lieutenant Personnel Upgrade" hidden="false" collective="false" import="true" targetId="53e0-7ada-e93c-f18f" type="selectionEntry">
+                <entryLink id="f520-d9f4-34bd-c960" name="Plague Lieutenant" hidden="false" collective="false" import="true" targetId="53e0-7ada-e93c-f18f" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="c724-263e-3aa2-1aa1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c136-1e3b-c92c-014b" type="max"/>
                   </constraints>
                 </entryLink>
                 <entryLink id="32cd-4851-343b-7dc5" name="Subject 901" hidden="false" collective="false" import="true" targetId="58c3-ed72-e7a0-2bb7" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac18-bb25-2824-f3bc" type="max"/>
+                  </constraints>
                   <costs>
                     <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="100.0"/>
                   </costs>
@@ -634,6 +649,18 @@
                         </selectionEntry>
                       </selectionEntries>
                     </selectionEntryGroup>
+                    <selectionEntryGroup id="2c2c-ae03-e94f-4469" name="Personnel Upgrades" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27fa-d021-4f14-a0f4" type="max"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink id="fd68-036f-4959-9c5b" name="Plague Lieutenant" hidden="false" collective="false" import="true" targetId="53e0-7ada-e93c-f18f" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c863-3282-b0bc-15b1" type="max"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
                     <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="110.0"/>
@@ -717,6 +744,18 @@
                           </costs>
                         </selectionEntry>
                       </selectionEntries>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup id="c8e8-21aa-76fc-6ef1" name="Personnel Upgrades" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fbb-1fe3-4ce2-fa14" type="max"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink id="38c5-1d35-5938-fbd7" name="Plague Lieutenant" hidden="false" collective="false" import="true" targetId="53e0-7ada-e93c-f18f" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93ea-6003-73e2-a291" type="max"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
@@ -1012,6 +1051,18 @@
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
+                <selectionEntryGroup id="2b95-dc5c-3a04-cee1" name="Personnel Upgrades" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d3a-89bd-d376-506f" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="a1ff-128b-677a-a81f" name="Plague Lieutenant" hidden="false" collective="false" import="true" targetId="53e0-7ada-e93c-f18f" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac3e-091a-f981-0bb0" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="125.0"/>
@@ -1072,6 +1123,18 @@
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
+                <selectionEntryGroup id="3fa1-8179-f86b-afc6" name="Personnel Upgrades" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e193-3c58-b3bb-3139" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="4142-1e42-3d69-a094" name="Plague Lieutenant" hidden="false" collective="false" import="true" targetId="53e0-7ada-e93c-f18f" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="525e-0037-a6a9-7db3" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="140.0"/>
@@ -1124,6 +1187,18 @@
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="c51a-abe7-9a4f-6fbc" name="Personnel Upgrades" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5074-c58b-2e07-368d" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="90c0-1a84-5908-5c72" name="Plague Lieutenant" hidden="false" collective="false" import="true" targetId="53e0-7ada-e93c-f18f" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68b7-50c5-3520-1574" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
@@ -1186,6 +1261,18 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="3d37-a676-cf0a-3564" name="Personnel Upgrades" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="626b-22f1-7317-85df" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="176c-9776-579a-3baa" name="Plague Lieutenant" hidden="false" collective="false" import="true" targetId="53e0-7ada-e93c-f18f" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e58-0f7e-4829-c89e" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="★ HVA" typeId="5a38-1f4e-63c5-a379" value="1.0"/>
@@ -1246,6 +1333,14 @@
                   </costs>
                 </selectionEntry>
               </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="4969-3cf5-f96a-9da7" name="Personnel Upgrades" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="96b4-564f-43b6-e3ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22f4-d31a-cde9-13ec" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="59ff-77cb-4e07-8bc4" name="Plague Lieutenant" hidden="false" collective="false" import="true" targetId="53e0-7ada-e93c-f18f" type="selectionEntry"/>
+              </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
@@ -1309,13 +1404,25 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="ff53-75d6-90c2-b08c" name="Personnel Upgrades" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62ef-0864-1840-06ab" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="44e1-c1c7-123f-fe05" name="Plague Lieutenant" hidden="false" collective="false" import="true" targetId="53e0-7ada-e93c-f18f" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09ad-14c1-92cd-e0ff" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="★ HVA" typeId="5a38-1f4e-63c5-a379" value="2.0"/>
         <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="260.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c17b-49c1-9a7f-83e4" name="1. Show Orders" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c17b-49c1-9a7f-83e4" name="Show Orders" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="10d4-2b19-e6d6-79e9" name="Order (1): Bounding Overwatch" hidden="false" targetId="f4ae-2807-c57c-5273" type="rule"/>
         <infoLink id="a338-cd8b-343a-6697" name="Order (1): Change of Plans" hidden="false" targetId="a77f-81f9-3742-8613" type="rule"/>
@@ -1432,6 +1539,18 @@
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
+                <selectionEntryGroup id="520d-70b8-6f41-aa4e" name="Personnel Upgrades" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="603c-29b2-81ef-566b" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="de1b-32ef-67d1-593b" name="Plague Lieutenant" hidden="false" collective="false" import="true" targetId="53e0-7ada-e93c-f18f" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da23-551f-59c5-0f7a" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="150.0"/>
@@ -1466,6 +1585,18 @@
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
+                <selectionEntryGroup id="340b-48a6-ba7a-cd65" name="Personnel Upgrades" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa12-f166-ec7c-83fc" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="2aed-684c-50a5-a815" name="Plague Lieutenant" hidden="false" collective="false" import="true" targetId="53e0-7ada-e93c-f18f" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8f6-939b-9ae1-9cbe" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="160.0"/>
@@ -1499,6 +1630,18 @@
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="2f11-3813-b44e-ff29" name="Personnel Upgrades" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0158-c5fd-4b57-340b" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="b1b7-bd05-2c65-b9a8" name="Plague Lieutenant" hidden="false" collective="false" import="true" targetId="53e0-7ada-e93c-f18f" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7005-6737-67db-88c8" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
@@ -1600,6 +1743,18 @@
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
+                <selectionEntryGroup id="4be8-618a-a031-9e5f" name="Personnel Upgrades" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c881-4d96-74bb-ad7a" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="ba58-6ce2-df3f-10ae" name="Plague Lieutenant" hidden="false" collective="false" import="true" targetId="53e0-7ada-e93c-f18f" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb47-d7ce-4caf-4ce3" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
                 <cost name="★ HVA" typeId="5a38-1f4e-63c5-a379" value="2.0"/>
@@ -1668,6 +1823,18 @@
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="00e3-d3f1-5920-53bd" name="Personnel Upgrades" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b3a-3267-95d5-84fb" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="dada-c2b3-b6cc-7757" name="Plague Lieutenant" hidden="false" collective="false" import="true" targetId="53e0-7ada-e93c-f18f" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a740-a0d7-4ddf-ec52" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>

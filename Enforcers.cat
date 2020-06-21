@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4901-fd79-26a5-da99" name="Enforcers" revision="3" battleScribeVersion="2.03" authorName="Alpha-1983" authorContact="Alpha-1983 (Github)" library="false" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <comment>Changed the range of the Grav-ram spear to the correct 16&quot;
-Removed Heavy Firepower from Jetbikes
+<catalogue id="4901-fd79-26a5-da99" name="Enforcers" revision="5" battleScribeVersion="2.03" authorName="Alpha-1983" authorContact="Alpha-1983 (Github)" library="false" gameSystemId="395a-29cb-3e78-3290" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Including a Forward Observer or Commander Roca in a unit now increases its nerve value by one, as per the Inspiring rule
+Commander Roca can now be taken in all units, as stated in its profile
 </comment>
   <publications>
     <publication id="4901-fd79-pubN65537" name="Warpath Rulebook"/>
@@ -11,6 +11,18 @@ Removed Heavy Firepower from Jetbikes
     <selectionEntry id="0e9e-e938-2ba9-4100" name="Enforcers Unit" publicationId="4901-fd79-pubN65537" page="94" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="cd9e-ef28-2f93-b4e3" name="Enforcers" publicationId="4901-fd79-pubN65537" page="94" hidden="false" typeId="1212-678a-919c-31c3" typeName="Regular Infantry">
+          <modifiers>
+            <modifier type="increment" field="a0e1-8c35-0fab-1273" value="1">
+              <conditions>
+                <condition field="selections" scope="0e9e-e938-2ba9-4100" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e03c-6c58-ee62-a93b" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="a0e1-8c35-0fab-1273" value="1">
+              <conditions>
+                <condition field="selections" scope="0e9e-e938-2ba9-4100" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dd51-3111-457e-525d" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Height" typeId="d723-f1f8-3a56-85d5">2</characteristic>
             <characteristic name="Speed" typeId="2f36-598a-350d-e493">6</characteristic>
@@ -621,6 +633,18 @@ Removed Heavy Firepower from Jetbikes
     <selectionEntry id="b574-10e4-5ff5-6b31" name="Pathfinders Unit" publicationId="4901-fd79-pubN65537" page="96" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="114b-e57b-6879-9852" name="Pathfinders" publicationId="4901-fd79-pubN65537" page="96" hidden="false" typeId="1212-678a-919c-31c3" typeName="Regular Infantry">
+          <modifiers>
+            <modifier type="increment" field="a0e1-8c35-0fab-1273" value="1">
+              <conditions>
+                <condition field="selections" scope="b574-10e4-5ff5-6b31" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dd51-3111-457e-525d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="a0e1-8c35-0fab-1273" value="1">
+              <conditions>
+                <condition field="selections" scope="b574-10e4-5ff5-6b31" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e03c-6c58-ee62-a93b" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Height" typeId="d723-f1f8-3a56-85d5">2</characteristic>
             <characteristic name="Speed" typeId="2f36-598a-350d-e493">5</characteristic>
@@ -821,6 +845,18 @@ Removed Heavy Firepower from Jetbikes
     <selectionEntry id="638d-89c9-9b23-21d0" name="Pathfinders Bikes Unit" publicationId="4901-fd79-pubN65537" page="96" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="049d-fd4d-2863-671b" name="Pathfinders Bikes" publicationId="4901-fd79-pubN65537" page="96" hidden="false" typeId="769c-2e42-f8d3-26f2" typeName="Large Infantry">
+          <modifiers>
+            <modifier type="increment" field="ea80-6247-9634-ceab" value="1">
+              <conditions>
+                <condition field="selections" scope="638d-89c9-9b23-21d0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e03c-6c58-ee62-a93b" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="ea80-6247-9634-ceab" value="1">
+              <conditions>
+                <condition field="selections" scope="638d-89c9-9b23-21d0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dd51-3111-457e-525d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Height" typeId="1706-1ba2-c8aa-b708">2</characteristic>
             <characteristic name="Speed" typeId="a72b-b7f3-d4f0-9b4d">10</characteristic>
@@ -962,6 +998,18 @@ Removed Heavy Firepower from Jetbikes
     <selectionEntry id="11a4-a290-bbe3-c6e1" name="Jetbikes Unit" publicationId="4901-fd79-pubN65537" page="97" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="8124-f2cc-154d-385c" name="Jetbikes" publicationId="4901-fd79-pubN65537" page="97" hidden="false" typeId="769c-2e42-f8d3-26f2" typeName="Large Infantry">
+          <modifiers>
+            <modifier type="increment" field="ea80-6247-9634-ceab" value="1">
+              <conditions>
+                <condition field="selections" scope="11a4-a290-bbe3-c6e1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dd51-3111-457e-525d" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="ea80-6247-9634-ceab" value="1">
+              <conditions>
+                <condition field="selections" scope="11a4-a290-bbe3-c6e1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e03c-6c58-ee62-a93b" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Height" typeId="1706-1ba2-c8aa-b708">2</characteristic>
             <characteristic name="Speed" typeId="a72b-b7f3-d4f0-9b4d">12</characteristic>
@@ -1333,6 +1381,18 @@ Removed Heavy Firepower from Jetbikes
         <profile id="078d-8a03-2ef2-10f2" name="Peacekeepers" publicationId="c6c2-7be7-b8b0-1972" page="6" hidden="false" typeId="769c-2e42-f8d3-26f2" typeName="Large Infantry">
           <comment>Changed RES to 4, as stated by FAQv1.0
 Corrected type to Large Infantry</comment>
+          <modifiers>
+            <modifier type="increment" field="ea80-6247-9634-ceab" value="1">
+              <conditions>
+                <condition field="selections" scope="157a-74f0-8366-ef90" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e03c-6c58-ee62-a93b" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="ea80-6247-9634-ceab" value="1">
+              <conditions>
+                <condition field="selections" scope="157a-74f0-8366-ef90" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dd51-3111-457e-525d" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Height" typeId="1706-1ba2-c8aa-b708">2</characteristic>
             <characteristic name="Speed" typeId="a72b-b7f3-d4f0-9b4d">6</characteristic>
@@ -1706,14 +1766,24 @@ Corrected type to Large Infantry</comment>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
-              </selectionEntryGroups>
-              <entryLinks>
-                <entryLink id="2006-28ee-38f8-aac8" name="Unit Leader Personnel Upgrade" hidden="false" collective="false" import="true" targetId="d1e6-8c9c-5cb9-2e83" type="selectionEntry">
+                <selectionEntryGroup id="15b2-7954-a1aa-6a8e" name="Personnel Upgrades" hidden="false" collective="false" import="true">
                   <constraints>
-                    <constraint field="selections" scope="2b9c-c03f-e8be-2e95" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fd76-c586-95cb-aeb7" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dc8-8292-f423-650a" type="max"/>
                   </constraints>
-                </entryLink>
-              </entryLinks>
+                  <entryLinks>
+                    <entryLink id="66c4-dce6-b242-11e1" name="Lt. Commander Roca, Forward Observer" hidden="false" collective="false" import="true" targetId="e03c-6c58-ee62-a93b" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62ab-ff23-1917-e372" type="max"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink id="214f-2218-0ae6-8c0e" name="Unit Leader" hidden="false" collective="false" import="true" targetId="d1e6-8c9c-5cb9-2e83" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="2b9c-c03f-e8be-2e95" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79e0-df9e-e7b9-db63" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="175.0"/>
                 <cost name="★ HVA" typeId="5a38-1f4e-63c5-a379" value="1.0"/>
@@ -1765,14 +1835,24 @@ Corrected type to Large Infantry</comment>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
-              </selectionEntryGroups>
-              <entryLinks>
-                <entryLink id="8903-843e-ef50-f99d" name="Unit Leader Personnel Upgrade" hidden="false" collective="false" import="true" targetId="d1e6-8c9c-5cb9-2e83" type="selectionEntry">
+                <selectionEntryGroup id="df82-fb0b-4871-ab74" name="Personnel Upgrades" hidden="false" collective="false" import="true">
                   <constraints>
-                    <constraint field="selections" scope="2b9c-c03f-e8be-2e95" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6d43-47fd-78c7-fa9f" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05bb-b633-7406-79aa" type="max"/>
                   </constraints>
-                </entryLink>
-              </entryLinks>
+                  <entryLinks>
+                    <entryLink id="382c-5228-9b2d-e6f4" name="Lt. Commander Roca, Forward Observer" hidden="false" collective="false" import="true" targetId="e03c-6c58-ee62-a93b" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8204-2396-af09-85dc" type="max"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink id="eca1-e152-2c80-7d2d" name="Unit Leader" hidden="false" collective="false" import="true" targetId="d1e6-8c9c-5cb9-2e83" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="2b9c-c03f-e8be-2e95" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c30-5555-58e9-8914" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="170.0"/>
                 <cost name="★ HVA" typeId="5a38-1f4e-63c5-a379" value="1.0"/>
@@ -1824,14 +1904,24 @@ Corrected type to Large Infantry</comment>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
-              </selectionEntryGroups>
-              <entryLinks>
-                <entryLink id="ad56-3cd1-2b5e-baa4" name="Unit Leader Personnel Upgrade" hidden="false" collective="false" import="true" targetId="d1e6-8c9c-5cb9-2e83" type="selectionEntry">
+                <selectionEntryGroup id="aa44-622c-8a38-a80e" name="Personnel Upgrades" hidden="false" collective="false" import="true">
                   <constraints>
-                    <constraint field="selections" scope="2b9c-c03f-e8be-2e95" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="617f-68cc-1fa2-f726" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4922-cd67-8fb3-d2d2" type="max"/>
                   </constraints>
-                </entryLink>
-              </entryLinks>
+                  <entryLinks>
+                    <entryLink id="9f92-c6d6-2a88-6f9b" name="Lt. Commander Roca, Forward Observer" hidden="false" collective="false" import="true" targetId="e03c-6c58-ee62-a93b" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3ca-edc2-70d0-47e3" type="max"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink id="c031-4da3-8aaa-f1e9" name="Unit Leader" hidden="false" collective="false" import="true" targetId="d1e6-8c9c-5cb9-2e83" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="2b9c-c03f-e8be-2e95" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1949-0368-4b02-802e" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="150.0"/>
                 <cost name="★ HVA" typeId="5a38-1f4e-63c5-a379" value="1.0"/>
@@ -1887,14 +1977,24 @@ Corrected type to Large Infantry</comment>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
-              </selectionEntryGroups>
-              <entryLinks>
-                <entryLink id="fd64-2466-ea46-186d" name="Unit Leader Personnel Upgrade" hidden="false" collective="false" import="true" targetId="d1e6-8c9c-5cb9-2e83" type="selectionEntry">
+                <selectionEntryGroup id="0528-4d09-b8f9-07c0" name="Personnel Upgrades" hidden="false" collective="false" import="true">
                   <constraints>
-                    <constraint field="selections" scope="2b9c-c03f-e8be-2e95" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="61eb-10de-1731-4b67" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bb4-c559-0695-3921" type="max"/>
                   </constraints>
-                </entryLink>
-              </entryLinks>
+                  <entryLinks>
+                    <entryLink id="743d-f836-92e5-0af6" name="Lt. Commander Roca, Forward Observer" hidden="false" collective="false" import="true" targetId="e03c-6c58-ee62-a93b" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e6c-1232-eb19-25a7" type="max"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink id="cd14-bd82-1c8a-ab4b" name="Unit Leader" hidden="false" collective="false" import="true" targetId="d1e6-8c9c-5cb9-2e83" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="2b9c-c03f-e8be-2e95" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55bc-be19-742d-42e2" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="145.0"/>
                 <cost name="★ HVA" typeId="5a38-1f4e-63c5-a379" value="1.0"/>
@@ -2044,6 +2144,14 @@ Corrected type to Large Infantry</comment>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="cfaa-a047-c918-17fb" name="Personnel Upgrades" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2725-944e-dcd8-7760" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="27c0-29bd-a5dc-429b" name="Lt. Commander Roca, Forward Observer" hidden="false" collective="false" import="true" targetId="e03c-6c58-ee62-a93b" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="★ HVA" typeId="5a38-1f4e-63c5-a379" value="0.0"/>
@@ -2172,12 +2280,22 @@ Corrected type to Large Infantry</comment>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8423-3ab7-0447-149a" name="Personnel Upgrades" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5d6-e708-2012-d5b1" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="85c2-c418-6c7b-ef1a" name="Lt. Commander Roca, Forward Observer" hidden="false" collective="false" import="true" targetId="e03c-6c58-ee62-a93b" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="★ HVA" typeId="5a38-1f4e-63c5-a379" value="3.0"/>
         <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="250.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6e07-9ee5-25db-ae50" name="1. Show Orders" publicationId="395a-29cb-pubN65537" page="69" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6e07-9ee5-25db-ae50" name="Show Orders" publicationId="395a-29cb-pubN65537" page="69" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="7663-0466-6c93-1c27" name="Order (1): Bounding Overwatch" hidden="false" targetId="f4ae-2807-c57c-5273" type="rule"/>
         <infoLink id="7542-5cf6-e052-c9b9" name="Order (1): Change of Plans" hidden="false" targetId="a77f-81f9-3742-8613" type="rule"/>

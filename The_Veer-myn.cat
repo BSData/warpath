@@ -1540,7 +1540,7 @@ Changed the bonus to transport provided by the Additional Transport Sections to 
         <cost name="pts" typeId="cbfc-3789-94e1-d3cc" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1bfa-02ce-159e-7786" name="1. Show Orders" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1bfa-02ce-159e-7786" name="Show Orders" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="7449-44b3-d0cc-9b1c" name="Order (1): Swarm" hidden="false" targetId="5d00-15cc-578e-a315" type="rule"/>
         <infoLink id="01f3-b630-5b49-8bce" name="Order (2): Take Cover!" hidden="false" targetId="b031-f645-b084-9441" type="rule"/>
